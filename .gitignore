@@ -1,0 +1,39 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Database files
+data/database/*.sqlite
+data/database/*.db
+
+# Compiled files
+*.so
+*.egg-info/
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.log
+
+# PyQt specific files
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+*.log
+*.coverage
+*.egg
+*.egg-info/
+
+# IDE specific files (e.g., VS Code)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
