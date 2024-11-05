@@ -1,4 +1,3 @@
-from PyQt6 import QtWidgets
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
@@ -27,15 +26,17 @@ class Ui_LogIn(object):
         font.setWeight(50)
         font.setKerning(True)
         self.login_text.setFont(font)
-        self.login_text.setStyleSheet("")
+        self.login_text.setStyleSheet("color: black;\nfont-weight: bold;")
         self.login_text.setObjectName("login_text")
+        
         self.username_input = QtWidgets.QLineEdit(parent=self.login_background)
         self.username_input.setGeometry(QtCore.QRect(50, 170, 301, 41))
         self.username_input.setStyleSheet("border: 1px solid rgb(0, 173, 181);\n"
-"border-radius: 12px;")
+"border-radius: 12px;\ncolor: black;")
         self.username_input.setObjectName("username_input")
+        
         self.username_text = QtWidgets.QLabel(parent=self.login_background)
-        self.username_text.setGeometry(QtCore.QRect(50, 140, 101, 21))
+        self.username_text.setGeometry(QtCore.QRect(50, 140, 101, 21))     
         font = QtGui.QFont()
         font.setFamily("Calibri Light")
         font.setPointSize(18)
@@ -43,12 +44,13 @@ class Ui_LogIn(object):
         font.setWeight(50)
         font.setKerning(True)
         self.username_text.setFont(font)
-        self.username_text.setStyleSheet("")
+        self.username_text.setStyleSheet("color: black;")
         self.username_text.setObjectName("username_text")
+        
         self.password_input = QtWidgets.QLineEdit(parent=self.login_background)
         self.password_input.setGeometry(QtCore.QRect(50, 260, 301, 41))
         self.password_input.setStyleSheet("border: 1px solid rgb(0, 173, 181);\n"
-"border-radius: 12px;")
+"border-radius: 12px;\ncolor: black;")
         self.password_input.setObjectName("password_input")
         self.password_text = QtWidgets.QLabel(parent=self.login_background)
         self.password_text.setGeometry(QtCore.QRect(50, 230, 101, 21))
@@ -59,13 +61,13 @@ class Ui_LogIn(object):
         font.setWeight(50)
         font.setKerning(True)
         self.password_text.setFont(font)
-        self.password_text.setStyleSheet("")
+        self.password_text.setStyleSheet("color: black;")
         self.password_text.setObjectName("password_text")
         self.login_button = QtWidgets.QPushButton(parent=self.login_background)
         self.login_button.setGeometry(QtCore.QRect(50, 320, 301, 41))
         font = QtGui.QFont()
         font.setFamily("Calibri Light")
-        font.setPointSize(12)
+        font.setPointSize(13)
         self.login_button.setFont(font)
         self.login_button.setStyleSheet("background-color: rgb(0, 173, 181);\n"
 "border-radius: 12px;\n"
@@ -78,13 +80,14 @@ class Ui_LogIn(object):
         font.setFamily("Calibri Light")
         self.member_verif_text.setFont(font)
         self.member_verif_text.setObjectName("member_verif_text")
+        self.member_verif_text.setStyleSheet("color: black;")
         self.signup_button = QtWidgets.QPushButton(parent=self.login_background)
         self.signup_button.setGeometry(QtCore.QRect(290, 370, 41, 16))
         font = QtGui.QFont()
         font.setFamily("Calibri Light")
         self.signup_button.setFont(font)
         self.signup_button.setStyleSheet("background-color: transparent;\n"
-"color: rgb(0, 173, 181);")
+"color: rgb(0, 173, 181);\n")
         self.signup_button.setObjectName("signup_button")
         LogIn.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(parent=LogIn)

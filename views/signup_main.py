@@ -1,4 +1,5 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
+
 from controllers.auth_controller import AuthController
 
 
@@ -15,7 +16,7 @@ class Ui_SignUp(object):
         self.login_background = QtWidgets.QWidget(parent=self.centralwidget)
         self.login_background.setGeometry(QtCore.QRect(440, 60, 391, 541))
         self.login_background.setStyleSheet("background-color: rgb(238, 238, 238);\n"
-"border-radius: 25px;\n"
+"border-radius: 25px;\ncolor: black;\n"
 "")
         self.login_background.setObjectName("login_background")
         self.login_text = QtWidgets.QLabel(parent=self.login_background)
@@ -27,12 +28,12 @@ class Ui_SignUp(object):
         font.setWeight(50)
         font.setKerning(True)
         self.login_text.setFont(font)
-        self.login_text.setStyleSheet("")
+        self.login_text.setStyleSheet("color: black;\n")
         self.login_text.setObjectName("login_text")
         self.password_input_2 = QtWidgets.QLineEdit(parent=self.login_background)
         self.password_input_2.setGeometry(QtCore.QRect(50, 280, 301, 41))
         self.password_input_2.setStyleSheet("border: 1px solid rgb(0, 173, 181);\n"
-"border-radius: 12px;")
+"border-radius: 12px;\ncolor: black;")
         self.password_input_2.setObjectName("password_input_2")
         self.password_text_2 = QtWidgets.QLabel(parent=self.login_background)
         self.password_text_2.setGeometry(QtCore.QRect(50, 250, 101, 21))
@@ -43,12 +44,12 @@ class Ui_SignUp(object):
         font.setWeight(50)
         font.setKerning(True)
         self.password_text_2.setFont(font)
-        self.password_text_2.setStyleSheet("")
+        self.password_text_2.setStyleSheet("color: black;")
         self.password_text_2.setObjectName("password_text_2")
         self.password_input = QtWidgets.QLineEdit(parent=self.login_background)
         self.password_input.setGeometry(QtCore.QRect(50, 370, 301, 41))
         self.password_input.setStyleSheet("border: 1px solid rgb(0, 173, 181);\n"
-"border-radius: 12px;")
+"border-radius: 12px;\ncolor: black;")
         self.password_input.setObjectName("password_input")
         self.password_text = QtWidgets.QLabel(parent=self.login_background)
         self.password_text.setGeometry(QtCore.QRect(50, 340, 231, 21))
@@ -59,7 +60,7 @@ class Ui_SignUp(object):
         font.setWeight(50)
         font.setKerning(True)
         self.password_text.setFont(font)
-        self.password_text.setStyleSheet("")
+        self.password_text.setStyleSheet("color: black;")
         self.password_text.setObjectName("password_text")
         self.signup_button = QtWidgets.QPushButton(parent=self.login_background)
         self.signup_button.setGeometry(QtCore.QRect(50, 440, 301, 41))
@@ -81,12 +82,12 @@ class Ui_SignUp(object):
         font.setWeight(50)
         font.setKerning(True)
         self.email_text.setFont(font)
-        self.email_text.setStyleSheet("")
+        self.email_text.setStyleSheet("color: black;")
         self.email_text.setObjectName("email_text")
         self.username_input_2 = QtWidgets.QLineEdit(parent=self.login_background)
         self.username_input_2.setGeometry(QtCore.QRect(50, 200, 301, 41))
         self.username_input_2.setStyleSheet("border: 1px solid rgb(0, 173, 181);\n"
-"border-radius: 12px;")
+"border-radius: 12px;\ncolor: black;")
         self.username_input_2.setObjectName("username_input_2")
         self.username_text_2 = QtWidgets.QLabel(parent=self.login_background)
         self.username_text_2.setGeometry(QtCore.QRect(50, 170, 101, 21))
@@ -97,12 +98,12 @@ class Ui_SignUp(object):
         font.setWeight(50)
         font.setKerning(True)
         self.username_text_2.setFont(font)
-        self.username_text_2.setStyleSheet("")
+        self.username_text_2.setStyleSheet("color: black;")
         self.username_text_2.setObjectName("username_text_2")
         self.email_input = QtWidgets.QLineEdit(parent=self.login_background)
         self.email_input.setGeometry(QtCore.QRect(50, 110, 301, 41))
         self.email_input.setStyleSheet("border: 1px solid rgb(0, 173, 181);\n"
-"border-radius: 12px;")
+"border-radius: 12px;\ncolor: black;")
         self.email_input.setObjectName("email_input")
         SignUp.setCentralWidget(self.centralwidget)
         self.statusbar = QtWidgets.QStatusBar(parent=SignUp)
