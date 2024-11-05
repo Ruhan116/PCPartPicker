@@ -1,0 +1,44 @@
+#centralwidget{
+    background-color: white;
+}
+
+#header_frame{
+    background-color: rgb(85, 85, 121);
+    color: white;
+}
+
+#header_label{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#cpu_label, #gpu_label, #hdd_label, #motherboard_label, #psu_label, #ram_label, #ssd_label{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+#cpu_button, #gpu_button, #hdd_button, #motherboard_button, #psu_button, #ram_button, #ssd_button{
+    background-color: rgb(52, 134, 184);
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+#cpu_button:hover, #gpu_button:hover, #hdd_button:hover, #motherboard_button:hover, #psu_button:hover, #ram_button:hover, #ssd_button:hover{
+    background-color: rgb(37, 87, 117);
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+}
