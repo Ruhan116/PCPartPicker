@@ -1,0 +1,35 @@
+QMainWindow {
+    background-color: white;
+}
+
+#grey_text{
+    color: rgb(161, 157, 154);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header_text{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#build_btn{
+    width: 50px;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 19px;
+    background-color: rgb(44, 136, 196);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#build_btn:hover{
+
+    background-color: rgb(30, 93, 134);
+}

@@ -7,6 +7,13 @@
         "Quantity": "2"
     },
     {
+        "Name": "Corsair Vengeance RGB Pro Series white",
+        "Size": "16 GB",
+        "Type": "DDR4",
+        "Bus Speed": "3200 MHz",
+        "Quantity": "2"
+    },
+    {
         "Name": "ADATA Lancer DDR5-5200",
         "Size": "16 GB",
         "Type": "DDR5",
@@ -753,13 +760,6 @@
         "Size": "32 GB",
         "Type": "DDR4",
         "Bus Speed": "3466 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Vengeance RGB Pro Series white",
-        "Size": "16 GB",
-        "Type": "DDR4",
-        "Bus Speed": "3200 MHz",
         "Quantity": "2"
     },
     {
