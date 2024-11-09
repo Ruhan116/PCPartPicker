@@ -1,9 +1,13 @@
 import sys
+
 from PyQt6 import QtWidgets
+
+from controllers.auth_controller import AuthController
+from views.choosing_parts_page import ChoosingPartsPage
+from views.dashboard import LoadDatabase
+from views.landing_page import LandingPage
 from views.login_main import LogInWindow
 from views.signup_main import SignUpWindow
-from controllers.auth_controller import AuthController
-from views.dashboard import LoadDatabase
 
 
 class MainApp(QtWidgets.QMainWindow):
@@ -22,12 +26,16 @@ class MainApp(QtWidgets.QMainWindow):
         # Create instances of LogInWindow and SignUpWindow
         self.login_window = LogInWindow(self.stacked_widget, self.auth_controller)
         self.signup_window = SignUpWindow(self.stacked_widget, self.auth_controller)
+        self.landing_page = LandingPage(self.stacked_widget)
+        self.choosing_parts_page = ChoosingPartsPage(self.stacked_widget)
         self.dashboard = LoadDatabase(self.stacked_widget)
 
         # Add both screens to the stacked widget
         self.stacked_widget.addWidget(self.login_window)  # Index 0
         self.stacked_widget.addWidget(self.signup_window)  # Index 1
-        self.stacked_widget.addWidget(self.dashboard) #Index 2
+        self.stacked_widget.addWidget(self.landing_page)   # Index 2
+        self.stacked_widget.addWidget(self.choosing_parts_page) # Index 3
+        self.stacked_widget.addWidget(self.dashboard) #Index 4
 
         # Set the initial screen to the login window
         self.stacked_widget.setCurrentWidget(self.login_window)
