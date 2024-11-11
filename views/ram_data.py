@@ -3,7 +3,7 @@ import sqlite3
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class Ui_PSUPage(object):
+class Ui_RAMPage(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1299, 768)
@@ -16,20 +16,20 @@ class Ui_PSUPage(object):
         self.tabWidget.setStyleSheet("font: 16pt \"Arial\";")
         self.tabWidget.setObjectName("tabWidget")
         
-        # PSU Tab
+        # RAM Tab
         self.tab = QtWidgets.QWidget()
         self.tab.setObjectName("tab")
         
-        # PSU Table
+        # RAM Table
         self.table = QtWidgets.QTableWidget(parent=self.tab)
         self.table.setGeometry(QtCore.QRect(10, 60, 1231, 431))
         self.table.setStyleSheet("font: 10pt \"Arial\";")
         self.table.setObjectName("table")
-        self.table.setColumnCount(5)  # 4 columns for data + 1 for "Add" button column
+        self.table.setColumnCount(7)  # 6 columns for data + 1 for "Add" button column
         self.table.setRowCount(0)
         
         # Set up table headers
-        headers = ["id", "Name", "Size", "Wattage", "Action"]
+        headers = ["id", "Name", "Size", "Type", "Bus_Speed", "Quantity", "Action"]
         for i, header in enumerate(headers):
             item = QtWidgets.QTableWidgetItem()
             item.setText(header)
@@ -42,19 +42,19 @@ class Ui_PSUPage(object):
         self.label_2.setObjectName("label_2")
         
         # Filter Text Box
-        self.wattage_filter_txt = QtWidgets.QSpinBox(parent=self.tab)
-        self.wattage_filter_txt.setGeometry(QtCore.QRect(700, 10, 111, 41))
-        self.wattage_filter_txt.setObjectName("wattage_filter_txt")
+        self.size_filter_txt = QtWidgets.QSpinBox(parent=self.tab)
+        self.size_filter_txt.setGeometry(QtCore.QRect(700, 10, 111, 41))
+        self.size_filter_txt.setObjectName("size_filter_txt")
         
         # Search Button
         self.search_btn = QtWidgets.QPushButton(parent=self.tab)
         self.search_btn.setGeometry(QtCore.QRect(830, 10, 231, 41))
         self.search_btn.setObjectName("search_btn")
         self.search_btn.setText("Search")
-        self.search_btn.clicked.connect(self.load_psu_data)
+        self.search_btn.clicked.connect(self.load_ram_data)
         
         # Adding tab
-        self.tabWidget.addTab(self.tab, "PSU Details")
+        self.tabWidget.addTab(self.tab, "RAM Details")
         
         # Label for Main Title
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
@@ -62,7 +62,7 @@ class Ui_PSUPage(object):
         self.label.setStyleSheet("font: 75 30pt \"Arial\"; font-weight: bold; color: rgb(255, 255, 255); background-color: #555579;")
         self.label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.label.setObjectName("label")
-        self.label.setText("Choose A PSU")
+        self.label.setText("Choose RAM")
         
         # Refresh Button
         self.refresh_btn = QtWidgets.QPushButton(parent=self.centralwidget)
@@ -70,7 +70,7 @@ class Ui_PSUPage(object):
         self.refresh_btn.setStyleSheet("font: 14pt \"Arial\";")
         self.refresh_btn.setObjectName("refresh_btn")
         self.refresh_btn.setText("Refresh")
-        self.refresh_btn.clicked.connect(self.load_psu_data)
+        self.refresh_btn.clicked.connect(self.load_ram_data)
         
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
@@ -88,7 +88,7 @@ class Ui_PSUPage(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "PSU Options"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "RAM Options"))
         
         # Set table headers with translations
         item = self.table.horizontalHeaderItem(0)
@@ -98,20 +98,24 @@ class Ui_PSUPage(object):
         item = self.table.horizontalHeaderItem(2)
         item.setText(_translate("MainWindow", "Size"))
         item = self.table.horizontalHeaderItem(3)
-        item.setText(_translate("MainWindow", "Wattage"))
+        item.setText(_translate("MainWindow", "Type"))
         item = self.table.horizontalHeaderItem(4)
+        item.setText(_translate("MainWindow", "Bus_Speed"))
+        item = self.table.horizontalHeaderItem(5)
+        item.setText(_translate("MainWindow", "Quantity"))
+        item = self.table.horizontalHeaderItem(6)
         item.setText(_translate("MainWindow", "Action"))
         
-        self.label_2.setText(_translate("MainWindow", "Search PSUs by Wattage:"))
+        self.label_2.setText(_translate("MainWindow", "Search RAM by Size:"))
         self.search_btn.setText(_translate("MainWindow", "Search"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "PSU Details"))
-        self.label.setText(_translate("MainWindow", "Choose A PSU"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "RAM Details"))
+        self.label.setText(_translate("MainWindow", "Choose RAM"))
         self.refresh_btn.setText(_translate("MainWindow", "Refresh"))
 
-    def load_psu_data(self):
+    def load_ram_data(self):
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
-        cursor.execute("SELECT * FROM PSU")
+        cursor.execute("SELECT * FROM RAM")
         rows = cursor.fetchall()
         
         self.table.setRowCount(len(rows))
@@ -128,13 +132,13 @@ class Ui_PSUPage(object):
         connection.close()
         
     def handle_add_button(self, row):
-        psu_name = self.table.item(row, 1).text()
-        print(f"'Add' button clicked for PSU: {psu_name}")
+        ram_name = self.table.item(row, 1).text()
+        print(f"'Add' button clicked for RAM: {ram_name}")
 
-class PSUPage(QtWidgets.QMainWindow):
+class RAMPage(QtWidgets.QMainWindow):
     def __init__(self, stacked_widget):
-        super(PSUPage, self).__init__()
-        self.ui = Ui_PSUPage()
+        super(RAMPage, self).__init__()
+        self.ui = Ui_RAMPage()
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
-        self.ui.load_psu_data()    
+        self.ui.load_ram_data()

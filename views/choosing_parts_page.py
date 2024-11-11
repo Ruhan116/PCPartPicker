@@ -140,6 +140,13 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         self.ui = Ui_ChoosingPartsPage()
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
+        self.ui.cpu_button.clicked.connect(self.show_cpu_page)
+        self.ui.gpu_button.clicked.connect(self.show_gpu_page)
+        self.ui.hdd_button.clicked.connect(self.show_hdd_page)
+        self.ui.motherboard_button.clicked.connect(self.show_motherboard_page)
+        self.ui.psu_button.clicked.connect(self.show_psu_page)
+        self.ui.ram_button.clicked.connect(self.show_ram_page)
+        self.ui.ssd_button.clicked.connect(self.show_ssd_page)
         try:
             with open("./style/choosing_parts_style.qss", "r") as file:
                 qss = file.read()
@@ -147,3 +154,52 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         except FileNotFoundError:
             print("QSS file not found. Make sure the path is correct.")
         self.setFixedSize(1280, 720)
+        
+    def show_cpu_page(self):
+        cpu_page = self.stacked_widget.widget(4)
+        main_window = self.stacked_widget.window()
+        
+        main_window.resize(cpu_page.size())
+        self.stacked_widget.setCurrentWidget(cpu_page)
+        
+    def show_gpu_page(self):
+        gpu_page = self.stacked_widget.widget(5)
+        main_window = self.stacked_widget.window()
+        
+        main_window.resize(gpu_page.size())
+        self.stacked_widget.setCurrentWidget(gpu_page)
+    
+    def show_hdd_page(self):
+        hdd_page = self.stacked_widget.widget(6)
+        main_window = self.stacked_widget.window()
+        
+        main_window.resize(hdd_page.size())
+        self.stacked_widget.setCurrentWidget(hdd_page)
+        
+    def show_motherboard_page(self):
+        motherboard_page = self.stacked_widget.widget(7)
+        main_window = self.stacked_widget.window()
+        
+        main_window.resize(motherboard_page.size())
+        self.stacked_widget.setCurrentWidget(motherboard_page)
+    
+    def show_psu_page(self):
+        psu_page = self.stacked_widget.widget(8)
+        main_window = self.stacked_widget.window()
+        
+        main_window.resize(psu_page.size())
+        self.stacked_widget.setCurrentWidget(psu_page)
+        
+    def show_ram_page(self):
+        ram_page = self.stacked_widget.widget(9)
+        main_window = self.stacked_widget.window()
+        
+        main_window.resize(ram_page.size())
+        self.stacked_widget.setCurrentWidget(ram_page)
+        
+    def show_ssd_page(self):
+        ssd_page = self.stacked_widget.widget(10)
+        main_window = self.stacked_widget.window()
+        
+        main_window.resize(ssd_page.size())
+        self.stacked_widget.setCurrentWidget(ssd_page)
