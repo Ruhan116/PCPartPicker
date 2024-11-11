@@ -11,7 +11,7 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
+class Ui_LandingPage(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1200, 800)
@@ -71,12 +71,26 @@ class Ui_MainWindow(object):
         self.grey_text.adjustSize()
 
 
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    MainWindow.setStyleSheet(open(".\style\landing_page_style.qss").read())
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec())
+class LandingPage(QtWidgets.QMainWindow):
+    def __init__(self, stacked_widget):
+        super(LandingPage, self).__init__()
+        self.ui = Ui_LandingPage()
+        self.ui.setupUi(self)
+        self.stacked_widget = stacked_widget
+        self.ui.build_btn.clicked.connect(self.go_to_choosing_parts)
+        try:
+            with open("./style/landing_page_style.qss", "r") as file:
+                qss = file.read()
+                self.setStyleSheet(qss)
+        except FileNotFoundError:
+            print("QSS file not found. Make sure the path is correct.")
+        # self.ui.build_btn.clicked.connect(self.go_to_build_page)
+        
+    def go_to_choosing_parts(self):
+        choosing_parts_page = self.stacked_widget.widget(3)
+        main_window = self.stacked_widget.window()  # Access the main window
+        
+        # Set the main window size to match ChoosingPartsPage
+        main_window.resize(choosing_parts_page.size())
+        self.stacked_widget.setCurrentWidget(choosing_parts_page)
+        

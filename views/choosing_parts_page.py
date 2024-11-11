@@ -1,21 +1,21 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
+class Ui_ChoosingPartsPage(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(946, 688)
+        MainWindow.resize(1280, 720)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
 
         # Header Frame
         self.header_frame = QtWidgets.QFrame(parent=self.centralwidget)
-        self.header_frame.setGeometry(QtCore.QRect(0, 0, 1000, 80))
+        self.header_frame.setGeometry(QtCore.QRect(0, 0, 1280, 80))
         self.header_frame.setObjectName("header_frame")  # Dark background color
 
         # Header Text
         self.header_label = QtWidgets.QLabel(parent=self.header_frame)
-        self.header_label.setGeometry(QtCore.QRect(0, 0, 950, 80))
+        self.header_label.setGeometry(QtCore.QRect(0, 0, 1280, 80))
         self.header_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.header_label.setObjectName("header_label")# White text color
 
@@ -134,15 +134,16 @@ class Ui_MainWindow(object):
 
 
 
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    
-    with open("./style/choosing_parts_style.qss", "r") as file:
-        qss_style = file.read()
-    app.setStyleSheet(qss_style)   
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec())
+class ChoosingPartsPage(QtWidgets.QMainWindow):
+    def __init__(self, stacked_widget):
+        super(ChoosingPartsPage, self).__init__()
+        self.ui = Ui_ChoosingPartsPage()
+        self.ui.setupUi(self)
+        self.stacked_widget = stacked_widget
+        try:
+            with open("./style/choosing_parts_style.qss", "r") as file:
+                qss = file.read()
+                self.setStyleSheet(qss)
+        except FileNotFoundError:
+            print("QSS file not found. Make sure the path is correct.")
+        self.setFixedSize(1280, 720)
