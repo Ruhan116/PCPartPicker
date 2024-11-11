@@ -3,7 +3,7 @@ import sqlite3
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 
-class Ui_MainWindow(object):
+class Ui_HDDPAge(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1299, 768)
@@ -131,11 +131,11 @@ class Ui_MainWindow(object):
         hdd_name = self.table.item(row, 1).text()
         print(f"'Add' button clicked for HDD: {hdd_name}")
 
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec())
+class HDDPage(QtWidgets.QMainWindow):
+    def __init__(self, stacked_widget):
+        super(HDDPage, self).__init__()
+        self.ui = Ui_HDDPAge()
+        self.ui.setupUi(self)
+        self.stacked_widget = stacked_widget
+        self.ui.load_hdd_data()
+        
