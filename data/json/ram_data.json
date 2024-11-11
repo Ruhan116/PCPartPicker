@@ -7,7 +7,21 @@
         "Quantity": "2"
     },
     {
+        "Name": "Corsair Vengeance RGB Pro Series black",
+        "Size": "16 GB",
+        "Type": "DDR4",
+        "Bus Speed": "3200 MHz",
+        "Quantity": "2"
+    },
+    {
         "Name": "Corsair Vengeance RGB Pro Series white",
+        "Size": "16 GB",
+        "Type": "DDR4",
+        "Bus Speed": "3200 MHz",
+        "Quantity": "2"
+    },
+    {
+        "Name": "Corsair Vengeance LPX black",
         "Size": "16 GB",
         "Type": "DDR4",
         "Bus Speed": "3200 MHz",
@@ -702,13 +716,6 @@
     {
         "Name": "Corsair Vengeance LPX Series white, DDR4-3200, CL 16 - 32 GB Dual-Kit",
         "Size": "32 GB",
-        "Type": "DDR4",
-        "Bus Speed": "3200 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Vengeance RGB Pro Series black",
-        "Size": "16 GB",
         "Type": "DDR4",
         "Bus Speed": "3200 MHz",
         "Quantity": "2"
@@ -5280,13 +5287,6 @@
     {
         "Name": "Corsair Vengeance LPX red DDR4-3200MHz CL16",
         "Size": "8 GB",
-        "Type": "DDR4",
-        "Bus Speed": "3200 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Vengeance LPX black",
-        "Size": "16 GB",
         "Type": "DDR4",
         "Bus Speed": "3200 MHz",
         "Quantity": "2"
