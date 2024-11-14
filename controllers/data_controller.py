@@ -167,5 +167,3 @@ class DataController:
 
         for thread in threads:
             thread.join()
-
-
