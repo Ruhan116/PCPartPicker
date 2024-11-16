@@ -72,6 +72,13 @@ class Ui_MBPage(object):
         self.refresh_btn.setText("Refresh")
         self.refresh_btn.clicked.connect(self.load_motherboard_data)
         
+        # Back button
+        self.back_btn = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.back_btn.setGeometry(QtCore.QRect(30, 670, 141, 31))
+        self.back_btn.setStyleSheet("font: 14pt \"Arial\";")
+        self.back_btn.setObjectName("back_btn")
+        self.back_btn.setText("Back")
+        
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1299, 26))
@@ -109,6 +116,7 @@ class Ui_MBPage(object):
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Motherboard Details"))
         self.label.setText(_translate("MainWindow", "Choose A Motherboard"))
         self.refresh_btn.setText(_translate("MainWindow", "Refresh"))
+        self.back_btn.setText(_translate("MainWindow", "Back"))
 
     def load_motherboard_data(self):
         connection = sqlite3.connect("data/database/database.sqlite")
@@ -140,4 +148,8 @@ class MBPage(QtWidgets.QMainWindow):
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
         self.ui.load_motherboard_data()
-        
+        # Back button functionality
+        self.ui.back_btn.clicked.connect(self.go_back)
+
+    def go_back(self):
+        self.stacked_widget.setCurrentIndex(3)
