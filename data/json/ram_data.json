@@ -1,6 +1,6 @@
 [
     {
-        "Name": "Corsair Vengeance LPX Series black DDR4-3200",
+        "Name": "Corsair Vengeance LPX black",
         "Size": "16 GB",
         "Type": "DDR4",
         "Bus Speed": "3200 MHz",
@@ -8,20 +8,6 @@
     },
     {
         "Name": "Corsair Vengeance RGB Pro Series black",
-        "Size": "16 GB",
-        "Type": "DDR4",
-        "Bus Speed": "3200 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Vengeance RGB Pro Series white",
-        "Size": "16 GB",
-        "Type": "DDR4",
-        "Bus Speed": "3200 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Vengeance LPX black",
         "Size": "16 GB",
         "Type": "DDR4",
         "Bus Speed": "3200 MHz",
@@ -483,6 +469,13 @@
         "Quantity": "2"
     },
     {
+        "Name": "Corsair Vengeance Low DDR3-1600 CL10  Low Profile",
+        "Size": "16 GB",
+        "Type": "DDR3",
+        "Bus Speed": "1600 MHz",
+        "Quantity": "2"
+    },
+    {
         "Name": "Corsair Vengeance Low DDR3-1600 CL9  Low Profile blue",
         "Size": "8 GB",
         "Type": "DDR3",
@@ -700,6 +693,13 @@
         "Quantity": "2"
     },
     {
+        "Name": "Corsair Vengeance LPX Series black DDR4-3200",
+        "Size": "16 GB",
+        "Type": "DDR4",
+        "Bus Speed": "3200 MHz",
+        "Quantity": "2"
+    },
+    {
         "Name": "Corsair Vengeance LPX Series black DDR4-3466, CL16 - 16 GB Kit",
         "Size": "16 GB",
         "Type": "DDR4",
@@ -722,6 +722,13 @@
     },
     {
         "Name": "Corsair Vengeance RGB Pro Series black",
+        "Size": "16 GB",
+        "Type": "DDR4",
+        "Bus Speed": "3200 MHz",
+        "Quantity": "2"
+    },
+    {
+        "Name": "Corsair Vengeance RGB Pro Series black",
         "Size": "32 GB",
         "Type": "DDR4",
         "Bus Speed": "3600 MHz",
@@ -774,6 +781,13 @@
         "Size": "16 GB",
         "Type": "DDR4",
         "Bus Speed": "3600 MHz",
+        "Quantity": "2"
+    },
+    {
+        "Name": "Corsair Vengeance RGB Pro Series white",
+        "Size": "16 GB",
+        "Type": "DDR4",
+        "Bus Speed": "3200 MHz",
         "Quantity": "2"
     },
     {
@@ -3335,13 +3349,6 @@
         "Name": "Corsair Dominator Platinum RGB",
         "Size": "32 GB",
         "Type": "DDR5",
-        "Bus Speed": "5600 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Dominator Platinum RGB",
-        "Size": "32 GB",
-        "Type": "DDR5",
         "Bus Speed": "5200 MHz",
         "Quantity": "2"
     },
@@ -3349,7 +3356,7 @@
         "Name": "Corsair Dominator Platinum RGB",
         "Size": "32 GB",
         "Type": "DDR5",
-        "Bus Speed": "6200 MHz",
+        "Bus Speed": "5600 MHz",
         "Quantity": "2"
     },
     {
@@ -3357,6 +3364,13 @@
         "Size": "32 GB",
         "Type": "DDR5",
         "Bus Speed": "6400 MHz",
+        "Quantity": "2"
+    },
+    {
+        "Name": "Corsair Dominator Platinum RGB",
+        "Size": "32 GB",
+        "Type": "DDR5",
+        "Bus Speed": "6200 MHz",
         "Quantity": "2"
     },
     {
@@ -4008,13 +4022,6 @@
         "Size": "8 GB",
         "Type": "N/A",
         "Bus Speed": "N/A",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Low Profile \u2014 16GB Dual Channel DDR3 Memory Kit",
-        "Size": "16 GB",
-        "Type": "DDR3",
-        "Bus Speed": "1600 MHz",
         "Quantity": "2"
     },
     {
@@ -4740,13 +4747,6 @@
     },
     {
         "Name": "Corsair Vengeance",
-        "Size": "64 GB",
-        "Type": "DDR5",
-        "Bus Speed": "5200 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Vengeance",
         "Size": "32 GB",
         "Type": "DDR5",
         "Bus Speed": "7200 MHz",
@@ -4768,16 +4768,16 @@
     },
     {
         "Name": "Corsair Vengeance",
-        "Size": "48 GB",
+        "Size": "64 GB",
         "Type": "DDR5",
-        "Bus Speed": "7000 MHz",
+        "Bus Speed": "5200 MHz",
         "Quantity": "2"
     },
     {
         "Name": "Corsair Vengeance",
-        "Size": "64 GB",
+        "Size": "48 GB",
         "Type": "DDR5",
-        "Bus Speed": "6000 MHz",
+        "Bus Speed": "7000 MHz",
         "Quantity": "2"
     },
     {
@@ -4791,7 +4791,21 @@
         "Name": "Corsair Vengeance",
         "Size": "64 GB",
         "Type": "DDR5",
+        "Bus Speed": "6000 MHz",
+        "Quantity": "2"
+    },
+    {
+        "Name": "Corsair Vengeance",
+        "Size": "64 GB",
+        "Type": "DDR5",
         "Bus Speed": "6200 MHz",
+        "Quantity": "2"
+    },
+    {
+        "Name": "Corsair Vengeance",
+        "Size": "96 GB",
+        "Type": "DDR5",
+        "Bus Speed": "5600 MHz",
         "Quantity": "2"
     },
     {
@@ -4806,13 +4820,6 @@
         "Size": "64 GB",
         "Type": "DDR5",
         "Bus Speed": "6600 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Vengeance",
-        "Size": "96 GB",
-        "Type": "DDR5",
-        "Bus Speed": "5600 MHz",
         "Quantity": "2"
     },
     {
@@ -5302,14 +5309,14 @@
         "Name": "Corsair Vengeance LPX black",
         "Size": "16 GB",
         "Type": "DDR4",
-        "Bus Speed": "3600 MHz",
+        "Bus Speed": "2400 MHz",
         "Quantity": "2"
     },
     {
         "Name": "Corsair Vengeance LPX black",
         "Size": "16 GB",
         "Type": "DDR4",
-        "Bus Speed": "2400 MHz",
+        "Bus Speed": "3600 MHz",
         "Quantity": "2"
     },
     {
@@ -5769,16 +5776,16 @@
     },
     {
         "Name": "Corsair Vengeance RGB",
-        "Size": "96 GB",
+        "Size": "64 GB",
         "Type": "DDR5",
-        "Bus Speed": "5600 MHz",
-        "Quantity": "2"
+        "Bus Speed": "6200 MHz",
+        "Quantity": "4"
     },
     {
         "Name": "Corsair Vengeance RGB",
         "Size": "64 GB",
         "Type": "DDR5",
-        "Bus Speed": "6200 MHz",
+        "Bus Speed": "6400 MHz",
         "Quantity": "4"
     },
     {
@@ -5792,15 +5799,15 @@
         "Name": "Corsair Vengeance RGB",
         "Size": "64 GB",
         "Type": "DDR5",
-        "Bus Speed": "6400 MHz",
+        "Bus Speed": "6600 MHz",
         "Quantity": "4"
     },
     {
         "Name": "Corsair Vengeance RGB",
-        "Size": "64 GB",
+        "Size": "96 GB",
         "Type": "DDR5",
-        "Bus Speed": "6600 MHz",
-        "Quantity": "4"
+        "Bus Speed": "5600 MHz",
+        "Quantity": "2"
     },
     {
         "Name": "Corsair Vengeance RGB",
@@ -5862,14 +5869,14 @@
         "Name": "Corsair Vengeance RGB Pro black",
         "Size": "64 GB",
         "Type": "DDR4",
-        "Bus Speed": "3600 MHz",
+        "Bus Speed": "3200 MHz",
         "Quantity": "2"
     },
     {
         "Name": "Corsair Vengeance RGB Pro black",
         "Size": "64 GB",
         "Type": "DDR4",
-        "Bus Speed": "3200 MHz",
+        "Bus Speed": "3600 MHz",
         "Quantity": "2"
     },
     {
@@ -5904,12 +5911,12 @@
         "Name": "Corsair Vengeance RGB Pro Series black",
         "Size": "16 GB",
         "Type": "DDR4",
-        "Bus Speed": "3200 MHz",
+        "Bus Speed": "2933 MHz",
         "Quantity": "2"
     },
     {
         "Name": "Corsair Vengeance RGB Pro Series black",
-        "Size": "16 GB",
+        "Size": "32 GB",
         "Type": "DDR4",
         "Bus Speed": "2933 MHz",
         "Quantity": "2"
@@ -5919,13 +5926,6 @@
         "Size": "16 GB",
         "Type": "DDR4",
         "Bus Speed": "2666 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Vengeance RGB Pro Series black",
-        "Size": "32 GB",
-        "Type": "DDR4",
-        "Bus Speed": "2933 MHz",
         "Quantity": "2"
     },
     {
@@ -5974,15 +5974,15 @@
         "Name": "Corsair Vengeance RGB Pro Series black",
         "Size": "32 GB",
         "Type": "DDR4",
-        "Bus Speed": "3200 MHz",
-        "Quantity": "4"
+        "Bus Speed": "3000 MHz",
+        "Quantity": "2"
     },
     {
         "Name": "Corsair Vengeance RGB Pro Series black",
         "Size": "32 GB",
         "Type": "DDR4",
-        "Bus Speed": "3000 MHz",
-        "Quantity": "2"
+        "Bus Speed": "3200 MHz",
+        "Quantity": "4"
     },
     {
         "Name": "Corsair Vengeance RGB Pro Series black",
@@ -6205,14 +6205,14 @@
         "Name": "Corsair Vengeance RGB Pro SL",
         "Size": "32 GB",
         "Type": "DDR4",
-        "Bus Speed": "3600 MHz",
+        "Bus Speed": "3200 MHz",
         "Quantity": "2"
     },
     {
         "Name": "Corsair Vengeance RGB Pro SL",
         "Size": "32 GB",
         "Type": "DDR4",
-        "Bus Speed": "3200 MHz",
+        "Bus Speed": "3600 MHz",
         "Quantity": "2"
     },
     {
@@ -6385,6 +6385,41 @@
     },
     {
         "Name": "Corsair Vengeance RGB RT",
+        "Size": "32 GB",
+        "Type": "DDR4",
+        "Bus Speed": "3600 MHz",
+        "Quantity": "2"
+    },
+    {
+        "Name": "Corsair Vengeance RGB RT",
+        "Size": "32 GB",
+        "Type": "DDR4",
+        "Bus Speed": "3200 MHz",
+        "Quantity": "2"
+    },
+    {
+        "Name": "Corsair Vengeance RGB RT",
+        "Size": "32 GB",
+        "Type": "DDR4",
+        "Bus Speed": "3600 MHz",
+        "Quantity": "4"
+    },
+    {
+        "Name": "Corsair Vengeance RGB RT",
+        "Size": "32 GB",
+        "Type": "DDR4",
+        "Bus Speed": "3200 MHz",
+        "Quantity": "4"
+    },
+    {
+        "Name": "Corsair Vengeance RGB RT",
+        "Size": "32 GB",
+        "Type": "DDR4",
+        "Bus Speed": "3600 MHz",
+        "Quantity": "2"
+    },
+    {
+        "Name": "Corsair Vengeance RGB RT",
         "Size": "16 GB",
         "Type": "DDR4",
         "Bus Speed": "4000 MHz",
@@ -6392,37 +6427,9 @@
     },
     {
         "Name": "Corsair Vengeance RGB RT",
-        "Size": "32 GB",
-        "Type": "DDR4",
-        "Bus Speed": "3600 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Vengeance RGB RT",
-        "Size": "32 GB",
+        "Size": "64 GB",
         "Type": "DDR4",
         "Bus Speed": "3200 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Vengeance RGB RT",
-        "Size": "32 GB",
-        "Type": "DDR4",
-        "Bus Speed": "3600 MHz",
-        "Quantity": "4"
-    },
-    {
-        "Name": "Corsair Vengeance RGB RT",
-        "Size": "32 GB",
-        "Type": "DDR4",
-        "Bus Speed": "3200 MHz",
-        "Quantity": "4"
-    },
-    {
-        "Name": "Corsair Vengeance RGB RT",
-        "Size": "32 GB",
-        "Type": "DDR4",
-        "Bus Speed": "3600 MHz",
         "Quantity": "2"
     },
     {
@@ -6437,13 +6444,6 @@
         "Size": "64 GB",
         "Type": "DDR4",
         "Bus Speed": "3600 MHz",
-        "Quantity": "2"
-    },
-    {
-        "Name": "Corsair Vengeance RGB RT",
-        "Size": "64 GB",
-        "Type": "DDR4",
-        "Bus Speed": "3200 MHz",
         "Quantity": "2"
     },
     {

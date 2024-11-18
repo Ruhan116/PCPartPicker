@@ -957,12 +957,12 @@
     {
         "Name": "Western Digital Blue 1 TB",
         "Size": "1 TB",
-        "RPM": "5400"
+        "RPM": "7200"
     },
     {
         "Name": "Western Digital Blue 1 TB",
         "Size": "1 TB",
-        "RPM": "7200"
+        "RPM": "5400"
     },
     {
         "Name": "Western Digital Blue 2 TB",
