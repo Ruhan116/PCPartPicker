@@ -67,6 +67,13 @@ class Ui_CPUPage(object):
         self.refresh_btn.setText("Refresh")
         self.refresh_btn.clicked.connect(self.load_cpu_data)
         
+        # Back button
+        self.back_btn = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.back_btn.setGeometry(QtCore.QRect(30, 670, 141, 31))
+        self.back_btn.setStyleSheet("font: 14pt \"Arial\";")
+        self.back_btn.setObjectName("back_btn")
+        self.back_btn.setText("Back")
+        
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1299, 26))
@@ -84,8 +91,6 @@ class Ui_CPUPage(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "CPU Options"))
-        
-        # Set table headers with translations
         item = self.table.horizontalHeaderItem(0)
         item.setText(_translate("MainWindow", "id"))
         item = self.table.horizontalHeaderItem(1)
@@ -102,13 +107,13 @@ class Ui_CPUPage(object):
         item.setText(_translate("MainWindow", "Threads"))
         item = self.table.horizontalHeaderItem(7)
         item.setText(_translate("MainWindow", "Action"))
-        
         self.label_2.setText(_translate("MainWindow", "Search of References with count lower or equal to : "))
         self.search_btn.setText(_translate("MainWindow", "Search"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "CPU Details"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Edit Details"))
         self.label.setText(_translate("MainWindow", "Choose A CPU"))
         self.refresh_btn.setText(_translate("MainWindow", "Refresh"))
+        self.back_btn.setText(_translate("MainWindow", "Back"))
 
     def load_cpu_data(self):
         connection = sqlite3.connect("data/database/database.sqlite")
@@ -128,10 +133,11 @@ class Ui_CPUPage(object):
             self.table.setCellWidget(row_num, len(row_data), add_button)
         
         connection.close()
-        
+
     def handle_add_button(self, row):
         cpu_name = self.table.item(row, 1).text()
         print(f"'Add' button clicked for CPU: {cpu_name}")
+
 
 class CPUPage(QtWidgets.QMainWindow):
     def __init__(self, stacked_widget):
@@ -139,4 +145,12 @@ class CPUPage(QtWidgets.QMainWindow):
         self.ui = Ui_CPUPage()
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
+        
+        # Load data initially
         self.ui.load_cpu_data()
+        
+        # Back button functionality
+        self.ui.back_btn.clicked.connect(self.go_back)
+
+    def go_back(self):
+        self.stacked_widget.setCurrentIndex(3)
