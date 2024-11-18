@@ -1,4 +1,6 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
+from controllers.data_controller import DataController
+from data.data_loader.Load_Data import PCComponentScraper
 
 
 class Ui_LandingPage(object):
@@ -23,12 +25,22 @@ class Ui_LandingPage(object):
         self.main_layout.addWidget(self.grey_text)
         self.addSpace(20)
 
+        # Create a horizontal layout for buttons
+        self.button_layout = QtWidgets.QHBoxLayout()
+        self.button_layout.setSpacing(20)  # Add spacing between buttons
+        
         self.build_btn = QtWidgets.QPushButton(self.centralwidget)
         self.build_btn.setObjectName("build_btn")
         self.build_btn.setFixedSize(200, 50)
-        self.main_layout.addWidget(self.build_btn)
-        self.main_layout.setAlignment(self.build_btn, QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.button_layout.addWidget(self.build_btn, alignment=QtCore.Qt.AlignmentFlag.AlignRight)
 
+        self.reload_db_btn = QtWidgets.QPushButton(self.centralwidget)
+        self.reload_db_btn.setObjectName("reload_db_btn")
+        self.reload_db_btn.setFixedSize(200, 50)
+        self.button_layout.addWidget(self.reload_db_btn, alignment=QtCore.Qt.AlignmentFlag.AlignLeft)
+
+        self.main_layout.addLayout(self.button_layout)
+        
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1205, 26))
@@ -56,6 +68,9 @@ class Ui_LandingPage(object):
         self.build_btn.setText(_translate("MainWindow", "Start Your Build"))
         self.build_btn.adjustSize()
 
+        self.reload_db_btn.setText(_translate("MainWindow", "Reload Database"))
+        self.reload_db_btn.adjustSize()
+
         self.grey_text.setText(_translate("MainWindow", "We provide part-selection and compatibility guidance for\n"
                                                        "do-it-yourself computer builders"))
         self.grey_text.adjustSize()
@@ -67,14 +82,22 @@ class LandingPage(QtWidgets.QMainWindow):
         self.ui = Ui_LandingPage()
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
+        
+        # Initialize data controller and scraper
+        self.data_controller = DataController()
+        self.scraper = PCComponentScraper()
+
+        # Connect button signals to slots
         self.ui.build_btn.clicked.connect(self.go_to_choosing_parts)
+        self.ui.reload_db_btn.clicked.connect(self.reload_database)
+
+        # Apply stylesheet
         try:
             with open("./style/landing_page_style.qss", "r") as file:
                 qss = file.read()
                 self.setStyleSheet(qss)
         except FileNotFoundError:
             print("QSS file not found. Make sure the path is correct.")
-        # self.ui.build_btn.clicked.connect(self.go_to_build_page)
         
     def go_to_choosing_parts(self):
         choosing_parts_page = self.stacked_widget.widget(3)
@@ -83,4 +106,10 @@ class LandingPage(QtWidgets.QMainWindow):
         # Set the main window size to match ChoosingPartsPage
         main_window.resize(choosing_parts_page.size())
         self.stacked_widget.setCurrentWidget(choosing_parts_page)
-        
+    
+    def reload_database(self):
+        print("Reloading database...")
+        self.scraper.scrape_all()
+        self.data_controller.store_all_data()
+        print("Database reloaded successfully.")
+        self.go_to_choosing_parts()
