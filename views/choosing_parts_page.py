@@ -11,17 +11,17 @@ class Ui_ChoosingPartsPage(object):
         # Header Frame
         self.header_frame = QtWidgets.QFrame(parent=self.centralwidget)
         self.header_frame.setGeometry(QtCore.QRect(0, 0, 1280, 80))
-        self.header_frame.setObjectName("header_frame")  # Dark background color
+        self.header_frame.setObjectName("header_frame")
 
         # Header Text
         self.header_label = QtWidgets.QLabel(parent=self.header_frame)
         self.header_label.setGeometry(QtCore.QRect(0, 0, 1280, 80))
         self.header_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.header_label.setObjectName("header_label")# White text color
+        self.header_label.setObjectName("header_label")
 
         # Main Layout
         self.heading_text = QtWidgets.QWidget(parent=self.centralwidget)
-        self.heading_text.setGeometry(QtCore.QRect(250, 120, 401, 481))
+        self.heading_text.setGeometry(QtCore.QRect(250, 120, 600, 481))  # Increased width from 401 to 600
         self.heading_text.setObjectName("heading_text")
 
         self.horizontalLayout_6 = QtWidgets.QHBoxLayout(self.heading_text)
@@ -90,13 +90,31 @@ class Ui_ChoosingPartsPage(object):
         self.psu_button.setObjectName("psu_button")
         self.verticalLayout_4.addWidget(self.psu_button)
 
+        # Horizontal layout for RAM buttons
+        self.ram_buttons_layout = QtWidgets.QHBoxLayout()
+
         self.ram_button = QtWidgets.QPushButton(parent=self.heading_text)
         self.ram_button.setObjectName("ram_button")
-        self.verticalLayout_4.addWidget(self.ram_button)
+        self.ram_buttons_layout.addWidget(self.ram_button)
+
+        self.ram_button_2 = QtWidgets.QPushButton(parent=self.heading_text)
+        self.ram_button_2.setObjectName("ram_button_2")
+        self.ram_buttons_layout.addWidget(self.ram_button_2)
+
+        self.verticalLayout_4.addLayout(self.ram_buttons_layout)  # Add the horizontal layout with both RAM buttons
+
+        # Horizontal layout for SSD buttons
+        self.ssd_buttons_layout = QtWidgets.QHBoxLayout()
 
         self.ssd_button = QtWidgets.QPushButton(parent=self.heading_text)
         self.ssd_button.setObjectName("ssd_button")
-        self.verticalLayout_4.addWidget(self.ssd_button)
+        self.ssd_buttons_layout.addWidget(self.ssd_button)
+
+        self.ssd_button_2 = QtWidgets.QPushButton(parent=self.heading_text)
+        self.ssd_button_2.setObjectName("ssd_button_2")
+        self.ssd_buttons_layout.addWidget(self.ssd_button_2)
+
+        self.verticalLayout_4.addLayout(self.ssd_buttons_layout)  # Add the horizontal layout with both SSD buttons
 
         self.horizontalLayout_6.addLayout(self.verticalLayout_4)
 
@@ -130,7 +148,9 @@ class Ui_ChoosingPartsPage(object):
         self.motherboard_button.setText(_translate("MainWindow", "+ Choose a Motherboard"))
         self.psu_button.setText(_translate("MainWindow", "+ Choose a Power Supply"))
         self.ram_button.setText(_translate("MainWindow", "+ Choose a RAM"))
+        self.ram_button_2.setText(_translate("MainWindow", "+ Choose a RAM"))
         self.ssd_button.setText(_translate("MainWindow", "+ Choose an SSD"))
+        self.ssd_button_2.setText(_translate("MainWindow", "+ Choose an SSD"))
 
 
 
@@ -146,7 +166,10 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         self.ui.motherboard_button.clicked.connect(self.show_motherboard_page)
         self.ui.psu_button.clicked.connect(self.show_psu_page)
         self.ui.ram_button.clicked.connect(self.show_ram_page)
+        self.ui.ram_button_2.clicked.connect(self.show_ram_page)
         self.ui.ssd_button.clicked.connect(self.show_ssd_page)
+        self.ui.ssd_button_2.clicked.connect(self.show_ssd_page)
+
         try:
             with open("./style/choosing_parts_style.qss", "r") as file:
                 qss = file.read()
