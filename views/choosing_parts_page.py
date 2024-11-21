@@ -1,5 +1,10 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
+from models.Session import Session
 
+
+from PyQt6 import QtCore, QtGui, QtWidgets
+
+from PyQt6 import QtCore, QtGui, QtWidgets
 
 class Ui_ChoosingPartsPage(object):
     def setupUi(self, MainWindow):
@@ -78,9 +83,18 @@ class Ui_ChoosingPartsPage(object):
         self.gpu_button.setObjectName("gpu_button")
         self.verticalLayout_4.addWidget(self.gpu_button)
 
+        # Horizontal layout for HDD buttons
+        self.hdd_buttons_layout = QtWidgets.QHBoxLayout()
+
         self.hdd_button = QtWidgets.QPushButton(parent=self.heading_text)
         self.hdd_button.setObjectName("hdd_button")
-        self.verticalLayout_4.addWidget(self.hdd_button)
+        self.hdd_buttons_layout.addWidget(self.hdd_button)
+
+        self.hdd_button_2 = QtWidgets.QPushButton(parent=self.heading_text)
+        self.hdd_button_2.setObjectName("hdd_button_2")
+        self.hdd_buttons_layout.addWidget(self.hdd_button_2)
+
+        self.verticalLayout_4.addLayout(self.hdd_buttons_layout)  # Add the horizontal layout with both HDD buttons
 
         self.motherboard_button = QtWidgets.QPushButton(parent=self.heading_text)
         self.motherboard_button.setObjectName("motherboard_button")
@@ -145,13 +159,13 @@ class Ui_ChoosingPartsPage(object):
         self.cpu_button.setText(_translate("MainWindow", "+ Choose a CPU"))
         self.gpu_button.setText(_translate("MainWindow", "+ Choose a GPU"))
         self.hdd_button.setText(_translate("MainWindow", "+ Choose an HDD"))
+        self.hdd_button_2.setText(_translate("MainWindow", "+ Choose an HDD"))
         self.motherboard_button.setText(_translate("MainWindow", "+ Choose a Motherboard"))
         self.psu_button.setText(_translate("MainWindow", "+ Choose a Power Supply"))
         self.ram_button.setText(_translate("MainWindow", "+ Choose a RAM"))
         self.ram_button_2.setText(_translate("MainWindow", "+ Choose a RAM"))
         self.ssd_button.setText(_translate("MainWindow", "+ Choose an SSD"))
         self.ssd_button_2.setText(_translate("MainWindow", "+ Choose an SSD"))
-
 
 
 class ChoosingPartsPage(QtWidgets.QMainWindow):
@@ -163,12 +177,14 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         self.ui.cpu_button.clicked.connect(self.show_cpu_page)
         self.ui.gpu_button.clicked.connect(self.show_gpu_page)
         self.ui.hdd_button.clicked.connect(self.show_hdd_page)
+        self.ui.hdd_button_2.clicked.connect(self.show_hdd_page)
         self.ui.motherboard_button.clicked.connect(self.show_motherboard_page)
         self.ui.psu_button.clicked.connect(self.show_psu_page)
         self.ui.ram_button.clicked.connect(self.show_ram_page)
         self.ui.ram_button_2.clicked.connect(self.show_ram_page)
         self.ui.ssd_button.clicked.connect(self.show_ssd_page)
         self.ui.ssd_button_2.clicked.connect(self.show_ssd_page)
+        self.session = Session()
 
         try:
             with open("./style/choosing_parts_style.qss", "r") as file:
@@ -181,6 +197,7 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
     def show_cpu_page(self):
         cpu_page = self.stacked_widget.widget(4)
         main_window = self.stacked_widget.window()
+        print(self.session.get_user())
         
         main_window.resize(cpu_page.size())
         self.stacked_widget.setCurrentWidget(cpu_page)
