@@ -2,6 +2,8 @@ import sqlite3
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 
+from models.component_selection_manager import ComponentSelectionManager
+
 
 class Ui_CPUPage(object):
     def setupUi(self, MainWindow):
@@ -136,13 +138,15 @@ class Ui_CPUPage(object):
 
     def handle_add_button(self, row):
         cpu_name = self.table.item(row, 1).text()
-        print(f"'Add' button clicked for CPU: {cpu_name}")
+        self.manager.set_component_name("CPU", cpu_name)
+        print(f"'Add' button clicked for CPU ID: {cpu_name}")
 
 
 class CPUPage(QtWidgets.QMainWindow):
-    def __init__(self, stacked_widget):
+    def __init__(self, stacked_widget, manager: ComponentSelectionManager):
         super(CPUPage, self).__init__()
         self.ui = Ui_CPUPage()
+        self.ui.manager = manager  # Pass the manager to the UI
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
         

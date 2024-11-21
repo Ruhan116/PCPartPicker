@@ -1,10 +1,8 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
+
+from models.component_selection_manager import ComponentSelectionManager
 from models.Session import Session
 
-
-from PyQt6 import QtCore, QtGui, QtWidgets
-
-from PyQt6 import QtCore, QtGui, QtWidgets
 
 class Ui_ChoosingPartsPage(object):
     def setupUi(self, MainWindow):
@@ -169,9 +167,10 @@ class Ui_ChoosingPartsPage(object):
 
 
 class ChoosingPartsPage(QtWidgets.QMainWindow):
-    def __init__(self, stacked_widget):
+    def __init__(self, stacked_widget, manager: ComponentSelectionManager):
         super(ChoosingPartsPage, self).__init__()
         self.ui = Ui_ChoosingPartsPage()
+        self.ui.manager = manager
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
         self.ui.cpu_button.clicked.connect(self.show_cpu_page)

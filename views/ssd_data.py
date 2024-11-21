@@ -2,6 +2,8 @@ import sqlite3
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 
+from models.component_selection_manager import ComponentSelectionManager
+
 
 class Ui_SSDPage(object):
     def setupUi(self, MainWindow):
@@ -139,12 +141,14 @@ class Ui_SSDPage(object):
         
     def handle_add_button(self, row):
         ssd_name = self.table.item(row, 1).text()
-        print(f"'Add' button clicked for SSD: {ssd_name}")
+        self.manager.set_component_name("SSD", ssd_name)
+        print(f"SSD selected with Name: {ssd_name}")
 
 class SSDPage(QtWidgets.QMainWindow):
-    def __init__(self, stacked_widget):
+    def __init__(self, stacked_widget, manager: ComponentSelectionManager):
         super(SSDPage, self).__init__()
         self.ui = Ui_SSDPage()
+        self.ui.manager = manager
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
         self.ui.load_ssd_data() 

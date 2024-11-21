@@ -2,6 +2,8 @@ import sqlite3
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 
+from models.component_selection_manager import ComponentSelectionManager
+
 
 class Ui_RAMPage(object):
     def setupUi(self, MainWindow):
@@ -141,12 +143,14 @@ class Ui_RAMPage(object):
         
     def handle_add_button(self, row):
         ram_name = self.table.item(row, 1).text()
-        print(f"'Add' button clicked for RAM: {ram_name}")
+        self.manager.set_component_name("RAM", ram_name)
+        print(f"RAM selected with Name: {ram_name}")
 
 class RAMPage(QtWidgets.QMainWindow):
-    def __init__(self, stacked_widget):
+    def __init__(self, stacked_widget, manager: ComponentSelectionManager):
         super(RAMPage, self).__init__()
         self.ui = Ui_RAMPage()
+        self.ui.manager = manager
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
         self.ui.load_ram_data()

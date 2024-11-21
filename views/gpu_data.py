@@ -2,6 +2,8 @@ import sqlite3
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 
+from models.component_selection_manager import ComponentSelectionManager
+
 
 class Ui_GPUPage(object):
     def setupUi(self, MainWindow):
@@ -139,12 +141,14 @@ class Ui_GPUPage(object):
         
     def handle_add_button(self, row):
         gpu_name = self.table.item(row, 1).text()
-        print(f"'Add' button clicked for GPU: {gpu_name}")
+        self.manager.set_component_name("GPU", gpu_name)
+        print(f"GPU selected with Name: {gpu_name}")
 
 class GPUPage(QtWidgets.QMainWindow):
-    def __init__(self, stacked_widget):
+    def __init__(self, stacked_widget, manager: ComponentSelectionManager):
         super(GPUPage, self).__init__()
         self.ui = Ui_GPUPage()
+        self.ui.manager = manager
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
         self.ui.load_gpu_data()
