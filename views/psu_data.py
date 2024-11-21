@@ -2,6 +2,8 @@ import sqlite3
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 
+from models.component_selection_manager import ComponentSelectionManager
+
 
 class Ui_PSUPage(object):
     def setupUi(self, MainWindow):
@@ -137,12 +139,14 @@ class Ui_PSUPage(object):
         
     def handle_add_button(self, row):
         psu_name = self.table.item(row, 1).text()
-        print(f"'Add' button clicked for PSU: {psu_name}")
+        self.manager.set_component_name("PSU", psu_name)
+        print(f"PSU selected with Name: {psu_name}")
 
 class PSUPage(QtWidgets.QMainWindow):
-    def __init__(self, stacked_widget):
+    def __init__(self, stacked_widget, manager: ComponentSelectionManager):
         super(PSUPage, self).__init__()
         self.ui = Ui_PSUPage()
+        self.ui.manager = manager
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
         self.ui.load_psu_data()    
