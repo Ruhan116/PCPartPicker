@@ -3,6 +3,7 @@ import json
 import os
 import threading
 
+
 class DataController:
     def __init__(self, db_path="data/database/database.sqlite"):
         self.db_path = db_path
@@ -13,7 +14,7 @@ class DataController:
         # Create tables if they do not exist
         with sqlite3.connect(self.db_path) as conn:
             cursor = conn.cursor()
-            
+
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS CPU (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -25,7 +26,7 @@ class DataController:
                     Threads INTEGER
                 )
             ''')
-            
+
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS Motherboard (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -35,7 +36,7 @@ class DataController:
                     Chipset TEXT
                 )
             ''')
-            
+
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS GPU (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -45,7 +46,7 @@ class DataController:
                     TDP TEXT
                 )
             ''')
-            
+
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS RAM (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -56,7 +57,7 @@ class DataController:
                     Quantity TEXT
                 )
             ''')
-            
+
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS HDD (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -65,7 +66,7 @@ class DataController:
                     RPM TEXT
                 )
             ''')
-            
+
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS SSD (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -75,7 +76,7 @@ class DataController:
                     Format TEXT
                 )
             ''')
-            
+
             cursor.execute('''
                 CREATE TABLE IF NOT EXISTS PSU (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -91,8 +92,10 @@ class DataController:
             return json.load(file)
 
     def insert_data(self, table, data):
+        # Each thread opens its own connection for thread safety
+        conn = None
         try:
-            conn = sqlite3.connect(self.db_path, check_same_thread=False)
+            conn = sqlite3.connect(self.db_path)
             cursor = conn.cursor()
 
             if table == "CPU":
@@ -100,7 +103,7 @@ class DataController:
                     INSERT INTO CPU (Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads)
                     VALUES (?, ?, ?, ?, ?, ?)
                 ''', (data["Name"], data["Socket"], data["Clock Speed"], data["Turbo Speed"], data["Cores"], data["Threads"]))
-            
+
             elif table == "Motherboard":
                 cursor.execute('''
                     INSERT INTO Motherboard (Name, Size, Socket, Chipset)
@@ -141,7 +144,8 @@ class DataController:
         except sqlite3.Error as e:
             print(f"Error inserting data into {table}: {e}")
         finally:
-            conn.close()
+            if conn:
+                conn.close()
 
     def store_data_from_file(self, filename, table_name):
         data_list = self.load_json_data(filename)
@@ -161,10 +165,10 @@ class DataController:
 
         threads = []
         for filename, table_name in files_to_tables.items():
+            # Each thread processes one file and inserts its data
             thread = threading.Thread(target=self.store_data_from_file, args=(filename, table_name))
             threads.append(thread)
             thread.start()
 
         for thread in threads:
             thread.join()
-
