@@ -4,6 +4,21 @@
 
 ---
 
+## Screeshots
+
+### Login-Page
+![Screenshot 2024-11-21 112410](https://github.com/user-attachments/assets/c5b58351-8bb6-4b69-b63e-4711470c2443)
+### Signup-Page
+![Screenshot 2024-11-21 112425](https://github.com/user-attachments/assets/2654f10c-f99d-420c-941a-fde901e99825)
+### Landing-Page
+![Screenshot 2024-11-21 112529](https://github.com/user-attachments/assets/ab851096-3f35-4d27-a017-1d56c2558956)
+### Choosing Parts Page
+![Screenshot 2024-11-21 112542](https://github.com/user-attachments/assets/a4250abd-4461-4b55-964e-01deb903742b)
+### Component Details page (CPU)
+![Screenshot 2024-11-21 112556](https://github.com/user-attachments/assets/f3f74945-6dc9-4996-a08c-0830ad1e060f)
+### Component Details Page (HDD)
+![Screenshot 2024-11-21 112612](https://github.com/user-attachments/assets/ab24fb5b-b9a2-42c3-a775-2f0c478864e7)
+
 ## Features  
 
 - **Frontend**: Built with **PyQt6**, offering a responsive and user-friendly interface.  
