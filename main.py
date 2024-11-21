@@ -16,6 +16,8 @@ from views.ram_data import RAMPage
 from views.signup_main import SignUpWindow
 from views.ssd_data import SSDPage
 
+from models.Session import Session
+
 
 class MainApp(QtWidgets.QMainWindow):
     def __init__(self):
@@ -66,6 +68,7 @@ class MainApp(QtWidgets.QMainWindow):
 if __name__ == '__main__':
     import sys
     app = QtWidgets.QApplication(sys.argv)
+    session = Session()
     main_app = MainApp()
     main_app.show()
     sys.exit(app.exec())

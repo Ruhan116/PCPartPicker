@@ -1,6 +1,8 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 from controllers.data_controller import DataController
 from data.data_loader.Load_Data import PCComponentScraper
+from data.data_loader.build_table import BuildTable
+
 
 
 class Ui_LandingPage(object):
@@ -106,6 +108,8 @@ class LandingPage(QtWidgets.QMainWindow):
         # Set the main window size to match ChoosingPartsPage
         main_window.resize(choosing_parts_page.size())
         self.stacked_widget.setCurrentWidget(choosing_parts_page)
+        bt = BuildTable()
+        bt.create_build_table
     
     def reload_database(self):
         print("Reloading database...")
@@ -113,3 +117,5 @@ class LandingPage(QtWidgets.QMainWindow):
         self.data_controller.store_all_data()
         print("Database reloaded successfully.")
         self.go_to_choosing_parts()
+        bt = BuildTable()
+        bt.create_build_table
