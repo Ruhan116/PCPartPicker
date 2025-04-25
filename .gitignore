@@ -37,3 +37,6 @@ build/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+#JSON files
+data/json/*.json
