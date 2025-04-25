@@ -3,223 +3,223 @@
         "Name": "HGST Deskstar NAS 0S03661",
         "Size": "3 TB",
         "RPM": "7200",
-        "Price": "$100"
+        "Price": "$240"
     },
     {
         "Name": "HGST Deskstar NAS 0S03665",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$160"
+        "Price": "$60"
     },
     {
         "Name": "HGST Deskstar NAS 0S03940",
         "Size": "5 TB",
         "RPM": "7200",
-        "Price": "$110"
+        "Price": "$140"
     },
     {
         "Name": "HGST Deskstar NAS v2 0S03941",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$90"
+        "Price": "$80"
     },
     {
         "Name": "Toshiba DT01ACA100 1TB 32MB",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$230"
+        "Price": "$140"
     },
     {
         "Name": "Toshiba P300 HDWD110EZSTA 1TB 64MB",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$250"
+        "Price": "$60"
     },
     {
         "Name": "HGST Ultrastar 7K4000",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$260"
+        "Price": "$100"
     },
     {
         "Name": "HGST Ultrastar He6",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$140"
+        "Price": "$160"
     },
     {
         "Name": "HGST Ultrastar He8",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$190"
+        "Price": "$220"
     },
     {
         "Name": "Hitachi HGST Travelstar 5K1000",
         "Size": "1 TB",
         "RPM": "5400",
-        "Price": "$230"
+        "Price": "$170"
     },
     {
         "Name": "Hitachi HGST Travelstar 7K1000",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$280"
+        "Price": "$80"
     },
     {
         "Name": "Hitachi HGST Ultrastar 7K4000",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$120"
+        "Price": "$240"
     },
     {
         "Name": "Seagate Archive Hard Drive ST6000AS0002 6TB 5900rpm 128MB",
         "Size": "6 TB",
         "RPM": "5900",
-        "Price": "$190"
+        "Price": "$80"
     },
     {
         "Name": "Seagate Archive Hard Drive ST8000AS0002 8TB 5900rpm 128MB",
         "Size": "8 TB",
         "RPM": "5900",
-        "Price": "$200"
+        "Price": "$210"
     },
     {
         "Name": "Seagate BarraCuda Compute Hard Drive 2 TB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$40"
+        "Price": "$120"
     },
     {
         "Name": "Seagate Barracuda Hard Drive",
         "Size": "4 TB",
         "RPM": "5900",
-        "Price": "$230"
+        "Price": "$140"
     },
     {
         "Name": "Seagate Barracuda Hard Drive",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$260"
+        "Price": "$130"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$280"
+        "Price": "$180"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive",
         "Size": "3 TB",
         "RPM": "7200",
-        "Price": "$220"
+        "Price": "$90"
     },
     {
         "Name": "Seagate Barracuda Hard Drive",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$150"
+        "Price": "$290"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive 1 TB",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$200"
+        "Price": "$240"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive 1 TB",
         "Size": "1 TB",
         "RPM": "5400",
-        "Price": "$190"
+        "Price": "$140"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive 2 TB",
         "Size": "2 TB",
         "RPM": "5400",
-        "Price": "$180"
+        "Price": "$170"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive 3 TB",
         "Size": "3 TB",
         "RPM": "5400",
-        "Price": "$140"
+        "Price": "$260"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive 3 TB",
         "Size": "3 TB",
         "RPM": "5400",
-        "Price": "$60"
+        "Price": "$80"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive 4 TB",
         "Size": "4 TB",
         "RPM": "5400",
-        "Price": "$140"
+        "Price": "$300"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive 4 TB",
         "Size": "4 TB",
         "RPM": "5400",
-        "Price": "$120"
+        "Price": "$160"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive 5 TB",
         "Size": "5 TB",
         "RPM": "5400",
-        "Price": "$110"
+        "Price": "$160"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive 6 TB",
         "Size": "6 TB",
         "RPM": "5400",
-        "Price": "$170"
+        "Price": "$60"
     },
     {
         "Name": "Seagate BarraCuda Hard Drive 8 TB",
         "Size": "8 TB",
         "RPM": "5400",
-        "Price": "$210"
+        "Price": "$290"
     },
     {
         "Name": "Seagate BarraCuda Pro Hard Drive",
         "Size": "4 TB",
         "RPM": "7.2K",
-        "Price": "$70"
+        "Price": "$110"
     },
     {
         "Name": "Seagate BarraCuda Pro Hard Drive",
         "Size": "6 TB",
         "RPM": "7.2K",
-        "Price": "$300"
+        "Price": "$70"
     },
     {
         "Name": "Seagate BarraCuda Pro Hard Drive",
         "Size": "8 TB",
         "RPM": "7.2K",
-        "Price": "$290"
+        "Price": "$90"
     },
     {
         "Name": "Seagate BarraCuda Pro Hard Drive 1 TB",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$70"
+        "Price": "$210"
     },
     {
         "Name": "Seagate BarraCuda Pro Hard Drive 12 TB",
         "Size": "12 TB",
         "RPM": "7200",
-        "Price": "$160"
+        "Price": "$250"
     },
     {
         "Name": "Seagate BarraCuda Pro Hard Drive 14 TB",
         "Size": "14 TB",
         "RPM": "7200",
-        "Price": "$90"
+        "Price": "$230"
     },
     {
         "Name": "Seagate BarraCuda Pro Hard Drive 2 TB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$140"
+        "Price": "$160"
     },
     {
         "Name": "Seagate BarraCuda Pro Hard Drive ST10000DM0004",
@@ -231,475 +231,475 @@
         "Name": "Seagate BarraCuda Pro Hard Drive ST8000DM005",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$200"
+        "Price": "$90"
     },
     {
         "Name": "Seagate Desktop Hard Drive ST3000DM001",
         "Size": "3 TB",
         "RPM": "7200",
-        "Price": "$280"
+        "Price": "$150"
     },
     {
         "Name": "Seagate Desktop Hard Drive ST5000DM002",
         "Size": "5 TB",
         "RPM": "7200",
-        "Price": "$110"
+        "Price": "$80"
     },
     {
         "Name": "Seagate Desktop Hard Drive ST6000DM001",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$210"
+        "Price": "$40"
     },
     {
         "Name": "Seagate Enterprise Capacity ST1000NM0008",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$260"
+        "Price": "$130"
     },
     {
         "Name": "Seagate Enterprise Capacity ST1000NM0055",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$280"
+        "Price": "$110"
     },
     {
         "Name": "Seagate Enterprise Capacity ST1000NX0313",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$270"
+        "Price": "$220"
     },
     {
         "Name": "Seagate Enterprise Capacity ST2000NM0033",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$280"
+        "Price": "$290"
     },
     {
         "Name": "Seagate Enterprise Capacity ST2000NM0055",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$270"
+        "Price": "$60"
     },
     {
         "Name": "Seagate Enterprise Capacity ST2000NX0253",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$240"
+        "Price": "$150"
     },
     {
         "Name": "Seagate Enterprise Capacity ST4000NM0115",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$300"
+        "Price": "$80"
     },
     {
         "Name": "Seagate Enterprise Hard Drive",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$250"
+        "Price": "$230"
     },
     {
         "Name": "Seagate Enterprise Hard Drive",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$300"
+        "Price": "$180"
     },
     {
         "Name": "Seagate Enterprise Hard Drive",
         "Size": "3 TB",
         "RPM": "7200",
-        "Price": "$110"
+        "Price": "$50"
     },
     {
         "Name": "Seagate Enterprise Hard Drive v5",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$240"
+        "Price": "$180"
     },
     {
         "Name": "Seagate Enterprise NAS Hard Drive ST2000VN0001 2TB 7200rpm 128MB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$270"
+        "Price": "$280"
     },
     {
         "Name": "Seagate Enterprise NAS Hard Drive ST4000VN0001 4TB 7200rpm 128MB",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$50"
+        "Price": "$230"
     },
     {
         "Name": "Seagate Enterprise NAS Hard Drive ST5000VN0001 5TB 7200rpm 128MB",
         "Size": "5 TB",
         "RPM": "7200",
-        "Price": "$180"
+        "Price": "$200"
     },
     {
         "Name": "Seagate Enterprise NAS Hard Drive ST6000VN0001 6TB 7200rpm 128MB",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$170"
+        "Price": "$90"
     },
     {
         "Name": "Seagate Enterprise NAS Hard Drive ST8000NE0001 8TB 7200rpm 128MB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$270"
+        "Price": "$240"
     },
     {
         "Name": "Seagate Exos 7E2 Hard Drive 2 TB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$260"
+        "Price": "$200"
     },
     {
         "Name": "Seagate Exos 7E8 Hard Drive 2 TB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$100"
+        "Price": "$40"
     },
     {
         "Name": "Seagate Exos 7E8 Hard Drive 4 TB",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$90"
+        "Price": "$130"
     },
     {
         "Name": "Seagate Exos 7E8 Hard Drive 6 TB",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$70"
+        "Price": "$250"
     },
     {
         "Name": "Seagate Exos 7E8 Hard Drive 8 TB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$250"
+        "Price": "$150"
     },
     {
         "Name": "Seagate Exos E 7E8 Hard Drive 8 TB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$270"
+        "Price": "$80"
     },
     {
         "Name": "Seagate Exos X10 Hard Drive 10 TB",
         "Size": "10 TB",
         "RPM": "7200",
-        "Price": "$190"
+        "Price": "$150"
     },
     {
         "Name": "Seagate Exos X14 Hard Drive 12 TB",
         "Size": "12 TB",
         "RPM": "7200",
-        "Price": "$80"
+        "Price": "$210"
     },
     {
         "Name": "Seagate Exos X16 Hard Drive 12 TB",
         "Size": "12 TB",
         "RPM": "7.2K",
-        "Price": "$100"
+        "Price": "$50"
     },
     {
         "Name": "Seagate Exos X16 Hard Drive 14 TB",
         "Size": "14 TB",
         "RPM": "7200",
-        "Price": "$150"
+        "Price": "$50"
     },
     {
         "Name": "Seagate Exos X16 Hard Drive 16 TB",
         "Size": "16 TB",
         "RPM": "7200",
-        "Price": "$130"
+        "Price": "$120"
     },
     {
         "Name": "Seagate Exos X16 Hard Drive 18 TB",
         "Size": "18 TB",
         "RPM": "7.2K",
-        "Price": "$120"
+        "Price": "$230"
     },
     {
         "Name": "Seagate Exos X20 Hard Drive\n 20 TB",
         "Size": "20 TB",
         "RPM": "7.2K",
-        "Price": "$160"
+        "Price": "$170"
     },
     {
         "Name": "Seagate FireCuda SSHD",
         "Size": "2 TB",
         "RPM": "7.2K",
-        "Price": "$210"
+        "Price": "$250"
     },
     {
         "Name": "Seagate FireCuda SSHD 1 TB",
         "Size": "1 TB",
         "RPM": "5400",
-        "Price": "$240"
+        "Price": "$260"
     },
     {
         "Name": "Seagate FireCuda SSHD 1 TB",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$190"
+        "Price": "$40"
     },
     {
         "Name": "Seagate FireCuda SSHD 2 TB",
         "Size": "2 TB",
         "RPM": "5400",
-        "Price": "$100"
+        "Price": "$300"
     },
     {
         "Name": "Seagate IronWolf Hard Drive",
         "Size": "8 TB",
         "RPM": "7.2K",
-        "Price": "$120"
+        "Price": "$90"
     },
     {
         "Name": "Seagate IronWolf Hard Drive",
         "Size": "12 TB",
         "RPM": "7.2K",
-        "Price": "$70"
+        "Price": "$260"
     },
     {
         "Name": "Seagate IronWolf Hard Drive 1 TB",
         "Size": "1 TB",
         "RPM": "5900",
-        "Price": "$50"
+        "Price": "$300"
     },
     {
         "Name": "Seagate IronWolf Hard Drive 10 TB",
         "Size": "10 TB",
         "RPM": "7200",
-        "Price": "$130"
+        "Price": "$90"
     },
     {
         "Name": "Seagate IronWolf Hard Drive 12 TB",
         "Size": "12 TB",
         "RPM": "7200",
-        "Price": "$100"
+        "Price": "$250"
     },
     {
         "Name": "Seagate Ironwolf Hard Drive 14 TB",
         "Size": "14 TB",
         "RPM": "7200",
-        "Price": "$130"
+        "Price": "$260"
     },
     {
         "Name": "Seagate IronWolf Hard Drive 16 TB",
         "Size": "16 TB",
         "RPM": "5900",
-        "Price": "$240"
+        "Price": "$170"
     },
     {
         "Name": "Seagate IronWolf Hard Drive 6 TB",
         "Size": "6 TB",
         "RPM": "5400",
-        "Price": "$100"
+        "Price": "$110"
     },
     {
         "Name": "Seagate IronWolf Hard Drive 6 TB",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$180"
+        "Price": "$140"
     },
     {
         "Name": "Seagate IronWolf Hard Drive 8 TB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$250"
+        "Price": "$260"
     },
     {
         "Name": "Seagate IronWolf NAS Hard Drive ST10000VN0004",
         "Size": "10 TB",
         "RPM": "7200",
-        "Price": "$60"
+        "Price": "$150"
     },
     {
         "Name": "Seagate IronWolf NAS Hard Drive ST2000VN004",
         "Size": "2 TB",
         "RPM": "5900",
-        "Price": "$140"
+        "Price": "$110"
     },
     {
         "Name": "Seagate IronWolf NAS Hard Drive ST3000VN007",
         "Size": "3 TB",
         "RPM": "5900",
-        "Price": "$40"
+        "Price": "$200"
     },
     {
         "Name": "Seagate IronWolf NAS Hard Drive ST4000VN008",
         "Size": "4 TB",
         "RPM": "5900",
-        "Price": "$80"
+        "Price": "$120"
     },
     {
         "Name": "Seagate IronWolf NAS Hard Drive ST6000VN0041",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$100"
+        "Price": "$300"
     },
     {
         "Name": "Seagate IronWolf Pro Hard Drive",
         "Size": "4 TB",
         "RPM": "7.2K",
-        "Price": "$50"
+        "Price": "$170"
     },
     {
         "Name": "Seagate IronWolf Pro Hard Drive",
         "Size": "6 TB",
         "RPM": "7.2K",
-        "Price": "$170"
+        "Price": "$40"
     },
     {
         "Name": "Seagate IronWolf Pro Hard Drive",
         "Size": "8 TB",
         "RPM": "7.2K",
-        "Price": "$200"
+        "Price": "$170"
     },
     {
         "Name": "Seagate IronWolf Pro Hard Drive",
         "Size": "12 TB",
         "RPM": "7.2K",
-        "Price": "$200"
+        "Price": "$150"
     },
     {
         "Name": "Seagate IronWolf Pro Hard Drive 10 TB",
         "Size": "10 TB",
         "RPM": "7200",
-        "Price": "$240"
+        "Price": "$120"
     },
     {
         "Name": "Seagate IronWolf Pro Hard Drive 12 TB",
         "Size": "12 TB",
         "RPM": "7200",
-        "Price": "$280"
+        "Price": "$150"
     },
     {
         "Name": "Seagate IronWolf Pro Hard Drive 14 TB",
         "Size": "14 TB",
         "RPM": "7200",
-        "Price": "$140"
+        "Price": "$200"
     },
     {
         "Name": "Seagate IronWolf Pro Hard Drive 16 TB",
         "Size": "16 TB",
         "RPM": "7200",
-        "Price": "$110"
+        "Price": "$220"
     },
     {
         "Name": "Seagate IronWolf Pro Hard Drive 4 TB",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$150"
+        "Price": "$50"
     },
     {
         "Name": "Seagate IronWolf Pro Hard Drive 8 TB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$210"
+        "Price": "$180"
     },
     {
         "Name": "Seagate IronWolf Pro Hard Drive 8 TB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$100"
+        "Price": "$60"
     },
     {
         "Name": "Seagate IronWolf Pro NAS Hard Drive\n 16 TB",
         "Size": "16 TB",
         "RPM": "7.2K",
-        "Price": "$200"
+        "Price": "$170"
     },
     {
         "Name": "Seagate IronWolf Pro NAS Hard Drive ST10000NE0004 10TB 7200rpm 256MB",
         "Size": "10 TB",
         "RPM": "7200",
-        "Price": "$160"
+        "Price": "$120"
     },
     {
         "Name": "Seagate IronWolf Pro NAS Hard Drive ST2000NE0025 2TB 7200rpm 128MB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$160"
+        "Price": "$80"
     },
     {
         "Name": "Seagate IronWolf Pro NAS Hard Drive ST6000NE0021 6TB 7200rpm 256MB",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$130"
+        "Price": "$90"
     },
     {
         "Name": "Seagate IronWolf Pro NAS Hard Drive ST8000NE0021 8TB 7200rpm 256MB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$150"
+        "Price": "$250"
     },
     {
         "Name": "Seagate Mobile Hard Drive",
         "Size": "1 TB",
         "RPM": "5400",
-        "Price": "$60"
+        "Price": "$300"
     },
     {
         "Name": "Seagate Mobile Hard Drive",
         "Size": "2 TB",
         "RPM": "5400",
-        "Price": "$270"
+        "Price": "$100"
     },
     {
         "Name": "Seagate NAS Hard Drive ST2000VN000 2TB 5900rpm 64MB",
         "Size": "2 TB",
         "RPM": "5900",
-        "Price": "$230"
+        "Price": "$260"
     },
     {
         "Name": "Seagate SkyHawk Hard Drive",
         "Size": "3 TB",
         "RPM": "7.2K",
-        "Price": "$250"
+        "Price": "$120"
     },
     {
         "Name": "Seagate SkyHawk Hard Drive",
         "Size": "10 TB",
         "RPM": "7.2K",
-        "Price": "$60"
+        "Price": "$260"
     },
     {
         "Name": "Seagate SkyHawk Hard Drive 3 TB",
         "Size": "3 TB",
         "RPM": "5900",
-        "Price": "$280"
+        "Price": "$290"
     },
     {
         "Name": "Seagate SkyHawk Hard Drive 4 TB",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$240"
+        "Price": "$210"
     },
     {
         "Name": "Seagate SkyHawk Hard Drive 6 TB",
         "Size": "6 TB",
         "RPM": "5.9K",
-        "Price": "$280"
+        "Price": "$180"
     },
     {
         "Name": "Seagate SkyHawk Hard Drive 8 TB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$40"
+        "Price": "$50"
     },
     {
         "Name": "Seagate Skyhawk Hard Drive 8 TB",
         "Size": "8 TB",
         "RPM": "7.2K",
-        "Price": "$170"
+        "Price": "$60"
     },
     {
         "Name": "Seagate SkyHawk Hard Drive ST1000VX005",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$50"
+        "Price": "$90"
     },
     {
         "Name": "Seagate SkyHawk Hard Drive ST2000VX008",
@@ -711,7 +711,7 @@
         "Name": "Seagate SkyHawk Hard Drive ST6000VX0023",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$50"
+        "Price": "$290"
     },
     {
         "Name": "Seagate Surveillance Hard Drive",
@@ -723,25 +723,25 @@
         "Name": "Seagate Surveillance Hard Drive ST1000VX000",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$180"
+        "Price": "$200"
     },
     {
         "Name": "Seagate Surveillance Hard Drive ST1000VX003",
         "Size": "1 TB",
         "RPM": "5900",
-        "Price": "$50"
+        "Price": "$160"
     },
     {
         "Name": "Seagate Surveillance Hard Drive ST2000VX000",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$110"
+        "Price": "$40"
     },
     {
         "Name": "Seagate Surveillance Hard Drive ST4000VX000",
         "Size": "4 TB",
         "RPM": "5900",
-        "Price": "$240"
+        "Price": "$100"
     },
     {
         "Name": "Seagate Surveillance Hard Drive ST8000VX0002",
@@ -753,31 +753,31 @@
         "Name": "Seagate Video 3.5 Hard Drive ST2000VM003",
         "Size": "2 TB",
         "RPM": "5900",
-        "Price": "$240"
+        "Price": "$90"
     },
     {
         "Name": "Toshiba Cloud Hard Drive MC04ACA200E 2TB 128MB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$240"
+        "Price": "$170"
     },
     {
         "Name": "Toshiba Cloud Hard Drive MC04ACA300E 3TB 128MB",
         "Size": "3 TB",
         "RPM": "7200",
-        "Price": "$290"
+        "Price": "$80"
     },
     {
         "Name": "Toshiba Enterprise MG03SCA300 3TB 64MB SAS",
         "Size": "3 TB",
         "RPM": "7200",
-        "Price": "$290"
+        "Price": "$240"
     },
     {
         "Name": "Toshiba N300 HDWN160EZSTA 6TB 128MB",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$170"
+        "Price": "$140"
     },
     {
         "Name": "Toshiba N300 HDWN160UZSVA 6TB 128MB Bulk",
@@ -789,145 +789,145 @@
         "Name": "Toshiba N300 HDWN180EZSTA 8TB 128MB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$190"
+        "Price": "$290"
     },
     {
         "Name": "Toshiba N300 HDWN180UZSVA 8TB 128MB Bulk",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$280"
+        "Price": "$110"
     },
     {
         "Name": "Toshiba N300 HDWQ140EZSTA 4TB 128MB",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$110"
+        "Price": "$250"
     },
     {
         "Name": "Toshiba N300 HDWQ140UZSVA 4TB 128MB Bulk",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$180"
+        "Price": "$80"
     },
     {
         "Name": "Toshiba P300 1 TB",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$170"
+        "Price": "$270"
     },
     {
         "Name": "Toshiba P300 2 TB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$100"
+        "Price": "$160"
     },
     {
         "Name": "Toshiba P300 3 TB",
         "Size": "3 TB",
         "RPM": "7200",
-        "Price": "$210"
+        "Price": "$250"
     },
     {
         "Name": "Toshiba P300 4 TB",
         "Size": "4 TB",
         "RPM": "5.4K",
-        "Price": "$120"
+        "Price": "$50"
     },
     {
         "Name": "Toshiba P300 6 TB",
         "Size": "6 TB",
         "RPM": "5.4K",
-        "Price": "$180"
+        "Price": "$240"
     },
     {
         "Name": "Toshiba P300 HDWD120EZSTA 2TB 64MB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$170"
+        "Price": "$80"
     },
     {
         "Name": "Toshiba P300 HDWD130EZSTA 3TB 64MB",
         "Size": "3 TB",
         "RPM": "7200",
-        "Price": "$180"
+        "Price": "$230"
     },
     {
         "Name": "Toshiba SATA 3G, MQ01ABD100",
         "Size": "1 TB",
         "RPM": "5.4K",
-        "Price": "$280"
+        "Price": "$140"
     },
     {
         "Name": "Toshiba SATA 6G, DT01ACA200, 2 TB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$300"
+        "Price": "$180"
     },
     {
         "Name": "Toshiba SATA 6G, DT01ACA300, 3 TB",
         "Size": "3 TB",
         "RPM": "7200",
-        "Price": "$270"
+        "Price": "$170"
     },
     {
         "Name": "Toshiba SATA 6G, MD04ACA400",
         "Size": "4 TB",
         "RPM": "7.2K",
-        "Price": "$60"
+        "Price": "$230"
     },
     {
         "Name": "Toshiba Surveillance Hard Drive MD03ACA200V 2TB 64MB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$60"
+        "Price": "$220"
     },
     {
         "Name": "Toshiba Surveillance Hard Drive MD03ACA300V 3TB 64MB",
         "Size": "3 TB",
         "RPM": "7200",
-        "Price": "$250"
+        "Price": "$90"
     },
     {
         "Name": "Toshiba Surveillance Hard Drive MD03ACA400V 4TB 64MB",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$300"
+        "Price": "$170"
     },
     {
         "Name": "Toshiba X300 HDWE140EZSTA 4TB 128MB",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$180"
+        "Price": "$120"
     },
     {
         "Name": "Toshiba X300 HDWE150EZSTA 5TB 128MB",
         "Size": "5 TB",
         "RPM": "7200",
-        "Price": "$120"
+        "Price": "$290"
     },
     {
         "Name": "Toshiba X300 HDWE160EZSTA 6TB 128MB",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$220"
+        "Price": "$100"
     },
     {
         "Name": "Toshiba X300 HDWF180EZSTA 8TB 128MB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$250"
+        "Price": "$180"
     },
     {
         "Name": "Toshiba X300 HDWF180UZSVA 8TB 128MB Bulk",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$200"
+        "Price": "$230"
     },
     {
         "Name": "Toshiba X300 SATA 6G, 4 TB",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$250"
+        "Price": "$120"
     },
     {
         "Name": "Toshiba X300 SATA 6G, 6 TB",
@@ -939,145 +939,145 @@
         "Name": "WD AV-GP WD10EURX",
         "Size": "1 TB",
         "RPM": "5400",
-        "Price": "$100"
+        "Price": "$240"
     },
     {
         "Name": "WD AV-GP WD20EURX",
         "Size": "2 TB",
         "RPM": "5400",
-        "Price": "$180"
+        "Price": "$40"
     },
     {
         "Name": "WD AV-GP WD30EURX",
         "Size": "3 TB",
         "RPM": "5400",
-        "Price": "$70"
+        "Price": "$50"
     },
     {
         "Name": "WD AV-GP WD40EURX",
         "Size": "4 TB",
         "RPM": "5400",
-        "Price": "$180"
+        "Price": "$240"
     },
     {
         "Name": "WD Black WD4004FZWX",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$150"
+        "Price": "$80"
     },
     {
         "Name": "WD Black WD6001FZWX",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$140"
+        "Price": "$190"
     },
     {
         "Name": "WD Blue SSHD WD40E31X",
         "Size": "4 TB",
         "RPM": "5400",
-        "Price": "$40"
+        "Price": "$300"
     },
     {
         "Name": "WD Blue WD50EZRZ",
         "Size": "5 TB",
         "RPM": "5400",
-        "Price": "$220"
+        "Price": "$240"
     },
     {
         "Name": "WD Gold WD4002FYYZ",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$300"
+        "Price": "$150"
     },
     {
         "Name": "WD Gold WD8002FRYZ",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$200"
+        "Price": "$70"
     },
     {
         "Name": "WD Purple NV WD4NPURX",
         "Size": "4 TB",
         "RPM": "5400",
-        "Price": "$170"
+        "Price": "$160"
     },
     {
         "Name": "WD Purple NV WD6NPURX",
         "Size": "6 TB",
         "RPM": "5400",
-        "Price": "$130"
+        "Price": "$280"
     },
     {
         "Name": "WD Purple WD10PURX",
         "Size": "1 TB",
         "RPM": "5400",
-        "Price": "$80"
+        "Price": "$190"
     },
     {
         "Name": "WD Purple WD20PURX",
         "Size": "2 TB",
         "RPM": "5400",
-        "Price": "$260"
+        "Price": "$210"
     },
     {
         "Name": "WD Purple WD30PURX",
         "Size": "3 TB",
         "RPM": "5400",
-        "Price": "$60"
+        "Price": "$100"
     },
     {
         "Name": "WD Purple WD40PURX",
         "Size": "4 TB",
         "RPM": "5400",
-        "Price": "$180"
+        "Price": "$80"
     },
     {
         "Name": "WD Purple WD50PURX",
         "Size": "5 TB",
         "RPM": "5400",
-        "Price": "$140"
+        "Price": "$300"
     },
     {
         "Name": "WD Purple WD60PURX",
         "Size": "6 TB",
         "RPM": "5400",
-        "Price": "$140"
+        "Price": "$60"
     },
     {
         "Name": "WD Purple WD80PUZX",
         "Size": "8 TB",
         "RPM": "5400",
-        "Price": "$190"
+        "Price": "$220"
     },
     {
         "Name": "WD RE WD1004FBYZ",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$170"
+        "Price": "$120"
     },
     {
         "Name": "WD RE WD5001FSYZ",
         "Size": "5 TB",
         "RPM": "7200",
-        "Price": "$150"
+        "Price": "$100"
     },
     {
         "Name": "WD RE+ WD5005FRPZ",
         "Size": "5 TB",
         "RPM": "5760",
-        "Price": "$120"
+        "Price": "$60"
     },
     {
         "Name": "WD RE+ WD6005FRPZ",
         "Size": "6 TB",
         "RPM": "5760",
-        "Price": "$280"
+        "Price": "$170"
     },
     {
         "Name": "WD Red Pro WD4002FFWX",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$240"
+        "Price": "$60"
     },
     {
         "Name": "WD Red Pro WD6002FFWX",
@@ -1089,253 +1089,253 @@
         "Name": "WD Red Pro WD8001FFWX",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$240"
+        "Price": "$80"
     },
     {
         "Name": "WD Red WD80EFZX",
         "Size": "8 TB",
         "RPM": "5400",
-        "Price": "$90"
+        "Price": "$190"
     },
     {
         "Name": "Western Blue Mobile 1 TB",
         "Size": "1 TB",
         "RPM": "5400",
-        "Price": "$100"
+        "Price": "$40"
     },
     {
         "Name": "Western Blue Mobile 2 TB",
         "Size": "2 TB",
         "RPM": "5400",
-        "Price": "$170"
+        "Price": "$160"
     },
     {
         "Name": "Western Digital Black 1 TB",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$250"
+        "Price": "$190"
     },
     {
         "Name": "Western Digital Black 2 TB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$230"
+        "Price": "$130"
     },
     {
         "Name": "Western Digital Black 2,5 Zoll",
         "Size": "1 TB",
         "RPM": "7.2K",
-        "Price": "$70"
+        "Price": "$100"
     },
     {
         "Name": "Western Digital Black 4 TB",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$110"
+        "Price": "$280"
     },
     {
         "Name": "Western Digital Black 6 TB",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$180"
+        "Price": "$120"
     },
     {
         "Name": "Western Digital Blue",
         "Size": "6 TB",
         "RPM": "5.4K",
-        "Price": "$290"
+        "Price": "$100"
     },
     {
         "Name": "Western Digital Blue 1 TB",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$200"
+        "Price": "$190"
     },
     {
         "Name": "Western Digital Blue 1 TB",
         "Size": "1 TB",
         "RPM": "5400",
-        "Price": "$180"
+        "Price": "$250"
     },
     {
         "Name": "Western Digital Blue 2 TB",
         "Size": "2 TB",
         "RPM": "5.4K",
-        "Price": "$210"
+        "Price": "$90"
     },
     {
         "Name": "Western Digital Blue 2 TB",
         "Size": "2 TB",
         "RPM": "5400",
-        "Price": "$270"
+        "Price": "$230"
     },
     {
         "Name": "Western Digital Blue 2,5 Zoll",
         "Size": "1 TB",
         "RPM": "5.4K",
-        "Price": "$250"
+        "Price": "$270"
     },
     {
         "Name": "Western Digital Blue 3 TB",
         "Size": "3 TB",
         "RPM": "5400",
-        "Price": "$260"
+        "Price": "$250"
     },
     {
         "Name": "Western Digital Blue 4 TB",
         "Size": "4 TB",
         "RPM": "5400",
-        "Price": "$180"
+        "Price": "$40"
     },
     {
         "Name": "Western Digital Blue 6 TB",
         "Size": "6 TB",
         "RPM": "5400",
-        "Price": "$130"
+        "Price": "$50"
     },
     {
         "Name": "Western Digital Gold 1 TB",
         "Size": "1 TB",
         "RPM": "7200",
-        "Price": "$180"
+        "Price": "$290"
     },
     {
         "Name": "Western Digital Gold 10 TB",
         "Size": "10 TB",
         "RPM": "7200",
-        "Price": "$200"
+        "Price": "$120"
     },
     {
         "Name": "Western Digital Gold 12 TB",
         "Size": "12 TB",
         "RPM": "7200",
-        "Price": "$200"
+        "Price": "$250"
     },
     {
         "Name": "Western Digital Gold 14 TB",
         "Size": "14 TB",
         "RPM": "7200",
-        "Price": "$230"
+        "Price": "$110"
     },
     {
         "Name": "Western Digital Gold 16 TB",
         "Size": "16 TB",
         "RPM": "7.2K",
-        "Price": "$180"
+        "Price": "$80"
     },
     {
         "Name": "Western Digital Gold 2 TB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$300"
+        "Price": "$70"
     },
     {
         "Name": "Western Digital Gold 4 TB",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$100"
+        "Price": "$70"
     },
     {
         "Name": "Western Digital Gold 6 TB",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$90"
+        "Price": "$120"
     },
     {
         "Name": "Western Digital Gold 8 TB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$60"
+        "Price": "$160"
     },
     {
         "Name": "Western Digital Gold, Intellipower",
         "Size": "8 TB",
         "RPM": "7.2K",
-        "Price": "$230"
+        "Price": "$150"
     },
     {
         "Name": "Western Digital Gold, Intellipower",
         "Size": "6 TB",
         "RPM": "7.2K",
-        "Price": "$110"
+        "Price": "$210"
     },
     {
         "Name": "Western Digital Gold, Intellipower",
         "Size": "10 TB",
         "RPM": "7.2K",
-        "Price": "$170"
+        "Price": "$60"
     },
     {
         "Name": "Western Digital Purple 8 TB",
         "Size": "8 TB",
         "RPM": "7.2K",
-        "Price": "$120"
+        "Price": "$100"
     },
     {
         "Name": "Western Digital Purple, Intellipower",
         "Size": "10 TB",
         "RPM": "5.4K",
-        "Price": "$90"
+        "Price": "$260"
     },
     {
         "Name": "Western Digital RE",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$180"
+        "Price": "$150"
     },
     {
         "Name": "Western Digital Red 1 TB",
         "Size": "1 TB",
         "RPM": "5400",
-        "Price": "$290"
+        "Price": "$250"
     },
     {
         "Name": "Western Digital Red 1 TB",
         "Size": "1 TB",
         "RPM": "5400",
-        "Price": "$60"
+        "Price": "$140"
     },
     {
         "Name": "Western Digital Red 10 TB",
         "Size": "10 TB",
         "RPM": "5.4K",
-        "Price": "$160"
+        "Price": "$220"
     },
     {
         "Name": "Western Digital Red 10 TB",
         "Size": "10 TB",
         "RPM": "5400",
-        "Price": "$110"
+        "Price": "$50"
     },
     {
         "Name": "Western Digital Red 12 TB",
         "Size": "12 TB",
         "RPM": "5400",
-        "Price": "$250"
+        "Price": "$180"
     },
     {
         "Name": "Western Digital Red 14 TB",
         "Size": "14 TB",
         "RPM": "5400",
-        "Price": "$240"
-    },
-    {
-        "Name": "Western Digital Red 2 TB",
-        "Size": "2 TB",
-        "RPM": "5400",
-        "Price": "$250"
-    },
-    {
-        "Name": "Western Digital Red 2 TB",
-        "Size": "2 TB",
-        "RPM": "5400",
         "Price": "$230"
+    },
+    {
+        "Name": "Western Digital Red 2 TB",
+        "Size": "2 TB",
+        "RPM": "5400",
+        "Price": "$100"
+    },
+    {
+        "Name": "Western Digital Red 2 TB",
+        "Size": "2 TB",
+        "RPM": "5400",
+        "Price": "$100"
     },
     {
         "Name": "Western Digital Red 3 TB",
         "Size": "3 TB",
         "RPM": "5400",
-        "Price": "$100"
+        "Price": "$160"
     },
     {
         "Name": "Western Digital Red 3 TB",
@@ -1347,180 +1347,180 @@
         "Name": "Western Digital Red 4 TB",
         "Size": "4 TB",
         "RPM": "5400",
-        "Price": "$300"
+        "Price": "$170"
     },
     {
         "Name": "Western Digital Red 4 TB",
         "Size": "4 TB",
         "RPM": "5400",
-        "Price": "$210"
+        "Price": "$240"
     },
     {
         "Name": "Western Digital Red 6 TB",
         "Size": "6 TB",
         "RPM": "5400",
-        "Price": "$290"
+        "Price": "$280"
     },
     {
         "Name": "Western Digital Red 8 TB",
         "Size": "8 TB",
         "RPM": "5400",
-        "Price": "$300"
+        "Price": "$200"
     },
     {
         "Name": "Western Digital Red Plus\n 2 TB",
         "Size": "2 TB",
         "RPM": "5.4K",
-        "Price": "$250"
+        "Price": "$110"
     },
     {
         "Name": "Western Digital Red Plus\n 3 TB",
         "Size": "3 TB",
         "RPM": "5.4K",
-        "Price": "$40"
+        "Price": "$100"
     },
     {
         "Name": "Western Digital Red Plus\n 4 TB",
         "Size": "4 TB",
         "RPM": "5.4K",
-        "Price": "$270"
+        "Price": "$120"
     },
     {
         "Name": "Western Digital Red Plus\n 6 TB",
         "Size": "6 TB",
         "RPM": "5.4K",
-        "Price": "$110"
+        "Price": "$270"
     },
     {
         "Name": "Western Digital Red Plus\n 8 TB",
         "Size": "8 TB",
         "RPM": "5.64K",
-        "Price": "$300"
+        "Price": "$40"
     },
     {
         "Name": "Western Digital Red Plus\n 8 TB",
         "Size": "8 TB",
         "RPM": "5.64K",
-        "Price": "$200"
+        "Price": "$60"
     },
     {
         "Name": "Western Digital Red Plus 10 TB",
         "Size": "10 TB",
         "RPM": "7.2K",
-        "Price": "$80"
+        "Price": "$70"
     },
     {
         "Name": "Western Digital Red Plus 12 TB",
         "Size": "12 TB",
         "RPM": "7.2K",
-        "Price": "$210"
+        "Price": "$230"
     },
     {
         "Name": "Western Digital Red Plus 14 TB",
         "Size": "14 TB",
         "RPM": "7.2K",
-        "Price": "$250"
+        "Price": "$50"
     },
     {
         "Name": "Western Digital Red Plus 2 TB",
         "Size": "2 TB",
         "RPM": "5.4K",
-        "Price": "$60"
+        "Price": "$200"
     },
     {
         "Name": "Western Digital Red Plus 3 TB",
         "Size": "3 TB",
         "RPM": "5.4K",
-        "Price": "$170"
+        "Price": "$120"
     },
     {
         "Name": "Western Digital Red Plus 4 TB",
         "Size": "4 TB",
         "RPM": "5.4K",
-        "Price": "$280"
+        "Price": "$260"
     },
     {
         "Name": "Western Digital Red Plus 6 TB",
         "Size": "6 TB",
         "RPM": "5.64K",
-        "Price": "$100"
+        "Price": "$180"
     },
     {
         "Name": "Western Digital Red Plus 8 TB",
         "Size": "8 TB",
         "RPM": "7.2K",
-        "Price": "$120"
+        "Price": "$250"
     },
     {
         "Name": "Western Digital Red Pro 10 TB",
         "Size": "10 TB",
         "RPM": "7200",
-        "Price": "$110"
+        "Price": "$90"
     },
     {
         "Name": "Western Digital Red Pro 10 TB",
         "Size": "10 TB",
         "RPM": "7200",
-        "Price": "$270"
+        "Price": "$130"
     },
     {
         "Name": "Western Digital Red Pro 12 TB",
         "Size": "12 TB",
         "RPM": "7200",
-        "Price": "$100"
+        "Price": "$240"
     },
     {
         "Name": "Western Digital Red Pro 14 TB",
         "Size": "14 TB",
         "RPM": "7.2K",
-        "Price": "$270"
+        "Price": "$130"
     },
     {
         "Name": "Western Digital Red Pro 16 TB",
         "Size": "16 TB",
         "RPM": "7.2K",
-        "Price": "$90"
+        "Price": "$250"
     },
     {
         "Name": "Western Digital Red Pro 18 TB",
         "Size": "18 TB",
         "RPM": "7.2K",
-        "Price": "$60"
+        "Price": "$200"
     },
     {
         "Name": "Western Digital Red Pro 2 TB",
         "Size": "2 TB",
         "RPM": "7200",
-        "Price": "$70"
+        "Price": "$290"
     },
     {
         "Name": "Western Digital Red Pro 4 TB",
         "Size": "4 TB",
         "RPM": "7200",
-        "Price": "$110"
+        "Price": "$290"
     },
     {
         "Name": "Western Digital Red Pro 6 TB",
         "Size": "6 TB",
         "RPM": "7200",
-        "Price": "$60"
+        "Price": "$90"
     },
     {
         "Name": "Western Digital Red Pro 8 TB",
         "Size": "8 TB",
         "RPM": "7200",
-        "Price": "$50"
+        "Price": "$70"
     },
     {
         "Name": "Western Digital Red, Intellipower",
         "Size": "6 TB",
         "RPM": "5.4K",
-        "Price": "$110"
+        "Price": "$220"
     },
     {
         "Name": "Western Digital SE",
         "Size": "5 TB",
         "RPM": "7200",
-        "Price": "$290"
+        "Price": "$90"
     }
 ]
