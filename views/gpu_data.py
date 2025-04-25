@@ -27,11 +27,11 @@ class Ui_GPUPage(object):
         self.table.setGeometry(QtCore.QRect(10, 60, 1231, 431))
         self.table.setStyleSheet("font: 10pt \"Arial\";")
         self.table.setObjectName("table")
-        self.table.setColumnCount(6)  # 5 columns for data + 1 for "Add" button column
+        self.table.setColumnCount(7)  # 6 columns for data + 1 for "Add" button column
         self.table.setRowCount(0)
         
         # Set up table headers
-        headers = ["id", "Name", "Series", "VRAM", "TDP", "Action"]
+        headers = ["id", "Name", "Series", "VRAM", "TDP", "Price", "Action"]
         for i, header in enumerate(headers):
             item = QtWidgets.QTableWidgetItem()
             item.setText(header)
@@ -111,6 +111,8 @@ class Ui_GPUPage(object):
         item = self.table.horizontalHeaderItem(4)
         item.setText(_translate("MainWindow", "TDP"))
         item = self.table.horizontalHeaderItem(5)
+        item.setText(_translate("MainWindow", "Price"))
+        item = self.table.horizontalHeaderItem(6)
         item.setText(_translate("MainWindow", "Action"))
         
         self.label_2.setText(_translate("MainWindow", "Search GPUs with TDP lower or equal to:"))
@@ -125,20 +127,20 @@ class Ui_GPUPage(object):
         cursor = connection.cursor()
         cursor.execute("SELECT * FROM GPU")
         rows = cursor.fetchall()
-        
+
         self.table.setRowCount(len(rows))
-        
+
         for row_num, row_data in enumerate(rows):
             for col_num, data in enumerate(row_data):
                 self.table.setItem(row_num, col_num, QtWidgets.QTableWidgetItem(str(data)))
-            
+
             add_button = QtWidgets.QPushButton("Add")
             add_button.setStyleSheet("font-family: Arial;")
             add_button.clicked.connect(lambda _, r=row_num: self.handle_add_button(r))
-            self.table.setCellWidget(row_num, len(row_data), add_button)
-        
+            self.table.setCellWidget(row_num, len(row_data), add_button)  # Now placed in 7th column
+
         connection.close()
-        
+
     def handle_add_button(self, row):
         gpu_name = self.table.item(row, 1).text()
         self.manager.set_component_name("GPU", gpu_name)
