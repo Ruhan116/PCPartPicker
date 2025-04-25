@@ -1,6 +1,7 @@
 import sys
 
 from PyQt6 import QtWidgets
+from PyQt6.QtGui import QIcon
 
 from controllers.auth_controller import AuthController
 from models.component_selection_manager import \
@@ -24,7 +25,8 @@ class MainApp(QtWidgets.QMainWindow):
     def __init__(self):
         super(MainApp, self).__init__()
         self.setFixedSize(1280, 720)
-
+        self.setWindowTitle("PC Part Picker")
+        self.setWindowIcon(QIcon("assets/logo.png"))
         # Initialize the ComponentSelectionManager
         self.component_manager = ComponentSelectionManager()
 

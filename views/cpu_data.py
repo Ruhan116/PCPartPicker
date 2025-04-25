@@ -136,7 +136,6 @@ class CPUPage(QtWidgets.QMainWindow):
         self.ui.manager = manager  # Pass the manager to the UI
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
-
         # Load data initially
         self.ui.load_cpu_data()
 
