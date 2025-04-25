@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import threading
 import json
+import random
 
 class PCComponentScraper:
     def __init__(self):
@@ -13,13 +14,20 @@ class PCComponentScraper:
             "ram": "https://www.pc-kombo.com/ca/components/rams",
             "hdd": "https://www.pc-kombo.com/ca/components/hdds",
             "ssd": "https://www.pc-kombo.com/ca/components/ssds",
-            "psu": "https://www.pc-kombo.com/ca/components/psus"
+            "psu": "https://www.pc-kombo.com/ca/components/psus",
+            "cases": "https://www.pc-kombo.com/ca/components/cases",
+            "cpu_coolers": "https://www.pc-kombo.com/ca/components/cpucoolers",
+            "monitors": "https://www.pc-kombo.com/ca/components/displays"
         }
     def save_to_json(self, filename, data):
         filepath = f"data/json/{filename}"
         with open(filepath, "w") as file:
             json.dump(data, file, indent=4)
 
+    def generate_price(self, min_price, max_price, increment):
+        return random.randrange(min_price, max_price + increment, increment)
+
+    
     def extract_cpu(self):
         cpu_data = []
 
@@ -63,14 +71,16 @@ class PCComponentScraper:
                 threads_match = re.search(r'(\d+)\s*Threads', subtitle_text)
                 if threads_match:
                     threads = threads_match.group(1)
-
+                
+                price = self.generate_price(100, 1200, 50)
                 cpu_data.append({
                     "Name": name,
                     "Socket": socket,
                     "Clock Speed": clock_speed,
                     "Turbo Speed": turbo_speed,
                     "Cores": cores,
-                    "Threads": threads
+                    "Threads": threads,
+                    "Price": f"${price}"
                 })
                 self.save_to_json("cpu_data.json", cpu_data)
 
@@ -112,12 +122,15 @@ class PCComponentScraper:
                 chipset_match = re.search(r'Chipset\s*([^\s]+)', subtitle_text)
                 if chipset_match:
                     chipset = chipset_match.group(1)
+                
+                price = self.generate_price(75, 1200, 25)
 
                 mobo_data.append({
                     "Name": name,
                     "Size": size,
                     "Socket": socket,
-                    "Chipset": chipset
+                    "Chipset": chipset,
+                    "Price": f"${price}"
                 })
                 self.save_to_json("mobo_data.json", mobo_data)
         else:
@@ -158,11 +171,13 @@ class PCComponentScraper:
                 if tdp_match:
                     tdp = tdp_match.group(1)
 
+                price = self.generate_price(200, 2000, 50)
                 gpu_data.append({
                     "Name": name,
                     "Series": series,
                     "VRAM": vram,
-                    "TDP": f"{tdp}W"
+                    "TDP": f"{tdp}W",
+                    "Price": f"${price}"
                 })
                 self.save_to_json("gpu_data.json", gpu_data)
 
@@ -211,12 +226,15 @@ class PCComponentScraper:
                 if quantity_parts:
                     quantity = quantity_parts[-1]  # Get the last part for quantity
 
+                price = self.generate_price(50, 500, 5)
+
                 ram_data.append({
                     "Name": name,
                     "Size": size,
                     "Type": ram_type,
                     "Bus Speed": bus_speed,
-                    "Quantity": quantity
+                    "Quantity": quantity,
+                    "Price": f"${price}"
                 })
                 self.save_to_json("ram_data.json", ram_data)
         else:
@@ -251,10 +269,12 @@ class PCComponentScraper:
                 if rpm_span:
                     rpm = rpm_span.text.strip()
                     
+                price = self.generate_price(40, 300, 10)
                 hdd_data.append({
                     "Name": name,
                     "Size": size,
-                    "RPM": rpm
+                    "RPM": rpm,
+                    "Price": f"${price}"
                 })
                 self.save_to_json("hdd_data.json", hdd_data)
         else:
@@ -296,11 +316,14 @@ class PCComponentScraper:
                 if format_match:
                     format_type = format_match.group(1)
 
+                price = self.generate_price(50, 600, 10)
+
                 ssd_data.append({
                     "Name": name,
                     "Size": size,
                     "Bus": bus,
-                    "Format": format_type
+                    "Format": format_type,
+                    "Price": f"${price}"
                 })
                 self.save_to_json("ssd_data.json", ssd_data)
         else:
@@ -334,15 +357,116 @@ class PCComponentScraper:
                 if watt_span:
                     wattage = watt_span.text.strip()
 
+                price = self.generate_price(100, 1200, 50)
                 # Print the extracted details
                 psu_data.append({
                     "Name": name,
                     "Size": size,
-                    "Wattage": wattage
+                    "Wattage": wattage,
+                    "Price": f"${price}"
                 })
                 self.save_to_json("psu_data.json", psu_data)
         else:
             print("Failed to retrieve data.")
+
+    def extract_cases(self):
+        cases_data = []
+        response = requests.get(self.urls["cases"])
+
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.content, "html.parser")
+            cases_list = soup.find_all("div", class_="column col-10 col-lg-8 col-sm-12")
+            
+            for case in cases_list:
+                name = case.find("h5", class_="name")
+                name = name.text.strip() if name else "Not Found"
+                
+                subtitle = case.find("div", class_="subtitle")
+                size = "N/A"
+                subtitle_text = subtitle.get_text(separator=' ', strip=True)
+                
+                size_match = re.search(r'Size\s*([^\s]+)', subtitle_text)
+                if size_match:
+                    size = size_match.group(1)
+
+                price = self.generate_price(30, 500, 10)
+                cases_data.append({
+                    "Name": name,
+                    "Size": size,
+                    "Price": f"${price}"
+                })
+                self.save_to_json("cases_data.json", cases_data)
+        else:
+            print("Failed to retrieve data for cases.")
+
+    
+    def extract_cpu_coolers(self):
+        coolers_data = []
+        response = requests.get(self.urls["cpu_coolers"])
+
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.content, "html.parser")
+            coolers_list = soup.find_all("div", class_="column col-10 col-lg-8 col-sm-12")
+            
+            for cooler in coolers_list:
+                name = cooler.find("h5", class_="name")
+                name = name.text.strip() if name else "Not Found"
+                
+                subtitle = cooler.find("div", class_="subtitle")
+                socket = "N/A"
+                subtitle_text = subtitle.get_text(separator=' ', strip=True)
+                
+                socket_match = re.search(r'Socket\s*([^\s]+)', subtitle_text)
+                if socket_match:
+                    socket = socket_match.group(1)
+
+                price = self.generate_price(20, 150, 10)
+
+                coolers_data.append({
+                    "Name": name,
+                    "Socket": socket,
+                    "Price": f"${price}"
+                })
+                self.save_to_json("cpu_coolers_data.json", coolers_data)
+        else:
+            print("Failed to retrieve data for CPU coolers.")
+
+    def extract_monitors(self):
+        monitors_data = []
+        response = requests.get(self.urls["monitors"])
+
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.content, "html.parser")
+            monitors_list = soup.find_all("div", class_="column col-10 col-lg-8 col-sm-12")
+            
+            for monitor in monitors_list:
+                name = monitor.find("h5", class_="name")
+                name = name.text.strip() if name else "Not Found"
+                
+                subtitle = monitor.find("div", class_="subtitle")
+                size = "N/A"
+                resolution = "N/A"
+                subtitle_text = subtitle.get_text(separator=' ', strip=True)
+                
+                size_match = re.search(r'(\d+\.?\d*)\s*inch', subtitle_text)
+                if size_match:
+                    size = size_match.group(1) + " inch"
+
+                resolution_match = re.search(r'(\d+x\d+)', subtitle_text)
+                if resolution_match:
+                    resolution = resolution_match.group(1)
+
+                price = self.generate_price(100, 1200, 50)
+
+                monitors_data.append({
+                    "Name": name,
+                    "Size": size,
+                    "Resolution": resolution,
+                    "Price": f"${price}"
+                })
+                self.save_to_json("monitors_data.json", monitors_data)
+        else:
+            print("Failed to retrieve data for monitors.")
 
     def scrape_all(self):
         functions = [
@@ -352,7 +476,10 @@ class PCComponentScraper:
             self.extract_ram,
             self.extract_hdd,
             self.extract_ssd,
-            self.extract_psu
+            self.extract_psu,
+            self.extract_cases,
+            self.extract_cpu_coolers,
+            self.extract_monitors
         ]
 
         threads = []

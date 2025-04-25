@@ -5,7 +5,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$300"
     },
     {
         "Name": "AMD Ryzen 5 5500",
@@ -13,7 +14,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$950"
     },
     {
         "Name": "AMD Ryzen 5 5600",
@@ -21,7 +23,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$600"
     },
     {
         "Name": "AMD Ryzen 5 5600G",
@@ -29,7 +32,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$150"
     },
     {
         "Name": "AMD Ryzen 5 7600",
@@ -37,7 +41,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "5.1 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$1200"
     },
     {
         "Name": "AMD Ryzen 5 7600X",
@@ -45,7 +50,8 @@
         "Clock Speed": "4.7 GHz",
         "Turbo Speed": "5.3 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$950"
     },
     {
         "Name": "AMD Ryzen 5 8400F",
@@ -53,7 +59,8 @@
         "Clock Speed": "4.2 GHz",
         "Turbo Speed": "4.7 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$150"
     },
     {
         "Name": "AMD Ryzen 5 8500G",
@@ -61,7 +68,8 @@
         "Clock Speed": "4.1 GHz",
         "Turbo Speed": "5.0 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$800"
     },
     {
         "Name": "AMD Ryzen 5 8600G",
@@ -69,7 +77,8 @@
         "Clock Speed": "4.3 GHz",
         "Turbo Speed": "5.0 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$600"
     },
     {
         "Name": "AMD Ryzen 7 5700G",
@@ -77,7 +86,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$950"
     },
     {
         "Name": "AMD Ryzen 7 5700X",
@@ -85,7 +95,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$850"
     },
     {
         "Name": "AMD Ryzen 7 5700X3D",
@@ -93,7 +104,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$550"
     },
     {
         "Name": "AMD Ryzen 7 5800X",
@@ -101,7 +113,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.7 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$800"
     },
     {
         "Name": "AMD Ryzen 7 5800X3D",
@@ -109,7 +122,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$900"
     },
     {
         "Name": "AMD Ryzen 7 7700",
@@ -117,7 +131,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "5.3 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$900"
     },
     {
         "Name": "AMD Ryzen 7 7700X",
@@ -125,7 +140,8 @@
         "Clock Speed": "4.5 GHz",
         "Turbo Speed": "5.4 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$300"
     },
     {
         "Name": "AMD Ryzen 7 7800X3D",
@@ -133,7 +149,8 @@
         "Clock Speed": "4.2 GHz",
         "Turbo Speed": "5.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$250"
     },
     {
         "Name": "AMD Ryzen 7 8700F",
@@ -141,7 +158,8 @@
         "Clock Speed": "4.1 GHz",
         "Turbo Speed": "5.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$200"
     },
     {
         "Name": "AMD Ryzen 7 8700G",
@@ -149,7 +167,8 @@
         "Clock Speed": "4.2 GHz",
         "Turbo Speed": "5.1 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$400"
     },
     {
         "Name": "AMD Ryzen 9 5900X",
@@ -157,7 +176,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.8 GHz",
         "Cores": "12",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$150"
     },
     {
         "Name": "AMD Ryzen 9 5950X",
@@ -165,7 +185,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "4.9 GHz",
         "Cores": "16",
-        "Threads": "32"
+        "Threads": "32",
+        "Price": "$950"
     },
     {
         "Name": "AMD Ryzen 9 7900",
@@ -173,7 +194,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "5.4 GHz",
         "Cores": "12",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$900"
     },
     {
         "Name": "AMD Ryzen 9 7900X",
@@ -181,7 +203,8 @@
         "Clock Speed": "4.7 GHz",
         "Turbo Speed": "5.6 GHz",
         "Cores": "12",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$750"
     },
     {
         "Name": "AMD Ryzen 9 7900X3D",
@@ -189,7 +212,8 @@
         "Clock Speed": "4.4 GHz",
         "Turbo Speed": "5.6 GHz",
         "Cores": "12",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$900"
     },
     {
         "Name": "AMD Ryzen 9 7950X",
@@ -197,7 +221,8 @@
         "Clock Speed": "4.5 GHz",
         "Turbo Speed": "5.7 GHz",
         "Cores": "16",
-        "Threads": "32"
+        "Threads": "32",
+        "Price": "$100"
     },
     {
         "Name": "AMD Ryzen 9 7950X3D",
@@ -205,7 +230,8 @@
         "Clock Speed": "4.2 GHz",
         "Turbo Speed": "5.7 GHz",
         "Cores": "16",
-        "Threads": "32"
+        "Threads": "32",
+        "Price": "$1200"
     },
     {
         "Name": "Intel Core Ultra 5 245K",
@@ -213,7 +239,8 @@
         "Clock Speed": "4.2 GHz",
         "Turbo Speed": "5.2 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$600"
     },
     {
         "Name": "Intel Core Ultra 5 245KF",
@@ -221,7 +248,8 @@
         "Clock Speed": "4.2 GHz",
         "Turbo Speed": "5.2 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core Ultra 7 265K",
@@ -229,7 +257,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "5.5 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$350"
     },
     {
         "Name": "Intel Core Ultra 7 265KF",
@@ -237,7 +266,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "5.5 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$800"
     },
     {
         "Name": "Intel Core Ultra 9 285K",
@@ -245,7 +275,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "5.7 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$450"
     },
     {
         "Name": "AMD A10-6790K",
@@ -253,7 +284,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$200"
     },
     {
         "Name": "AMD A10-7800",
@@ -261,7 +293,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$1000"
     },
     {
         "Name": "AMD A10-7850K",
@@ -269,7 +302,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$600"
     },
     {
         "Name": "AMD A10-7860K",
@@ -277,7 +311,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$700"
     },
     {
         "Name": "AMD A10-7870K",
@@ -285,7 +320,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$800"
     },
     {
         "Name": "AMD A10-7890K",
@@ -293,7 +329,8 @@
         "Clock Speed": "4.1 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$1150"
     },
     {
         "Name": "AMD A10-9700",
@@ -301,7 +338,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$550"
     },
     {
         "Name": "AMD A10-9700E",
@@ -309,7 +347,8 @@
         "Clock Speed": "N/A",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$650"
     },
     {
         "Name": "AMD A12-9800",
@@ -317,7 +356,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$300"
     },
     {
         "Name": "AMD A12-9800E",
@@ -325,7 +365,8 @@
         "Clock Speed": "3.1 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$900"
     },
     {
         "Name": "AMD A4-4020",
@@ -333,7 +374,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "3.4 GHz",
         "Cores": "1",
-        "Threads": "1"
+        "Threads": "1",
+        "Price": "$400"
     },
     {
         "Name": "AMD A4-5300",
@@ -341,7 +383,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "3.6 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$1000"
     },
     {
         "Name": "AMD A4-7300",
@@ -349,7 +392,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "1",
-        "Threads": "1"
+        "Threads": "1",
+        "Price": "$1050"
     },
     {
         "Name": "AMD A6-6400K",
@@ -357,7 +401,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$550"
     },
     {
         "Name": "AMD A6-6420K",
@@ -365,7 +410,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "1",
-        "Threads": "1"
+        "Threads": "1",
+        "Price": "$250"
     },
     {
         "Name": "AMD A6-7400K",
@@ -373,7 +419,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "1",
-        "Threads": "1"
+        "Threads": "1",
+        "Price": "$400"
     },
     {
         "Name": "AMD A6-7470K",
@@ -381,7 +428,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "1",
-        "Threads": "1"
+        "Threads": "1",
+        "Price": "$550"
     },
     {
         "Name": "AMD A6-9500",
@@ -389,7 +437,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$600"
     },
     {
         "Name": "AMD A6-9500E",
@@ -397,7 +446,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$750"
     },
     {
         "Name": "AMD A8-6600K",
@@ -405,7 +455,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$600"
     },
     {
         "Name": "AMD A8-7600",
@@ -413,7 +464,8 @@
         "Clock Speed": "3.1 GHz",
         "Turbo Speed": "3.8 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$1000"
     },
     {
         "Name": "AMD A8-7650K",
@@ -421,7 +473,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "3.7 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$650"
     },
     {
         "Name": "AMD A8-7650K",
@@ -429,7 +482,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "3.7 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$400"
     },
     {
         "Name": "AMD A8-7670K",
@@ -437,7 +491,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$300"
     },
     {
         "Name": "AMD A8-9600",
@@ -445,7 +500,8 @@
         "Clock Speed": "3.1 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$150"
     },
     {
         "Name": "AMD Athlon 200GE",
@@ -453,7 +509,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1200"
     },
     {
         "Name": "AMD Athlon 220GE",
@@ -461,7 +518,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$400"
     },
     {
         "Name": "AMD Athlon 240GE",
@@ -469,7 +527,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$150"
     },
     {
         "Name": "AMD Athlon 3000G",
@@ -477,7 +536,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$150"
     },
     {
         "Name": "AMD Athlon X4 845",
@@ -485,7 +545,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.8 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$1150"
     },
     {
         "Name": "AMD Athlon X4 860K",
@@ -493,7 +554,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$950"
     },
     {
         "Name": "AMD Athlon X4 860K",
@@ -501,7 +563,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$900"
     },
     {
         "Name": "AMD Athlon X4 870K",
@@ -509,7 +572,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$300"
     },
     {
         "Name": "AMD Athlon X4 880K",
@@ -517,7 +581,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$550"
     },
     {
         "Name": "AMD Athlon X4 950",
@@ -525,7 +590,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1050"
     },
     {
         "Name": "AMD FX-4300",
@@ -533,7 +599,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$400"
     },
     {
         "Name": "AMD FX-4350",
@@ -541,7 +608,8 @@
         "Clock Speed": "4.2 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1100"
     },
     {
         "Name": "AMD FX-6300",
@@ -549,7 +617,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$600"
     },
     {
         "Name": "AMD FX-6350",
@@ -557,7 +626,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$500"
     },
     {
         "Name": "AMD FX-8150",
@@ -565,7 +635,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$650"
     },
     {
         "Name": "AMD FX-8300",
@@ -573,7 +644,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$1200"
     },
     {
         "Name": "AMD FX-8320",
@@ -581,7 +653,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$500"
     },
     {
         "Name": "AMD FX-8320E",
@@ -589,7 +662,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$650"
     },
     {
         "Name": "AMD FX-8350",
@@ -597,7 +671,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$350"
     },
     {
         "Name": "AMD FX-8370",
@@ -605,7 +680,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$400"
     },
     {
         "Name": "AMD FX-8370",
@@ -613,7 +689,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$800"
     },
     {
         "Name": "AMD FX-8370E",
@@ -621,7 +698,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1050"
     },
     {
         "Name": "AMD FX-9370",
@@ -629,7 +707,8 @@
         "Clock Speed": "4.4 GHz",
         "Turbo Speed": "4.7 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1150"
     },
     {
         "Name": "AMD FX-9590",
@@ -637,7 +716,8 @@
         "Clock Speed": "4.7 GHz",
         "Turbo Speed": "5.0 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$800"
     },
     {
         "Name": "AMD Phenom II X6 1090T",
@@ -645,7 +725,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "3.6 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$700"
     },
     {
         "Name": "AMD Ryzen 3 1200",
@@ -653,7 +734,8 @@
         "Clock Speed": "3.1 GHz",
         "Turbo Speed": "3.4 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$550"
     },
     {
         "Name": "AMD Ryzen 3 1200 AF",
@@ -661,7 +743,8 @@
         "Clock Speed": "3.1 GHz",
         "Turbo Speed": "3.4 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$800"
     },
     {
         "Name": "AMD Ryzen 3 1300X",
@@ -669,7 +752,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.7 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$500"
     },
     {
         "Name": "AMD Ryzen 3 2200G",
@@ -677,7 +761,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.7 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1100"
     },
     {
         "Name": "AMD Ryzen 3 3100",
@@ -685,7 +770,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$350"
     },
     {
         "Name": "AMD Ryzen 3 3200G",
@@ -693,7 +779,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$300"
     },
     {
         "Name": "AMD Ryzen 3 3300X",
@@ -701,7 +788,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$300"
     },
     {
         "Name": "AMD Ryzen 3 4100",
@@ -709,7 +797,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$150"
     },
     {
         "Name": "AMD Ryzen 5 1400",
@@ -717,7 +806,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "3.4 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$350"
     },
     {
         "Name": "AMD Ryzen 5 1500X",
@@ -725,7 +815,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.7 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$350"
     },
     {
         "Name": "AMD Ryzen 5 1600",
@@ -733,7 +824,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "3.6 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$450"
     },
     {
         "Name": "AMD Ryzen 5 1600 AF",
@@ -741,7 +833,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "3.6 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$750"
     },
     {
         "Name": "AMD Ryzen 5 1600X",
@@ -749,7 +842,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$200"
     },
     {
         "Name": "AMD Ryzen 5 2400G",
@@ -757,7 +851,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$650"
     },
     {
         "Name": "AMD Ryzen 5 2600",
@@ -765,7 +860,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$1050"
     },
     {
         "Name": "AMD Ryzen 5 2600",
@@ -773,7 +869,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$500"
     },
     {
         "Name": "AMD Ryzen 5 2600X",
@@ -781,7 +878,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$600"
     },
     {
         "Name": "AMD Ryzen 5 2600X",
@@ -789,7 +887,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$1050"
     },
     {
         "Name": "AMD Ryzen 5 3400G",
@@ -797,7 +896,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$750"
     },
     {
         "Name": "AMD Ryzen 5 3500X",
@@ -805,7 +905,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$1050"
     },
     {
         "Name": "AMD Ryzen 5 3600",
@@ -813,7 +914,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$750"
     },
     {
         "Name": "AMD Ryzen 5 3600",
@@ -821,7 +923,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$850"
     },
     {
         "Name": "AMD Ryzen 5 3600X",
@@ -829,7 +932,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$1200"
     },
     {
         "Name": "AMD Ryzen 5 3600XT",
@@ -837,7 +941,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$900"
     },
     {
         "Name": "AMD Ryzen 5 4500",
@@ -845,7 +950,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$700"
     },
     {
         "Name": "AMD Ryzen 5 5500GT",
@@ -853,7 +959,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$1000"
     },
     {
         "Name": "AMD Ryzen 5 5600GT",
@@ -861,7 +968,17 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$150"
+    },
+    {
+        "Name": "AMD Ryzen 5 7600X3D",
+        "Socket": "AM5",
+        "Clock Speed": "4.1 GHz",
+        "Turbo Speed": "4.7 GHz",
+        "Cores": "6",
+        "Threads": "12",
+        "Price": "$200"
     },
     {
         "Name": "AMD Ryzen 5 9600X",
@@ -869,7 +986,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "5.4 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$400"
     },
     {
         "Name": "AMD Ryzen 7 1700",
@@ -877,7 +995,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "3.7 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$350"
     },
     {
         "Name": "AMD Ryzen 7 1700X",
@@ -885,7 +1004,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "3.8 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1150"
     },
     {
         "Name": "AMD Ryzen 7 1800X",
@@ -893,7 +1013,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$150"
     },
     {
         "Name": "AMD Ryzen 7 2700",
@@ -901,7 +1022,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$750"
     },
     {
         "Name": "AMD Ryzen 7 2700",
@@ -909,7 +1031,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$200"
     },
     {
         "Name": "AMD Ryzen 7 2700X",
@@ -917,7 +1040,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$550"
     },
     {
         "Name": "AMD Ryzen 7 3700X",
@@ -925,7 +1049,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$250"
     },
     {
         "Name": "AMD Ryzen 7 3800X",
@@ -933,7 +1058,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1100"
     },
     {
         "Name": "AMD Ryzen 7 3800XT",
@@ -941,7 +1067,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "4.7 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1200"
     },
     {
         "Name": "AMD Ryzen 7 5700",
@@ -949,7 +1076,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1150"
     },
     {
         "Name": "AMD Ryzen 7 9700X",
@@ -957,7 +1085,17 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "5.5 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$450"
+    },
+    {
+        "Name": "AMD Ryzen 7 9800X3D",
+        "Socket": "AM5",
+        "Clock Speed": "4.7 GHz",
+        "Turbo Speed": "5.2 GHz",
+        "Cores": "8",
+        "Threads": "16",
+        "Price": "$850"
     },
     {
         "Name": "AMD Ryzen 9 3900X",
@@ -965,7 +1103,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "12",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$400"
     },
     {
         "Name": "AMD Ryzen 9 3900XT",
@@ -973,7 +1112,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.7 GHz",
         "Cores": "12",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$150"
     },
     {
         "Name": "AMD Ryzen 9 3950X",
@@ -981,7 +1121,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "4.7 GHz",
         "Cores": "16",
-        "Threads": "32"
+        "Threads": "32",
+        "Price": "$1100"
     },
     {
         "Name": "AMD Ryzen 9 9900X",
@@ -989,7 +1130,26 @@
         "Clock Speed": "4.4 GHz",
         "Turbo Speed": "5.6 GHz",
         "Cores": "12",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$1000"
+    },
+    {
+        "Name": "AMD Ryzen 9 9900X3D",
+        "Socket": "AM5",
+        "Clock Speed": "4.4 GHz",
+        "Turbo Speed": "5.5 GHz",
+        "Cores": "12",
+        "Threads": "24",
+        "Price": "$100"
+    },
+    {
+        "Name": "AMD Ryzen 9 9950X3D",
+        "Socket": "AM5",
+        "Clock Speed": "4.3 GHz",
+        "Turbo Speed": "5.7 GHz",
+        "Cores": "16",
+        "Threads": "32",
+        "Price": "$150"
     },
     {
         "Name": "AMD Ryzen Threadripper 1900X",
@@ -997,7 +1157,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1200"
     },
     {
         "Name": "AMD Ryzen Threadripper 1920X",
@@ -1005,7 +1166,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "12",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$900"
     },
     {
         "Name": "AMD Ryzen Threadripper 1950X",
@@ -1013,7 +1175,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "16",
-        "Threads": "32"
+        "Threads": "32",
+        "Price": "$1200"
     },
     {
         "Name": "AMD Ryzen Threadripper 2920X",
@@ -1021,7 +1184,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "12",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$100"
     },
     {
         "Name": "AMD Ryzen Threadripper 2950X",
@@ -1029,7 +1193,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "16",
-        "Threads": "32"
+        "Threads": "32",
+        "Price": "$400"
     },
     {
         "Name": "AMD Ryzen Threadripper 2970WX",
@@ -1037,7 +1202,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "24",
-        "Threads": "48"
+        "Threads": "48",
+        "Price": "$450"
     },
     {
         "Name": "AMD Ryzen Threadripper 2990WX",
@@ -1045,7 +1211,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "32",
-        "Threads": "64"
+        "Threads": "64",
+        "Price": "$500"
     },
     {
         "Name": "AMD Ryzen Threadripper 3960X",
@@ -1053,7 +1220,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "24",
-        "Threads": "48"
+        "Threads": "48",
+        "Price": "$400"
     },
     {
         "Name": "AMD Ryzen Threadripper 3970X",
@@ -1061,7 +1229,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "32",
-        "Threads": "64"
+        "Threads": "64",
+        "Price": "$100"
     },
     {
         "Name": "AMD Ryzen Threadripper 3990X",
@@ -1069,7 +1238,8 @@
         "Clock Speed": "2.9 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "64",
-        "Threads": "128"
+        "Threads": "128",
+        "Price": "$600"
     },
     {
         "Name": "AMD Ryzen Threadripper 7960X",
@@ -1077,7 +1247,8 @@
         "Clock Speed": "4.2 GHz",
         "Turbo Speed": "5.3 GHz",
         "Cores": "24",
-        "Threads": "48"
+        "Threads": "48",
+        "Price": "$1100"
     },
     {
         "Name": "AMD Ryzen Threadripper 7970X",
@@ -1085,7 +1256,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "5.3 GHz",
         "Cores": "32",
-        "Threads": "64"
+        "Threads": "64",
+        "Price": "$200"
     },
     {
         "Name": "AMD Ryzen Threadripper 7980X",
@@ -1093,7 +1265,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "5.1 GHz",
         "Cores": "64",
-        "Threads": "128"
+        "Threads": "128",
+        "Price": "$500"
     },
     {
         "Name": "AMD Ryzen Threadripper Pro 3955WX",
@@ -1101,7 +1274,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "16",
-        "Threads": "32"
+        "Threads": "32",
+        "Price": "$1100"
     },
     {
         "Name": "AMD Ryzen Threadripper Pro 3975WX",
@@ -1109,7 +1283,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "32",
-        "Threads": "64"
+        "Threads": "64",
+        "Price": "$1000"
     },
     {
         "Name": "AMD Ryzen Threadripper Pro 3995WX",
@@ -1117,7 +1292,8 @@
         "Clock Speed": "2.7 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "64",
-        "Threads": "128"
+        "Threads": "128",
+        "Price": "$400"
     },
     {
         "Name": "AMD Ryzen Threadripper Pro 5955WX",
@@ -1125,7 +1301,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "16",
-        "Threads": "32"
+        "Threads": "32",
+        "Price": "$300"
     },
     {
         "Name": "AMD Ryzen Threadripper Pro 5965WX",
@@ -1133,7 +1310,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "24",
-        "Threads": "48"
+        "Threads": "48",
+        "Price": "$350"
     },
     {
         "Name": "AMD Ryzen Threadripper Pro 5975WX",
@@ -1141,7 +1319,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "32",
-        "Threads": "64"
+        "Threads": "64",
+        "Price": "$1150"
     },
     {
         "Name": "AMD Ryzen Threadripper Pro 5995WX",
@@ -1149,7 +1328,8 @@
         "Clock Speed": "2.7 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "64",
-        "Threads": "128"
+        "Threads": "128",
+        "Price": "$300"
     },
     {
         "Name": "AMD Ryzen Threadripper Pro 7965WX",
@@ -1157,7 +1337,8 @@
         "Clock Speed": "4.2 GHz",
         "Turbo Speed": "5.3 GHz",
         "Cores": "24",
-        "Threads": "48"
+        "Threads": "48",
+        "Price": "$800"
     },
     {
         "Name": "AMD Ryzen Threadripper Pro 7975WX",
@@ -1165,7 +1346,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "5.3 GHz",
         "Cores": "32",
-        "Threads": "64"
+        "Threads": "64",
+        "Price": "$700"
     },
     {
         "Name": "AMD Ryzen Threadripper Pro 7985WX",
@@ -1173,7 +1355,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "5.1 GHz",
         "Cores": "64",
-        "Threads": "128"
+        "Threads": "128",
+        "Price": "$1000"
     },
     {
         "Name": "AMD Ryzen Threadripper Pro 7995WX",
@@ -1181,7 +1364,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "5.1 GHz",
         "Cores": "96",
-        "Threads": "192"
+        "Threads": "192",
+        "Price": "$250"
     },
     {
         "Name": "Intel 300",
@@ -1189,7 +1373,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$750"
     },
     {
         "Name": "Intel Celeron G1840",
@@ -1197,7 +1382,8 @@
         "Clock Speed": "2.8 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$750"
     },
     {
         "Name": "Intel Celeron G6900",
@@ -1205,7 +1391,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$650"
     },
     {
         "Name": "Intel Core i3-10100",
@@ -1213,7 +1400,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i3-10100F",
@@ -1221,7 +1409,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$850"
     },
     {
         "Name": "Intel Core i3-10105",
@@ -1229,7 +1418,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$450"
     },
     {
         "Name": "Intel Core i3-10300",
@@ -1237,7 +1427,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$800"
     },
     {
         "Name": "Intel Core i3-10305",
@@ -1245,7 +1436,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$150"
     },
     {
         "Name": "Intel Core i3-10320",
@@ -1253,7 +1445,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$750"
     },
     {
         "Name": "Intel Core i3-12100",
@@ -1261,7 +1454,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$150"
     },
     {
         "Name": "Intel Core i3-12100F",
@@ -1269,7 +1463,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$200"
     },
     {
         "Name": "Intel Core i3-13100",
@@ -1277,7 +1472,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$250"
     },
     {
         "Name": "Intel Core i3-13100F",
@@ -1285,7 +1481,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$900"
     },
     {
         "Name": "Intel Core i3-14100",
@@ -1293,7 +1490,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$250"
     },
     {
         "Name": "Intel Core i3-14100F",
@@ -1301,7 +1499,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i3-4130",
@@ -1309,7 +1508,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i3-4160",
@@ -1317,7 +1517,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Core i3-4170",
@@ -1325,7 +1526,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$400"
     },
     {
         "Name": "Intel Core i3-4330",
@@ -1333,7 +1535,8 @@
         "Clock Speed": "N/A",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$450"
     },
     {
         "Name": "Intel Core i3-6098P",
@@ -1341,7 +1544,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$200"
     },
     {
         "Name": "Intel Core i3-6100",
@@ -1349,7 +1553,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$100"
     },
     {
         "Name": "Intel Core i3-6100T",
@@ -1357,7 +1562,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$600"
     },
     {
         "Name": "Intel Core i3-6300",
@@ -1365,7 +1571,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$200"
     },
     {
         "Name": "Intel Core i3-6300T",
@@ -1373,7 +1580,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$700"
     },
     {
         "Name": "Intel Core i3-6320",
@@ -1381,7 +1589,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$250"
     },
     {
         "Name": "Intel Core i3-7100",
@@ -1389,7 +1598,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Core i3-7100T",
@@ -1397,7 +1607,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$200"
     },
     {
         "Name": "Intel Core i3-7300",
@@ -1405,7 +1616,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1100"
     },
     {
         "Name": "Intel Core i3-7300T",
@@ -1413,7 +1625,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$750"
     },
     {
         "Name": "Intel Core i3-7320",
@@ -1421,7 +1634,8 @@
         "Clock Speed": "4.1 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$100"
     },
     {
         "Name": "Intel Core i3-7350K",
@@ -1429,7 +1643,8 @@
         "Clock Speed": "4.2 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$650"
     },
     {
         "Name": "Intel Core i3-8100",
@@ -1437,7 +1652,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$750"
     },
     {
         "Name": "Intel Core i3-8300",
@@ -1445,7 +1661,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$200"
     },
     {
         "Name": "Intel Core i3-8350K",
@@ -1453,7 +1670,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1100"
     },
     {
         "Name": "Intel Core i3-9100",
@@ -1461,7 +1679,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$400"
     },
     {
         "Name": "Intel Core i3-9100F",
@@ -1469,7 +1688,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1050"
     },
     {
         "Name": "Intel Core i3-9300",
@@ -1477,7 +1697,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$650"
     },
     {
         "Name": "Intel Core i3-9320",
@@ -1485,7 +1706,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$400"
     },
     {
         "Name": "Intel Core i3-9350KF",
@@ -1493,7 +1715,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$700"
     },
     {
         "Name": "Intel Core i5-10400",
@@ -1501,7 +1724,8 @@
         "Clock Speed": "2.9 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$200"
     },
     {
         "Name": "Intel Core i5-10400F",
@@ -1509,7 +1733,8 @@
         "Clock Speed": "2.9 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$1000"
     },
     {
         "Name": "Intel Core i5-10500",
@@ -1517,7 +1742,8 @@
         "Clock Speed": "3.1 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$100"
     },
     {
         "Name": "Intel Core i5-10600",
@@ -1525,7 +1751,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$600"
     },
     {
         "Name": "Intel Core i5-10600K",
@@ -1533,7 +1760,8 @@
         "Clock Speed": "4.1 GHz",
         "Turbo Speed": "4.8 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i5-10600KF",
@@ -1541,7 +1769,8 @@
         "Clock Speed": "4.1 GHz",
         "Turbo Speed": "4.8 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$750"
     },
     {
         "Name": "Intel Core i5-11400",
@@ -1549,7 +1778,8 @@
         "Clock Speed": "2.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$900"
     },
     {
         "Name": "Intel Core i5-11400F",
@@ -1557,7 +1787,8 @@
         "Clock Speed": "2.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i5-11500",
@@ -1565,7 +1796,8 @@
         "Clock Speed": "2.7 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$100"
     },
     {
         "Name": "Intel Core i5-11600",
@@ -1573,7 +1805,8 @@
         "Clock Speed": "2.8 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$700"
     },
     {
         "Name": "Intel Core i5-11600K",
@@ -1581,7 +1814,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$1200"
     },
     {
         "Name": "Intel Core i5-11600KF",
@@ -1589,7 +1823,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Core i5-12400",
@@ -1597,7 +1832,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$450"
     },
     {
         "Name": "Intel Core i5-12400F",
@@ -1605,7 +1841,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$550"
     },
     {
         "Name": "Intel Core i5-12500",
@@ -1613,7 +1850,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$400"
     },
     {
         "Name": "Intel Core i5-12600",
@@ -1621,7 +1859,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "4.8 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$150"
     },
     {
         "Name": "Intel Core i5-12600K",
@@ -1629,7 +1868,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.9 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$800"
     },
     {
         "Name": "Intel Core i5-12600KF",
@@ -1637,7 +1877,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.9 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$850"
     },
     {
         "Name": "Intel Core i5-13400",
@@ -1645,7 +1886,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$500"
     },
     {
         "Name": "Intel Core i5-13400F",
@@ -1653,7 +1895,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$200"
     },
     {
         "Name": "Intel Core i5-13500",
@@ -1661,7 +1904,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$450"
     },
     {
         "Name": "Intel Core i5-13600K",
@@ -1669,7 +1913,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$350"
     },
     {
         "Name": "Intel Core i5-13600KF",
@@ -1677,7 +1922,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$800"
     },
     {
         "Name": "Intel Core i5-14400",
@@ -1685,7 +1931,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$1050"
     },
     {
         "Name": "Intel Core i5-14400F",
@@ -1693,7 +1940,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$100"
     },
     {
         "Name": "Intel Core i5-14500",
@@ -1701,7 +1949,8 @@
         "Clock Speed": "2.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$450"
     },
     {
         "Name": "Intel Core i5-14600K",
@@ -1709,7 +1958,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i5-14600KF",
@@ -1717,7 +1967,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$800"
     },
     {
         "Name": "Intel Core i5-2500K",
@@ -1725,7 +1976,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "3.7 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$650"
     },
     {
         "Name": "Intel Core i5-3570K",
@@ -1733,7 +1985,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "3.8 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$250"
     },
     {
         "Name": "Intel Core i5-4440",
@@ -1741,7 +1994,8 @@
         "Clock Speed": "N/A",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$200"
     },
     {
         "Name": "Intel Core i5-4460",
@@ -1749,7 +2003,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "3.4 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$750"
     },
     {
         "Name": "Intel Core i5-4590",
@@ -1757,7 +2012,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "3.7 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$750"
     },
     {
         "Name": "Intel Core i5-4670K",
@@ -1765,7 +2021,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "3.8 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Core i5-4690",
@@ -1773,7 +2030,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i5-4690K",
@@ -1781,7 +2039,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i5-5675C",
@@ -1789,7 +2048,8 @@
         "Clock Speed": "3.1 GHz",
         "Turbo Speed": "3.6 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$150"
     },
     {
         "Name": "Intel Core i5-6400",
@@ -1797,7 +2057,8 @@
         "Clock Speed": "2.7 GHz",
         "Turbo Speed": "3.3 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$500"
     },
     {
         "Name": "Intel Core i5-6402P",
@@ -1805,7 +2066,8 @@
         "Clock Speed": "N/A",
         "Turbo Speed": "N/A",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i5-6500",
@@ -1813,7 +2075,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "3.6 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$700"
     },
     {
         "Name": "Intel Core i5-6600",
@@ -1821,7 +2084,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1050"
     },
     {
         "Name": "Intel Core i5-6600K",
@@ -1829,7 +2093,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$600"
     },
     {
         "Name": "Intel Core i5-7400",
@@ -1837,7 +2102,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "3.5 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$500"
     },
     {
         "Name": "Intel Core i5-7500",
@@ -1845,7 +2111,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "3.8 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1050"
     },
     {
         "Name": "Intel Core i5-7600",
@@ -1853,7 +2120,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Core i5-7600K",
@@ -1861,7 +2129,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$250"
     },
     {
         "Name": "Intel Core i5-7640X",
@@ -1869,7 +2138,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "4",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$800"
     },
     {
         "Name": "Intel Core i5-8400",
@@ -1877,7 +2147,8 @@
         "Clock Speed": "2.8 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Core i5-8500",
@@ -1885,7 +2156,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$350"
     },
     {
         "Name": "Intel Core i5-8600",
@@ -1893,7 +2165,8 @@
         "Clock Speed": "3.1 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$550"
     },
     {
         "Name": "Intel Core i5-8600K",
@@ -1901,7 +2174,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.3 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i5-9400",
@@ -1909,7 +2183,8 @@
         "Clock Speed": "2.9 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$600"
     },
     {
         "Name": "Intel Core i5-9400F",
@@ -1917,7 +2192,8 @@
         "Clock Speed": "2.9 GHz",
         "Turbo Speed": "4.1 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$700"
     },
     {
         "Name": "Intel Core i5-9500",
@@ -1925,7 +2201,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$550"
     },
     {
         "Name": "Intel Core i5-9600",
@@ -1933,7 +2210,8 @@
         "Clock Speed": "3.1 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Core i5-9600K",
@@ -1941,7 +2219,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$150"
     },
     {
         "Name": "Intel Core i5-9600KF",
@@ -1949,7 +2228,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$100"
     },
     {
         "Name": "Intel Core i7-10700",
@@ -1957,7 +2237,8 @@
         "Clock Speed": "2.9 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1200"
     },
     {
         "Name": "Intel Core i7-10700F",
@@ -1965,7 +2246,8 @@
         "Clock Speed": "2.9 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$450"
     },
     {
         "Name": "Intel Core i7-10700K",
@@ -1973,7 +2255,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "5.1 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$500"
     },
     {
         "Name": "Intel Core i7-10700KF",
@@ -1981,7 +2264,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "5.1 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$700"
     },
     {
         "Name": "Intel Core i7-11700",
@@ -1989,7 +2273,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1000"
     },
     {
         "Name": "Intel Core i7-11700K",
@@ -1997,7 +2282,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$250"
     },
     {
         "Name": "Intel Core i7-11700KF",
@@ -2005,7 +2291,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$800"
     },
     {
         "Name": "Intel Core i7-12700",
@@ -2013,7 +2300,8 @@
         "Clock Speed": "2.1 GHz",
         "Turbo Speed": "4.9 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$900"
     },
     {
         "Name": "Intel Core i7-12700F",
@@ -2021,7 +2309,8 @@
         "Clock Speed": "2.1 GHz",
         "Turbo Speed": "4.9 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$900"
     },
     {
         "Name": "Intel Core i7-12700K",
@@ -2029,7 +2318,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "5.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i7-12700KF",
@@ -2037,7 +2327,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "5.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$800"
     },
     {
         "Name": "Intel Core i7-13700",
@@ -2045,7 +2336,8 @@
         "Clock Speed": "2.1 GHz",
         "Turbo Speed": "5.2 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i7-13700F",
@@ -2053,7 +2345,8 @@
         "Clock Speed": "2.1 GHz",
         "Turbo Speed": "5.2 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$600"
     },
     {
         "Name": "Intel Core i7-13700K",
@@ -2061,7 +2354,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "5.4 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$250"
     },
     {
         "Name": "Intel Core i7-13700KF",
@@ -2069,7 +2363,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "5.4 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1100"
     },
     {
         "Name": "Intel Core i7-14700",
@@ -2077,7 +2372,8 @@
         "Clock Speed": "2.1 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$150"
     },
     {
         "Name": "Intel Core i7-14700F",
@@ -2085,7 +2381,8 @@
         "Clock Speed": "2.1 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$600"
     },
     {
         "Name": "Intel Core i7-14700K",
@@ -2093,7 +2390,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "5.6 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i7-14700KF",
@@ -2101,7 +2399,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "5.6 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1200"
     },
     {
         "Name": "Intel Core i7-2600K",
@@ -2109,7 +2408,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "3.8 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$600"
     },
     {
         "Name": "Intel Core i7-3770K",
@@ -2117,7 +2417,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$1000"
     },
     {
         "Name": "Intel Core i7-4770K",
@@ -2125,7 +2426,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$250"
     },
     {
         "Name": "Intel Core i7-4790",
@@ -2133,7 +2435,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$750"
     },
     {
         "Name": "Intel Core i7-4790K",
@@ -2141,7 +2444,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$500"
     },
     {
         "Name": "Intel Core i7-4790K",
@@ -2149,7 +2453,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$400"
     },
     {
         "Name": "Intel Core i7-5775C",
@@ -2157,7 +2462,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "3.7 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$900"
     },
     {
         "Name": "Intel Core i7-5820K",
@@ -2165,7 +2471,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "3.6 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i7-5930K",
@@ -2173,7 +2480,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.7 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$900"
     },
     {
         "Name": "Intel Core i7-5960X",
@@ -2181,7 +2489,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "3.5 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$850"
     },
     {
         "Name": "Intel Core i7-6700",
@@ -2189,7 +2498,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i7-6700K",
@@ -2197,7 +2507,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i7-6800K",
@@ -2205,7 +2516,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "3.6 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$900"
     },
     {
         "Name": "Intel Core i7-6850K",
@@ -2213,7 +2525,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "3.8 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$1200"
     },
     {
         "Name": "Intel Core i7-6900K",
@@ -2221,7 +2534,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "3.7 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1200"
     },
     {
         "Name": "Intel Core i7-6950X",
@@ -2229,7 +2543,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "3.5 GHz",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$350"
     },
     {
         "Name": "Intel Core i7-7700",
@@ -2237,7 +2552,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.2 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$1050"
     },
     {
         "Name": "Intel Core i7-7700K",
@@ -2245,7 +2561,8 @@
         "Clock Speed": "4.2 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i7-7740X",
@@ -2253,7 +2570,8 @@
         "Clock Speed": "4.3 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$650"
     },
     {
         "Name": "Intel Core i7-7800X",
@@ -2261,7 +2579,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$200"
     },
     {
         "Name": "Intel Core i7-7820X",
@@ -2269,7 +2588,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$450"
     },
     {
         "Name": "Intel Core i7-8086K",
@@ -2277,7 +2597,8 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "5.0 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$550"
     },
     {
         "Name": "Intel Core i7-8700",
@@ -2285,7 +2606,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$100"
     },
     {
         "Name": "Intel Core i7-8700K",
@@ -2293,7 +2615,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.7 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i7-9700K",
@@ -2301,7 +2624,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$1100"
     },
     {
         "Name": "Intel Core i7-9700KF",
@@ -2309,7 +2633,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.9 GHz",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i9-10850K",
@@ -2317,7 +2642,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "5.2 GHz",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$700"
     },
     {
         "Name": "Intel Core i9-10900",
@@ -2325,7 +2651,8 @@
         "Clock Speed": "2.8 GHz",
         "Turbo Speed": "N/A",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$400"
     },
     {
         "Name": "Intel Core i9-10900F",
@@ -2333,7 +2660,8 @@
         "Clock Speed": "2.8 GHz",
         "Turbo Speed": "N/A",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$150"
     },
     {
         "Name": "Intel Core i9-10900K",
@@ -2341,7 +2669,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "5.3 GHz",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$500"
     },
     {
         "Name": "Intel Core i9-10900KF",
@@ -2349,7 +2678,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "5.3 GHz",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$400"
     },
     {
         "Name": "Intel Core i9-10900X",
@@ -2357,7 +2687,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$100"
     },
     {
         "Name": "Intel Core i9-10920X",
@@ -2365,7 +2696,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "12",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$700"
     },
     {
         "Name": "Intel Core i9-10940X",
@@ -2373,7 +2705,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "4.6 GHz",
         "Cores": "14",
-        "Threads": "28"
+        "Threads": "28",
+        "Price": "$1100"
     },
     {
         "Name": "Intel Core i9-10980XE",
@@ -2381,7 +2714,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "4.8 GHz",
         "Cores": "18",
-        "Threads": "36"
+        "Threads": "36",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i9-11900",
@@ -2389,7 +2723,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1050"
     },
     {
         "Name": "Intel Core i9-11900F",
@@ -2397,7 +2732,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1200"
     },
     {
         "Name": "Intel Core i9-11900K",
@@ -2405,7 +2741,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "5.2 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$550"
     },
     {
         "Name": "Intel Core i9-11900KF",
@@ -2413,7 +2750,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$150"
     },
     {
         "Name": "Intel Core i9-12900",
@@ -2421,7 +2759,8 @@
         "Clock Speed": "2.4 GHz",
         "Turbo Speed": "5.1 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i9-12900F",
@@ -2429,7 +2768,8 @@
         "Clock Speed": "2.4 GHz",
         "Turbo Speed": "5.1 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$300"
     },
     {
         "Name": "Intel Core i9-12900K",
@@ -2437,7 +2777,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "5.2 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$900"
     },
     {
         "Name": "Intel Core i9-12900KF",
@@ -2445,7 +2786,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "5.2 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$350"
     },
     {
         "Name": "Intel Core i9-12900KS",
@@ -2453,7 +2795,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$150"
     },
     {
         "Name": "Intel Core i9-13900",
@@ -2461,7 +2804,8 @@
         "Clock Speed": "4.3 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$350"
     },
     {
         "Name": "Intel Core i9-13900F",
@@ -2469,7 +2813,8 @@
         "Clock Speed": "4.3 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Core i9-13900K",
@@ -2477,7 +2822,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "5.7 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Core i9-13900KF",
@@ -2485,7 +2831,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "5.7 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$750"
     },
     {
         "Name": "Intel Core i9-13900KS",
@@ -2493,7 +2840,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "3.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i9-14900",
@@ -2501,7 +2849,8 @@
         "Clock Speed": "2.0 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1200"
     },
     {
         "Name": "Intel Core i9-14900F",
@@ -2509,7 +2858,8 @@
         "Clock Speed": "2.0 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$200"
     },
     {
         "Name": "Intel Core i9-14900K",
@@ -2517,7 +2867,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "5.8 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$150"
     },
     {
         "Name": "Intel Core i9-14900KF",
@@ -2525,7 +2876,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "5.8 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$800"
     },
     {
         "Name": "Intel Core i9-14900KS",
@@ -2533,7 +2885,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "3.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$800"
     },
     {
         "Name": "Intel Core i9-7900X",
@@ -2541,7 +2894,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "4.5 GHz",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$400"
     },
     {
         "Name": "Intel Core i9-7920X",
@@ -2549,7 +2903,8 @@
         "Clock Speed": "2.9 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "12",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$1100"
     },
     {
         "Name": "Intel Core i9-7940X",
@@ -2557,7 +2912,8 @@
         "Clock Speed": "3.1 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "14",
-        "Threads": "28"
+        "Threads": "28",
+        "Price": "$500"
     },
     {
         "Name": "Intel Core i9-7960X",
@@ -2565,7 +2921,8 @@
         "Clock Speed": "2.8 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "16",
-        "Threads": "32"
+        "Threads": "32",
+        "Price": "$750"
     },
     {
         "Name": "Intel Core i9-7980XE",
@@ -2573,7 +2930,8 @@
         "Clock Speed": "2.6 GHz",
         "Turbo Speed": "4.4 GHz",
         "Cores": "18",
-        "Threads": "36"
+        "Threads": "36",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Core i9-9900K",
@@ -2581,7 +2939,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "5.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$950"
     },
     {
         "Name": "Intel Core i9-9900KF",
@@ -2589,7 +2948,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "5.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1100"
     },
     {
         "Name": "Intel Core i9-9900KS",
@@ -2597,7 +2957,62 @@
         "Clock Speed": "4.0 GHz",
         "Turbo Speed": "5.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1200"
+    },
+    {
+        "Name": "Intel Core Ultra 5 225",
+        "Socket": "1851",
+        "Clock Speed": "3.3 GHz",
+        "Turbo Speed": "4.9 GHz",
+        "Cores": "10",
+        "Threads": "10",
+        "Price": "$250"
+    },
+    {
+        "Name": "Intel Core Ultra 5 225F",
+        "Socket": "1851",
+        "Clock Speed": "4.9 GHz",
+        "Turbo Speed": "4.9 GHz",
+        "Cores": "10",
+        "Threads": "10",
+        "Price": "$450"
+    },
+    {
+        "Name": "Intel Core Ultra 5 235",
+        "Socket": "1851",
+        "Clock Speed": "3.4 GHz",
+        "Turbo Speed": "5.0 GHz",
+        "Cores": "14",
+        "Threads": "14",
+        "Price": "$950"
+    },
+    {
+        "Name": "Intel Core Ultra 7 265",
+        "Socket": "LGA",
+        "Clock Speed": "2.4 GHz",
+        "Turbo Speed": "5.3 GHz",
+        "Cores": "20",
+        "Threads": "20",
+        "Price": "$1100"
+    },
+    {
+        "Name": "Intel Core Ultra 7 265F",
+        "Socket": "LGA",
+        "Clock Speed": "2.4 GHz",
+        "Turbo Speed": "5.300000000000001 GHz",
+        "Cores": "8",
+        "Threads": "20",
+        "Price": "$550"
+    },
+    {
+        "Name": "Intel Core Ultra 9 285",
+        "Socket": "1851",
+        "Clock Speed": "2.5 GHz",
+        "Turbo Speed": "5.6000000000000005 GHz",
+        "Cores": "24",
+        "Threads": "24",
+        "Price": "$1200"
     },
     {
         "Name": "Intel Pentium G3240",
@@ -2605,7 +3020,8 @@
         "Clock Speed": "N/A",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$1100"
     },
     {
         "Name": "Intel Pentium G3250",
@@ -2613,7 +3029,8 @@
         "Clock Speed": "N/A",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$600"
     },
     {
         "Name": "Intel Pentium G3258",
@@ -2621,7 +3038,8 @@
         "Clock Speed": "3.2 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$850"
     },
     {
         "Name": "Intel Pentium G3260",
@@ -2629,7 +3047,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$700"
     },
     {
         "Name": "Intel Pentium G4400",
@@ -2637,7 +3056,8 @@
         "Clock Speed": "3.3 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$600"
     },
     {
         "Name": "Intel Pentium G4500",
@@ -2645,7 +3065,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$150"
     },
     {
         "Name": "Intel Pentium G4520",
@@ -2653,7 +3074,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "2"
+        "Threads": "2",
+        "Price": "$400"
     },
     {
         "Name": "Intel Pentium G4560",
@@ -2661,7 +3083,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$600"
     },
     {
         "Name": "Intel Pentium G4600",
@@ -2669,7 +3092,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$100"
     },
     {
         "Name": "Intel Pentium G4620",
@@ -2677,7 +3101,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$150"
     },
     {
         "Name": "Intel Pentium G7400",
@@ -2685,7 +3110,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$400"
     },
     {
         "Name": "Intel Pentium Gold G5400",
@@ -2693,7 +3119,8 @@
         "Clock Speed": "3.7 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$850"
     },
     {
         "Name": "Intel Pentium Gold G5420",
@@ -2701,7 +3128,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$900"
     },
     {
         "Name": "Intel Pentium Gold G5500",
@@ -2709,7 +3137,8 @@
         "Clock Speed": "3.8 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$350"
     },
     {
         "Name": "Intel Pentium Gold G5600",
@@ -2717,7 +3146,8 @@
         "Clock Speed": "3.9 GHz",
         "Turbo Speed": "N/A",
         "Cores": "2",
-        "Threads": "4"
+        "Threads": "4",
+        "Price": "$550"
     },
     {
         "Name": "Intel Xeon E3-1231 V3",
@@ -2725,7 +3155,8 @@
         "Clock Speed": "3.4 GHz",
         "Turbo Speed": "3.8 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$450"
     },
     {
         "Name": "Intel Xeon E3-1241 V3",
@@ -2733,7 +3164,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.9 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$600"
     },
     {
         "Name": "Intel Xeon E3-1271 V3",
@@ -2741,7 +3173,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$750"
     },
     {
         "Name": "Intel Xeon E5-1620 V3",
@@ -2749,7 +3182,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.6 GHz",
         "Cores": "4",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$250"
     },
     {
         "Name": "Intel Xeon E5-1650 V3",
@@ -2757,7 +3191,8 @@
         "Clock Speed": "3.5 GHz",
         "Turbo Speed": "3.8 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$650"
     },
     {
         "Name": "Intel Xeon E5-1650 V4",
@@ -2765,7 +3200,8 @@
         "Clock Speed": "3.6 GHz",
         "Turbo Speed": "4.0 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$800"
     },
     {
         "Name": "Intel Xeon E5-2603 V3",
@@ -2773,7 +3209,8 @@
         "Clock Speed": "1.6 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Xeon E5-2603 V4",
@@ -2781,7 +3218,8 @@
         "Clock Speed": "1.7 GHz",
         "Turbo Speed": "N/A",
         "Cores": "6",
-        "Threads": "6"
+        "Threads": "6",
+        "Price": "$850"
     },
     {
         "Name": "Intel Xeon E5-2609 V4",
@@ -2789,7 +3227,8 @@
         "Clock Speed": "1.7 GHz",
         "Turbo Speed": "N/A",
         "Cores": "8",
-        "Threads": "8"
+        "Threads": "8",
+        "Price": "$250"
     },
     {
         "Name": "Intel Xeon E5-2620 V3",
@@ -2797,7 +3236,8 @@
         "Clock Speed": "2.4 GHz",
         "Turbo Speed": "3.2 GHz",
         "Cores": "6",
-        "Threads": "12"
+        "Threads": "12",
+        "Price": "$1000"
     },
     {
         "Name": "Intel Xeon E5-2620 V4",
@@ -2805,7 +3245,8 @@
         "Clock Speed": "2.1 GHz",
         "Turbo Speed": "3.0 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$350"
     },
     {
         "Name": "Intel Xeon E5-2630 V3",
@@ -2813,7 +3254,8 @@
         "Clock Speed": "2.4 GHz",
         "Turbo Speed": "3.2 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$700"
     },
     {
         "Name": "Intel Xeon E5-2630 V4",
@@ -2821,7 +3263,8 @@
         "Clock Speed": "2.2 GHz",
         "Turbo Speed": "3.1 GHz",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$950"
     },
     {
         "Name": "Intel Xeon E5-2640 V3",
@@ -2829,7 +3272,8 @@
         "Clock Speed": "2.6 GHz",
         "Turbo Speed": "3.4 GHz",
         "Cores": "8",
-        "Threads": "16"
+        "Threads": "16",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Xeon E5-2640 V4",
@@ -2837,7 +3281,8 @@
         "Clock Speed": "2.4 GHz",
         "Turbo Speed": "3.4 GHz",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$1100"
     },
     {
         "Name": "Intel Xeon E5-2650 V4",
@@ -2845,7 +3290,8 @@
         "Clock Speed": "2.2 GHz",
         "Turbo Speed": "2.9 GHz",
         "Cores": "2",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$700"
     },
     {
         "Name": "Intel Xeon E5-2660 V3",
@@ -2853,7 +3299,8 @@
         "Clock Speed": "2.6 GHz",
         "Turbo Speed": "3.3 GHz",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$650"
     },
     {
         "Name": "Intel Xeon E5-2660 V4",
@@ -2861,7 +3308,8 @@
         "Clock Speed": "2.0 GHz",
         "Turbo Speed": "3.2 GHz",
         "Cores": "4",
-        "Threads": "28"
+        "Threads": "28",
+        "Price": "$350"
     },
     {
         "Name": "Intel Xeon E5-2680 V3",
@@ -2869,7 +3317,8 @@
         "Clock Speed": "2.5 GHz",
         "Turbo Speed": "3.3 GHz",
         "Cores": "2",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$900"
     },
     {
         "Name": "Intel Xeon E5-2680 V4",
@@ -2877,7 +3326,8 @@
         "Clock Speed": "2.4 GHz",
         "Turbo Speed": "3.3 GHz",
         "Cores": "4",
-        "Threads": "28"
+        "Threads": "28",
+        "Price": "$150"
     },
     {
         "Name": "Intel Xeon E5-2683 V4",
@@ -2885,7 +3335,8 @@
         "Clock Speed": "2.1 GHz",
         "Turbo Speed": "3.0 GHz",
         "Cores": "6",
-        "Threads": "32"
+        "Threads": "32",
+        "Price": "$1200"
     },
     {
         "Name": "Intel Xeon E5-2687W V3",
@@ -2893,7 +3344,8 @@
         "Clock Speed": "3.1 GHz",
         "Turbo Speed": "3.5 GHz",
         "Cores": "10",
-        "Threads": "20"
+        "Threads": "20",
+        "Price": "$600"
     },
     {
         "Name": "Intel Xeon E5-2687W V4",
@@ -2901,7 +3353,8 @@
         "Clock Speed": "3.0 GHz",
         "Turbo Speed": "3.5 GHz",
         "Cores": "2",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$600"
     },
     {
         "Name": "Intel Xeon E5-2690 V3",
@@ -2909,7 +3362,8 @@
         "Clock Speed": "2.6 GHz",
         "Turbo Speed": "3.5 GHz",
         "Cores": "2",
-        "Threads": "24"
+        "Threads": "24",
+        "Price": "$600"
     },
     {
         "Name": "Intel Xeon E5-2690 V4",
@@ -2917,7 +3371,8 @@
         "Clock Speed": "2.6 GHz",
         "Turbo Speed": "3.5 GHz",
         "Cores": "4",
-        "Threads": "28"
+        "Threads": "28",
+        "Price": "$1150"
     },
     {
         "Name": "Intel Xeon E5-2695 V3",
@@ -2925,7 +3380,8 @@
         "Clock Speed": "2.3 GHz",
         "Turbo Speed": "3.3 GHz",
         "Cores": "4",
-        "Threads": "28"
+        "Threads": "28",
+        "Price": "$800"
     },
     {
         "Name": "Intel Xeon E5-2695 V4",
@@ -2933,7 +3389,8 @@
         "Clock Speed": "2.1 GHz",
         "Turbo Speed": "3.3 GHz",
         "Cores": "8",
-        "Threads": "36"
+        "Threads": "36",
+        "Price": "$250"
     },
     {
         "Name": "Intel Xeon E5-2697 V3",
@@ -2941,7 +3398,8 @@
         "Clock Speed": "2.6 GHz",
         "Turbo Speed": "3.6 GHz",
         "Cores": "4",
-        "Threads": "28"
+        "Threads": "28",
+        "Price": "$1100"
     },
     {
         "Name": "Intel Xeon E5-2697 V4",
@@ -2949,6 +3407,7 @@
         "Clock Speed": "2.3 GHz",
         "Turbo Speed": "3.6 GHz",
         "Cores": "8",
-        "Threads": "36"
+        "Threads": "36",
+        "Price": "$300"
     }
 ]

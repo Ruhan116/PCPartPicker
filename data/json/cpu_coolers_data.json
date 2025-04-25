@@ -1,0 +1,4152 @@
+[
+    {
+        "Name": "be quiet! Dark Rock 4  - 135mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Arctic Freezer 34  - 120mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Arctic Freezer 34 eSports Duo , 2x 120mm - red",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Arctic Freezer 34 eSports Duo , 2x 120mm - white",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Arctic Freezer A11  - 92mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Arctic Freezer A32  - 120mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Arctic Freezer I11  - 92mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Arctic Freezer i32",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Arctic Liquid Freezer II Processor",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Arctic Liquid Freezer II Processor",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Arctic Liquid Freezer II Processor",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "be quiet! Dark Rock Pro 4  - 135mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "be quiet! Pure Rock  - 120mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Cooler Master Hyper 212 Black Edition - 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H100i Pro",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H115i PRO",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H150i PRO , RGB",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Noctua NH-U12DO A3 120mm SSO",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Noctua NH-U9S 92mm SSO2 U-Type Premium , NF-A9 PWM Fans, Retail",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Scythe Fuma",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Scythe FUMA 2 Rev. B",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Scythe Mugen 5 Rev. C",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Scythe SCFM-2000 FUMA 2",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Thermalright Peerless Assasin 120 SE - 120mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Thermalright Peerless Assasin 120 SE A-RGB - 120 mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Thermalright Silver Arrow IB-E Extreme Cooler",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Aerocool Core Plus",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Aerocool Cylon 3",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Aerocool Cylon 3H",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Aerocool Cylon 4",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Aerocool Cylon 4F",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Aerocool Mirage 5 Processor K\u00fchler",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Aerocool P7-L240",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Aerocool Verkho 2 - 92mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Aerocool Verkho 2 Plus - 120mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Aerocool Verkho 3 Plus - 120mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Aerocool Verkho 4 Dark - 120mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Aerocool Verkho 5 Dark",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Akasa AK-955A-BV2",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Akasa AK-959CU  - 92mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Akasa AK-CC1101EP02 Low Profile  AMD - 80 mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Akasa AK-CC1107EP01  AMD - 80 mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Akasa AK-CC4007EP01 Nero 3 Processor Cooler - 120mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Akasa AK-CC4008HP01 Venom Voodoo  - 120mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Akasa AK-CC4009EP01 Venom Pico  - 92mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Akasa AK-CC4010HP01 Medusa  - 120/140mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Akasa AK-CC6308EP01 Low Profile  - 92mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Akasa AK-CC6601EP01 Low Profile - socket LGA 1700",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Akasa AK-CC6602HP01 Low Profile - socket LGA 1700",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Akasa AK-CC6603EP01 Low Profile - socket LGA 1700",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Akasa AK-CC6606BP01 Low Profile - socket LGA 1700",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Akasa AK-CC6607EP01 Low Profile - socket LGA 1700",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Akasa AK-CC6608BP01 Low Profile - socket LGA 1700",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Akasa AK-CC6609EP01 Low Profile - socket LGA 1700",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Akasa AK-CC7108EP01  - 92mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Akasa AK-CC7117EP01 K32  - 92mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Akasa AK-CC7118HP01 K25  - 74mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Akasa AK-CC7122BP01 Low Profile  - 74mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Akasa AK-CC7124EP01 Low Profile  - 74mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Akasa AK-CC7129BP01 Low Profile  - 74mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Akasa AK-CC7401BT01 1U Low Profile - socket LGA 1700",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Akasa AK-CC7402BT01 2U Low Profile - socket LGA 1700",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Akasa AK-CCE-7101CP  mit Kugellager f\u00fcr 775/115X - 92mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Akasa AK-CCE-7106HP Low Profile  Intel - 74mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Akasa Alucia H4 High Performance Processor K\u00fchler",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Akasa Alucia H4 Plus High Performance Processor K\u00fchler",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Akasa Aluminium K\u00fchler 50mm Fan socket A",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Akasa Dual Socket Low Noise PWM  f\u00fcr 775/115X - 80mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Akasa Nero LX 2  - 120 mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Akasa SOHO 240 Dusk Edition  - 240 mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Akasa SOHO 360 Dusk Edition  - 360 mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Akasa Soho H4 Processor K\u00fchler",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Akasa SOHO H4 plus Processor K\u00fchler",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Akasa Sunflower Mini-Top-Flow- - 120mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Akasa Vegas Chroma AM",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Akasa Vegas Chroma LG",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Akasa Venom A10",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Akasa Venom A20",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Atlas  - 2x92mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Ben Nevis  - 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Ben Nevis Advanced  - 130mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Ben Nevis Advanced RGB Black Edition - 130mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Black Ridge  - 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Brocken 2  - 140 mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Brocken 2 PCGH Edition  - 140 mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Brocken 3  - 140mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Brocken 3 Black Edition  - 2x140mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Brocken 3 White Edition  - 2x140mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Brocken 4 - 120mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Brocken 4 Max - 2x 120mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Brocken ECO  - 120 mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Brocken ECO Advanced - 120mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Dolomit - 92mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Dolomit Advanced - 120mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Dolomit Premium - 120mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Gletscherwasser 240 , ARGB - white",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Gletscherwasser 280 , ARGB , black",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Gletscherwasser 280 , ARGB - white",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Gletscherwasser 360 , ARGB - white",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Matterhorn Black Edition  Rev. C - 120mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Matterhorn Pure Edition  - 120 mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Matterhorn Threadripper Edition",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Matterhorn White Edition  Rev. C - 120mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Olymp  - 2x140mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Panorama  - 100mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Sella  - 92mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Alpenf\u00f6hn Super Silent SI 2, AMD  - 92mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Alphacool Core Ocean T38 120mm Processor Digital",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Alphacool Core Ocean T38 240mm Processor Digital",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Alphacool Core Ocean T38 280mm Processor Digital",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Alphacool Core Ocean T38 360mm Processor Digital",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Alphacool Core Ocean T38 420mm Processor Digital",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Alphacool Eisbaer Aurora LT240 Processor Digital RGB",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Alphacool Eisbaer Aurora LT360 Processor Digital RGB",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Alphacool Eisbaer Aurora Pro HPE Edition Digital RGB Komplett Wasserk\u00fchlung - 360 mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Alphacool Eisbaer Extreme Liquid Processor Cooler 280 - Black Edition",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Alphacool Eisbaer Pro Aurora 240 Processor , D-RGB",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Alphacool Eisbaer Pro Aurora 360 Processor , D-RGB",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Alphacool Eisbaer Pro Aurora 420 Processor , D-RGB",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Antec  K240",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Antec A30  - 92mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Antec A40 PRO  - 92mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Antec A400 RGB Processor K\u00fchler",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Antec C40  - 92mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Antec C400  - 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Antec Mercury 120",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Arctic Alpine 11 GT Rev. 2",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Arctic Alpine 11 passiv",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Arctic Alpine 12  - 92mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Arctic Alpine 12 CO  - 92mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Arctic Alpine 12 LP Low-Profile  - 92mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Arctic Alpine 12 passiver  - black",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Arctic Alpine 17",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Arctic Alpine 17 CO",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Arctic Alpine 64 GT  - 80mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Arctic Alpine 64 plus  - 92mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Arctic Alpine 64 Pro Rev.2  - 92mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Arctic Alpine AM4  - 92mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Arctic Alpine AM4 passiver , black",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Arctic Alpine M1 aktiv",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Arctic Alpine M1 passiv",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "ARCTIC COOLING ACALP11-PRO-R2 92mm Fluid Dynamic Alpine 11 Pro Rev. 2  for Intel",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "ARCTIC COOLING ACALP64 Pro 92mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "ARCTIC COOLING ACALP64-GT 80mm Alpine 64 GT",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "ARCTIC COOLING ACFZ11-LP 92mm Fluid Dynamic Freezer 11 LP Intel  for Power Users",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "ARCTIC COOLING ACFZ13 92mm High Performance  for Intel and AMD",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "ARCTIC COOLING Alpine M1 80mm Fluid Dynamic",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "ARCTIC COOLING Freezer 7 Pro Rev.2 92mm Fluid Dynamic",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "ARCTIC COOLING Freezer A32 120mm Fluid Dynamic  with 120 mm Fan for AMD with New Fan Controller Made in Germany and PWM PST",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "ARCTIC COOLING Freezer i32 120mm Fluid Dynamic  with 120 mm Fan for Intel with New Fan Controller Made in Germany and PWM PST",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "ARCTIC COOLING Freezer i32 CO 120mm Dual Ball Bearing  with 120 mm PWM PST, Dual Ball Bearing for Continuous Operation",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "ARCTIC COOLING UCACO-FA11001-CSA01 92mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "ARCTIC COOLING UCACO-FI11001-CSA01 92mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "ARCTIC COOLING UCACO-P0900-CSB01 120mm Fluid Dynamic Bearing",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Arctic Freezer 11 LP  - 92mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Arctic Freezer 12  - 92mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Arctic Freezer 12 CO  - 92mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Arctic Freezer 13  - 92mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Arctic Freezer 13 Continuous Operation  - 92mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Arctic Freezer 33 eSports One , white - 120mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Arctic Freezer 33 TR , red - 120mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Arctic Freezer 33 TR , white - 120mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Arctic Freezer 34 CO  - 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Arctic Freezer 34 eSports",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Arctic Freezer 34 eSports , 120mm - red",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Arctic Freezer 34 eSports , 120mm - white",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Arctic Freezer 50 ARGB - 120mm/140mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Arctic Freezer 50 TR - ARGB, 120mm/140mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Arctic Freezer 7 Pro PWM Rev.2  - 92mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Arctic Freezer 7X  - 92mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Arctic Freezer A13X",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Arctic Freezer A13X CO",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Arctic Freezer A35 ARGB",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Arctic Freezer i11 CO",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Arctic Freezer i13X",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Arctic Freezer i13X CO",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Arctic Freezer i32 CO",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Arctic Freezer i35 ARGB",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Arctic Freezer Xtreme Rev.2  - 120mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Arctic Liquid Freezer Processor",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Arctic Liquid Freezer II ARGB Processor",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Arctic Liquid Freezer II Processor",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Arctic Liquid Freezer II Processor",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III ARGB Processor",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III ARGB Processor",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III ARGB Processor",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III ARGB Processor",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III ARGB White Processor",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III ARGB White Processor",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III ARGB White Processor",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III ARGB White Processor",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III Processor",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III Processor",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III Processor",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Arctic Liquid Freezer III Processor",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "ASUS ProArt LC 420  - black",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "ASUS ROG RYUJIN 360",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "ASUS ROG Ryujin II 240  - black",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "ASUS ROG Ryujin II 240 ARGB  , black",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "ASUS ROG Ryujin II 240 ARGB  - black",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "ASUS ROG Ryujin II 360  - black",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "ASUS ROG RYUJIN II 360  - black",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "ASUS ROG Ryujin II 360 ARGB  - black",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "ASUS ROG RYUJIN II 360 ARGB  - black",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "ASUS ROG RYUO 120",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "ASUS ROG RYUO 240",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "ASUS ROG Ryuo III 240 ARGB  - 240 mm, black",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "ASUS ROG Ryuo III 240 ARGB  - 240 mm, white",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "ASUS ROG Ryuo III 360 ARGB  - 360 mm, black",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "ASUS ROG Ryuo III 360 ARGB  - 360 mm, white",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "ASUS ROG Strix LC 120",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "ASUS ROG Strix LC 120 RGB",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "ASUS ROG Strix LC 240",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "ASUS ROG Strix LC 240 RGB",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "ASUS ROG Strix LC 360",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "ASUS ROG Strix LC 360 RGB",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "ASUS ROG Strix LC II 120 ARGB",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "ASUS ROG Strix LC II 240",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "ASUS ROG Strix LC II 240 ARGB",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "ASUS ROG Strix LC II 240 ARGB White Edition",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "ASUS ROG Strix LC II 280 ARGB",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "ASUS ROG Strix LC II 360",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "ASUS ROG Strix LC II 360",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "ASUS ROG Strix LC II 360 ARGB",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "ASUS ROG STRIX LC II 360 ARGB  , white",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "ASUS ROG Strix LC II 360 ARGB White Edition",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "ASUS ROG STRIX LC III 240 ARGB  - black",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "ASUS ROG STRIX LC III 240 ARGB  - white",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "ASUS ROG STRIX LC III 360  - black",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "ASUS ROG STRIX LC III 360 ARGB  - black",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "ASUS ROG STRIX LC III 360 ARGB  - white",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "ASUS TUF Gaming LC 120 ARGB",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "ASUS TUF Gaming LC 240 ARGB",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "ASUS TUF Gaming LC 240 ARGB",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "ASUS TUF Gaming LC 240 RGB",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "be quiet! Dark Rock 3",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "be quiet! Dark Rock Advanced",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "be quiet! Dark Rock Pro 3",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "be quiet! Dark Rock Pro TR4  - black",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "be quiet! Dark Rock Slim  - 120mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "be quiet! Dark Rock TF  - 135/135mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "be quiet! Dark Rock TF 2 - 135/135mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "be quiet! Pure Loop 2 FX",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "be quiet! Pure Loop 2 FX",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "be quiet! Pure Loop 2 FX",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "be quiet! Pure Rock 2  - 120mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "be quiet! Pure Rock 2 Black  - 120mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "be quiet! Pure Rock 2 FX - 120mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "be quiet! Pure Rock LP Processor K\u00fchler - 92mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "be quiet! Pure Rock Slim  - 92mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "be quiet! Pure Rock Slim 2 - 92mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "be quiet! Shadow Rock 2  - 120mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "be quiet! Shadow Rock 3  - 120mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "be quiet! Shadow Rock 3 White  - 120mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "be quiet! Shadow Rock LP Low Profile  - 120mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "be quiet! Shadow Rock Slim",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "be quiet! Shadow Rock Slim 2 - 135 cm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "be quiet! Shadow Rock TF2  - 135mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "be quiet! Silent Loop",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "be quiet! Silent Loop",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "be quiet! Silent Loop",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "be quiet! Silent Loop",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "be quiet! Silent Loop 2 , ARGB , black",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "be quiet! Silent Loop 2 , ARGB , black",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "be quiet! Silent Loop 2 , ARGB , black",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Bitspower Phantom",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Bitspower Summit LGA 3647 - Acetal",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Cooler Master Hyper 103  - 92mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Cooler Master Hyper 212 Black Edition mit socket LGA 1700 - 120mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Cooler Master Hyper 212 Evo  - 120mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Cooler Master Hyper 212 EVO V2 - 120mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Cooler Master Hyper 212X  - 120mm PWM",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Cooler Master Hyper 212X -  with Dual 120mm PWM Fan",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Cooler Master Hyper H411R , wei\u00dfe LED - 92mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Cooler Master Hyper H412R  - 92mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Cooler Master Hyper T2 - Compact  with Dual Looped Direct Contact Heatpipes",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Cooler Master Hyper TX3 Evo  - 92mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Cooler Master Hyper TX3i  - 92mm PWM",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Cooler Master MasterAir G100M, RGB  - 100mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Cooler Master MasterAir MA410M RGB  - 2x120mm PWM",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Cooler Master MasterAir MA410P , RGB - 120mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Cooler Master MasterAir MA610P , RGB - 120mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Cooler Master Masterliquid 240  - 240 mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Cooler Master MasterLiquid ML240 ILLUSION White Edition - white",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Cooler Master MasterLiquid ML360 ILLUSION - black",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "COOLER MASTER MAZ-T8PN-418PR-R1 140mm DynaLoop",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Cooler Master ML240R RGB",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Cooler Master PL240 Flux  - black",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Cooler Master PL360 Flux  - black",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "COOLER MASTER RR-212E-20PK-R2 120mm Long Life Sleeve Bearing",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "COOLER MASTER RR-212X-20PM-R1 120mm 4th Generation Bearing",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "COOLER MASTER RR-910-HTX3-G1 92mm Long life sleeve bearing",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "COOLER MASTER RR-B10-212P-G1 120mm Sleeve",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "COOLER MASTER RR-G5V2-20PK-R1 120mm Loop Dynamic Bearing (LDB)",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "COOLER MASTER RR-H6V2-13PK-R1 120mm Rifle",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "COOLER MASTER RR-HD92-28PK-R1 92mm Rifle",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "COOLER MASTER RR-T4-18PK-R1 120mm Rifle",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "COOLER MASTER RR-VTPS-28PK-R1 92mm Long life sleeve",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Cooler Master V8  - Vapor Chamber",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Cooler Master V8  - Vapor Chamber",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Cooler Master Wraith Ripper  - 120 mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Corsair Air A500  - 120mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H100i Platinum",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H100i Platinum SE",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H115i Platinum",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H45",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H55",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H60 High Performance",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H60i RGB PRO XT",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H75 Performance",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Corsair Cooling Hydro Series H80i V2",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "CORSAIR iCUE H100i ELITE  - black",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Corsair iCUE H100i ELITE CAPELLIX  , black",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Corsair iCUE H100i ELITE CAPELLIX White  , white",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Corsair iCUE H100i ELITE CAPELLIX XT  , black",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Corsair iCUE H100i ELITE CAPELLIX XT  , white",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Corsair iCUE H100i ELITE LCD XT  , black",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Corsair iCUE H100i RGB Elite  , black",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Corsair iCUE H100x RGB ELITE  , black",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Corsair iCUE H115i ELITE CAPELLIX  , black",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Corsair iCUE H115i ELITE CAPELLIX XT  , black",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Corsair iCUE H115i RGB Elite  , black",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Corsair iCUE H150i ELITE  mit LCD-Monitor, black",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Corsair iCUE H150i ELITE CAPELLIX  , black",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Corsair iCUE H150i ELITE CAPELLIX White  , white",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Corsair iCUE H150i ELITE CAPELLIX XT  , black",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Corsair iCUE H150i ELITE CAPELLIX XT  , white",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Corsair iCUE H150i ELITE LCD XT  , black",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Corsair iCUE H150i ELITE LCD XT  , white",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Corsair iCUE H150i RGB Elite  , black",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Corsair iCUE H170i ELITE  mit LCD-Monitor, black",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Corsair iCUE H170i Elite Capellix , black",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Corsair iCUE H170i ELITE CAPELLIX XT  , black",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Corsair iCUE H170i ELITE LCD XT  , black",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Cryorig A40  - 240 mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Cryorig A40 Ultimate  - 240 mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Cryorig C1 Low-Profile- - 140mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Cryorig C7 G Mini-Top-Flow- - 92mm, Kupfer mit Graphen-Beschichtung",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Cryorig C7 Mini-Top-Flow- - 92mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Cryorig C7 RGB Mini-Top-Flow- - 92mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Cryorig H5 Ultimate Processor-Tower-K\u00fchler - 140mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Cryorig H5 Universal Processor-Tower-K\u00fchler - 140mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Cryorig H7 Processor-Tower-K\u00fchler - 120mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Cryorig H7 Plus Processor-Tower-K\u00fchler - 2x120mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Cryorig H7 Quad Lumi Processor-Tower-K\u00fchler - 120mm, RGB",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Cryorig H7 Ultra Processor-Tower-K\u00fchler - 120mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Cryorig M9 Plus Processor-Tower-K\u00fchler - 2x92mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Cryorig M9a Processor-Tower-K\u00fchler - AMD, 92mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Cryorig M9i Processor-Tower-K\u00fchler - Intel, 92mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Cryorig R1 Ultimate Processor-Tower-K\u00fchler -2x140 mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Cryorig R1 Universal Processor-Tower-K\u00fchler - 2x140mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Cryorig R5 Processor K\u00fchler 140mm - black/white",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "DeepCool AG400 ARGB - 120mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "DeepCool AG400 Digital A-RGB - 120 mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "DeepCool AG400 Digital Plus A-RGB - 120 mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "DeepCool AG620 ARGB - 120 mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "DeepCool AK400 Digital - 120 mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "DeepCool AK500 Digital - 120 mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "DeepCool AK500S Digital - 120 mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "DeepCool AK500S Digital - 120 mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "DeepCool AK620 Digital - 120 mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "DeepCool ASSASSIN 4S - 140 mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "DeepCool ASSASSIN 4S - 140 mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "DeepCool ASSASSIN IV - 140 mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Deepcool FROSTWIN V2.0 120mm(2pcs) Hydro",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Deepcool GABRIEL 120mm Hydro",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "DEEPCOOL Gamer Storm Lucifer K2  6 Heatpipes 120mm Slim and Silent PWM Fan",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "DEEPCOOL GamerStorm ASSASSIN II  8 Heatpipes Dual PWM Fans&FDB Bearing 300RPM Min. Nickel-plated fins",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "DEEPCOOL GAMMAXX 200T  2 Heat pipes 120mm PWM Fan",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Deepcool GAMMAXX 300 120mm Hydro",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "DEEPCOOL GAMMAXX 400  4 Heatpipes 120mm PWM Fan with Blue LED",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Deepcool GAMMAXX S40 120mm Hydro",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "DeepCool LS520S Zero Dark , 240 mm - black",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "DeepCool LS720S Zero Dark , 360mm - black",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Deepcool LUCIFER V2 140mm Hydro",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "DeepCool Mystique LCD 240",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "DeepCool Mystique LCD 360",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Deepcool NEPTWIN V2.0 120mm(2pcs) Hydro",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Dynatron K17 92mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Dynatron K199 80mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Dynatron K2 75mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Dynatron K5 92mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Dynatron K666 60mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Dynatron K785 77mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Dynatron K985 92mm Ball",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Dynatron R14 60mm 2 Ball Intel Sandy Bridge Romley-EP/EX Narrow ILM Processors up to TDP 150 Watts",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Dynatron R15",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Dynatron R16 80mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Dynatron R17 92mm 2 Ball Intel Sandy Bridge Romley-EP/EX Processors up to TDP 160 Watts Overclocking",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Dynatron R25 80mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Dynatron R27 80mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Dynatron R5 60mm 2 Ball Bearing  for Intel Sandy Bridge EP/EX Processors",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Dynatron R8",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Dynatron R9 77mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Dynatron T450 80mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "EK Water Blocks EK-Nucleus AIO CR360 Direct Die D-RGB - 1700",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Enermax Aquafusion",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Enermax Aquafusion",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "ENERMAX ETD-T60-TB 120mm Twister",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "ENERMAX ETS-N30R-HE 92mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "ENERMAX ETS-N30R-TAA 92mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Enermax ETS-T40F",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "ENERMAX ETS-T40F-BK 120mm Twister Aluminum 120mm Black  with blue LED PWM Fan",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "ENERMAX ETS-T40F-RF 140mm Twister Aluminum 120mm Black  with 140mm PWM Fan",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "ENERMAX ETS-T40F-TB 120mm Twister Aluminum 120mm  with PWM Fan Low 8 dBA nosie w/ fan adaptor",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "ENERMAX ETS-T40F-W 120mm Twister Aluminum 120mm White  with Dual White LED PWM Fans",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "ENERMAX ETS-T50A-BVT Twister Aluminum 120mm  with DFR (Dust Free Rotation) Vegas Fan with 3 color LED",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "ENERMAX ETS-T50A-WVS Twister Aluminum 120mm White  with DFR (Dust Free Rotation) White LED Fan",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Enermax LiqFusion 240 RGB  - 240 mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Enermax Liqmax III ARGB 360",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Enermax LiqTech II RGB 240",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Enermax LiqTech II RGB 280",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Enermax LiqTech II RGB 360",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Enermax LiqTech II RGB 360 White",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Enermax LiqTech TR4 II RGB 360",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "EVERCOOL HPH-9525CU 95mm Ever Lubricate",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "EVERCOOL HPL-815EP Ever Lubricate",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "EVERCOOL HPM-12025 120mm Ever Lubricate Transformer 3",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "EVERCOOL HPO-12025 120mm x 2 (SSF-12 & Silent Fan) Ever Lubricate",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "EVERCOOL K8-FM1 Retention Holder compatible for AMD k8 socket/AM2/AM3/FM1",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "EVERCOOL K8-RM AMD K8 Retention Holder",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "EVERCOOL TTC-NK35TZ/RPW/V5(KU) 95mm Z-AXIS Titan Universal",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "EVGA ACX , black - 120 mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "EVGA CLC 120 RGB",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "EVGA CLC 240 RGB",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "EVGA CLC 280 RGB",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Fractal Design Celsius S24  - 240 mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Fractal Design Celsius S36  - 360 mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "GELID Solutions CC-Shero-01-A 120mm Hydro",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Gelid Solutions Liquid 240mm AIO -",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Gigabyte Aorus ATC700  - 2x 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Gigabyte Aorus ATC800 , RGB - 2x 120mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Gigabyte Aorus Waterforce 240 , D-RGB - black - 240 mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Gigabyte Aorus Waterforce 280 , D-RGB - black - 280 mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Gigabyte Aorus Waterforce 360 , D-RGB - black - 360 mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Hyper 212 LED with PWM Fan, Four Direct Contact Heatpipes, Unique Fan Blade Design, Red LEDs, Optimized Bracket Design by Cooler Master",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Hyte THICC Q60 AIO  - white",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "IceGiant ProSiphon Elite - 240mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Intel Thermal Solution HTS1155LP - socket 1155",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Intel Thermal Solution TS13X",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "InWin MR24 ARGB  , black",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "InWin MR36 ARGB  , black",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "InWin NR24 ARGB  , black",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "InWin NR36 ARGB  , black",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Jonsbo CR-1000",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Jonsbo CR-1000",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Jonsbo CR-1000",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Jonsbo CR-1000 GT",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Jonsbo CR-1000 V2 - white",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Jonsbo CR-1000 V2 ARGB - black",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Jonsbo CR-1000 V2 PRO ARGB - black",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Jonsbo CR-1000 V2 RGB - black",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Jonsbo CR-1000 V2 RGB - white",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Jonsbo CR-1100",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Jonsbo CR-1200",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Jonsbo CR-1200E",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Jonsbo CR-1300",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Jonsbo CR-1400",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Jonsbo CR-2000 GT  Dual Tower",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Jonsbo CR-201",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Jonsbo CR-2100  Dual Tower",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Jonsbo CR-701",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Jonsbo HP-400  - 90mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Jonsbo HP-400  - 90mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Jonsbo HP-400S - 90mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Jonsbo HX4170D",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Jonsbo HX4170D",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Jonsbo HX6200D - 120mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Jonsbo HX6210 - 92mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Jonsbo HX6250 - 140mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Jonsbo HX7280 - 2x 140mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Jonsbo MX400",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Jonsbo PISA A5 ARGB 5V(3Pin) + PWM - grey",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Jonsbo PISA A5 ARGB 5V(3Pin) + PWM - white",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Kolink Umbra EX180 ARGB - 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Kolink Umbra EX180 ARGB White Processor Cooler - 120 mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Kolink Umbra EX180 Black Edition - 120mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Kolink Umbra EX180 White Edition Processor Cooler - 120 mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Lian Li GALAHAD 240 SL v2, , ARGB - black",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Lian Li GALAHAD 240 SL v2, , ARGB - white",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Lian Li GALAHAD 240 SL, , ARGB - black",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Lian Li GALAHAD 240 SL, , ARGB - white",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Lian Li GALAHAD 240 V2 , DRGB - black",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Lian Li GALAHAD 240 v2 , DRGB - white",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Lian Li GALAHAD 360 SL V2, , ARGB - black",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Lian Li GALAHAD 360 SL v2, , ARGB - white",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Lian Li GALAHAD 360 SL, , ARGB - black",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Lian Li GALAHAD 360 SL, , ARGB - white",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Lian Li GALAHAD 360 V2 , ARGB - black",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Lian Li GALAHAD 360 V2 , ARGB - white",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "MASSCOOL 8W2002B1M4 90mm Ball Bearing  for INTEL Socket LGA 1155/1156 Cooper base",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "MASSCOOL 8WT15-38 90mm Long life Bearing",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "MasterAir Pro 3 Processor Air Cooler with Continuous Direct Contact Technology 2.0 by Cooler Master",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "MasterAir Pro 4 Processor Air Cooler with Continuous Direct Contact Technology 2.0 by Cooler Master",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Montech Metal DT24 Base",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Montech Metal DT24 Premium",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "MSI Core Frozr L  - 120mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "MSI Core Frozr XL  - 2x 120mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "MSI MAG CoreLiquid 240R V2 , ARGB",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "MSI MAG CoreLiquid 240R V2 White , ARGB",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "MSI MAG CoreLiquid 360R V2 , ARGB",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "MSI MAG Coreliquid 360R V2 White Kompett-Wasserk\u00fchlung",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "MSI MAG CoreLiquid C240 , ARGB",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "MSI MAG CoreLiquid C280 , ARGB",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "MSI MAG CoreLiquid C360 , ARGB",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "MSI MAG Coreliquid E240 Kompett-Wasserk\u00fchlung - 240 mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "MSI MAG Coreliquid E240 White Kompett-Wasserk\u00fchlung - 240 mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "MSI MAG Coreliquid E360 White Kompett-Wasserk\u00fchlung - 360 mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "MSI MAG Coreliquid M240 Kompett-Wasserk\u00fchlung - 240 mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "MSI MAG Coreliquid M360 Kompett-Wasserk\u00fchlung - 360 mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "MSI MAG CoreLiquid P240",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "MSI MAG CoreLiquid P360",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "MSI MEG CoreLiquid S280",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "MSI MEG CoreLiquid S360",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "MSI MPG CoreLiquid K240 V2 , ARGB",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "NH-D15",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "NH-L12S",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "NH-L9x65 SE-AM4",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "NH-U12S TR4-SP3",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "NH-U9 TR4-SP3",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Noctua D9S DX-4189 4U - 92mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Noctua NH-C14S  - 140mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Noctua NH-D12L - 120mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Noctua NH-D12L chromax.black - 120mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Noctua NH-D14  - 140/120mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Noctua NH-D15 chromax.black  - 140/140mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Noctua NH-D15 SE-AM4  - 140/140mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Noctua NH-D15S  140mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Noctua NH-D15S chromax.black - 140mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Noctua NH-D9 DX-3647 4U  - 92mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Noctua NH-D9DX i4 3U  - 92mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Noctua NH-D9L 92mm SSO2 Low-profile Premium , NF-A9 PWM Fans",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Noctua NH-L12  - 120mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Noctua NH-L9a  - 92mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Noctua NH-L9a 92mm SSO2",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Noctua NH-L9a-AM4 chromax.black Low Profile  - 92mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Noctua NH-L9a-AM4 Low Profile  - 92mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Noctua NH-L9a-AM5 chromax.black Low Profile - 92mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Noctua NH-L9a-AM5 Low Profile - 92mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Noctua NH-L9i  - 92mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Noctua NH-L9i 95mm SSO2",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Noctua NH-L9i chromax.black  - 92mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Noctua NH-L9i-17xx - 92mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Noctua NH-L9i-17xx chromax.black - 92mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Noctua NH-L9x65  - 92mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Noctua NH-L9x65 92 x 92 x 14mm, 92 x 92 x 25mm SSO2 Low-profile Quiet , NF-A9x14 PWM fan",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Noctua NH-L9x65 SE-AM4  - 92mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Noctua NH-P1 passiver",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Noctua NH-U12A  - 120mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Noctua NH-U12DXi4  - 120mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Noctua NH-U12S 120x120x25 ( NF-F12 PWM) SSO2-Bearing ( Self-stabilising oil-presure bearing )",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Noctua NH-U12S chromax.black  - 120mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Noctua NH-U12S DX-3647  - 120mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Noctua NH-U12S redux - 120mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Noctua NH-U12S SE-AM4  - 120mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Noctua NH-U12S TR4-SP3  - 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Noctua NH-U14S 140mm SSO2-Bearing (Self-stabilising oil-presure bearing)",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Noctua NH-U14S DX-3647  - 140mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Noctua NH-U14S TR4-SP3  - 140mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Noctua NH-U9 TR4-SP3  - 92mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Noctua NH-U9B SE2  - 2x92mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Noctua NH-U9DXi4  - 92mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Noctua NH-U9S chromax.black - 92mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Noctua U12A chromax.black - 120mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Noctua U12S DX-4189 - 2x 120mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Noctua U14S DX-4189 - 140mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Noctua U9 DX-4189 - 92mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "NZXT KRAKEN M22",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "NZXT KRAKEN X42 V2",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "NZXT KRAKEN X52 V2",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "NZXT KRAKEN X53",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "NZXT KRAKEN X62 V2",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "NZXT KRAKEN X72",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "NZXT Kraken Z53 RGB  , black",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "NZXT Kraken Z53 RGB  , white",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "NZXT KRAKEN Z73",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "NZXT Kraken Z73 RGB  , black",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "NZXT Kraken Z73 RGB  , white",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "PH-TC12LS, Slim Low-Profile, 120mm PWM Processor cooler",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "PH-TC14S, Slim Twin Towers, 140mm PWM Processor cooler",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "PHANTEKS Glacier One 240 MP , D-RGB - black",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "PHANTEKS Glacier One 240 MPH , D-RGB - black",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "PHANTEKS Glacier One 240 MPH , D-RGB - white",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "PHANTEKS Glacier One 240 T30 , D-RGB - black",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "PHANTEKS Glacier One 280 MP , D-RGB - black",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "PHANTEKS Glacier One 280 MPH , D-RGB - black",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "PHANTEKS Glacier One 360 MP , D-RGB - black",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "PHANTEKS Glacier One 360 MPH , D-RGB - black",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "PHANTEKS Glacier One 360 MPH , D-RGB - white",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "PHANTEKS Glacier One 360 T30 Gen2 , D-RGB - black",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Phanteks PH-TC12DX 120mm PWM",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Phanteks PH-TC12DX_BK 2 x 120mm PWM",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "PHANTEKS PH-TC12LS  mit RGB Halos - 120mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "PHANTEKS PH-TC12LS HTPC  - 120mm, black",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "PHANTEKS PH-TC14CS  - 140mm, blue",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "PHANTEKS PH-TC14PE  - 140mm, orange",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "PHANTEKS PH-TC14PE  - 140mm, black",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "PHANTEKS PH-TC14PE  - 140mm, silver",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Phanteks PH-TC14PE 140mm UFB (Updraft Floating Balance)",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Phanteks PH-TC14PE_BK 140mm UFB (Updraft Floating Balance)",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "PHANTEKS PH-TC14S Slim  - 140mm, black",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Phononic Hex 2.0 thermoelektrischer  - 92 mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Prolimatech Basic 48  - 92mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Prolimatech Black Series Genesis",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Prolimatech Blue Series Megahalems",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Prolimatech Genesis",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Prolimatech Genesis \"Dual Viper Edition\"",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Prolimatech Megahalems  Rev.C",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Prolimatech Samuel 17 Processor K\u00fchler",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Raijintek Aidos Black, Heatpipe , PWM - 92mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Raijintek Aidos Heatpipe , PWM - 92mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Raijintek Processor K\u00fchler AIDOS II",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Raijintek Processor K\u00fchler ELEOS 12 DUO RBW",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Raijintek Processor K\u00fchler ELEOS 12 EVO RBW",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Raijintek Processor K\u00fchler THEMIS II",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Raijintek Delos RBW Rainbow RGB LED  - 3x 92mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Raijintek ELEOS RBW",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Raijintek EreBoss CORE",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Raijintek EreBoss Heatpipe , PWM - 140mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Raijintek Juno Pro ADD  - adressable RGB LED",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Raijintek Juno Pro RBW  - RGB LED",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Raijintek Juno-X  - blaue LED",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Raijintek Juno-X  - gr\u00fcne LED",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Raijintek Juno-X  - RGB LED",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Raijintek Juno-X  - rote LED",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Raijintek Juno-X  - black",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Raijintek Leto , black, RGB-LED - 120mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Raijintek Leto Heatpipe , blaue LED - 120mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Raijintek Leto Heatpipe , rote LED - 120mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Raijintek Leto Heatpipe , wei\u00dfe LED - 120mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Raijintek Leto Pro , black, RGB-LED - 2x120mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Raijintek Leto Pro , black, weisse LED - 2x120mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Raijintek Mya RBW Rainbow LED  - 120mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Raijintek Orcus RGB",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Raijintek Orcus RGB",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Raijintek Orcus RGB",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Raijintek Orcus RGB Rainbow",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Raijintek Orcus RGB Rainbow",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Raijintek Orcus RGB Rainbow",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Raijintek Orcus RGB Rainbow",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Raijintek Orcus RGB Rainbow",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Raijintek Pallas 120  - 120mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Raijintek Pallas 120 RGB , PWM - 120mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Raijintek Pallas Heatpipe , PWM - 140mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Raijintek Rhea Heatpipe , PWM - 92mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Raijintek Themis Black, Heatpipe , PWM - 120mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Raijintek Themis Evo Heatpipe , PWM - 120mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Raijintek Themis Heatpipe , PWM - 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Raijintek Tisis CORE Heatpipe",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "RAIJINTEK Tisis Heatpipe , PWM - 140mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Raijintek Zelos Heatpipe , PWM - 90mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Sapphire Nitro+ S240-A , ARGB, black - 240 mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Sapphire Nitro+ S360-A , ARGB, black - 360 mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Sapphire Vapor-X  - 120 mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Scythe Byakko  - 92mm",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Scythe Choten - 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Scythe Choten TUF Gaming Alliance",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Scythe Grand Kama Cross 3",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Scythe Iori  - 100mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Scythe Kabuto 3 Processor Cooler",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Scythe Kodati Rev.B  - 80mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Scythe Kotetsu",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Scythe Kotetsu Mark II",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Scythe Kotetsu Mark II Rev. B",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Scythe Kotetsu Mark II TUF Gaming Alliance",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Scythe Mugen 5 ARGB Plus  - 2x 120mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Scythe Mugen 5 Black Edition Rev. C",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Scythe Mugen 5 Black RGB - 120mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Scythe Mugen 5 Rev. B \"PCGH Edition\" - 2x120mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Scythe Mugen 6",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Scythe Mugen 6 Black Edition",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Scythe SCBSK-2100 Big Shuriken 2 Rev. B",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Scythe SCBSK-3000R Big Shuriken 3 RGB  - 120mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Scythe SCKTN-4000 Katana 4",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Scythe SCKTN-5000 Katana 5",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Scythe SCKZT-1000 Kozuti",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Scythe SCMG-4000 Mugen 4",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Scythe SCMG-4PCGH Mugen 4 \u00b4\u00b4PCGH Edition\u00b4\u00b4",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Scythe SCMG-5000 Mugen 5",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Scythe SCMG-5100 Mugen 5 Rev.B  - 120mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Scythe SCMG-5100TUF Mugen 5 TUF , RGB, PWM - 120mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Scythe SCMG-5PCGH Mugen 5 \"PCGH Edition\"",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Scythe SCMGD-1000 Mugen MAX  - 140mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Scythe SCNJ-4000 Ninja 4 - 120mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Scythe SCNJ-5000 Ninja 5  - 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Scythe SCSK-1100 Shuriken Rev.2",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Scythe Shuriken 2 - 92mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Scythe Tatsumi f\u00fcr Intel",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "SILVERSTONE AR01 120mm Sleeve",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "SILVERSTONE AR02 92mm Hypro Bearing",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "SILVERSTONE AR03 120mm Sleeve",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "SILVERSTONE AR07 140mm Long life sleeve",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "SILVERSTONE AR08 140mm Long life sleeve",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "SilverStone AR12-TUF",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "SilverStone Argon",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "SilverStone Argon Series AR04 Low Profile  with 80mm Fan for Socket LGA1150/1156/1155",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "SilverStone Argon Series AR05 Rifle Bearing  with 92mm Fan for Socket LGA1155/1156/1150, AM2/AM3/FM1/FM2",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "SilverStone Argon Series AR06 Rifle Bearing  with 92mm Fan for Socket LGA1155/1156/1150, AM2/AM3/FM1/FM2",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Silverstone Argon SST-AR01  - 120mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Silverstone Argon SST-AR01-V2  - 120mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Silverstone Argon SST-AR01-V3  - 120mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Silverstone Argon SST-AR02  - 92mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Silverstone Argon SST-AR02-V2  - 92mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Silverstone Argon SST-AR03  - 120mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Silverstone Argon SST-AR03-V2  - 120mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Silverstone Argon SST-AR04 (only Thin-Mini-ITX)",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Silverstone Argon SST-AR05  - 92mm",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Silverstone Argon SST-AR06  - 92mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Silverstone Argon SST-AR11  - 92mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "SILVERSTONE HE02",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Silverstone Hydrogon D120-ARGB",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Silverstone IceGem 280 , ARGB - 280 mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Silverstone Nitrogon NT08-115X-V2 , PWM - 92mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Silverstone Nitrogon NT09-115X , PWM - 92 mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Silverstone Nitrogon SST-NT07-115X Low Profile",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "SILVERSTONE NT07-115X 80mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "SILVERSTONE NT09-115X 92mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Silverstone Permafrost PF240-ARGB V2,  - 240 mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Silverstone Permafrost PF240W-ARGB, V2 , white - 240 mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Silverstone Permafrost PF360-ARGB, V2  - 360 mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Silverstone Permafrost PF360-ARGB, V2 , white - 360 mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Silverstone PF360W-ARGB , 360mm - white",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Silverstone SST-AR01-V2.1 - Argon Processor K\u00fchler - 120mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Silverstone SST-AR07  - 140 mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Silverstone SST-AR07-V2  - 140 mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Silverstone SST-AR08  - 92 mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Silverstone SST-AR08-V2  - 92 mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Silverstone SST-AR09-115XP  - 60 mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Silverstone SST-AR09-115XS  - 60 mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Silverstone SST-AR09-1700",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "SilverStone SST-AR09-AM4 Processor K\u00fchler f\u00fcr 2U Server - AMD AM4",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Silverstone SST-AR10-115XP  - 70 mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Silverstone SST-AR10-115XS  - 70 mm",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Silverstone SST-HE01 Heligon",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Silverstone SST-HE01-V2 - Heligon Processor K\u00fchler - 140mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Silverstone SST-HE02-V2 Heligon",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "SilverStone SST-HYD120-ARGB-V2",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "SilverStone SST-HYH90-ARGB - Hydrogon Processor K\u00fchler",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Silverstone SST-IG240P-ARGB",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Silverstone SST-IG360-ARGB",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Silverstone SST-KR01 - Kryton Processor K\u00fchler, Low Profile - 80mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Silverstone SST-KR02 - Kryton Processor K\u00fchler - 92mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "SilverStone SST-KR03 - Kryton Processor K\u00fchler",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Silverstone SST-NT06-PRO Nitrogon",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Silverstone SST-NT06-PRO-V2 Nitrogon  - 120 mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "SilverStone SST-NT07-1700 Low Profile",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Silverstone SST-NT07-AM2",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Silverstone SST-NT08-115XP  - 80 mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "SilverStone SST-NT09-1700 - Nitrogon Processor K\u00fchler - 92mm",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Silverstone SST-PF120-ARGB  - 120 mm",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Silverstone SST-PF120-ARGB-V2,  - 120 mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Silverstone SST-PF240-ARGB  - 240 mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Silverstone SST-PF360-ARGB  - 360 mm",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Silverstone SST-TD02-Slim Tundra",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Silverstone SST-XE01-2011 - Xenon Processor Passiv K\u00fchler - Intel LGA2011/2066",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Silverstone SST-XE02-2011 - Xenon Processor K\u00fchler f\u00fcr 2U Server - Intel LGA2011/2066",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Silverstone SST-XE02-2066 Xeon- f\u00fcr 2U-Server - Intel LGA2011 / 2066",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Silverstone SST-XE02-3647N Xeon- f\u00fcr 2U Server - Intel LGA 3647",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Silverstone SST-XE02-3647S Xeon- f\u00fcr 2U-SFF-Server - Intel LGA 3647",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "SilverStone SST-XE02-4677 - Xeon Processor K\u00fchler f\u00fcr 2U Server - Intel LGA 4677",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "SilverStone SST-XE04-2066 - Processor K\u00fchler f\u00fcr 4 U Server - Intel LGA2011/2066",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Silverstone SST-XE04-4189B",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "SilverStone SST-XE04-4677 - Xeon Processor K\u00fchler f\u00fcr 4U Server - Intel LGA4677",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "SilverStone SST-XE04-SP3 - Processor K\u00fchler f\u00fcr 4 U Server - AMD SP3/TR4 sockets",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Silverstone Tundra TD02-RGB",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "SilverStone VIDA 120 SLIM, , black",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "SilverStone VIDA 240 SLIM, , black",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "SUPERMICRO SNK-P0047P",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Thermalright Assassin Spirit 120 Evo Dark - 120 mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Thermalright AXP-200R ROG Processor Cooler",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Thermalright Macho 120 SBM Processor Cooler",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Thermalright Macho 90 Processor Cooler",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Thermalright Macho Direct Processor Cooler",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Thermalright Macho X2 Processor Cooler",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Thermalright True Spirit 120 M BW Processor Cooler",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Thermalright True Spirit 140 Power Processor Cooler",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Thermalright True Spirit 90 M Rev.A Processor Cooler",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Thermaltake Engine 17 Low-Profile",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Thermaltake Floe Riing RGB TT Premium-Edition",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Thermaltake Floe Riing RGB TT Premium-Edition",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Thermaltake Floe Riing RGB TT Premium-Edition",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Thermaltake Riing Silent 12 Blue  - 120mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Thermaltake Riing Silent 12 Pro Blue  - 120mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Thermaltake Riing Silent 12 Pro Red  - 120mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Thermaltake Riing Silent 12 Red  - 120mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Thermaltake Riing Silent 12 RGB Sync Edition  - 120mm",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "Thermaltake Water 3.0 ARGB Sync",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Thermaltake Water 3.0 ARGB Sync",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Thermaltake Water 3.0 ARGB Sync",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Thermaltake Water 3.0 Riing , red - 140 mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Thermaltake Water 3.0 Riing , red - 280 mm",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Thermaltake Water 3.0 Riing RGB  - 240 mm",
+        "Socket": "N/A",
+        "Price": "$30"
+    },
+    {
+        "Name": "Thermaltake Water 3.0 Riing RGB  - 280 mm",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Thermaltake Water 3.0 Riing RGB  - 360 mm",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Titan DC-155A915Z/RPW 95mm Z-AXIS",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Titan TTC-NA02TZ/RPW/CU30 95mm Z-AXIS Copper Cooler for socket 1150,1155 & 1156",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Titan TTC-NA43TZ/CU35 95mm Z-AXIS",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Xigmatek Loki II Heatpipe  - 92mm",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Xigmatek Praeton LD963  - 90mm",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Xilence A402 AMD  - 92mm PWM",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Xilence M403 Multisockel  - 92mm PWM",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "ZALMAN CNPS10X OPTIMA 120mm FSB (Fluid Shield Bearing) Shark's Fin Blade  (LGA 2011 version)",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Zalman CNPS10X OPTIMA II  - black",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Zalman CNPS10X OPTIMA II  - white",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "Zalman CNPS10X Optima II RGB - black",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Zalman CNPS10X Optima II RGB - white",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Zalman CNPS10X Performa - black",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "ZALMAN CNPS10X Performa 120mm Long life",
+        "Socket": "N/A",
+        "Price": "$150"
+    },
+    {
+        "Name": "ZALMAN CNPS10X Performa+ 120mm Long Life Bearing",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Zalman CNPS11X Performa+",
+        "Socket": "N/A",
+        "Price": "$50"
+    },
+    {
+        "Name": "Zalman CNPS16X  - black",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Zalman CNPS16X  - white",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Zalman CNPS17X  - black",
+        "Socket": "N/A",
+        "Price": "$60"
+    },
+    {
+        "Name": "Zalman CNPS20X  - black",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "ZALMAN CNPS2X 80mm Long Life Bearing",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Zalman CNPS4X",
+        "Socket": "N/A",
+        "Price": "$20"
+    },
+    {
+        "Name": "Zalman CNPS4X RGB - 92mm",
+        "Socket": "N/A",
+        "Price": "$140"
+    },
+    {
+        "Name": "Zalman CNPS5X Performa",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Zalman CNPS7600 PWM",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Zalman CNPS7X LED+ V-Shaped Processor Cooler",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Zalman CNPS80F Ultra Quiet",
+        "Socket": "N/A",
+        "Price": "$80"
+    },
+    {
+        "Name": "Zalman CNPS80G",
+        "Socket": "N/A",
+        "Price": "$100"
+    },
+    {
+        "Name": "Zalman CNPS80G Rev.1",
+        "Socket": "N/A",
+        "Price": "$110"
+    },
+    {
+        "Name": "Zalman CNPS8900 Quiet",
+        "Socket": "N/A",
+        "Price": "$130"
+    },
+    {
+        "Name": "Zalman CNPS8X Optima",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "ZALMAN CNPS8X Optima 100mm Long Life Bearing HIGH PERFORMANCE Processor COOLER",
+        "Socket": "N/A",
+        "Price": "$70"
+    },
+    {
+        "Name": "Zalman CNPS90F Ultra Quiet",
+        "Socket": "N/A",
+        "Price": "$90"
+    },
+    {
+        "Name": "ZALMAN CNPS9500A-LED 92mm 2 Ball",
+        "Socket": "N/A",
+        "Price": "$40"
+    },
+    {
+        "Name": "Zalman CNPS9900 MAX Processor Cooler - blue",
+        "Socket": "N/A",
+        "Price": "$120"
+    },
+    {
+        "Name": "Zalman CNPS9X Optima",
+        "Socket": "N/A",
+        "Price": "$120"
+    }
+]
