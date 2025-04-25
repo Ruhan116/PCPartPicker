@@ -27,11 +27,11 @@ class Ui_SSDPage(object):
         self.table.setGeometry(QtCore.QRect(10, 60, 1231, 431))
         self.table.setStyleSheet("font: 10pt \"Arial\";")
         self.table.setObjectName("table")
-        self.table.setColumnCount(6)  # 5 columns for data + 1 for "Add" button column
+        self.table.setColumnCount(7)  # 6 columns for data + 1 for "Add" button column
         self.table.setRowCount(0)
         
         # Set up table headers
-        headers = ["id", "Name", "Size", "Bus", "Format", "Action"]
+        headers = ["id", "Name", "Size", "Bus", "Format","Price", "Action"]
         for i, header in enumerate(headers):
             item = QtWidgets.QTableWidgetItem()
             item.setText(header)
@@ -111,6 +111,8 @@ class Ui_SSDPage(object):
         item = self.table.horizontalHeaderItem(4)
         item.setText(_translate("MainWindow", "Format"))
         item = self.table.horizontalHeaderItem(5)
+        item.setText(_translate("MainWindow", "Price"))
+        item = self.table.horizontalHeaderItem(6)
         item.setText(_translate("MainWindow", "Action"))
         
         self.label_2.setText(_translate("MainWindow", "Search SSD by Size:"))
