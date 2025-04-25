@@ -23,7 +23,8 @@ class DataController:
                     Clock_Speed TEXT,
                     Turbo_Speed TEXT,
                     Cores INTEGER,
-                    Threads INTEGER
+                    Threads INTEGER,
+                    Price TEXT
                 )
             ''')
 
@@ -33,7 +34,8 @@ class DataController:
                     Name TEXT,
                     Size TEXT,
                     Socket TEXT,
-                    Chipset TEXT
+                    Chipset TEXT,
+                    Price TEXT
                 )
             ''')
 
@@ -43,7 +45,8 @@ class DataController:
                     Name TEXT,
                     Series TEXT,
                     VRAM TEXT,
-                    TDP TEXT
+                    TDP TEXT,
+                    Price TEXT
                 )
             ''')
 
@@ -54,7 +57,8 @@ class DataController:
                     Size TEXT,
                     Type TEXT,
                     Bus_Speed TEXT,
-                    Quantity TEXT
+                    Quantity TEXT,
+                    Price TEXT
                 )
             ''')
 
@@ -63,7 +67,8 @@ class DataController:
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     Name TEXT,
                     Size TEXT,
-                    RPM TEXT
+                    RPM TEXT,
+                    Price TEXT
                 )
             ''')
 
@@ -73,7 +78,8 @@ class DataController:
                     Name TEXT,
                     Size TEXT,
                     Bus TEXT,
-                    Format TEXT
+                    Format TEXT,
+                    Price TEXT
                 )
             ''')
 
@@ -82,7 +88,36 @@ class DataController:
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     Name TEXT,
                     Size TEXT,
-                    Wattage TEXT
+                    Wattage TEXT,
+                    Price TEXT
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS Cases (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    Name TEXT,
+                    Size TEXT,
+                    Price TEXT
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS CPU_Coolers (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    Name TEXT,
+                    Socket TEXT,
+                    Price TEXT
+                )
+            ''')
+
+            cursor.execute('''
+                CREATE TABLE IF NOT EXISTS Monitors (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    Name TEXT,
+                    Size TEXT,
+                    Resolution TEXT,
+                    Price TEXT
                 )
             ''')
 
@@ -100,45 +135,63 @@ class DataController:
 
             if table == "CPU":
                 cursor.execute('''
-                    INSERT INTO CPU (Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads)
-                    VALUES (?, ?, ?, ?, ?, ?)
-                ''', (data["Name"], data["Socket"], data["Clock Speed"], data["Turbo Speed"], data["Cores"], data["Threads"]))
+                    INSERT INTO CPU (Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price)
+                    VALUES (?, ?, ?, ?, ?, ?, ?)
+                ''', (data["Name"], data["Socket"], data["Clock Speed"], data["Turbo Speed"], data["Cores"], data["Threads"], data["Price"]))
 
             elif table == "Motherboard":
                 cursor.execute('''
-                    INSERT INTO Motherboard (Name, Size, Socket, Chipset)
-                    VALUES (?, ?, ?, ?)
-                ''', (data["Name"], data["Size"], data["Socket"], data["Chipset"]))
+                    INSERT INTO Motherboard (Name, Size, Socket, Chipset, Price)
+                    VALUES (?, ?, ?, ?, ?)
+                ''', (data["Name"], data["Size"], data["Socket"], data["Chipset"], data["Price"]))
 
             elif table == "GPU":
                 cursor.execute('''
-                    INSERT INTO GPU (Name, Series, VRAM, TDP)
-                    VALUES (?, ?, ?, ?)
-                ''', (data["Name"], data["Series"], data["VRAM"], data["TDP"]))
+                    INSERT INTO GPU (Name, Series, VRAM, TDP, Price)
+                    VALUES (?, ?, ?, ?, ?)
+                ''', (data["Name"], data["Series"], data["VRAM"], data["TDP"], data["Price"]))
 
             elif table == "RAM":
                 cursor.execute('''
-                    INSERT INTO RAM (Name, Size, Type, Bus_Speed, Quantity)
-                    VALUES (?, ?, ?, ?, ?)
-                ''', (data["Name"], data["Size"], data["Type"], data["Bus Speed"], data["Quantity"]))
+                    INSERT INTO RAM (Name, Size, Type, Bus_Speed, Quantity, Price)
+                    VALUES (?, ?, ?, ?, ?, ?)
+                ''', (data["Name"], data["Size"], data["Type"], data["Bus Speed"], data["Quantity"], data["Price"]))
 
             elif table == "HDD":
                 cursor.execute('''
-                    INSERT INTO HDD (Name, Size, RPM)
-                    VALUES (?, ?, ?)
-                ''', (data["Name"], data["Size"], data["RPM"]))
+                    INSERT INTO HDD (Name, Size, RPM, Price)
+                    VALUES (?, ?, ?, ?)
+                ''', (data["Name"], data["Size"], data["RPM"], data["Price"]))
 
             elif table == "SSD":
                 cursor.execute('''
-                    INSERT INTO SSD (Name, Size, Bus, Format)
-                    VALUES (?, ?, ?, ?)
-                ''', (data["Name"], data["Size"], data["Bus"], data["Format"]))
+                    INSERT INTO SSD (Name, Size, Bus, Format, Price)
+                    VALUES (?, ?, ?, ?, ?)
+                ''', (data["Name"], data["Size"], data["Bus"], data["Format"], data["Price"]))
 
             elif table == "PSU":
                 cursor.execute('''
-                    INSERT INTO PSU (Name, Size, Wattage)
+                    INSERT INTO PSU (Name, Size, Wattage, Price)
+                    VALUES (?, ?, ?, ?)
+                ''', (data["Name"], data["Size"], data["Wattage"], data["Price"]))
+
+            elif table == "Cases":
+                cursor.execute('''
+                    INSERT INTO Cases (Name, Size, Price)
                     VALUES (?, ?, ?)
-                ''', (data["Name"], data["Size"], data["Wattage"]))
+                ''', (data["Name"], data["Size"], data["Price"]))
+
+            elif table == "CPU_Coolers":
+                cursor.execute('''
+                    INSERT INTO CPU_Coolers (Name, Socket, Price)
+                    VALUES (?, ?, ?)
+                ''', (data["Name"], data["Socket"], data["Price"]))
+
+            elif table == "Monitors":
+                cursor.execute('''
+                    INSERT INTO Monitors (Name, Size, Resolution, Price)
+                    VALUES (?, ?, ?, ?)
+                ''', (data["Name"], data["Size"], data["Resolution"], data["Price"]))
 
             conn.commit()
         except sqlite3.Error as e:
@@ -160,7 +213,10 @@ class DataController:
             "ram_data.json": "RAM",
             "hdd_data.json": "HDD",
             "ssd_data.json": "SSD",
-            "psu_data.json": "PSU"
+            "psu_data.json": "PSU",
+            "cases_data.json": "Cases",
+            "cpu_coolers_data.json": "CPU_Coolers",
+            "monitors_data.json": "Monitors"
         }
 
         threads = []

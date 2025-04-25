@@ -4,713 +4,706 @@
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$310"
+        "Price": "$350"
     },
     {
         "Name": "ADATA XPG SX8200 Pro Series 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$310"
+        "Price": "$570"
     },
     {
         "Name": "ADATA XPG SX8200 Pro Series 512 GB",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$80"
+        "Price": "$270"
     },
     {
         "Name": "ADATA XPG SX8200 Series",
         "Size": "960 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$340"
+        "Price": "$120"
     },
     {
         "Name": "ADATA XPG SX8200 Series",
         "Size": "240 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$410"
+        "Price": "$540"
     },
     {
         "Name": "ADATA XPG SX8200 Series",
         "Size": "480 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$180"
+        "Price": "$520"
     },
     {
         "Name": "Corsair Force LE Series  240GB TLC",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$120"
+        "Price": "$540"
     },
     {
         "Name": "Corsair MP400 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$550"
+        "Price": "$280"
     },
     {
         "Name": "Corsair MP400 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$590"
+        "Price": "$170"
     },
     {
         "Name": "Corsair MP400 4000 GB",
         "Size": "4000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$240"
+        "Price": "$450"
     },
     {
         "Name": "Corsair MP400 8000 GB",
         "Size": "8000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$190"
+        "Price": "$120"
     },
     {
         "Name": "Corsair MP600 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$170"
+        "Price": "$320"
     },
     {
         "Name": "Corsair MP600 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$320"
+        "Price": "$170"
     },
     {
         "Name": "Corsair MP600 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$400"
+        "Price": "$350"
     },
     {
         "Name": "Corsair MP600 Pro 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$310"
+        "Price": "$160"
     },
     {
         "Name": "Corsair MP600 Pro 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$290"
+        "Price": "$300"
     },
     {
         "Name": "Crucial MX500 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$210"
+        "Price": "$540"
     },
     {
         "Name": "Crucial MX500 2000 GB",
         "Size": "2000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$300"
+        "Price": "$470"
     },
     {
         "Name": "Crucial MX500 500 GB",
         "Size": "500 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$520"
+        "Price": "$100"
     },
     {
         "Name": "Crucial P1",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$150"
+        "Price": "$430"
     },
     {
         "Name": "Crucial P1 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$460"
+        "Price": "$190"
     },
     {
         "Name": "Crucial P1 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$220"
+        "Price": "$190"
     },
     {
         "Name": "Crucial P2 250 GB",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$350"
+        "Price": "$50"
     },
     {
         "Name": "Crucial P2 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$490"
+        "Price": "$80"
     },
     {
         "Name": "Gigabyte Aorus 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$570"
+        "Price": "$250"
     },
     {
         "Name": "Intel 660P 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$460"
+        "Price": "$330"
     },
     {
         "Name": "Intel 660P 512 GB",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$240"
+        "Price": "$470"
     },
     {
         "Name": "Kingston SSDNow UV400 Series 240 GB",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$270"
+        "Price": "$330"
     },
     {
         "Name": "Lexar NM620 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$430"
+        "Price": "$310"
     },
     {
         "Name": "Lexar NM620 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$290"
+        "Price": "$70"
     },
     {
         "Name": "Sabrent Rocket",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$110"
+        "Price": "$540"
     },
     {
         "Name": "Sabrent Rocket",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$60"
+        "Price": "$150"
     },
     {
         "Name": "Sabrent Rocket",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$600"
+        "Price": "$510"
     },
     {
         "Name": "Samsung 860 EVO Series 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$390"
+        "Price": "$370"
     },
     {
         "Name": "Samsung 860 EVO Series 2000 GB",
         "Size": "2000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$220"
+        "Price": "$590"
     },
     {
         "Name": "Samsung 860 EVO Series 500 GB",
         "Size": "500 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$460"
+        "Price": "$340"
     },
     {
         "Name": "Samsung 860 QVO Series 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$140"
+        "Price": "$130"
     },
     {
         "Name": "Samsung 860 QVO Series 2000 GB",
         "Size": "2000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$270"
+        "Price": "$220"
     },
     {
         "Name": "Samsung 860 QVO Series 4000 GB",
         "Size": "4000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$190"
+        "Price": "$470"
     },
     {
         "Name": "Samsung 970 EVO",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$570"
+        "Price": "$370"
     },
     {
         "Name": "Samsung 970 EVO",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$510"
+        "Price": "$300"
     },
     {
         "Name": "Samsung 970 EVO 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$500"
+        "Price": "$230"
     },
     {
         "Name": "Samsung 970 EVO 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$540"
+        "Price": "$60"
     },
     {
         "Name": "Samsung 970 Evo Plus 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$550"
+        "Price": "$460"
     },
     {
         "Name": "Samsung 970 Evo Plus 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$110"
+        "Price": "$160"
     },
     {
         "Name": "Samsung 980 PRO Series 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$480"
+        "Price": "$200"
     },
     {
         "Name": "Samsung 980 PRO Series 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$290"
+        "Price": "$180"
     },
     {
         "Name": "Samsung 980 PRO Series 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$520"
+        "Price": "$200"
     },
     {
         "Name": "Seagate FireCuda 520 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$360"
+        "Price": "$100"
     },
     {
         "Name": "Seagate FireCuda 520 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$200"
+        "Price": "$150"
     },
     {
         "Name": "Seagate FireCuda 520 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$360"
+        "Price": "$200"
     },
     {
         "Name": "Western Digital Black SN750 NVMe M.2 Solid State Drive 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$230"
+        "Price": "$360"
     },
     {
         "Name": "Western Digital Black SN750 NVMe M.2 Solid State Drive 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$170"
+        "Price": "$260"
     },
     {
         "Name": "Western Digital Black SN750 Solid State Drive 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$550"
+        "Price": "$90"
     },
     {
         "Name": "Western Digital Black SN750 Solid State Drive 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$250"
+        "Price": "$490"
     },
     {
         "Name": "Western Digital Blue SN550 NVMe 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$350"
+        "Price": "$380"
     },
     {
         "Name": "Western Digital Blue SN550 NVMe 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$580"
+        "Price": "$230"
     },
     {
         "Name": "ADATA Gammix S11 Series",
         "Size": "480 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$520"
+        "Price": "$130"
     },
     {
         "Name": "ADATA Gammix S11 Series",
         "Size": "240 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$520"
+        "Price": "$330"
     },
     {
         "Name": "ADATA Gammix S11 Series",
         "Size": "960 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$100"
+        "Price": "$310"
     },
     {
         "Name": "ADATA Premier SP580",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$100"
+        "Price": "$400"
     },
     {
         "Name": "ADATA XPG Gammix S50 Lite 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$170"
+        "Price": "$80"
     },
     {
         "Name": "ADATA XPG Gammix S50 Lite 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$240"
+        "Price": "$350"
     },
     {
         "Name": "ADATA XPG Spectrix S40G Series",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$270"
+        "Price": "$120"
     },
     {
         "Name": "ADATA XPG Spectrix S40G Series 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$310"
+        "Price": "$80"
     },
     {
         "Name": "ADATA XPG Spectrix S40G Series 4000 GB",
         "Size": "4000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$300"
+        "Price": "$320"
     },
     {
         "Name": "ADATA XPG SX6000 Pro Series 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$70"
+        "Price": "$130"
     },
     {
         "Name": "ADATA XPG SX6000 Pro Series 256 GB",
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$160"
+        "Price": "$80"
     },
     {
         "Name": "ADATA XPG SX6000 Pro Series 512 GB",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$170"
+        "Price": "$350"
     },
     {
         "Name": "ADATA XPG SX6000 Series",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$570"
+        "Price": "$390"
     },
     {
         "Name": "ADATA XPG SX6000 Series",
         "Size": "128 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$220"
+        "Price": "$470"
     },
     {
         "Name": "ADATA XPG SX6000 Series",
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$490"
+        "Price": "$500"
     },
     {
         "Name": "ADATA XPG SX6000 Series",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$140"
+        "Price": "$130"
     },
     {
         "Name": "ADATA XPG SX8200 Pro Series 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$510"
+        "Price": "$430"
     },
     {
         "Name": "ADATA XPG SX8200 Pro Series 256 GB",
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$70"
+        "Price": "$380"
     },
     {
         "Name": "Avexir S100",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$510"
+        "Price": "$540"
     },
     {
         "Name": "Avexir S100",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$570"
+        "Price": "$480"
     },
     {
         "Name": "Avexir S100",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$560"
+        "Price": "$360"
     },
     {
         "Name": "Avexir S100",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$560"
+        "Price": "$500"
     },
     {
         "Name": "Avexir S100",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$470"
+        "Price": "$320"
     },
     {
         "Name": "Corsair Force LE Series  480GB TLC",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$450"
+        "Price": "$220"
     },
     {
         "Name": "Corsair Force Series LE",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$500"
+        "Price": "$340"
     },
     {
         "Name": "Corsair Force Series LE",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$440"
+        "Price": "$110"
     },
     {
         "Name": "Corsair Force Series LE",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$490"
+        "Price": "$250"
     },
     {
         "Name": "Corsair Force Series LS",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$230"
+        "Price": "$570"
     },
     {
         "Name": "Corsair Force Series LS",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$410"
+        "Price": "$520"
     },
     {
         "Name": "Corsair Force Series LS",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$50"
+        "Price": "$160"
     },
     {
         "Name": "Corsair Force Series LS",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$530"
+        "Price": "$330"
     },
     {
         "Name": "Corsair Force Series MP500  120GB MLC    NVMe",
         "Size": "120 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$180"
+        "Price": "$260"
     },
     {
         "Name": "Corsair Force Series MP500  240GB MLC    NVMe",
         "Size": "240 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$480"
+        "Price": "$560"
     },
     {
         "Name": "Corsair Force Series MP500  480GB MLC    NVMe",
         "Size": "480 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$120"
+        "Price": "$460"
     },
     {
         "Name": "Corsair Force Series MP510 240 GB",
         "Size": "240 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$190"
+        "Price": "$320"
     },
     {
         "Name": "Corsair Force Series MP510 480 GB",
         "Size": "480 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$150"
+        "Price": "$90"
     },
     {
         "Name": "Corsair Force Series MP510 480 GB",
         "Size": "480 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$310"
+        "Price": "$530"
     },
     {
         "Name": "Corsair Force Series MP510 960 GB",
         "Size": "960 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$350"
+        "Price": "$300"
     },
     {
         "Name": "Corsair MP400 R2 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$400"
+        "Price": "$380"
     },
     {
         "Name": "Corsair MP400 R2 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$330"
+        "Price": "$360"
     },
     {
         "Name": "Corsair MP400 R2 4000 GB",
         "Size": "4000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$200"
+        "Price": "$470"
     },
     {
         "Name": "Corsair MP600 Core 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$120"
+        "Price": "$290"
     },
     {
         "Name": "Corsair MP600 Core 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$380"
+        "Price": "$540"
     },
     {
         "Name": "Corsair MP600 Core 4000 GB",
         "Size": "4000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$450"
-    },
-    {
-        "Name": "Corsair MP600 Elite 1000 GB",
-        "Size": "1000 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
         "Price": "$500"
     },
     {
@@ -718,21 +711,28 @@
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$70"
+        "Price": "$400"
     },
     {
         "Name": "Corsair MP600 Elite 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$250"
+        "Price": "$560"
+    },
+    {
+        "Name": "Corsair MP600 Elite 1000 GB",
+        "Size": "1000 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$60"
     },
     {
         "Name": "Corsair MP600 Elite 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$590"
+        "Price": "$140"
     },
     {
         "Name": "Corsair MP600 Elite 2000 GB",
@@ -746,875 +746,875 @@
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$110"
+        "Price": "$360"
     },
     {
         "Name": "Corsair MP600 GS 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$120"
+        "Price": "$290"
     },
     {
         "Name": "Corsair MP600 GS 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$360"
+        "Price": "$120"
     },
     {
         "Name": "Corsair MP600 GS 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$360"
+        "Price": "$430"
     },
     {
         "Name": "Corsair MP600 Micro 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$430"
+        "Price": "$60"
     },
     {
         "Name": "Corsair MP600 Pro Hydro X Edition 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$330"
+        "Price": "$440"
     },
     {
         "Name": "Corsair MP600 Pro LPX 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$380"
+        "Price": "$60"
     },
     {
         "Name": "Corsair MP600 Pro LPX 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$540"
+        "Price": "$210"
     },
     {
         "Name": "Corsair MP600 Pro LPX 4000 GB",
         "Size": "4000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$70"
+        "Price": "$350"
     },
     {
         "Name": "Corsair MP600 Pro LPX 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$230"
+        "Price": "$440"
     },
     {
         "Name": "Corsair MP600 Pro NH 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$570"
+        "Price": "$540"
     },
     {
         "Name": "Corsair MP600 Pro NH 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$150"
+        "Price": "$360"
     },
     {
         "Name": "Corsair MP600 Pro NH 4000 GB",
         "Size": "4000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$490"
+        "Price": "$210"
     },
     {
         "Name": "Corsair MP600 Pro XT 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$560"
+        "Price": "$520"
     },
     {
         "Name": "Corsair MP600 Pro XT 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$530"
+        "Price": "$150"
     },
     {
         "Name": "Corsair MP600 Pro XT 4000 GB",
         "Size": "4000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$240"
+        "Price": "$580"
     },
     {
         "Name": "Corsair MP600 R2 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$100"
+        "Price": "$240"
     },
     {
         "Name": "Corsair MP700 Pro 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$270"
+        "Price": "$100"
     },
     {
         "Name": "Corsair MP700 Pro 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$530"
+        "Price": "$210"
     },
     {
         "Name": "Corsair MP700 Pro Hydro X 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$240"
+        "Price": "$460"
     },
     {
         "Name": "Corsair Neutron Series XTi",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$160"
+        "Price": "$600"
     },
     {
         "Name": "Corsair Neutron Series XTi",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$370"
+        "Price": "$490"
     },
     {
         "Name": "Corsair Neutron Series XTi",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$260"
+        "Price": "$410"
     },
     {
         "Name": "Corsair Neutron Series XTi",
         "Size": "1920 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$310"
+        "Price": "$220"
     },
     {
         "Name": "Crucial BX500  - 1 TB 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$290"
+        "Price": "$240"
     },
     {
         "Name": "Crucial BX500  - 120 GB 120 GB",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$430"
+        "Price": "$160"
     },
     {
         "Name": "Crucial BX500  - 2 TB 2000 GB",
         "Size": "2000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$530"
+        "Price": "$270"
     },
     {
         "Name": "Crucial BX500  - 240 GB 240 GB",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$150"
+        "Price": "$80"
     },
     {
         "Name": "Crucial BX500  - 480 GB 480 GB",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$390"
+        "Price": "$310"
     },
     {
         "Name": "Crucial BX500  - 960 GB 960 GB",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$380"
+        "Price": "$110"
     },
     {
         "Name": "Crucial MX300",
         "Size": "275 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$250"
+        "Price": "$180"
     },
     {
         "Name": "Crucial MX300",
         "Size": "525 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$570"
+        "Price": "$390"
     },
     {
         "Name": "Crucial MX300",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$180"
+        "Price": "$130"
     },
     {
         "Name": "Crucial MX300",
         "Size": "2000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$180"
+        "Price": "$470"
     },
     {
         "Name": "Crucial MX300  275GB  TLC",
         "Size": "275 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$550"
+        "Price": "$300"
     },
     {
         "Name": "Crucial MX300 M.2 Solid State Drive",
         "Size": "525 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$160"
+        "Price": "$590"
     },
     {
         "Name": "Crucial MX300 M.2 Solid State Drive",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$410"
+        "Price": "$230"
     },
     {
         "Name": "Crucial MX500 250 GB",
         "Size": "250 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$150"
+        "Price": "$450"
     },
     {
         "Name": "Crucial MX500 M.2 Solid State Drive 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$250"
+        "Price": "$510"
     },
     {
         "Name": "Crucial MX500 M.2 Solid State Drive 250 GB",
         "Size": "250 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$290"
+        "Price": "$110"
     },
     {
         "Name": "Crucial MX500 M.2 Solid State Drive 500 GB",
         "Size": "500 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$400"
+        "Price": "$430"
     },
     {
         "Name": "Crucial P5 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$460"
+        "Price": "$520"
     },
     {
         "Name": "Crucial P5 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$530"
+        "Price": "$150"
     },
     {
         "Name": "Crucial P5 250 GB",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$180"
+        "Price": "$190"
     },
     {
         "Name": "Crucial P5 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$410"
+        "Price": "$330"
     },
     {
         "Name": "Crucial P5 Plus 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$260"
+        "Price": "$470"
     },
     {
         "Name": "Crucial P5 Plus 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$540"
+        "Price": "$410"
     },
     {
         "Name": "Crucial P5 Plus 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$460"
+        "Price": "$230"
     },
     {
         "Name": "Gigabyte",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$380"
+        "Price": "$160"
     },
     {
         "Name": "Gigabyte 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$460"
+        "Price": "$380"
     },
     {
         "Name": "Gigabyte 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$160"
+        "Price": "$240"
     },
     {
         "Name": "Gigabyte 120 GB",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$340"
+        "Price": "$140"
     },
     {
         "Name": "Gigabyte 128 GB",
         "Size": "128 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$90"
+        "Price": "$220"
     },
     {
         "Name": "Gigabyte 240 GB",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$540"
+        "Price": "$170"
     },
     {
         "Name": "Gigabyte 256 GB",
         "Size": "256 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$590"
+        "Price": "$400"
     },
     {
         "Name": "Gigabyte 256 GB",
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$120"
+        "Price": "$140"
     },
     {
         "Name": "Gigabyte 480 GB",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$340"
+        "Price": "$60"
     },
     {
         "Name": "Gigabyte 512 GB",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$400"
+        "Price": "$370"
     },
     {
         "Name": "Gigabyte Aorus 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$130"
+        "Price": "$310"
     },
     {
         "Name": "Gigabyte Aorus 256 GB",
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$550"
+        "Price": "$460"
     },
     {
         "Name": "Gigabyte Aorus 512 GB",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$380"
+        "Price": "$120"
     },
     {
         "Name": "Gigabyte UD PRO Series 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$360"
+        "Price": "$190"
     },
     {
         "Name": "Gigabyte UD Pro Series 256 GB",
         "Size": "256 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$590"
+        "Price": "$420"
     },
     {
         "Name": "Gigabyte UD PRO Series 512 GB",
         "Size": "512 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$480"
+        "Price": "$200"
     },
     {
         "Name": "Gigabyte UD PRO Series 512 GB",
         "Size": "512 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$210"
-    },
-    {
-        "Name": "HyperX Fury Series",
-        "Size": "120 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$240"
-    },
-    {
-        "Name": "HyperX Fury Series",
-        "Size": "240 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$460"
-    },
-    {
-        "Name": "HyperX Fury Series",
-        "Size": "480 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$250"
-    },
-    {
-        "Name": "HyperX Predator Solid State Drive",
-        "Size": "240 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$220"
-    },
-    {
-        "Name": "HyperX Predator Solid State Drive",
-        "Size": "480 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$240"
-    },
-    {
-        "Name": "HyperX Savage Series",
-        "Size": "120 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$260"
-    },
-    {
-        "Name": "HyperX Savage Series",
-        "Size": "480 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$220"
-    },
-    {
-        "Name": "HyperX Savage Series",
-        "Size": "240 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$370"
-    },
-    {
-        "Name": "HyperX Savage Series",
-        "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
         "Price": "$530"
     },
     {
-        "Name": "Intel  DC S3510 Serie 120GB",
+        "Name": "HyperX Fury Series",
         "Size": "120 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$520"
+    },
+    {
+        "Name": "HyperX Fury Series",
+        "Size": "240 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$300"
+    },
+    {
+        "Name": "HyperX Fury Series",
+        "Size": "480 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$80"
+    },
+    {
+        "Name": "HyperX Predator Solid State Drive",
+        "Size": "240 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$240"
+    },
+    {
+        "Name": "HyperX Predator Solid State Drive",
+        "Size": "480 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$50"
+    },
+    {
+        "Name": "HyperX Savage Series",
+        "Size": "120 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$80"
+    },
+    {
+        "Name": "HyperX Savage Series",
+        "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
         "Price": "$330"
     },
     {
-        "Name": "Intel  DC S3510 Serie 480GB",
-        "Size": "480 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$360"
-    },
-    {
-        "Name": "Intel  DC S3510 Serie 800GB",
-        "Size": "800 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$390"
-    },
-    {
-        "Name": "Intel  DC S3710 Serie 200GB",
-        "Size": "200 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$120"
-    },
-    {
-        "Name": "Intel  DC S3710 Serie 400GB",
-        "Size": "400 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$160"
-    },
-    {
-        "Name": "Intel 535 Series  120GB MLC  -",
-        "Size": "120 GB",
-        "Bus": "SATA",
-        "Format": "M.2 Format",
-        "Price": "$570"
-    },
-    {
-        "Name": "Intel 540s Series",
-        "Size": "1000 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$470"
-    },
-    {
-        "Name": "Intel 540s Series",
-        "Size": "120 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$490"
-    },
-    {
-        "Name": "Intel 540s Series",
-        "Size": "180 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$290"
-    },
-    {
-        "Name": "Intel 540s Series",
-        "Size": "360 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$220"
-    },
-    {
-        "Name": "Intel 540s Series",
-        "Size": "480 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$120"
-    },
-    {
-        "Name": "Intel 540s Series",
+        "Name": "HyperX Savage Series",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
         "Price": "$540"
     },
     {
+        "Name": "HyperX Savage Series",
+        "Size": "960 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$540"
+    },
+    {
+        "Name": "Intel  DC S3510 Serie 120GB",
+        "Size": "120 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$280"
+    },
+    {
+        "Name": "Intel  DC S3510 Serie 480GB",
+        "Size": "480 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$330"
+    },
+    {
+        "Name": "Intel  DC S3510 Serie 800GB",
+        "Size": "800 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$60"
+    },
+    {
+        "Name": "Intel  DC S3710 Serie 200GB",
+        "Size": "200 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$50"
+    },
+    {
+        "Name": "Intel  DC S3710 Serie 400GB",
+        "Size": "400 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$270"
+    },
+    {
+        "Name": "Intel 535 Series  120GB MLC  -",
+        "Size": "120 GB",
+        "Bus": "SATA",
+        "Format": "M.2 Format",
+        "Price": "$80"
+    },
+    {
+        "Name": "Intel 540s Series",
+        "Size": "1000 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$320"
+    },
+    {
+        "Name": "Intel 540s Series",
+        "Size": "120 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$50"
+    },
+    {
+        "Name": "Intel 540s Series",
+        "Size": "180 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$500"
+    },
+    {
+        "Name": "Intel 540s Series",
+        "Size": "360 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$380"
+    },
+    {
+        "Name": "Intel 540s Series",
+        "Size": "480 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$400"
+    },
+    {
+        "Name": "Intel 540s Series",
+        "Size": "240 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$470"
+    },
+    {
         "Name": "Intel 540s Series  240GB TLC  -",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$320"
+        "Price": "$510"
     },
     {
         "Name": "Intel 540s Series Solid State Drive",
         "Size": "360 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$140"
+        "Price": "$420"
     },
     {
         "Name": "Intel 540s Series Solid State Drive",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$200"
+        "Price": "$150"
     },
     {
         "Name": "Intel 540s Series Solid State Drive",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$210"
+        "Price": "$580"
     },
     {
         "Name": "Intel 540s Series Solid State Drive",
         "Size": "180 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$80"
+        "Price": "$390"
     },
     {
         "Name": "Intel 540s Series Solid State Drive",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$100"
+        "Price": "$250"
     },
     {
         "Name": "Intel 600P Series",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$130"
+        "Price": "$590"
     },
     {
         "Name": "Intel 600P Series",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$600"
+        "Price": "$280"
     },
     {
         "Name": "Intel 600P Series",
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$360"
+        "Price": "$80"
     },
     {
         "Name": "Intel 600P Series",
         "Size": "128 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$120"
+        "Price": "$540"
     },
     {
         "Name": "Intel 660P Series",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$460"
+        "Price": "$80"
     },
     {
         "Name": "Intel 760p Series",
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$500"
+        "Price": "$270"
     },
     {
         "Name": "Intel 760p Series 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$530"
+        "Price": "$280"
     },
     {
         "Name": "Intel 760p Series 128 GB",
         "Size": "128 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$190"
+        "Price": "$540"
     },
     {
         "Name": "Intel 760p Series 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$350"
+        "Price": "$120"
     },
     {
         "Name": "Intel 760p Series 512 GB",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$300"
+        "Price": "$530"
     },
     {
         "Name": "Intel DC S3500 Series",
         "Size": "800 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$150"
+        "Price": "$60"
     },
     {
         "Name": "Intel Optane 800P 118 GB",
         "Size": "118 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$150"
+        "Price": "$580"
     },
     {
         "Name": "Intel Optane 800P 58 GB",
         "Size": "58 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$560"
+        "Price": "$280"
     },
     {
         "Name": "Intel Optane 900P AIC Solid State Drive 480 GB",
         "Size": "480 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$470"
+        "Price": "$320"
     },
     {
         "Name": "Intel Optane 900P NVMe 280 GB",
         "Size": "280 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$430"
+        "Price": "$130"
     },
     {
         "Name": "Intel Optane 900P Series 2 280 GB",
         "Size": "280 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$240"
+        "Price": "$460"
     },
     {
         "Name": "Intel Optane 905P 380 GB",
         "Size": "380 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$350"
+        "Price": "$360"
     },
     {
         "Name": "Intel Optane Series",
         "Size": "32 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$440"
+        "Price": "$140"
     },
     {
         "Name": "Intel Optane Series 16 GB",
         "Size": "16 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$520"
+        "Price": "$140"
     },
     {
         "Name": "Intel Pro 6000P Series",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$480"
+        "Price": "$420"
     },
     {
         "Name": "Intel Pro 6000P Series",
         "Size": "128 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$260"
+        "Price": "$420"
     },
     {
         "Name": "Intel Pro 6000P Series",
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$60"
+        "Price": "$300"
     },
     {
         "Name": "Intel Pro 6000P Series",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$250"
+        "Price": "$230"
     },
     {
         "Name": "Intenso High Performance   III 120GB  TLC  3813430",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$520"
+        "Price": "$420"
     },
     {
         "Name": "Intenso High Performance   III 240GB  TLC  3813440",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$400"
+        "Price": "$250"
     },
     {
         "Name": "Intenso High Performance   III 480GB  TLC  3813450",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$350"
+        "Price": "$270"
     },
     {
         "Name": "Intenso High Performance   III 960GB  TLC  3813460",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$360"
+        "Price": "$220"
     },
     {
         "Name": "Intenso Top III  256GB  MLC",
         "Size": "256 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$520"
+        "Price": "$100"
     },
     {
         "Name": "Intenso Top III  512GB  MLC",
         "Size": "512 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$420"
+        "Price": "$550"
     },
     {
         "Name": "Kingston A1000 NVMe M.2 Solid State Drive",
         "Size": "480 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$580"
+        "Price": "$140"
     },
     {
         "Name": "Kingston A1000 NVMe M.2 Solid State Drive",
         "Size": "240 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$110"
+        "Price": "$450"
     },
     {
         "Name": "Kingston A400  - 960 GB 960 GB",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$140"
+        "Price": "$100"
     },
     {
         "Name": "Kingston DC400  480GB",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$400"
+        "Price": "$80"
     },
     {
         "Name": "Kingston DC400  960GB",
@@ -1628,504 +1628,504 @@
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$200"
+        "Price": "$420"
     },
     {
         "Name": "Kingston Now KC400 128GB MLC",
         "Size": "128 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$250"
+        "Price": "$490"
     },
     {
         "Name": "Kingston Now KC400 256GB MLC",
         "Size": "256 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$270"
-    },
-    {
-        "Name": "Kingston Now KC400 256GB MLC",
-        "Size": "256 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$320"
-    },
-    {
-        "Name": "Kingston Now KC400 512GB MLC",
-        "Size": "512 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$500"
-    },
-    {
-        "Name": "Kingston Now KC400 512GB MLC",
-        "Size": "512 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
         "Price": "$220"
+    },
+    {
+        "Name": "Kingston Now KC400 256GB MLC",
+        "Size": "256 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$510"
+    },
+    {
+        "Name": "Kingston Now KC400 512GB MLC",
+        "Size": "512 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$230"
+    },
+    {
+        "Name": "Kingston Now KC400 512GB MLC",
+        "Size": "512 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$440"
     },
     {
         "Name": "Kingston Now mS200 120GB MLC",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$60"
+        "Price": "$580"
     },
     {
         "Name": "Kingston Now mS200 480GB MLC",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$520"
+        "Price": "$230"
     },
     {
         "Name": "Kingston Now mS200 60GB MLC",
         "Size": "60 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$230"
+        "Price": "$530"
     },
     {
         "Name": "Kingston Now UV400 120GB TLC",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$520"
+        "Price": "$420"
     },
     {
         "Name": "Kingston Now UV400 240GB TLC",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$60"
+        "Price": "$160"
     },
     {
         "Name": "Kingston Now UV400 480GB TLC",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$400"
+        "Price": "$360"
     },
     {
         "Name": "Kingston Now UV400 960GB TLC",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$210"
+        "Price": "$470"
     },
     {
         "Name": "Kingston Now V300 120GB MLC",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$290"
+        "Price": "$70"
     },
     {
         "Name": "Kingston Now V300 120GB MLC",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$120"
+        "Price": "$590"
     },
     {
         "Name": "Kingston Now V300 60GB MLC",
         "Size": "60 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$310"
+        "Price": "$530"
     },
     {
         "Name": "Kingston NV1 NVMe 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$380"
+        "Price": "$420"
     },
     {
         "Name": "Kingston NV1 NVMe 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$70"
+        "Price": "$360"
     },
     {
         "Name": "Kingston NV1 NVMe 250 GB",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$140"
+        "Price": "$500"
     },
     {
         "Name": "Kingston NV1 NVMe 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$80"
+        "Price": "$230"
     },
     {
         "Name": "Kingston Solid State Drive",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$370"
+        "Price": "$320"
     },
     {
         "Name": "Kingston Solid State Drive",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$100"
+        "Price": "$570"
     },
     {
         "Name": "Kingston Solid State Drive",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$550"
+        "Price": "$420"
     },
     {
         "Name": "Kingston SSDNow A400 Series 120 GB",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$270"
+        "Price": "$50"
     },
     {
         "Name": "Kingston SSDNow A400 Series 240 GB",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$120"
+        "Price": "$50"
     },
     {
         "Name": "Kingston SSDNow A400 Series 480 GB",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$480"
+        "Price": "$570"
     },
     {
         "Name": "Kingston SSDNow E50 Series",
         "Size": "100 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$490"
+        "Price": "$210"
     },
     {
         "Name": "Kingston SSDNow UV400 Series",
-        "Size": "480 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$480"
-    },
-    {
-        "Name": "Kingston SSDNow UV400 Series",
-        "Size": "120 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$360"
-    },
-    {
-        "Name": "Kingston SSDNow UV400 Series",
-        "Size": "960 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$370"
-    },
-    {
-        "Name": "Kingston SSDNow UV500 Series 120 GB",
-        "Size": "120 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$330"
-    },
-    {
-        "Name": "Kingston SSDNow UV500 Series 240 GB",
-        "Size": "240 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$110"
-    },
-    {
-        "Name": "Kingston SSDNow UV500 Series 480 GB",
-        "Size": "480 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$190"
-    },
-    {
-        "Name": "Kingston SSDNow UV500 Series 960 GB",
-        "Size": "960 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$110"
-    },
-    {
-        "Name": "Kingston Solid State DriveNow UV500 Series M.2 Solid State Drive",
-        "Size": "240 GB",
-        "Bus": "SATA",
-        "Format": "M.2 Format",
-        "Price": "$180"
-    },
-    {
-        "Name": "Kingston Solid State DriveNow UV500 Series M.2 Solid State Drive 120 GB",
-        "Size": "120 GB",
-        "Bus": "SATA",
-        "Format": "M.2 Format",
-        "Price": "$480"
-    },
-    {
-        "Name": "Kingston Solid State DriveNow UV500 Series M.2 Solid State Drive 480 GB",
-        "Size": "480 GB",
-        "Bus": "SATA",
-        "Format": "M.2 Format",
-        "Price": "$350"
-    },
-    {
-        "Name": "Kingston SSDNow V300 Series",
-        "Size": "240 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$560"
-    },
-    {
-        "Name": "Kingston SSDNow V300 Series",
-        "Size": "480 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$140"
-    },
-    {
-        "Name": "KIOXIA Exceria NVMe Series 1000 GB",
-        "Size": "1000 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$370"
-    },
-    {
-        "Name": "KIOXIA Exceria NVMe Series 250 GB",
-        "Size": "250 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$170"
-    },
-    {
-        "Name": "KIOXIA Exceria NVMe Series 500 GB",
-        "Size": "500 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$380"
-    },
-    {
-        "Name": "KIOXIA Exceria Plus NVMe Series 1000 GB",
-        "Size": "1000 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$290"
-    },
-    {
-        "Name": "KIOXIA Exceria Plus NVMe Series 2000 GB",
-        "Size": "2000 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$130"
-    },
-    {
-        "Name": "KIOXIA Exceria Plus NVMe Series 500 GB",
-        "Size": "500 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$320"
-    },
-    {
-        "Name": "KIOXIA Exceria Series 240 GB",
-        "Size": "240 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$280"
-    },
-    {
-        "Name": "KIOXIA Exceria Series 480 GB",
-        "Size": "480 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$320"
-    },
-    {
-        "Name": "KIOXIA Exceria Series 960 GB",
-        "Size": "960 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$290"
-    },
-    {
-        "Name": "Lexar NM620 512 GB",
-        "Size": "512 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$570"
-    },
-    {
-        "Name": "Mach Xtreme SATA DOM Solid State Drive",
-        "Size": "32 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$510"
-    },
-    {
-        "Name": "Mach Xtreme Technology DS Fusion Ultra",
-        "Size": "120 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$510"
-    },
-    {
-        "Name": "Mach Xtreme Technology DS Turbo PREMIUM Series",
-        "Size": "120 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$540"
-    },
-    {
-        "Name": "Micron 1100",
-        "Size": "256 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$160"
-    },
-    {
-        "Name": "Mushkin Element 1000 GB",
-        "Size": "1000 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$200"
-    },
-    {
-        "Name": "Mushkin Element 2000 GB",
-        "Size": "2000 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$510"
-    },
-    {
-        "Name": "Mushkin Element 4000 GB",
-        "Size": "4000 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$420"
-    },
-    {
-        "Name": "Mushkin Element 512 GB",
-        "Size": "512 GB",
-        "Bus": "NVME",
-        "Format": "M.2 Format",
-        "Price": "$70"
-    },
-    {
-        "Name": "OCZ TL100  120GB TLC",
-        "Size": "120 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$230"
-    },
-    {
-        "Name": "OCZ TL100  240GB TLC",
-        "Size": "240 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$590"
-    },
-    {
-        "Name": "OCZ TR150  480GB TLC",
-        "Size": "480 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$50"
-    },
-    {
-        "Name": "OCZ TR150  960GB TLC",
-        "Size": "960 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$370"
-    },
-    {
-        "Name": "OCZ VT180  480GB MLC",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
         "Price": "$250"
     },
     {
+        "Name": "Kingston SSDNow UV400 Series",
+        "Size": "120 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$460"
+    },
+    {
+        "Name": "Kingston SSDNow UV400 Series",
+        "Size": "960 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$70"
+    },
+    {
+        "Name": "Kingston SSDNow UV500 Series 120 GB",
+        "Size": "120 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$260"
+    },
+    {
+        "Name": "Kingston SSDNow UV500 Series 240 GB",
+        "Size": "240 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$330"
+    },
+    {
+        "Name": "Kingston SSDNow UV500 Series 480 GB",
+        "Size": "480 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$70"
+    },
+    {
+        "Name": "Kingston SSDNow UV500 Series 960 GB",
+        "Size": "960 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$440"
+    },
+    {
+        "Name": "Kingston Solid State DriveNow UV500 Series M.2 Solid State Drive",
+        "Size": "240 GB",
+        "Bus": "SATA",
+        "Format": "M.2 Format",
+        "Price": "$280"
+    },
+    {
+        "Name": "Kingston Solid State DriveNow UV500 Series M.2 Solid State Drive 120 GB",
+        "Size": "120 GB",
+        "Bus": "SATA",
+        "Format": "M.2 Format",
+        "Price": "$560"
+    },
+    {
+        "Name": "Kingston Solid State DriveNow UV500 Series M.2 Solid State Drive 480 GB",
+        "Size": "480 GB",
+        "Bus": "SATA",
+        "Format": "M.2 Format",
+        "Price": "$90"
+    },
+    {
+        "Name": "Kingston SSDNow V300 Series",
+        "Size": "240 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$310"
+    },
+    {
+        "Name": "Kingston SSDNow V300 Series",
+        "Size": "480 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$190"
+    },
+    {
+        "Name": "KIOXIA Exceria NVMe Series 1000 GB",
+        "Size": "1000 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$70"
+    },
+    {
+        "Name": "KIOXIA Exceria NVMe Series 250 GB",
+        "Size": "250 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$80"
+    },
+    {
+        "Name": "KIOXIA Exceria NVMe Series 500 GB",
+        "Size": "500 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$60"
+    },
+    {
+        "Name": "KIOXIA Exceria Plus NVMe Series 1000 GB",
+        "Size": "1000 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$90"
+    },
+    {
+        "Name": "KIOXIA Exceria Plus NVMe Series 2000 GB",
+        "Size": "2000 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$160"
+    },
+    {
+        "Name": "KIOXIA Exceria Plus NVMe Series 500 GB",
+        "Size": "500 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$140"
+    },
+    {
+        "Name": "KIOXIA Exceria Series 240 GB",
+        "Size": "240 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$180"
+    },
+    {
+        "Name": "KIOXIA Exceria Series 480 GB",
+        "Size": "480 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$490"
+    },
+    {
+        "Name": "KIOXIA Exceria Series 960 GB",
+        "Size": "960 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$380"
+    },
+    {
+        "Name": "Lexar NM620 512 GB",
+        "Size": "512 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$190"
+    },
+    {
+        "Name": "Mach Xtreme SATA DOM Solid State Drive",
+        "Size": "32 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$290"
+    },
+    {
+        "Name": "Mach Xtreme Technology DS Fusion Ultra",
+        "Size": "120 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$450"
+    },
+    {
+        "Name": "Mach Xtreme Technology DS Turbo PREMIUM Series",
+        "Size": "120 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$280"
+    },
+    {
+        "Name": "Micron 1100",
+        "Size": "256 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$130"
+    },
+    {
+        "Name": "Mushkin Element 1000 GB",
+        "Size": "1000 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$600"
+    },
+    {
+        "Name": "Mushkin Element 2000 GB",
+        "Size": "2000 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$560"
+    },
+    {
+        "Name": "Mushkin Element 4000 GB",
+        "Size": "4000 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$560"
+    },
+    {
+        "Name": "Mushkin Element 512 GB",
+        "Size": "512 GB",
+        "Bus": "NVME",
+        "Format": "M.2 Format",
+        "Price": "$360"
+    },
+    {
+        "Name": "OCZ TL100  120GB TLC",
+        "Size": "120 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$520"
+    },
+    {
+        "Name": "OCZ TL100  240GB TLC",
+        "Size": "240 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$200"
+    },
+    {
+        "Name": "OCZ TR150  480GB TLC",
+        "Size": "480 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$150"
+    },
+    {
+        "Name": "OCZ TR150  960GB TLC",
+        "Size": "960 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$540"
+    },
+    {
+        "Name": "OCZ VT180  480GB MLC",
+        "Size": "480 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$480"
+    },
+    {
         "Name": "OWC Aura 6G 120GB  MLC low profile  (MacBook Air 2012)",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$180"
+        "Price": "$100"
     },
     {
         "Name": "OWC Aura 6G 240GB  MLC low profile  (2010/2011 MacBook Air)",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$170"
+        "Price": "$450"
     },
     {
         "Name": "OWC Aura 6G 240GB  MLC low profile  (iMac late 2012)",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$100"
+        "Price": "$450"
     },
     {
         "Name": "OWC Aura 6G 240GB  MLC low profile  (MacBook Pro RD Edition)",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$50"
+        "Price": "$370"
     },
     {
         "Name": "OWC Aura 6G 480GB  MLC low profile  (iMac late 2012)",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$60"
+        "Price": "$360"
     },
     {
         "Name": "OWC Aura 6G 480GB  MLC low profile  (MacBook Pro RD Edition)",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$600"
+        "Price": "$50"
     },
     {
         "Name": "OWC Aura 6G 960GB  MLC low profile  (iMac late 2012)",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$460"
+        "Price": "$570"
     },
     {
         "Name": "OWC Aura Pro 6G 120GB  MLC low profile  (2010/2011 MacBook Air)",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$330"
+        "Price": "$570"
     },
     {
         "Name": "Patriot Blast",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$460"
+        "Price": "$430"
     },
     {
         "Name": "Patriot Burst",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$120"
+        "Price": "$50"
     },
     {
         "Name": "Patriot Burst",
@@ -2139,63 +2139,63 @@
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$240"
+        "Price": "$110"
     },
     {
         "Name": "Patriot Flare",
         "Size": "60 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$160"
+        "Price": "$60"
     },
     {
         "Name": "Patriot HellFire",
         "Size": "480 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$200"
+        "Price": "$180"
     },
     {
         "Name": "Patriot HellFire M.2 Solid State Drive",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$230"
+        "Price": "$410"
     },
     {
         "Name": "Patriot Spark",
         "Size": "512 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$260"
+        "Price": "$250"
     },
     {
         "Name": "Patriot Spark",
         "Size": "128 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$500"
+        "Price": "$290"
     },
     {
         "Name": "Patriot Spark",
         "Size": "256 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$360"
+        "Price": "$80"
     },
     {
         "Name": "PNY CS2211",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$460"
+        "Price": "$450"
     },
     {
         "Name": "PNY CS3140 4000 GB",
         "Size": "4000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$330"
+        "Price": "$510"
     },
     {
         "Name": "PNY CS900",
@@ -2209,584 +2209,584 @@
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$60"
+        "Price": "$180"
     },
     {
         "Name": "Samsung  750 EVO Series 120GB",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$330"
+        "Price": "$450"
     },
     {
         "Name": "Samsung  850 PRO Series 128GB",
         "Size": "128 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$360"
+        "Price": "$500"
     },
     {
         "Name": "Samsung  SM961-NVMe Series 128GB MLC -   - Enterprise",
         "Size": "128 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$460"
+        "Price": "$200"
     },
     {
         "Name": "Samsung 750 Evo Series",
         "Size": "500 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$490"
+        "Price": "$330"
     },
     {
         "Name": "Samsung 750 Evo Series",
         "Size": "250 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$180"
+        "Price": "$340"
     },
     {
         "Name": "Samsung 850 EVO Series",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$510"
+        "Price": "$80"
     },
     {
         "Name": "Samsung 850 EVO Series",
         "Size": "2000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$290"
+        "Price": "$180"
     },
     {
         "Name": "Samsung 850 EVO Series",
         "Size": "500 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$140"
+        "Price": "$230"
     },
     {
         "Name": "Samsung 850 EVO Series",
         "Size": "250 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$180"
+        "Price": "$380"
     },
     {
         "Name": "Samsung 850 EVO Series",
         "Size": "4000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$330"
+        "Price": "$400"
     },
     {
         "Name": "Samsung 850 PRO Series Solid State Drive",
         "Size": "2000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$270"
+        "Price": "$50"
     },
     {
         "Name": "Samsung 850 PRO Series Solid State Drive",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$520"
+        "Price": "$430"
     },
     {
         "Name": "Samsung 850 PRO Series Solid State Drive",
         "Size": "512 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$230"
+        "Price": "$170"
     },
     {
         "Name": "Samsung 850 PRO Series Solid State Drive",
         "Size": "256 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$230"
+        "Price": "$260"
     },
     {
         "Name": "Samsung 860 EVO Series",
         "Size": "250 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$80"
+        "Price": "$300"
     },
     {
         "Name": "Samsung 860 EVO Series 4000 GB",
         "Size": "4000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$570"
+        "Price": "$240"
     },
     {
         "Name": "Samsung 860 PRO Series 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$380"
+        "Price": "$270"
     },
     {
         "Name": "Samsung 860 PRO Series 2000 GB",
         "Size": "2000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$440"
+        "Price": "$300"
     },
     {
         "Name": "Samsung 860 PRO Series 256 GB",
         "Size": "256 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$120"
+        "Price": "$430"
     },
     {
         "Name": "Samsung 860 PRO Series 4000 GB",
         "Size": "4000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$120"
+        "Price": "$460"
     },
     {
         "Name": "Samsung 860 PRO Series 512 GB",
         "Size": "512 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$340"
+        "Price": "$110"
     },
     {
         "Name": "Samsung 870 EVO 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$300"
+        "Price": "$100"
     },
     {
         "Name": "Samsung 870 EVO 2000 GB",
         "Size": "2000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$400"
+        "Price": "$150"
     },
     {
         "Name": "Samsung 870 EVO 250 GB",
         "Size": "250 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$290"
+        "Price": "$240"
     },
     {
         "Name": "Samsung 870 EVO 4000 GB",
         "Size": "4000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$350"
+        "Price": "$560"
     },
     {
         "Name": "Samsung 870 EVO 500 GB",
         "Size": "500 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$570"
+        "Price": "$220"
     },
     {
         "Name": "Samsung 870 QVO 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$360"
+        "Price": "$240"
     },
     {
         "Name": "Samsung 870 QVO 2000 GB",
         "Size": "2000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$510"
+        "Price": "$170"
     },
     {
         "Name": "Samsung 870 QVO 4000 GB",
         "Size": "4000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$270"
+        "Price": "$350"
     },
     {
         "Name": "Samsung 870 QVO 8000 GB",
         "Size": "8000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$590"
+        "Price": "$220"
     },
     {
         "Name": "Samsung 960 EVO",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$130"
+        "Price": "$450"
     },
     {
         "Name": "Samsung 960 EVO",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$390"
+        "Price": "$90"
     },
     {
         "Name": "Samsung 960 EVO",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$570"
+        "Price": "$230"
     },
     {
         "Name": "Samsung 960 PRO",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$260"
+        "Price": "$80"
     },
     {
         "Name": "Samsung 960 PRO",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$240"
+        "Price": "$230"
     },
     {
         "Name": "Samsung 960 PRO",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$560"
+        "Price": "$110"
     },
     {
         "Name": "Samsung 970 Evo Plus 250 GB",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$480"
+        "Price": "$390"
     },
     {
         "Name": "Samsung 970 Evo Plus 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$280"
+        "Price": "$370"
     },
     {
         "Name": "Samsung 970 PRO 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$540"
+        "Price": "$440"
     },
     {
         "Name": "Samsung 970 PRO 512 GB",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$480"
+        "Price": "$90"
     },
     {
         "Name": "Samsung 980 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$110"
+        "Price": "$160"
     },
     {
         "Name": "Samsung 980 250 GB",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$190"
+        "Price": "$530"
     },
     {
         "Name": "Samsung 980 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$380"
+        "Price": "$100"
     },
     {
         "Name": "Samsung 980 PRO Series 250 GB",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$290"
+        "Price": "$260"
     },
     {
         "Name": "Samsung 990 EVO Series 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$90"
+        "Price": "$380"
     },
     {
         "Name": "Samsung 990 EVO Series 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$530"
+        "Price": "$500"
     },
     {
         "Name": "Samsung 990 PRO Series 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$280"
+        "Price": "$270"
     },
     {
         "Name": "Samsung 990 PRO Series 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$560"
+        "Price": "$80"
     },
     {
         "Name": "Samsung PM883 Series 0 GB",
         "Size": "0 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$340"
+        "Price": "$370"
     },
     {
         "Name": "Samsung PM883 Series 0 GB",
         "Size": "0 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$110"
+        "Price": "$190"
     },
     {
         "Name": "Samsung PM883 Series 240 GB",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$290"
+        "Price": "$380"
     },
     {
         "Name": "Samsung PM883 Series 480 GB",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$170"
+        "Price": "$320"
     },
     {
         "Name": "Samsung PM883 Series 960 GB",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$260"
+        "Price": "$320"
     },
     {
         "Name": "Samsung PM897 Series 480 GB",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$200"
+        "Price": "$380"
     },
     {
         "Name": "Samsung PM981 256 GB",
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$420"
+        "Price": "$250"
     },
     {
         "Name": "Samsung SM883 Series 0 GB",
         "Size": "0 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$510"
+        "Price": "$430"
     },
     {
         "Name": "Samsung SM883 Series 240 GB",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$310"
+        "Price": "$210"
     },
     {
         "Name": "Samsung SM883 Series 480 GB",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$530"
+        "Price": "$230"
     },
     {
         "Name": "Samsung SM883 Series 960 GB",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$130"
+        "Price": "$260"
     },
     {
         "Name": "SanDisk  Plus 120GB TLC",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$580"
+        "Price": "$170"
     },
     {
         "Name": "SanDisk  Plus 240GB TLC",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$370"
+        "Price": "$570"
     },
     {
         "Name": "SanDisk  Plus 480GB TLC",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$320"
+        "Price": "$520"
     },
     {
         "Name": "SanDisk  Plus 960GB TLC",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$380"
+        "Price": "$270"
     },
     {
         "Name": "SanDisk Ultra II  240GB TLC",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$500"
+        "Price": "$550"
     },
     {
         "Name": "SanDisk Ultra II  480GB TLC",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$440"
+        "Price": "$230"
     },
     {
         "Name": "SanDisk Ultra II  960GB TLC",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$410"
+        "Price": "$330"
     },
     {
         "Name": "Seagate BarraCuda 510 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$390"
+        "Price": "$130"
     },
     {
         "Name": "Seagate BarraCuda 510 512 GB",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$480"
+        "Price": "$580"
     },
     {
         "Name": "Seagate FireCuda 530 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$560"
+        "Price": "$50"
     },
     {
         "Name": "Seagate FireCuda 530 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$200"
+        "Price": "$50"
     },
     {
         "Name": "Seagate FireCuda 530 4000 GB",
         "Size": "4000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$90"
+        "Price": "$440"
     },
     {
         "Name": "Seagate FireCuda 530 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$70"
+        "Price": "$410"
     },
     {
         "Name": "Seagate IronWolf 240 GB",
         "Size": "240 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$550"
+        "Price": "$270"
     },
     {
         "Name": "Seagate IronWolf 480 GB",
         "Size": "480 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$80"
+        "Price": "$120"
     },
     {
         "Name": "Seagate IronWolf 960 GB",
         "Size": "960 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$190"
+        "Price": "$200"
     },
     {
         "Name": "Solidigm P44 Pro 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$450"
+        "Price": "$360"
     },
     {
         "Name": "Solidigm P44 Pro 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$220"
+        "Price": "$590"
     },
     {
         "Name": "Solidigm P44 Pro 512 GB",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$190"
+        "Price": "$470"
     },
     {
         "Name": "Team Group DARK L3 Series",
         "Size": "60 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$490"
+        "Price": "$360"
     },
     {
         "Name": "Team Group L5 Lite 3D Series",
         "Size": "120 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$460"
-    },
-    {
-        "Name": "Team Group L5 Lite 3D Series",
-        "Size": "240 GB",
-        "Bus": "SATA",
-        "Format": "SATA Format",
-        "Price": "$160"
-    },
-    {
-        "Name": "Team Group L5 Lite 3D Series",
-        "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
         "Price": "$270"
     },
     {
         "Name": "Team Group L5 Lite 3D Series",
+        "Size": "240 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$380"
+    },
+    {
+        "Name": "Team Group L5 Lite 3D Series",
+        "Size": "480 GB",
+        "Bus": "SATA",
+        "Format": "SATA Format",
+        "Price": "$540"
+    },
+    {
+        "Name": "Team Group L5 Lite 3D Series",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
@@ -2797,21 +2797,21 @@
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$480"
+        "Price": "$130"
     },
     {
         "Name": "Team Group L5 Lite Series",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$370"
+        "Price": "$200"
     },
     {
         "Name": "Team Group L5 Lite Series",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$380"
+        "Price": "$130"
     },
     {
         "Name": "Team Group L5 Lite Series",
@@ -2825,409 +2825,395 @@
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$520"
+        "Price": "$480"
     },
     {
         "Name": "Team Group L7 EVO Series",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$130"
+        "Price": "$330"
     },
     {
         "Name": "Team Group L7 EVO Series 60 GB",
         "Size": "60 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$590"
+        "Price": "$500"
     },
     {
         "Name": "Team Group M.2 Lite Solid State Drive",
         "Size": "128 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$300"
+        "Price": "$540"
     },
     {
         "Name": "Team Group M.2 Solid State Drive",
         "Size": "512 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$290"
+        "Price": "$540"
     },
     {
         "Name": "Team Group M.2 Solid State Drive Lite",
         "Size": "256 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$320"
+        "Price": "$210"
     },
     {
         "Name": "Team Group M.2 Solid State Drive Lite",
         "Size": "128 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$330"
+        "Price": "$270"
     },
     {
         "Name": "Team Group P30",
         "Size": "480 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$510"
+        "Price": "$240"
     },
     {
         "Name": "Team Group P30 240 GB",
         "Size": "240 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$530"
+        "Price": "$180"
     },
     {
         "Name": "Team Group T-Force Delta R 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$140"
+        "Price": "$210"
     },
     {
         "Name": "Team Group T-Force Delta R 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$400"
+        "Price": "$290"
     },
     {
         "Name": "Team Group T-Force Delta RGB 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$370"
+        "Price": "$120"
     },
     {
         "Name": "Team Group T-Force Delta RGB 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$500"
+        "Price": "$470"
     },
     {
         "Name": "Team Group Ultra L3 EVO Series",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$140"
+        "Price": "$300"
     },
     {
         "Name": "Team Group Ultra L3 EVO Series 240 GB",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$250"
+        "Price": "$70"
     },
     {
         "Name": "Toshiba OCZ RD400 Series Solid State Drive",
         "Size": "128 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$530"
+        "Price": "$240"
     },
     {
         "Name": "Toshiba OCZ RD400 Series Solid State Drive",
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$370"
+        "Price": "$120"
     },
     {
         "Name": "Toshiba OCZ RD400 Series Solid State Drive",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$550"
+        "Price": "$220"
     },
     {
         "Name": "Toshiba OCZ RD400 Series Solid State Drive",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$430"
+        "Price": "$310"
     },
     {
         "Name": "Toshiba OCZ VX500 Series",
         "Size": "1024 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$240"
+        "Price": "$100"
     },
     {
         "Name": "Toshiba OCZ VX500 Series",
         "Size": "512 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$600"
+        "Price": "$510"
     },
     {
         "Name": "Toshiba OCZ VX500 Series",
         "Size": "256 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$200"
+        "Price": "$150"
     },
     {
         "Name": "Toshiba OCZ VX500 Series",
         "Size": "128 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$380"
+        "Price": "$360"
     },
     {
         "Name": "Toshiba RC500 250 GB",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$130"
+        "Price": "$540"
     },
     {
         "Name": "Toshiba RC500 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$380"
+        "Price": "$80"
     },
     {
         "Name": "Toshiba RD500 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$380"
+        "Price": "$440"
     },
     {
         "Name": "Toshiba RD500 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$490"
+        "Price": "$570"
     },
     {
         "Name": "Toshiba TR200 240 GB",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$100"
+        "Price": "$430"
     },
     {
         "Name": "Toshiba TR200 480 GB",
         "Size": "480 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$300"
+        "Price": "$400"
     },
     {
         "Name": "Toshiba TR200 960 GB",
         "Size": "960 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$360"
+        "Price": "$580"
     },
     {
         "Name": "Transcend   120GB TLC   -",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$280"
+        "Price": "$70"
     },
     {
         "Name": "Transcend 2240  128GB MLC   -  2242",
         "Size": "128 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$530"
+        "Price": "$460"
     },
     {
         "Name": "Western Digital Black NVMe M.2 Solid State Drive",
         "Size": "512 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$440"
+        "Price": "$380"
     },
     {
         "Name": "Western Digital Black NVMe M.2 Solid State Drive",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$490"
+        "Price": "$200"
     },
     {
         "Name": "Western Digital Black NVMe M.2 Solid State Drive",
         "Size": "256 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$600"
+        "Price": "$160"
     },
     {
         "Name": "Western Digital Black NVMe M.2 Solid State Drive",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$120"
+        "Price": "$330"
     },
     {
         "Name": "Western Digital Black SN580 NVMe M.2 Solid State Drive 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$80"
+        "Price": "$550"
     },
     {
         "Name": "Western Digital Black SN750 NVMe M.2 Solid State Drive 250 GB",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$390"
+        "Price": "$490"
     },
     {
         "Name": "Western Digital Black SN750 NVMe M.2 Solid State Drive 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$330"
+        "Price": "$220"
     },
     {
         "Name": "Western Digital Black SN750 Solid State Drive 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$90"
+        "Price": "$500"
     },
     {
         "Name": "Western Digital Black SN770M NVMe M.2 Solid State Drive 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$480"
+        "Price": "$360"
     },
     {
         "Name": "Western Digital Black SN770M NVMe M.2 Solid State Drive 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$140"
+        "Price": "$490"
     },
     {
         "Name": "Western Digital Black SN850 NVMe M.2 Solid State Drive 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$250"
+        "Price": "$410"
     },
     {
         "Name": "Western Digital Black SN850 NVMe M.2 Solid State Drive 1000 GB",
         "Size": "1000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$590"
+        "Price": "$200"
     },
     {
         "Name": "Western Digital Black SN850 NVMe M.2 Solid State Drive 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$340"
+        "Price": "$350"
     },
     {
         "Name": "Western Digital Black SN850 NVMe M.2 Solid State Drive 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$430"
+        "Price": "$550"
     },
     {
         "Name": "Western Digital Black SN850 NVMe M.2 Solid State Drive 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$590"
+        "Price": "$370"
     },
     {
         "Name": "Western Digital Blue",
         "Size": "250 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$530"
+        "Price": "$440"
     },
     {
         "Name": "Western Digital Blue",
         "Size": "500 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$530"
+        "Price": "$70"
     },
     {
         "Name": "Western Digital Blue 3D 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$580"
+        "Price": "$220"
     },
     {
         "Name": "Western Digital Blue 3D 2000 GB",
         "Size": "2000 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$60"
+        "Price": "$600"
     },
     {
         "Name": "Western Digital Blue 3D 250 GB",
         "Size": "250 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$310"
+        "Price": "$130"
     },
     {
         "Name": "Western Digital Blue 3D 500 GB",
         "Size": "500 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$200"
+        "Price": "$510"
     },
     {
         "Name": "Western Digital Blue 3D M.2 - 1 TB 1000 GB",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$80"
+        "Price": "$190"
     },
     {
         "Name": "Western Digital Blue 3D M.2 - 2 TB 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$360"
+        "Price": "$50"
     },
     {
         "Name": "Western Digital Blue 3D M.2 Solid State Drive 250 GB",
         "Size": "250 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$260"
+        "Price": "$280"
     },
     {
         "Name": "Western Digital Blue 3D M.2 Solid State Drive 500 GB",
-        "Size": "500 GB",
-        "Bus": "SATA",
-        "Format": "M.2 Format",
-        "Price": "$450"
-    },
-    {
-        "Name": "Western Digital Blue M.2 Solid State Drive",
-        "Size": "250 GB",
-        "Bus": "SATA",
-        "Format": "M.2 Format",
-        "Price": "$210"
-    },
-    {
-        "Name": "Western Digital Blue M.2 Solid State Drive",
         "Size": "500 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
@@ -3235,10 +3221,24 @@
     },
     {
         "Name": "Western Digital Blue M.2 Solid State Drive",
+        "Size": "250 GB",
+        "Bus": "SATA",
+        "Format": "M.2 Format",
+        "Price": "$60"
+    },
+    {
+        "Name": "Western Digital Blue M.2 Solid State Drive",
+        "Size": "500 GB",
+        "Bus": "SATA",
+        "Format": "M.2 Format",
+        "Price": "$410"
+    },
+    {
+        "Name": "Western Digital Blue M.2 Solid State Drive",
         "Size": "1000 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$110"
+        "Price": "$520"
     },
     {
         "Name": "Western Digital Blue SN500 NVMe 500 GB",
@@ -3252,83 +3252,83 @@
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$90"
+        "Price": "$230"
     },
     {
         "Name": "Western Digital Blue SN550 NVMe 250 GB",
         "Size": "250 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$140"
+        "Price": "$420"
     },
     {
         "Name": "Western Digital Blue SN580 500 GB",
         "Size": "500 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$600"
+        "Price": "$70"
     },
     {
         "Name": "Western Digital Green",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$50"
+        "Price": "$470"
     },
     {
         "Name": "Western Digital Green",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$390"
+        "Price": "$310"
     },
     {
         "Name": "Western Digital Green 120 GB",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$550"
+        "Price": "$410"
     },
     {
         "Name": "Western Digital Green 240 GB",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$520"
+        "Price": "$420"
     },
     {
         "Name": "Western Digital Green M.2 Solid State Drive",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$470"
+        "Price": "$310"
     },
     {
         "Name": "Western Digital Green M.2 Solid State Drive 120 GB",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$220"
+        "Price": "$280"
     },
     {
         "Name": "Western Digital Green M.2 Solid State Drive 240 GB",
         "Size": "240 GB",
         "Bus": "SATA",
         "Format": "M.2 Format",
-        "Price": "$330"
+        "Price": "$420"
     },
     {
         "Name": "Western Digital WD Blue SN580 NVMe M.2 Solid State Drive 2000 GB",
         "Size": "2000 GB",
         "Bus": "NVME",
         "Format": "M.2 Format",
-        "Price": "$70"
+        "Price": "$500"
     },
     {
         "Name": "ZOTAC T400",
         "Size": "120 GB",
         "Bus": "SATA",
         "Format": "SATA Format",
-        "Price": "$370"
+        "Price": "$70"
     }
 ]
