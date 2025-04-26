@@ -212,6 +212,7 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         self.ui.ram_button_2.clicked.connect(self.show_ram_page)
         self.ui.ssd_button.clicked.connect(self.show_ssd_page)
         self.ui.ssd_button_2.clicked.connect(self.show_ssd_page)
+        self.ui.monitor_button.clicked.connect(self.show_monitor_page)
         self.session = Session()
 
         try:
@@ -271,3 +272,10 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         
         main_window.resize(ssd_page.size())
         self.stacked_widget.setCurrentWidget(ssd_page)
+    
+    def show_monitor_page(self):
+        monitor_page = self.stacked_widget.widget(12)
+        main_window = self.stacked_widget.window()
+        
+        main_window.resize(monitor_page.size())
+        self.stacked_widget.setCurrentWidget(monitor_page)

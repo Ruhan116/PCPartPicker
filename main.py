@@ -15,6 +15,7 @@ from views.hdd_data import HDDPage
 from views.landing_page import LandingPage
 from views.login_main import LogInWindow
 from views.mb_data import MBPage
+from views.monitor_data import MonitorPage
 from views.psu_data import PSUPage
 from views.ram_data import RAMPage
 from views.signup_main import SignUpWindow
@@ -49,6 +50,7 @@ class MainApp(QtWidgets.QMainWindow):
         self.psu_page = PSUPage(self.stacked_widget, self.component_manager) # Pass manager
         self.ram_page = RAMPage(self.stacked_widget, self.component_manager) # Pass manager
         self.ssd_page = SSDPage(self.stacked_widget, self.component_manager) # Pass manager
+        self.monitor_page = MonitorPage(self.stacked_widget, self.component_manager) # Pass manager
         self.dashboard = LoadDatabase(self.stacked_widget)
 
         # Add screens to the stacked widget
@@ -64,6 +66,7 @@ class MainApp(QtWidgets.QMainWindow):
         self.stacked_widget.addWidget(self.ram_page)  # Index 9
         self.stacked_widget.addWidget(self.ssd_page)  # Index 10
         self.stacked_widget.addWidget(self.dashboard)  # Index 11
+        self.stacked_widget.addWidget(self.monitor_page) # Index 12
 
         # Set the initial screen to the login window
         self.stacked_widget.setCurrentWidget(self.login_window)
