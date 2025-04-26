@@ -14,14 +14,14 @@
     color: white;
 }
 
-#cpu_label, #gpu_label, #hdd_label, #motherboard_label, #psu_label, #ram_label, #ssd_label{
+#cpu_label, #gpu_label, #hdd_label, #motherboard_label, #psu_label, #ram_label, #ssd_label, #monitor_label, #case_label, #cpu_cooler_label{
     font-size: 20px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     color: #333;
 }
 
-#cpu_button, #gpu_button, #hdd_button, #motherboard_button, #psu_button, #ram_button, #ssd_button, #ram_button_2, #ssd_button_2, #hdd_button_2{
+#cpu_button, #gpu_button, #hdd_button, #motherboard_button, #psu_button, #ram_button, #ssd_button, #ram_button_2, #ssd_button_2, #hdd_button_2, #monitor_button, #case_button, #cpu_cooler_button{
     background-color: rgb(52, 134, 184);
     color: white;
     font-size: 15px;
@@ -32,7 +32,7 @@
     border-radius: 8px;
 }
 
-#cpu_button:hover, #gpu_button:hover, #hdd_button:hover, #motherboard_button:hover, #psu_button:hover, #ram_button:hover, #ssd_button:hover, #ram_button_2:hover, #ssd_button_2:hover, #hdd_button_2:hover{
+#cpu_button:hover, #gpu_button:hover, #hdd_button:hover, #motherboard_button:hover, #psu_button:hover, #ram_button:hover, #ssd_button:hover, #ram_button_2:hover, #ssd_button_2:hover, #hdd_button_2:hover, #monitor_button:hover, #case_button:hover, #cpu_cooler_button:hover{
     background-color: rgb(37, 87, 117);
     color: white;
     font-size: 15px;

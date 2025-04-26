@@ -7,7 +7,7 @@ from models.Session import Session
 class Ui_ChoosingPartsPage(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1280, 720)
+        MainWindow.resize(1280, 1280)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
 
@@ -125,9 +125,32 @@ class Ui_ChoosingPartsPage(object):
         self.ssd_button_2 = QtWidgets.QPushButton(parent=self.heading_text)
         self.ssd_button_2.setObjectName("ssd_button_2")
         self.ssd_buttons_layout.addWidget(self.ssd_button_2)
-
         self.verticalLayout_4.addLayout(self.ssd_buttons_layout)  # Add the horizontal layout with both SSD buttons
 
+        self.monitor_label = QtWidgets.QLabel(parent=self.heading_text)
+        self.monitor_label.setObjectName("monitor_label")
+        self.verticalLayout_7.addWidget(self.monitor_label)
+        
+        self.cpu_cooler_label = QtWidgets.QLabel(parent=self.heading_text)
+        self.cpu_cooler_label.setObjectName("cpu_cooler_label")
+        self.verticalLayout_7.addWidget(self.cpu_cooler_label)
+        
+        self.case_label = QtWidgets.QLabel(parent=self.heading_text)
+        self.case_label.setObjectName("case_label")
+        self.verticalLayout_7.addWidget(self.case_label)
+        
+        self.monitor_button = QtWidgets.QPushButton(parent=self.heading_text)
+        self.monitor_button.setObjectName("monitor_button")
+        self.verticalLayout_4.addWidget(self.monitor_button)
+        
+        self.cpu_cooler_button = QtWidgets.QPushButton(parent=self.heading_text)
+        self.cpu_cooler_button.setObjectName("cpu_cooler_button")
+        self.verticalLayout_4.addWidget(self.cpu_cooler_button)
+        
+        self.case_button = QtWidgets.QPushButton(parent=self.heading_text)
+        self.case_button.setObjectName("case_button")
+        self.verticalLayout_4.addWidget(self.case_button)
+        
         self.horizontalLayout_6.addLayout(self.verticalLayout_4)
 
         # Set central widget
@@ -154,6 +177,12 @@ class Ui_ChoosingPartsPage(object):
         self.psu_label.setText(_translate("MainWindow", "Power Supply"))
         self.ram_label.setText(_translate("MainWindow", "RAM"))
         self.ssd_label.setText(_translate("MainWindow", "SSD"))
+        self.monitor_label.setText(_translate("MainWindow", "Monitor"))
+        self.cpu_cooler_label.setText(_translate("MainWindow", "CPU Cooler"))
+        self.case_label.setText(_translate("MainWindow", "Case"))
+        self.monitor_button.setText(_translate("MainWindow", "+ Choose a Monitor"))
+        self.cpu_cooler_button.setText(_translate("MainWindow", "+ Choose a CPU Cooler"))
+        self.case_button.setText(_translate("MainWindow", "+ Choose a Case"))
         self.cpu_button.setText(_translate("MainWindow", "+ Choose a CPU"))
         self.gpu_button.setText(_translate("MainWindow", "+ Choose a GPU"))
         self.hdd_button.setText(_translate("MainWindow", "+ Choose an HDD"))
