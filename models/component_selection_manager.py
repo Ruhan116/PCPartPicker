@@ -9,6 +9,9 @@ class ComponentSelectionManager:
             "PSU": None,
             "RAM": None,
             "SSD": None,
+            "Monitor": None,
+            "CPU_Cooler": None,
+            "Case": None
         }
 
     def set_component_name(self, component_type, component_name):
