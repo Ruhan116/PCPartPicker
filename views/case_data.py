@@ -5,7 +5,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 from models.component_selection_manager import ComponentSelectionManager
 
 
-class Ui_CPUCoolerPage(object):
+class Ui_CasePage(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1299, 768)
@@ -28,7 +28,7 @@ class Ui_CPUCoolerPage(object):
         self.table.setRowCount(0)
 
         # Set up table headers
-        headers = ["id", "Name", "Socket", "Price", "Action"]
+        headers = ["id", "Name", "Size", "Price", "Action"]
         for i, header in enumerate(headers):
             item = QtWidgets.QTableWidgetItem()
             item.setText(header)
@@ -47,9 +47,9 @@ class Ui_CPUCoolerPage(object):
         self.search_btn.setGeometry(QtCore.QRect(830, 10, 231, 41))
         self.search_btn.setObjectName("search_btn")
         self.search_btn.setText("Search")
-        self.search_btn.clicked.connect(self.load_cpu_cooler_data)
+        self.search_btn.clicked.connect(self.load_case_data)
 
-        self.tabWidget.addTab(self.tab, "CPU Cooler Details")
+        self.tabWidget.addTab(self.tab, "Case Details")
 
         self.tab_2 = QtWidgets.QWidget()
         self.tab_2.setObjectName("tab_2")
@@ -60,14 +60,14 @@ class Ui_CPUCoolerPage(object):
         self.label.setStyleSheet("font: 75 30pt \"Arial\"; font-weight: bold; color: rgb(255, 255, 255); background-color: #555579;")
         self.label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
         self.label.setObjectName("label")
-        self.label.setText("Choose A CPU Cooler")
+        self.label.setText("Choose A Case")
 
         self.refresh_btn = QtWidgets.QPushButton(parent=self.centralwidget)
         self.refresh_btn.setGeometry(QtCore.QRect(1120, 670, 141, 31))
         self.refresh_btn.setStyleSheet("font: 14pt \"Arial\";")
         self.refresh_btn.setObjectName("refresh_btn")
         self.refresh_btn.setText("Refresh")
-        self.refresh_btn.clicked.connect(self.load_cpu_cooler_data)
+        self.refresh_btn.clicked.connect(self.load_case_data)
 
         self.back_btn = QtWidgets.QPushButton(parent=self.centralwidget)
         self.back_btn.setGeometry(QtCore.QRect(30, 670, 141, 31))
@@ -91,23 +91,23 @@ class Ui_CPUCoolerPage(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "CPU Cooler Options"))
-        headers = ["id", "Name", "Socket", "Price", "Action"]
+        MainWindow.setWindowTitle(_translate("MainWindow", "Case Options"))
+        headers = ["id", "Name", "Size", "Price", "Action"]
         for i, header in enumerate(headers):
             item = self.table.horizontalHeaderItem(i)
             item.setText(_translate("MainWindow", header))
         self.label_2.setText(_translate("MainWindow", "Search of References with count lower or equal to : "))
         self.search_btn.setText(_translate("MainWindow", "Search"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Monitor Details"))
+        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Case Details"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Edit Details"))
-        self.label.setText(_translate("MainWindow", "Choose A CPU Cooler"))
+        self.label.setText(_translate("MainWindow", "Choose A Case"))
         self.refresh_btn.setText(_translate("MainWindow", "Refresh"))
         self.back_btn.setText(_translate("MainWindow", "Back"))
 
-    def load_cpu_cooler_data(self):
+    def load_case_data(self):
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
-        cursor.execute("SELECT * FROM CPU_Coolers")
+        cursor.execute("SELECT * FROM Cases")
         rows = cursor.fetchall()
 
         self.table.setRowCount(len(rows))
@@ -124,20 +124,20 @@ class Ui_CPUCoolerPage(object):
         connection.close()
 
     def handle_add_button(self, row):
-        cpu_cooler_name = self.table.item(row, 1).text()
-        self.manager.set_component_name("CPU_Cooler", cpu_cooler_name)
-        print(f"'Add' button clicked for CPU_Cooler Name: {cpu_cooler_name}")
+        case_name = self.table.item(row, 1).text()
+        self.manager.set_component_name("Case", case_name)
+        print(f"'Add' button clicked for Case Name: {case_name}")
 
 
-class CPUCoolerPage(QtWidgets.QMainWindow):
+class CasePage(QtWidgets.QMainWindow):
     def __init__(self, stacked_widget, manager: ComponentSelectionManager):
-        super(CPUCoolerPage, self).__init__()
-        self.ui = Ui_CPUCoolerPage()
+        super(CasePage, self).__init__()
+        self.ui = Ui_CasePage()
         self.ui.manager = manager  # Pass the manager to the UI
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
         # Load data initially
-        self.ui.load_cpu_cooler_data()
+        self.ui.load_case_data()
 
         # Back button functionality
         self.ui.back_btn.clicked.connect(self.go_back)

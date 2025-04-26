@@ -214,6 +214,7 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         self.ui.ssd_button_2.clicked.connect(self.show_ssd_page)
         self.ui.monitor_button.clicked.connect(self.show_monitor_page)
         self.ui.cpu_cooler_button.clicked.connect(self.show_cpu_page)
+        self.ui.case_button.clicked.connect(self.show_case_page)
         self.session = Session()
 
         try:
@@ -286,3 +287,10 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         main_window = self.stacked_widget.window()
         main_window.resize(cpu_cooler_page.size())
         self.stacked_widget.setCurrentWidget(cpu_cooler_page)
+    
+    def show_case_page(self):   
+        case_page = self.stacked_widget.widget(14)
+        main_window = self.stacked_widget.window()
+        
+        main_window.resize(case_page.size())
+        self.stacked_widget.setCurrentWidget(case_page)
