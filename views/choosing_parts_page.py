@@ -2,6 +2,8 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 
 from models.component_selection_manager import ComponentSelectionManager
 from data.data_loader.build_table import BuildTable
+import sqlite3
+from models.Session import Session
 
 
 class Ui_ChoosingPartsPage(object):
@@ -245,10 +247,31 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         for component, value in selected_components.items():
             print(f"{component}: {value}")
 
-        # Add the build to the database
+        # Get the user ID from the session
+        try:
+            with sqlite3.connect("data/database/database.sqlite") as connection:
+                cursor = connection.cursor()
+
+                # Get the user ID from the 'users' table using the username from the session
+                username = Session().get_user()  # Get the username from the session
+                cursor.execute("SELECT id FROM Users WHERE username = ?", (username,))
+                user_id_row = cursor.fetchone()
+
+                if not user_id_row:
+                    print(f"Error: User '{username}' not found in the database.")
+                    return
+
+                user_id = user_id_row[0]
+                print(f"User ID for '{username}': {user_id}")
+
+        except Exception as e:
+            print(f"Error retrieving user ID: {e}")
+            return
+
+        # Add the build to the database using build_table.add_build
         try:
             self.build_table.add_build(
-                user_id=1,  # Replace with the actual user ID from the session
+                user_id=user_id,
                 cpu=selected_components.get("CPU"),
                 gpu=selected_components.get("GPU"),
                 hdd1=selected_components.get("HDD")[0] if len(selected_components.get("HDD", [])) > 0 else None,
@@ -266,12 +289,36 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
             print("Build successfully added to the database.")
         except Exception as e:
             print(f"Error adding build to the database: {e}")
+            return
 
-        # Redirect to the BuildDetailsWindow
-        details_page = self.stacked_widget.widget(15)  
-        main_window = self.stacked_widget.window()
-        main_window.resize(details_page.size())
-        self.stacked_widget.setCurrentWidget(details_page)
+        # Redirect to the BuildDetailsWindow and update it with the latest build
+        try:
+            with sqlite3.connect("data/database/database.sqlite") as connection:
+                cursor = connection.cursor()
+
+                # Get the ID of the most recently added build for the current user
+                cursor.execute(
+                    "SELECT build_id FROM Builds WHERE user_id = ? ORDER BY build_id DESC LIMIT 1",
+                    (user_id,)
+                )
+                build_id_row = cursor.fetchone()
+
+                if not build_id_row:
+                    print("Error: Could not retrieve the latest build ID.")
+                    return
+
+                build_id = build_id_row[0]
+                print(f"Redirecting to BuildDetailsWindow for Build ID: {build_id}")
+
+                # Redirect to the BuildDetailsWindow
+                details_page = self.stacked_widget.widget(15)  # Assuming BuildDetailsWindow is at index 15
+                details_page.update_parts(build_id)  # Call the update_parts function with the new build_id
+                main_window = self.stacked_widget.window()
+                main_window.resize(details_page.size())
+                self.stacked_widget.setCurrentWidget(details_page)
+
+        except Exception as e:
+            print(f"Error retrieving the latest build ID: {e}")
 
     def show_cpu_page(self):
         cpu_page = self.stacked_widget.widget(4)
