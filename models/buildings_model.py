@@ -2,7 +2,7 @@ from PyQt6.QtWidgets import QApplication, QWidget, QVBoxLayout, QScrollArea, QFr
 from PyQt6.QtCore import Qt, QSize, pyqtSignal
 from PyQt6.QtGui import QPixmap
 import sys
-from details_model import BuildDetailsWindow  # Import the details page
+from views.details_model import BuildDetailsWindow  # Import the details page
 
 class QFlowLayout(QLayout):
     """A custom layout that allows widgets to wrap automatically into new rows."""

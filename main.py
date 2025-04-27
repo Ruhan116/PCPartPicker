@@ -22,6 +22,7 @@ from views.psu_data import PSUPage
 from views.ram_data import RAMPage
 from views.signup_main import SignUpWindow
 from views.ssd_data import SSDPage
+from views.details_model import BuildDetailsWindow
 
 
 class MainApp(QtWidgets.QMainWindow):
@@ -56,6 +57,7 @@ class MainApp(QtWidgets.QMainWindow):
         self.cpu_cooler_page = CPUCoolerPage(self.stacked_widget, self.component_manager) 
         self.case_page = CasePage(self.stacked_widget, self.component_manager)
         self.dashboard = LoadDatabase(self.stacked_widget)
+        self.build_details_page = BuildDetailsWindow()
 
         # Add screens to the stacked widget
         self.stacked_widget.addWidget(self.login_window)  # Index 0
@@ -73,6 +75,8 @@ class MainApp(QtWidgets.QMainWindow):
         self.stacked_widget.addWidget(self.monitor_page) # Index 12
         self.stacked_widget.addWidget(self.cpu_cooler_page) # Index 13
         self.stacked_widget.addWidget(self.case_page) # Index 14
+        self.stacked_widget.addWidget(self.build_details_page)  # Index 15
+
 
         # Set the initial screen to the login window
         self.stacked_widget.setCurrentWidget(self.login_window)

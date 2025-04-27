@@ -1,7 +1,7 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 from models.component_selection_manager import ComponentSelectionManager
-#from models.Session import Session
+from data.data_loader.build_table import BuildTable
 
 
 class Ui_ChoosingPartsPage(object):
@@ -206,6 +206,8 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         self.back_button.clicked.connect(self.go_back)
         self.stacked_widget = stacked_widget
 
+        self.build_table = BuildTable()
+
         # Connect existing buttons
         self.ui.cpu_button.clicked.connect(self.show_cpu_page)
         self.ui.gpu_button.clicked.connect(self.show_gpu_page)
@@ -242,6 +244,34 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         print("Selected Components:")
         for component, value in selected_components.items():
             print(f"{component}: {value}")
+
+        # Add the build to the database
+        try:
+            self.build_table.add_build(
+                user_id=1,  # Replace with the actual user ID from the session
+                cpu=selected_components.get("CPU"),
+                gpu=selected_components.get("GPU"),
+                hdd1=selected_components.get("HDD")[0] if len(selected_components.get("HDD", [])) > 0 else None,
+                hdd2=selected_components.get("HDD")[1] if len(selected_components.get("HDD", [])) > 1 else None,
+                ssd1=selected_components.get("SSD")[0] if len(selected_components.get("SSD", [])) > 0 else None,
+                ssd2=selected_components.get("SSD")[1] if len(selected_components.get("SSD", [])) > 1 else None,
+                ram1=selected_components.get("RAM")[0] if len(selected_components.get("RAM", [])) > 0 else None,
+                ram2=selected_components.get("RAM")[1] if len(selected_components.get("RAM", [])) > 1 else None,
+                mobo=selected_components.get("Motherboard"),
+                psu=selected_components.get("PSU"),
+                monitor=selected_components.get("Monitor"),
+                cpu_cooler=selected_components.get("CPU_Cooler"),
+                cases=selected_components.get("Case")
+            )
+            print("Build successfully added to the database.")
+        except Exception as e:
+            print(f"Error adding build to the database: {e}")
+
+        # Redirect to the BuildDetailsWindow
+        details_page = self.stacked_widget.widget(15)  
+        main_window = self.stacked_widget.window()
+        main_window.resize(details_page.size())
+        self.stacked_widget.setCurrentWidget(details_page)
 
     def show_cpu_page(self):
         cpu_page = self.stacked_widget.widget(4)
