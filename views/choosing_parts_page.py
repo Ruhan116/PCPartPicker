@@ -1,7 +1,7 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
 
 from models.component_selection_manager import ComponentSelectionManager
-from models.Session import Session
+#from models.Session import Session
 
 
 class Ui_ChoosingPartsPage(object):
@@ -218,7 +218,7 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         self.ui.monitor_button.clicked.connect(self.show_monitor_page)
         self.ui.cpu_cooler_button.clicked.connect(self.show_cpu_page)
         self.ui.case_button.clicked.connect(self.show_case_page)
-        self.session = Session()
+        #self.session = Session()
 
         try:
             with open("./style/choosing_parts_style.qss", "r") as file:
@@ -231,7 +231,7 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
     def show_cpu_page(self):
         cpu_page = self.stacked_widget.widget(4)
         main_window = self.stacked_widget.window()
-        print(self.session.get_user())
+        # print(self.session.get_user())
         
         main_window.resize(cpu_page.size())
         self.stacked_widget.setCurrentWidget(cpu_page)

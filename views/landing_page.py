@@ -2,6 +2,7 @@ from PyQt6 import QtCore, QtWidgets, QtGui
 from controllers.data_controller import DataController
 from data.data_loader.Load_Data import PCComponentScraper
 from data.data_loader.build_table import BuildTable
+from models.Session import Session
 
 # Form implementation generated from reading ui file 'landing_page.ui'
 #
@@ -201,9 +202,13 @@ class LandingPage(QtWidgets.QMainWindow):
         self.tile_timer = QtCore.QTimer(self)
         self.tile_timer.timeout.connect(self.add_tile)
         self.tile_timer.start(1000)  # Add a tile every 4 seconds
+        print(Session().get_user())
 
         # Apply stylesheet
         self.apply_stylesheet()
+
+        # Update labels with current user's username
+        self.update_labels()
 
     def clear_grid_layout(self):
         """Remove all existing widgets from the grid layout"""
@@ -307,5 +312,17 @@ class LandingPage(QtWidgets.QMainWindow):
 
         # Increment counter
         self.tile_counter += 1
+
+    def update_labels(self):
+        """Update the labels with the current user's username from the session"""
+        username = Session().get_user()  # Get the current logged-in user
+        if username:
+            self.ui.label_3.setText(f"Welcome, {username}")
+            self.ui.label_11.setText(f"Logged in as: {username}")
+            print(f"Welcome, {username}")
+        else:
+            self.ui.label_3.setText("Welcome")
+            self.ui.label_11.setText("Not logged in")
+            print("Not logged in")
 
 

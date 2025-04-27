@@ -1,4 +1,5 @@
 from PyQt6 import QtCore, QtGui, QtWidgets
+from models.Session import Session
 
 class Ui_LogIn(object):
     def setupUi(self, LogIn):
@@ -124,8 +125,16 @@ class LogInWindow(QtWidgets.QMainWindow):
         # Authenticate using AuthController
         if self.auth_controller.login(username, password):
             print("Logged in successfully")
-            # Navigate to the main application screen here
+
+            # Set the session with the logged-in username
+            Session().set_user(username)
+
+            # Navigate to the main application screen here (LandingPage)
             self.goto_dashboard()
+
+            # After switching to the landing page, update labels
+            landing_page = self.stacked_widget.widget(2)  # Get the LandingPage widget (index 2)
+            landing_page.update_labels()  # Update the user info labels in LandingPage
         else:
             print("Failed to log in")
 
@@ -135,3 +144,4 @@ class LogInWindow(QtWidgets.QMainWindow):
     
     def goto_dashboard(self):
         self.stacked_widget.setCurrentWidget(self.stacked_widget.widget(2))
+
