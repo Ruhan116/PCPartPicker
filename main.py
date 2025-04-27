@@ -44,16 +44,16 @@ class MainApp(QtWidgets.QMainWindow):
         self.login_window = LogInWindow(self.stacked_widget, self.auth_controller)
         self.signup_window = SignUpWindow(self.stacked_widget, self.auth_controller)
         self.landing_page = LandingPage(self.stacked_widget)
-        self.choosing_parts_page = ChoosingPartsPage(self.stacked_widget, self.component_manager)  # Pass manager
-        self.cpu_page = CPUPage(self.stacked_widget, self.component_manager)  # Pass manager
-        self.gpu_page = GPUPage(self.stacked_widget, self.component_manager)  # Pass manager
-        self.hdd_page = HDDPage(self.stacked_widget, self.component_manager) # Pass manager
-        self.mb_page = MBPage(self.stacked_widget, self.component_manager )# Pass manager
-        self.psu_page = PSUPage(self.stacked_widget, self.component_manager) # Pass manager
-        self.ram_page = RAMPage(self.stacked_widget, self.component_manager) # Pass manager
-        self.ssd_page = SSDPage(self.stacked_widget, self.component_manager) # Pass manager
-        self.monitor_page = MonitorPage(self.stacked_widget, self.component_manager) # Pass manager
-        self.cpu_cooler_page = CPUCoolerPage(self.stacked_widget, self.component_manager) # Pass manager
+        self.choosing_parts_page = ChoosingPartsPage(self.stacked_widget, self.component_manager)  
+        self.cpu_page = CPUPage(self.stacked_widget, self.component_manager)  
+        self.gpu_page = GPUPage(self.stacked_widget, self.component_manager)  
+        self.hdd_page = HDDPage(self.stacked_widget, self.component_manager) 
+        self.mb_page = MBPage(self.stacked_widget, self.component_manager )
+        self.psu_page = PSUPage(self.stacked_widget, self.component_manager) 
+        self.ram_page = RAMPage(self.stacked_widget, self.component_manager) 
+        self.ssd_page = SSDPage(self.stacked_widget, self.component_manager) 
+        self.monitor_page = MonitorPage(self.stacked_widget, self.component_manager) 
+        self.cpu_cooler_page = CPUCoolerPage(self.stacked_widget, self.component_manager) 
         self.case_page = CasePage(self.stacked_widget, self.component_manager)
         self.dashboard = LoadDatabase(self.stacked_widget)
 

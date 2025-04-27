@@ -205,6 +205,8 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         self.back_button.setGeometry(10, 10, 100, 40)
         self.back_button.clicked.connect(self.go_back)
         self.stacked_widget = stacked_widget
+
+        # Connect existing buttons
         self.ui.cpu_button.clicked.connect(self.show_cpu_page)
         self.ui.gpu_button.clicked.connect(self.show_gpu_page)
         self.ui.hdd_button.clicked.connect(self.show_hdd_page)
@@ -216,10 +218,16 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         self.ui.ssd_button.clicked.connect(self.show_ssd_page)
         self.ui.ssd_button_2.clicked.connect(self.show_ssd_page)
         self.ui.monitor_button.clicked.connect(self.show_monitor_page)
-        self.ui.cpu_cooler_button.clicked.connect(self.show_cpu_page)
+        self.ui.cpu_cooler_button.clicked.connect(self.show_cpu_cooler_page)
         self.ui.case_button.clicked.connect(self.show_case_page)
-        #self.session = Session()
 
+        # Add "Build PC" button
+        self.build_pc_button = QtWidgets.QPushButton("Build PC", self)
+        self.build_pc_button.setGeometry(250, 650, 200, 40)  # Adjust position and size
+        self.build_pc_button.setStyleSheet("font: 14pt 'Arial'; background-color: rgb(0, 173, 181); color: white; border-radius: 10px;")
+        self.build_pc_button.clicked.connect(self.build_pc)
+
+        # Load QSS for styling
         try:
             with open("./style/choosing_parts_style.qss", "r") as file:
                 qss = file.read()
@@ -227,22 +235,26 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         except FileNotFoundError:
             print("QSS file not found. Make sure the path is correct.")
         self.setFixedSize(1280, 720)
-        
+
+    def build_pc(self):
+        # Print all selected components from the ComponentSelectionManager
+        selected_components = self.ui.manager.get_component_names()
+        print("Selected Components:")
+        for component, value in selected_components.items():
+            print(f"{component}: {value}")
+
     def show_cpu_page(self):
         cpu_page = self.stacked_widget.widget(4)
         main_window = self.stacked_widget.window()
-        # print(self.session.get_user())
-        
         main_window.resize(cpu_page.size())
         self.stacked_widget.setCurrentWidget(cpu_page)
-        
+
     def show_gpu_page(self):
         gpu_page = self.stacked_widget.widget(5)
         main_window = self.stacked_widget.window()
-        
         main_window.resize(gpu_page.size())
         self.stacked_widget.setCurrentWidget(gpu_page)
-    
+
     def show_hdd_page(self):
         hdd_page = self.stacked_widget.widget(6)
         main_window = self.stacked_widget.window()
