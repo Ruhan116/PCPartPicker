@@ -24,13 +24,13 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.tabWidget = QtWidgets.QTabWidget(parent=self.centralwidget)
-        self.tabWidget.setGeometry(QtCore.QRect(-4, -1, 1201, 801))
+        self.tabWidget.setGeometry(QtCore.QRect(0, 0, 1200, 800))
         self.tabWidget.setTabPosition(QtWidgets.QTabWidget.TabPosition.West)
         self.tabWidget.setObjectName("tabWidget")
         self.Builder = QtWidgets.QWidget()
         self.Builder.setObjectName("Builder")
         self.verticalLayoutWidget = QtWidgets.QWidget(parent=self.Builder)
-        self.verticalLayoutWidget.setGeometry(QtCore.QRect(-1, -1, 1201, 791))
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(0, 0, 1200, 800))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
@@ -43,7 +43,7 @@ class Ui_MainWindow(object):
         self.frame.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
         self.frame.setObjectName("frame")
         self.horizontalLayoutWidget_3 = QtWidgets.QWidget(parent=self.frame)
-        self.horizontalLayoutWidget_3.setGeometry(QtCore.QRect(0, 0, 1171, 56))
+        self.horizontalLayoutWidget_3.setGeometry(QtCore.QRect(0, 0, 1200, 60))
         self.horizontalLayoutWidget_3.setObjectName("horizontalLayoutWidget_3")
         self.horizontalLayout_4 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_3)
         self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
@@ -52,7 +52,8 @@ class Ui_MainWindow(object):
         self.label_3.setStyleSheet("border-radius: 10px;\n"
 "font-family: Arial, Helvetica, sans-serif;\n"
 "font-weight: bold;\n"
-"color: white;\n")
+"color: white;\n"
+"margin-right: 30px;")
         self.label_3.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
         self.label_3.setObjectName("label_3")
         self.horizontalLayout_4.addWidget(self.label_3)
@@ -114,7 +115,7 @@ class Ui_MainWindow(object):
         self.Socials = QtWidgets.QWidget()
         self.Socials.setObjectName("My Builds")
         self.verticalLayoutWidget_2 = QtWidgets.QWidget(parent=self.Socials)
-        self.verticalLayoutWidget_2.setGeometry(QtCore.QRect(0, 0, 1201, 791))
+        self.verticalLayoutWidget_2.setGeometry(QtCore.QRect(0, 0, 1200, 800))
         self.verticalLayoutWidget_2.setObjectName("verticalLayoutWidget_2")
         self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.verticalLayoutWidget_2)
         self.verticalLayout_4.setContentsMargins(0, 0, 0, 0)
@@ -127,7 +128,7 @@ class Ui_MainWindow(object):
         self.frame_6.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
         self.frame_6.setObjectName("frame_6")
         self.horizontalLayoutWidget_9 = QtWidgets.QWidget(parent=self.frame_6)
-        self.horizontalLayoutWidget_9.setGeometry(QtCore.QRect(0, 0, 1171, 56))
+        self.horizontalLayoutWidget_9.setGeometry(QtCore.QRect(0, 0, 1200, 60))
         self.horizontalLayoutWidget_9.setObjectName("horizontalLayoutWidget_9")
         self.horizontalLayout_17 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_9)
         self.horizontalLayout_17.setContentsMargins(0, 0, 0, 0)
@@ -136,20 +137,23 @@ class Ui_MainWindow(object):
         self.label_11.setStyleSheet("border-radius: 10px;\n"
 "font-family: Arial, Helvetica, sans-serif;\n"
 "font-weight: bold;\n"
-"color: white;")
+"color: white;"
+"margin-right: 30px;")
         self.label_11.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
         self.label_11.setObjectName("label_11")
         self.horizontalLayout_17.addWidget(self.label_11)
         self.horizontalLayout_16.addWidget(self.frame_6)
         self.verticalLayout_4.addLayout(self.horizontalLayout_16)
         self.scrollArea = QtWidgets.QScrollArea(parent=self.verticalLayoutWidget_2)
+        self.scrollArea.setHorizontalScrollBarPolicy(QtCore.Qt.ScrollBarPolicy.ScrollBarAlwaysOff)
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setObjectName("scrollArea")
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 1197, 716))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 1200, 800))
+        self.scrollAreaWidgetContents.setContentsMargins(0, 0, 0, 0)
         self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
         self.gridLayoutWidget = QtWidgets.QWidget(parent=self.scrollAreaWidgetContents)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(-1, -11, 1181, 731))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(0, 0, 1200, 800))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
         self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
@@ -327,8 +331,8 @@ class LandingPage(QtWidgets.QMainWindow):
         """Update the labels with the current user's username from the session"""
         username = Session().get_user()  # Get the current logged-in user
         if username:
-            self.ui.label_3.setText(f"Welcome, {username}")
-            self.ui.label_11.setText(f"Logged in as: {username}")
+            self.ui.label_3.setText(f"{username}")
+            self.ui.label_11.setText(f"{username}")
             print(f"Welcome, {username}")
         else:
             self.ui.label_3.setText("Welcome")
@@ -383,7 +387,7 @@ class LandingPage(QtWidgets.QMainWindow):
             # Create a tile for each build
             for build_id, price in builds:
                 tile = QtWidgets.QFrame()
-                tile.setFixedSize(750, 300)  # Adjusted height for a smaller title area
+                tile.setFixedSize(750, 600)  # Adjusted height for a smaller title area
                 tile.setStyleSheet("""
                     background-color: #cce5ff;
                     border: 1px solid #2c88c4;

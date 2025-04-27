@@ -52,6 +52,22 @@ class BuildDetailsWindow(QWidget):
         back_button.clicked.connect(self.go_back)  # Connect button to go_back method
         back_button_layout.addWidget(back_button)  # Add the back button to the left
 
+        # Add this code to the BuildDetailsWindow class
+       
+
+        # Recalculate Button
+        recalculate_button = QPushButton("Recalculate")
+        recalculate_button.setStyleSheet("""
+            font-size: 16px; font-weight: bold; color: white;
+            background-color: #4a4a80; padding: 10px; border-radius: 5px;
+        """)
+        recalculate_button.setFixedWidth(150)  # Set a fixed width for the button
+        recalculate_button.setFixedHeight(40)  # Set a fixed height for the button
+        recalculate_button.clicked.connect(self.recalculate_total)  # Connect button to recalculate_total method
+
+        # Add the button to the main layout
+        main_layout.addWidget(recalculate_button, alignment=Qt.AlignmentFlag.AlignCenter)
+
         # Set the alignment of the back_button_layout to the left
         back_button_layout.setAlignment(Qt.AlignmentFlag.AlignLeft)
 
@@ -124,6 +140,9 @@ class BuildDetailsWindow(QWidget):
     def update_parts(self, build_id):
         """Retrieve build details from the database and update the UI."""
         try:
+            # Store the current build ID
+            self.current_build_id = build_id
+
             connection = sqlite3.connect("data/database/database.sqlite")
             cursor = connection.cursor()
 
@@ -186,7 +205,7 @@ class BuildDetailsWindow(QWidget):
         except Exception as e:
             self.header_label.setText("Error")
             self.parts_layout.addRow(QLabel("Error:"), QLabel(f"An error occurred: {e}"))
-            print(f"Error occurred while fetching build details: {e}")  # Log the error for debugging
+            print(f"Error occurred while fetching build details: {e}")
     
     def go_back(self):
         """Handle navigation back to the building page."""
@@ -194,6 +213,79 @@ class BuildDetailsWindow(QWidget):
         # Assuming this is the main window, you would want to switch to the previous page
         self.parent().setCurrentIndex(0)  # This assumes the main window is using QStackedWidget to switch pages
 
+    def recalculate_total(self):
+        """Recalculate the total price of the build using the database."""
+        try:
+            # Connect to the database
+            connection = sqlite3.connect("data/database/database.sqlite")
+            cursor = connection.cursor()
+
+            # Query the build details again to fetch the latest prices
+            cursor.execute("SELECT * FROM Builds WHERE build_id = ?", (self.current_build_id,))
+            build = cursor.fetchone()
+
+            if not build:
+                print("Build not found in the database.")
+                return
+
+            # Extract component details
+            (
+                user_id, build_id, cpu, mobo, gpu, ram1, ram2, hdd1, hdd2,
+                ssd1, ssd2, psu, cases, cpu_cooler, monitor, price
+            ) = build
+
+            # Corrected table mapping for components
+            component_tables = {
+                'cpu': 'CPU',
+                'mobo': 'Motherboard',  # Corrected table name
+                'gpu': 'GPU',
+                'ram1': 'RAM',
+                'ram2': 'RAM',
+                'hdd1': 'HDD',
+                'hdd2': 'HDD',
+                'ssd1': 'SSD',
+                'ssd2': 'SSD',
+                'psu': 'PSU',
+                'cases': 'Cases',
+                'cpu_cooler': 'CPU_Coolers',
+                'monitor': 'Monitors'
+            }
+
+            # Map component variables to their table names
+            components = {
+                'cpu': cpu, 'mobo': mobo, 'gpu': gpu,
+                'ram1': ram1, 'ram2': ram2, 'hdd1': hdd1, 'hdd2': hdd2,
+                'ssd1': ssd1, 'ssd2': ssd2, 'psu': psu, 'cases': cases,
+                'cpu_cooler': cpu_cooler, 'monitor': monitor
+            }
+
+            # Calculate the total price by querying the appropriate table for each component
+            total_price = 0.00
+            for component_key, component_value in components.items():
+                if component_value and component_value != "Not Available":
+                    table_name = component_tables[component_key]
+                    cursor.execute(f"SELECT price FROM {table_name} WHERE name = ?", (component_value,))
+                    component_price = cursor.fetchone()
+                    if component_price:
+                        # Strip non-numeric characters and convert to float
+                        price_value = component_price[0]
+                        if isinstance(price_value, str):
+                            price_value = price_value.replace('$', '').strip()
+                        total_price += float(price_value)
+
+            # Update the total price in the database
+            cursor.execute("UPDATE Builds SET price = ? WHERE build_id = ?", (total_price, self.current_build_id))
+            connection.commit()
+
+            # Update the UI with the recalculated total price
+            self.parts_layout.itemAt(self.parts_layout.rowCount() - 1, QFormLayout.ItemRole.FieldRole).widget().setText(f"${total_price:.2f}")
+            print(f"Recalculated Total Price: ${total_price:.2f}")
+
+        except Exception as e:
+            print(f"Error recalculating total price: {e}")
+
+        finally:
+            connection.close()
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
