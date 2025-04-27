@@ -3,6 +3,8 @@ from controllers.data_controller import DataController
 from data.data_loader.Load_Data import PCComponentScraper
 from data.data_loader.build_table import BuildTable
 from models.Session import Session
+import sqlite3
+
 
 # Form implementation generated from reading ui file 'landing_page.ui'
 #
@@ -188,27 +190,134 @@ class LandingPage(QtWidgets.QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
+        self.db_path = "data/database/database.sqlite"
+        self.tile_counter = 0  # Initialize counter
 
         # Initialize controllers
         self.data_controller = DataController()
         self.scraper = PCComponentScraper()
 
         # Connect buttons
-        self.ui.pushButton_2.clicked.connect(self.go_to_choosing_parts)  # Start Your Build button
-        self.ui.pushButton.clicked.connect(self.reload_database)  # Reload Database button
-
-        # Setup for dynamic tiles in Socials tab
-        self.tile_counter = 0
-        self.tile_timer = QtCore.QTimer(self)
-        self.tile_timer.timeout.connect(self.add_tile)
-        self.tile_timer.start(1000)  # Add a tile every 4 seconds
-        print(Session().get_user())
+        self.ui.pushButton_2.clicked.connect(self.go_to_choosing_parts)
+        self.ui.pushButton.clicked.connect(self.reload_database)
 
         # Apply stylesheet
         self.apply_stylesheet()
 
         # Update labels with current user's username
         self.update_labels()
+
+        # Load builds from database
+        self.load_builds()
+
+    def load_builds(self):
+        """Load all builds from database and display them"""
+        try:
+            conn = sqlite3.connect(self.db_path)
+            cursor = conn.cursor()
+            
+            # Clear existing widgets
+            self.clear_grid_layout()
+            
+            # Fetch all builds
+            cursor.execute("SELECT build_id FROM Builds")
+            builds = cursor.fetchall()
+            
+            if not builds:
+                no_builds_label = QtWidgets.QLabel("No builds found")
+                no_builds_label.setStyleSheet("font-size: 16px; color: gray;")
+                no_builds_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+                self.ui.gridLayout.addWidget(no_builds_label, 0, 0)
+                return
+                
+            for row, (build_id,) in enumerate(builds):
+                self.add_build_tile(build_id, row)
+                self.tile_counter += 1
+                
+        except sqlite3.Error as e:
+            print(f"Database error: {e}")
+        finally:
+            if conn:
+                conn.close()
+    
+    def show_build_details(self, build_id):
+        """Show details for a specific build"""
+        try:
+            conn = sqlite3.connect(self.db_path)
+            cursor = conn.cursor()
+            
+            # Fetch the build details from database
+            cursor.execute("""
+                SELECT * FROM Builds 
+                WHERE build_id = ?
+            """, (build_id,))
+            
+            build_data = cursor.fetchone()
+            
+            if build_data:
+                # Create a dictionary with all build components
+                columns = [
+                    'user_id', 'build_id', 'cpu', 'mobo', 'gpu', 
+                    'ram1', 'ram2', 'hdd1', 'hdd2', 'ssd1', 'ssd2', 
+                    'psu', 'cases', 'cpu_cooler', 'monitor', 'price'
+                ]
+                build_dict = dict(zip(columns, build_data))
+                
+                # Create and show the details window
+                from views.details_page import BuildDetailsWindow  # Import here to avoid circular imports
+                self.details_window = BuildDetailsWindow(build_dict)
+                self.details_window.back_signal.connect(self.show)
+                self.details_window.show()
+                self.hide()
+                
+        except sqlite3.Error as e:
+            print(f"Database error: {e}")
+        finally:
+            if conn:
+                conn.close()
+
+    # Remove the duplicate add_tile method and keep only add_build_tile
+    def add_build_tile(self, build_id, row):
+        """Add a tile for a specific build"""
+        tile = QtWidgets.QFrame()
+        tile.setFixedSize(750, 100)
+        tile.setStyleSheet("""
+            background-color: #f0f8ff;
+            border: 1px solid #2c88c4;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+        """)
+
+        layout = QtWidgets.QHBoxLayout(tile)
+
+        # Build ID label
+        build_label = QtWidgets.QLabel(f"Build #{build_id}")
+        build_label.setStyleSheet("font-size: 18px; font-weight: bold;")
+        layout.addWidget(build_label)
+
+        # Spacer
+        layout.addStretch()
+
+        # Details button
+        details_btn = QtWidgets.QPushButton("View Details")
+        details_btn.setStyleSheet("""
+            QPushButton {
+                background-color: #2c88c4;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                padding: 8px 16px;
+                font-size: 14px;
+            }
+            QPushButton:hover {
+                background-color: #1a6ea8;
+            }
+        """)
+        details_btn.clicked.connect(lambda _, bid=build_id: self.show_build_details(bid))
+        layout.addWidget(details_btn)
+
+        self.ui.gridLayout.addWidget(tile, row, 0)
 
     def clear_grid_layout(self):
         """Remove all existing widgets from the grid layout"""
@@ -245,73 +354,7 @@ class LandingPage(QtWidgets.QMainWindow):
         bt = BuildTable()
         bt.create_build_table()
 
-    def add_tile(self):
-        """Dynamically add a tile to the Socials tab scroll area"""
-
-        # Create the tile frame
-        tile = QtWidgets.QFrame()
-        tile.setFixedSize(750, 600)  
-        tile.setStyleSheet("""
-            background-color: #cce5ff;
-            border: 1px solid #2c88c4;
-            border-radius: 10px;
-            margin: 10px;
-        """)
-
-        # Create content for the tile
-        layout = QtWidgets.QVBoxLayout(tile)
-
-        # Add image placeholder
-        image_label = QtWidgets.QLabel()
-        image_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        image_label.setPixmap(QtGui.QPixmap(":/images/default_pc_image.png").scaled(
-            400, 150, QtCore.Qt.AspectRatioMode.KeepAspectRatio  # Adjusted a bit for bigger tile
-        ))
-
-        # Add title
-        title_label = QtWidgets.QLabel(f"PC Build {self.tile_counter + 1}")
-        title_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        title_label.setStyleSheet("""
-            font-size: 20px;
-            font-weight: bold;
-            font-family: Arial;
-            margin-top: 10px;
-        """)
-
-        # Add visit button
-        visit_btn = QtWidgets.QPushButton("Visit Build")
-        visit_btn.setStyleSheet("""
-            QPushButton {
-                background-color: #2c88c4;
-                color: white;
-                border: none;
-                border-radius: 5px;
-                padding: 10px;
-                font-size: 16px;
-                font-family: Arial;
-            }
-            QPushButton:hover {
-                background-color: #1a6ea8;
-            }
-        """)
-
-        # Add widgets to tile's layout
-        layout.addWidget(image_label)
-        layout.addWidget(title_label)
-        layout.addWidget(visit_btn)
-
-        # --- CHANGES BELOW ---
-
-        # Create a vertical layout with horizontal centering
-        if not hasattr(self, "tiles_layout"):
-            self.tiles_layout = QtWidgets.QVBoxLayout(self.ui.scrollAreaWidgetContents)
-            self.tiles_layout.setAlignment(QtCore.Qt.AlignmentFlag.AlignTop | QtCore.Qt.AlignmentFlag.AlignHCenter)
-            self.tiles_layout.setSpacing(20)  # A little extra space between tiles
-
-        self.tiles_layout.addWidget(tile)
-
-        # Increment counter
-        self.tile_counter += 1
+    
 
     def update_labels(self):
         """Update the labels with the current user's username from the session"""
