@@ -19,18 +19,18 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1200, 800)
+        MainWindow.resize(1280, 720)
         MainWindow.setStyleSheet("background-color: white;")
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.tabWidget = QtWidgets.QTabWidget(parent=self.centralwidget)
-        self.tabWidget.setGeometry(QtCore.QRect(0, 0, 1200, 800))
+        self.tabWidget.setGeometry(QtCore.QRect(0, 0, 1280, 720))
         self.tabWidget.setTabPosition(QtWidgets.QTabWidget.TabPosition.West)
         self.tabWidget.setObjectName("tabWidget")
         self.Builder = QtWidgets.QWidget()
         self.Builder.setObjectName("Builder")
         self.verticalLayoutWidget = QtWidgets.QWidget(parent=self.Builder)
-        self.verticalLayoutWidget.setGeometry(QtCore.QRect(0, 0, 1200, 800))
+        self.verticalLayoutWidget.setGeometry(QtCore.QRect(0, 0, 1280, 720))
         self.verticalLayoutWidget.setObjectName("verticalLayoutWidget")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.verticalLayoutWidget)
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
@@ -43,7 +43,7 @@ class Ui_MainWindow(object):
         self.frame.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
         self.frame.setObjectName("frame")
         self.horizontalLayoutWidget_3 = QtWidgets.QWidget(parent=self.frame)
-        self.horizontalLayoutWidget_3.setGeometry(QtCore.QRect(0, 0, 1200, 60))
+        self.horizontalLayoutWidget_3.setGeometry(QtCore.QRect(0, 0, 1280, 60))
         self.horizontalLayoutWidget_3.setObjectName("horizontalLayoutWidget_3")
         self.horizontalLayout_4 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_3)
         self.horizontalLayout_4.setContentsMargins(0, 0, 0, 0)
@@ -115,7 +115,7 @@ class Ui_MainWindow(object):
         self.Socials = QtWidgets.QWidget()
         self.Socials.setObjectName("My Builds")
         self.verticalLayoutWidget_2 = QtWidgets.QWidget(parent=self.Socials)
-        self.verticalLayoutWidget_2.setGeometry(QtCore.QRect(0, 0, 1200, 800))
+        self.verticalLayoutWidget_2.setGeometry(QtCore.QRect(0, 0, 1280, 720))
         self.verticalLayoutWidget_2.setObjectName("verticalLayoutWidget_2")
         self.verticalLayout_4 = QtWidgets.QVBoxLayout(self.verticalLayoutWidget_2)
         self.verticalLayout_4.setContentsMargins(0, 0, 0, 0)
@@ -128,7 +128,7 @@ class Ui_MainWindow(object):
         self.frame_6.setFrameShadow(QtWidgets.QFrame.Shadow.Raised)
         self.frame_6.setObjectName("frame_6")
         self.horizontalLayoutWidget_9 = QtWidgets.QWidget(parent=self.frame_6)
-        self.horizontalLayoutWidget_9.setGeometry(QtCore.QRect(0, 0, 1200, 60))
+        self.horizontalLayoutWidget_9.setGeometry(QtCore.QRect(0, 0, 1280, 60))
         self.horizontalLayoutWidget_9.setObjectName("horizontalLayoutWidget_9")
         self.horizontalLayout_17 = QtWidgets.QHBoxLayout(self.horizontalLayoutWidget_9)
         self.horizontalLayout_17.setContentsMargins(0, 0, 0, 0)
@@ -149,11 +149,11 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setObjectName("scrollArea")
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 1200, 800))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 1280, 720))
         self.scrollAreaWidgetContents.setContentsMargins(0, 0, 0, 0)
         self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
         self.gridLayoutWidget = QtWidgets.QWidget(parent=self.scrollAreaWidgetContents)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(0, 0, 1200, 800))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(0, 0, 1280, 720))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
         self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
@@ -383,6 +383,7 @@ class LandingPage(QtWidgets.QMainWindow):
                 self.tiles_layout = QtWidgets.QVBoxLayout(self.ui.scrollAreaWidgetContents)
                 self.tiles_layout.setAlignment(QtCore.Qt.AlignmentFlag.AlignTop | QtCore.Qt.AlignmentFlag.AlignHCenter)
                 self.tiles_layout.setSpacing(20)
+                self.tiles_layout.setContentsMargins(20, 20, 20, 20)
 
             # Create a tile for each build
             for build_id, price in builds:
@@ -449,6 +450,8 @@ class LandingPage(QtWidgets.QMainWindow):
 
                 # Add tile to layout
                 self.tiles_layout.addWidget(tile)
+            spacer = QtWidgets.QSpacerItem(700, 100, QtWidgets.QSizePolicy.Policy.Minimum, QtWidgets.QSizePolicy.Policy.Expanding)
+            self.tiles_layout.addItem(spacer)
 
         except Exception as e:
             print(f"Error loading user builds: {e}")

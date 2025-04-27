@@ -6,6 +6,7 @@ from PyQt6.QtGui import QPixmap
 from PyQt6.QtCore import Qt
 import sys
 import sqlite3
+from data.data_loader.pdf_generator import PDFGenerator  
 
 class BuildDetailsWindow(QWidget):
     def __init__(self):
@@ -52,8 +53,11 @@ class BuildDetailsWindow(QWidget):
         back_button.clicked.connect(self.go_back)  # Connect button to go_back method
         back_button_layout.addWidget(back_button)  # Add the back button to the left
 
-        # Add this code to the BuildDetailsWindow class
-       
+        # Add the back button layout to the main layout BEFORE the button layout
+        main_layout.addLayout(back_button_layout)
+
+        # Buttons Layout (Recalculate and Make PDF)
+        button_layout = QHBoxLayout()
 
         # Recalculate Button
         recalculate_button = QPushButton("Recalculate")
@@ -61,18 +65,26 @@ class BuildDetailsWindow(QWidget):
             font-size: 16px; font-weight: bold; color: white;
             background-color: #4a4a80; padding: 10px; border-radius: 5px;
         """)
-        recalculate_button.setFixedWidth(150)  # Set a fixed width for the button
-        recalculate_button.setFixedHeight(40)  # Set a fixed height for the button
-        recalculate_button.clicked.connect(self.recalculate_total)  # Connect button to recalculate_total method
+        recalculate_button.setFixedWidth(150)
+        recalculate_button.setFixedHeight(40)
+        recalculate_button.clicked.connect(self.recalculate_total)
 
-        # Add the button to the main layout
-        main_layout.addWidget(recalculate_button, alignment=Qt.AlignmentFlag.AlignCenter)
+        # Make PDF Button
+        make_pdf_button = QPushButton("Make PDF")
+        make_pdf_button.setStyleSheet("""
+            font-size: 16px; font-weight: bold; color: white;
+            background-color: #4a4a80; padding: 10px; border-radius: 5px;
+        """)
+        make_pdf_button.setFixedWidth(150)
+        make_pdf_button.setFixedHeight(40)
+        make_pdf_button.clicked.connect(self.make_pdf)
 
-        # Set the alignment of the back_button_layout to the left
-        back_button_layout.setAlignment(Qt.AlignmentFlag.AlignLeft)
+        # Add buttons to the layout
+        button_layout.addWidget(recalculate_button)
+        button_layout.addWidget(make_pdf_button)
 
-        # Add the back button layout to the main layout
-        main_layout.addLayout(back_button_layout)
+        # Add the button layout to the main layout
+        main_layout.addLayout(button_layout)
 
         # Image and Description Layout (Vertical)
         content_layout = QVBoxLayout()
@@ -136,6 +148,20 @@ class BuildDetailsWindow(QWidget):
 
         # Set main layout
         self.setLayout(main_layout)
+
+    def make_pdf(self):
+        """Generate a PDF for the current build using the PDFGenerator class."""
+        try:
+            if not hasattr(self, 'current_build_id'):
+                print("No build ID is set. Cannot generate PDF.")
+                return
+
+            pdf_generator = PDFGenerator()  # Create an instance of PDFGenerator
+            pdf_generator.generate_pdf(build_id=self.current_build_id)  # Generate PDF for the current build
+            print(f"PDF generated for build ID {self.current_build_id}.")
+
+        except Exception as e:
+            print(f"Error generating PDF: {e}")
 
     def update_parts(self, build_id):
         """Retrieve build details from the database and update the UI."""
@@ -280,10 +306,6 @@ class BuildDetailsWindow(QWidget):
             # Update the UI with the recalculated total price
             self.parts_layout.itemAt(self.parts_layout.rowCount() - 1, QFormLayout.ItemRole.FieldRole).widget().setText(f"${total_price:.2f}")
             print(f"Recalculated Total Price: ${total_price:.2f}")
-
-        except Exception as e:
-            print(f"Error recalculating total price: {e}")
-
         finally:
             connection.close()
 
