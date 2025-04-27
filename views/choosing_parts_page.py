@@ -201,6 +201,9 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         self.ui = Ui_ChoosingPartsPage()
         self.ui.manager = manager
         self.ui.setupUi(self)
+        self.back_button = QtWidgets.QPushButton("<- Back", self)
+        self.back_button.setGeometry(10, 10, 100, 40)
+        self.back_button.clicked.connect(self.go_back)
         self.stacked_widget = stacked_widget
         self.ui.cpu_button.clicked.connect(self.show_cpu_page)
         self.ui.gpu_button.clicked.connect(self.show_gpu_page)
@@ -294,3 +297,6 @@ class ChoosingPartsPage(QtWidgets.QMainWindow):
         
         main_window.resize(case_page.size())
         self.stacked_widget.setCurrentWidget(case_page)
+    
+    def go_back(self):
+        self.stacked_widget.setCurrentIndex(2)
