@@ -31,22 +31,9 @@ class Ui_CPUPage(object):
         # Table
         self.table = QtWidgets.QTableWidget(self.tab)
         self.table.setGeometry(QtCore.QRect(10, 60, 1231, 431))
-        self.table.setColumnCount(9)
+        self.table.setColumnCount(10)
         self.table.setStyleSheet("font: 10pt 'Arial';")
-        self.table.setHorizontalHeaderLabels(["ID", "Name", "Socket", "Clock Speed", "Turbo Speed", "Cores", "Threads", "Price", "Action"])
-
-        # Count Filter
-        self.label_2 = QtWidgets.QLabel("Search CPUs with Count ≤", self.tab)
-        self.label_2.setGeometry(QtCore.QRect(60, 10, 450, 41))
-        self.label_2.setStyleSheet("font: 20pt 'Arial';")
-
-        self.count_filter_txt = QtWidgets.QSpinBox(self.tab)
-        self.count_filter_txt.setGeometry(QtCore.QRect(520, 10, 111, 41))
-        self.count_filter_txt.setMaximum(99999)
-
-        self.search_btn = QtWidgets.QPushButton("Search", self.tab)
-        self.search_btn.setGeometry(QtCore.QRect(650, 10, 151, 41))
-        self.search_btn.clicked.connect(self.load_cpu_data)
+        self.table.setHorizontalHeaderLabels(["ID", "Name", "Socket", "Clock Speed", "Turbo Speed", "Cores", "Threads", "Price", "Add", "Edit"])
 
         # Keyword Search
         self.keyword_search_input = QtWidgets.QLineEdit(self.tab)
@@ -57,9 +44,6 @@ class Ui_CPUPage(object):
         self.keyword_search_btn.setGeometry(QtCore.QRect(1100, 10, 141, 41))
         self.keyword_search_btn.clicked.connect(self.search_by_keyword)
 
-        # Edit Details Tab (empty)
-        self.tab_2 = QtWidgets.QWidget()
-        self.tabWidget.addTab(self.tab_2, "Edit Details")
 
         # Refresh and Back Buttons
         self.refresh_btn = QtWidgets.QPushButton("Refresh", self.centralwidget)
@@ -75,12 +59,7 @@ class Ui_CPUPage(object):
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
 
-        count_value = self.count_filter_txt.value()
-
-        if count_value > 0:
-            cursor.execute("SELECT id, Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price FROM CPU WHERE Count <= ?", (count_value,))
-        else:
-            cursor.execute("SELECT id, Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price FROM CPU")
+        cursor.execute("SELECT id, Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price FROM CPU")
 
         rows = cursor.fetchall()
         connection.close()
@@ -121,10 +100,73 @@ class Ui_CPUPage(object):
             add_button.clicked.connect(lambda _, r=row_num: self.handle_add_button(r))
             self.table.setCellWidget(row_num, 8, add_button)
 
+            edit_button = QtWidgets.QPushButton("Edit")
+            edit_button.setStyleSheet("font-family: Arial;")
+            edit_button.clicked.connect(lambda _, r=row_num: self.handle_edit_button(r))
+            self.table.setCellWidget(row_num, 9, edit_button)
+
     def handle_add_button(self, row):
         cpu_name = self.table.item(row, 1).text()
         self.manager.set_component_name("CPU", cpu_name)
         print(f"'Add' button clicked for CPU Name: {cpu_name}")
+
+    def handle_edit_button(self, row):
+        id_ = self.table.item(row, 0).text()
+        name = self.table.item(row, 1).text()
+        socket = self.table.item(row, 2).text()
+        clock_speed = self.table.item(row, 3).text()
+        turbo_speed = self.table.item(row, 4).text()
+        cores = self.table.item(row, 5).text()
+        threads = self.table.item(row, 6).text()
+        price = self.table.item(row, 7).text()
+
+        dialog = QtWidgets.QDialog()
+        dialog.setWindowTitle("Edit CPU Details")
+        dialog.resize(400, 500)
+
+        layout = QtWidgets.QFormLayout(dialog)
+
+        name_edit = QtWidgets.QLineEdit(name)
+        socket_edit = QtWidgets.QLineEdit(socket)
+        clock_speed_edit = QtWidgets.QLineEdit(clock_speed)
+        turbo_speed_edit = QtWidgets.QLineEdit(turbo_speed)
+        cores_edit = QtWidgets.QSpinBox()
+        cores_edit.setMaximum(128)
+        cores_edit.setValue(int(cores))
+        threads_edit = QtWidgets.QSpinBox()
+        threads_edit.setMaximum(256)
+        threads_edit.setValue(int(threads))
+        price_edit = QtWidgets.QLineEdit(price)
+
+        layout.addRow("Name:", name_edit)
+        layout.addRow("Socket:", socket_edit)
+        layout.addRow("Clock Speed:", clock_speed_edit)
+        layout.addRow("Turbo Speed:", turbo_speed_edit)
+        layout.addRow("Cores:", cores_edit)
+        layout.addRow("Threads:", threads_edit)
+        layout.addRow("Price:", price_edit)
+
+        save_btn = QtWidgets.QPushButton("Save")
+        save_btn.clicked.connect(lambda: self.save_edit(dialog, id_, name_edit.text(), socket_edit.text(), clock_speed_edit.text(), turbo_speed_edit.text(), cores_edit.value(), threads_edit.value(), price_edit.text()))
+        layout.addWidget(save_btn)
+
+        dialog.exec()
+
+    def save_edit(self, dialog, id_, name, socket, clock_speed, turbo_speed, cores, threads, price):
+        connection = sqlite3.connect("data/database/database.sqlite")
+        cursor = connection.cursor()
+
+        cursor.execute("""
+            UPDATE CPU
+            SET Name = ?, Socket = ?, Clock_Speed = ?, Turbo_Speed = ?, Cores = ?, Threads = ?, Price = ?
+            WHERE id = ?
+        """, (name, socket, clock_speed, turbo_speed, cores, threads, price, id_))
+
+        connection.commit()
+        connection.close()
+
+        dialog.accept()
+        self.load_cpu_data()
 
 
 class CPUPage(QtWidgets.QMainWindow):
