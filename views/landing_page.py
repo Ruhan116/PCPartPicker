@@ -3,6 +3,7 @@ from controllers.data_controller import DataController
 from data.data_loader.Load_Data import PCComponentScraper
 from data.data_loader.build_table import BuildTable
 from models.Session import Session
+import sqlite3
 
 # Form implementation generated from reading ui file 'landing_page.ui'
 #
@@ -51,7 +52,7 @@ class Ui_MainWindow(object):
         self.label_3.setStyleSheet("border-radius: 10px;\n"
 "font-family: Arial, Helvetica, sans-serif;\n"
 "font-weight: bold;\n"
-"color: white;")
+"color: white;\n")
         self.label_3.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
         self.label_3.setObjectName("label_3")
         self.horizontalLayout_4.addWidget(self.label_3)
@@ -172,7 +173,14 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         self.label_3.setText(_translate("MainWindow", "Username"))
         self.label.setText(_translate("MainWindow", "Pick Parts. Build Your PC. \n"
-"Compare and Share. "))
+"Compare Different Builds. "))
+        self.label.setStyleSheet("""
+            color: black;
+            font-size: 50px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 10px;  /* Add a 10-pixel margin to the bottom */
+        """)
         self.label_2.setText(_translate("MainWindow", "We provide part selection, pricing, and compatibility guidance\n"
 " for do-it-yourself computer builders."))
         self.pushButton_2.setText(_translate("MainWindow", "Start Your Build"))
@@ -199,9 +207,11 @@ class LandingPage(QtWidgets.QMainWindow):
 
         # Setup for dynamic tiles in Socials tab
         self.tile_counter = 0
-        self.tile_timer = QtCore.QTimer(self)
-        self.tile_timer.timeout.connect(self.add_tile)
-        self.tile_timer.start(1000)  # Add a tile every 4 seconds
+        # self.tile_timer = QtCore.QTimer(self)
+        # self.tile_timer.timeout.connect(self.add_tile)
+        # self.tile_timer.start(1000)  # Add a tile every 4 
+        self.load_user_builds()
+
         print(Session().get_user())
 
         # Apply stylesheet
@@ -324,5 +334,134 @@ class LandingPage(QtWidgets.QMainWindow):
             self.ui.label_3.setText("Welcome")
             self.ui.label_11.setText("Not logged in")
             print("Not logged in")
+    
 
+    def load_user_builds(self):
+        """Load and display all builds for the logged-in user."""
+        try:
+            connection = sqlite3.connect("data/database/database.sqlite")
+            cursor = connection.cursor()
 
+            # Get current logged-in username
+            username = Session().get_user()
+            if not username:
+                print("No user logged in.")
+                return
+            else:
+                print(f"Logged-in username: {username}")
+
+            # Get user_id for the username
+            cursor.execute("SELECT id FROM Users WHERE username = ?", (username,))
+            result = cursor.fetchone()
+            if not result:
+                print("User not found in database.")
+                return
+            else:
+                print(f"User ID for {username}: {result[0]}")
+            
+            user_id = result[0]
+
+            # Get all builds for the user
+            cursor.execute("SELECT build_id, price FROM Builds WHERE user_id = ?", (user_id,))
+            builds = cursor.fetchall()
+
+            if not builds:
+                print("No builds found for this user.")
+                return
+
+            # Clear existing tiles
+            if hasattr(self, "tiles_layout"):
+                while self.tiles_layout.count():
+                    item = self.tiles_layout.takeAt(0)
+                    if item.widget():
+                        item.widget().deleteLater()
+            else:
+                self.tiles_layout = QtWidgets.QVBoxLayout(self.ui.scrollAreaWidgetContents)
+                self.tiles_layout.setAlignment(QtCore.Qt.AlignmentFlag.AlignTop | QtCore.Qt.AlignmentFlag.AlignHCenter)
+                self.tiles_layout.setSpacing(20)
+
+            # Create a tile for each build
+            for build_id, price in builds:
+                tile = QtWidgets.QFrame()
+                tile.setFixedSize(750, 300)  # Adjusted height for a smaller title area
+                tile.setStyleSheet("""
+                    background-color: #cce5ff;
+                    border: 1px solid #2c88c4;
+                    border-radius: 10px;
+                    margin: 10px;
+                """)
+
+                layout = QtWidgets.QVBoxLayout(tile)
+
+                # Image
+                image_label = QtWidgets.QLabel()
+                image_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+                image_label.setPixmap(QtGui.QPixmap("assets/pc_image.png").scaled(
+                    400, 150, QtCore.Qt.AspectRatioMode.KeepAspectRatio
+                ))
+
+                # Title
+                title_label = QtWidgets.QLabel(f"Build #{build_id}")
+                title_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+                title_label.setStyleSheet("""
+                    font-size: 18px;
+                    font-weight: bold;
+                    font-family: Arial;
+                    margin-top: 10px;
+                """)
+
+                # Price
+                price_label = QtWidgets.QLabel(f"Total Price: ${price:.2f}" if price is not None else "Total Price: N/A")
+                price_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+                price_label.setStyleSheet("""
+                    font-size: 16px;
+                    font-family: Arial;
+                    margin-top: 5px;
+                """)
+
+                # Visit button
+                visit_btn = QtWidgets.QPushButton("Visit Build")
+                visit_btn.setStyleSheet("""
+                    QPushButton {
+                        background-color: #2c88c4;
+                        color: white;
+                        border: none;
+                        border-radius: 5px;
+                        padding: 10px;
+                        font-size: 16px;
+                        font-family: Arial;
+                    }
+                    QPushButton:hover {
+                        background-color: #1a6ea8;
+                    }
+                """)
+                visit_btn.clicked.connect(lambda _, b_id=build_id: self.visit_build(b_id))  # Connect button to visit_build
+
+                # Add widgets to tile
+                layout.addWidget(image_label)
+                layout.addWidget(title_label)
+                layout.addWidget(price_label)
+                layout.addWidget(visit_btn)
+
+                # Add tile to layout
+                self.tiles_layout.addWidget(tile)
+
+        except Exception as e:
+            print(f"Error loading user builds: {e}")
+
+        finally:
+            connection.close()
+    
+    def visit_build(self, build_id):
+        """Handle the visit build button click."""
+        print(f"Visiting build with ID: {build_id}")
+        # Redirect to the BuildDetailsWindow and update it with the selected build
+        details_page = self.stacked_widget.widget(15)  # Assuming BuildDetailsWindow is at index 15
+        details_page.update_parts(build_id)  # Call the update_parts function with the build_id
+        main_window = self.stacked_widget.window()
+        main_window.resize(details_page.size())
+        self.stacked_widget.setCurrentWidget(details_page)
+    
+    def refresh_page(self):
+        print("Refreshing LandingPage...")
+        self.load_user_builds()
