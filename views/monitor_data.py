@@ -24,11 +24,11 @@ class Ui_MonitorPage(object):
         self.table.setGeometry(QtCore.QRect(10, 60, 1231, 431))
         self.table.setStyleSheet("font: 10pt \"Arial\";")
         self.table.setObjectName("table")
-        self.table.setColumnCount(6)  # 8 columns for data + 1 for "Add" button
+        self.table.setColumnCount(7)
         self.table.setRowCount(0)
 
         # Set up table headers
-        headers = ["id", "Name", "Size", "Resolution", "Price", "Action"]
+        headers = ["id", "Name", "Size", "Resolution", "Price", "Action", "Edit"]
         for i, header in enumerate(headers):
             item = QtWidgets.QTableWidgetItem()
             item.setText(header)
@@ -39,16 +39,6 @@ class Ui_MonitorPage(object):
         self.label_2.setStyleSheet("font: 20pt \"Arial\";")
         self.label_2.setObjectName("label_2")
 
-        self.count_filter_txt = QtWidgets.QSpinBox(parent=self.tab)
-        self.count_filter_txt.setGeometry(QtCore.QRect(520, 10, 111, 41))
-        self.count_filter_txt.setObjectName("count_filter_txt")
-
-        self.search_btn = QtWidgets.QPushButton(parent=self.tab)
-        self.search_btn.setGeometry(QtCore.QRect(650, 10, 151, 41))
-        self.search_btn.setObjectName("search_btn")
-        self.search_btn.setText("Search")
-        self.search_btn.clicked.connect(self.load_monitor_data)
-        
         # Search Bar for Keyword Search
         self.keyword_search_input = QtWidgets.QLineEdit(self.tab)
         self.keyword_search_input.setGeometry(QtCore.QRect(820, 10, 261, 41))
@@ -61,11 +51,7 @@ class Ui_MonitorPage(object):
         self.keyword_search_btn.setObjectName("keyword_search_btn")
         self.keyword_search_btn.clicked.connect(self.search_by_keyword)
 
-        self.tabWidget.addTab(self.tab, "CPU Details")
-
-        self.tab_2 = QtWidgets.QWidget()
-        self.tab_2.setObjectName("tab_2")
-        self.tabWidget.addTab(self.tab_2, "Edit Details")
+        self.tabWidget.addTab(self.tab, "Monitor Details")
 
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(0, -10, 1301, 101))
@@ -104,83 +90,120 @@ class Ui_MonitorPage(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Monitor Options"))
-        headers = ["id", "Name", "Size", "Resolution", "Price"]
+        headers = ["id", "Name", "Size", "Resolution", "Price", "Action", "Edit"]
         for i, header in enumerate(headers):
             item = self.table.horizontalHeaderItem(i)
             item.setText(_translate("MainWindow", header))
-        self.label_2.setText(_translate("MainWindow", "Search of References with count lower or equal to : "))
-        self.search_btn.setText(_translate("MainWindow", "Search"))
+        self.label_2.setText(_translate("MainWindow", "Search for Monitor:"))
+        self.keyword_search_btn.setText(_translate("MainWindow", "Search"))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "Monitor Details"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Edit Details"))
         self.label.setText(_translate("MainWindow", "Choose A Monitor"))
         self.refresh_btn.setText(_translate("MainWindow", "Refresh"))
         self.back_btn.setText(_translate("MainWindow", "Back"))
 
     def load_monitor_data(self):
-        count_value = self.count_filter_txt.value()
-
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
-
-        if count_value > 0:
-            cursor.execute("SELECT * FROM Monitors WHERE Count <= ?", (count_value,))
-        else:
-            cursor.execute("SELECT * FROM Monitors")
-
+        cursor.execute("SELECT id, Name, Size, Resolution, Price FROM Monitors")
         rows = cursor.fetchall()
-        self.populate_table(rows)
         connection.close()
+        self.populate_table(rows)
 
     def search_by_keyword(self):
         keyword = self.keyword_search_input.text().strip()
 
-        if not keyword:
-            connection = sqlite3.connect("data/database/database.sqlite")
-            cursor = connection.cursor()
-
-            cursor.execute("SELECT * FROM Monitors")
-            rows = cursor.fetchall()
-            self.populate_table(rows)
-            connection.close()
-            return
-
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
 
-        cursor.execute("SELECT * FROM Monitors WHERE Name LIKE ? OR Size LIKE ? OR Price LIKE ? OR id LIKE ? OR Resolution LIKE ?", ('%' + keyword + '%', '%' + keyword + '%', '%' + keyword + '%', '%' + keyword + '%', '%' + keyword + '%'))
+        if keyword:
+            like_pattern = f"%{keyword}%"
+            cursor.execute("""
+            SELECT id, Name, Size, Resolution, Price FROM Monitors
+            WHERE Name LIKE ? OR Size LIKE ? OR Resolution LIKE ? OR Price LIKE ?
+            """, (like_pattern, like_pattern, like_pattern, like_pattern))
+        else:
+            cursor.execute("SELECT id, Name, Size, Resolution, Price FROM Monitors")
+
         rows = cursor.fetchall()
-        self.populate_table(rows)
         connection.close()
-    
+        self.populate_table(rows)
+
     def populate_table(self, rows):
         self.table.setRowCount(len(rows))
-
         for row_num, row_data in enumerate(rows):
             for col_num, data in enumerate(row_data):
                 self.table.setItem(row_num, col_num, QtWidgets.QTableWidgetItem(str(data)))
 
+            # Add Button
             add_button = QtWidgets.QPushButton("Add")
             add_button.setStyleSheet("font-family: Arial;")
             add_button.clicked.connect(lambda _, r=row_num: self.handle_add_button(r))
             self.table.setCellWidget(row_num, 5, add_button)
-        
+            
+            # Edit Button
+            edit_btn = QtWidgets.QPushButton("Edit")
+            edit_btn.clicked.connect(lambda _, r=row_num: self.handle_edit_btn(r))
+            self.table.setCellWidget(row_num, 6, edit_btn)
+
     def handle_add_button(self, row):
         monitor_name = self.table.item(row, 1).text()
         self.manager.set_component_name("Monitor", monitor_name)
         print(f"'Add' button clicked for Monitor Name: {monitor_name}")
 
+    def handle_edit_btn(self, row):
+        id_ = self.table.item(row, 0).text()
+        name = self.table.item(row, 1).text()
+        size = self.table.item(row, 2).text()
+        resolution = self.table.item(row, 3).text()
+        price = self.table.item(row, 4).text()
+
+        dialog = QtWidgets.QDialog()
+        dialog.setWindowTitle("Edit Monitor Details")
+        dialog.resize(400, 300)
+
+        layout = QtWidgets.QFormLayout(dialog)
+
+        name_edit = QtWidgets.QLineEdit(name)
+        size_edit = QtWidgets.QLineEdit(size)
+        resolution_edit = QtWidgets.QLineEdit(resolution)
+        price_edit = QtWidgets.QLineEdit(price)
+
+        layout.addRow("Name:", name_edit)
+        layout.addRow("Size:", size_edit)
+        layout.addRow("Resolution:", resolution_edit)
+        layout.addRow("Price:", price_edit)
+
+        save_btn = QtWidgets.QPushButton("Save")
+        save_btn.clicked.connect(lambda: self.save_edit(dialog, id_, name_edit.text(), size_edit.text(), resolution_edit.text(), price_edit.text()))
+        layout.addWidget(save_btn)
+
+        dialog.exec()
+
+    def save_edit(self, dialog, id_, name, size, resolution, price):
+        connection = sqlite3.connect("data/database/database.sqlite")
+        cursor = connection.cursor()
+
+        cursor.execute("""
+        UPDATE Monitors
+        SET Name = ?, Size = ?, Resolution = ?, Price = ?
+        WHERE id = ?
+        """, (name, size, resolution, price, id_))
+
+        connection.commit()
+        connection.close()
+
+        dialog.accept()
+        self.load_monitor_data()
 
 class MonitorPage(QtWidgets.QMainWindow):
     def __init__(self, stacked_widget, manager: ComponentSelectionManager):
         super(MonitorPage, self).__init__()
         self.ui = Ui_MonitorPage()
-        self.ui.manager = manager  # Pass the manager to the UI
+        self.ui.manager = manager
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
-        # Load data initially
         self.ui.load_monitor_data()
 
-        # Back button functionality
         self.ui.back_btn.clicked.connect(self.go_back)
 
     def go_back(self):

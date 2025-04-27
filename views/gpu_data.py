@@ -1,6 +1,6 @@
 import sqlite3
 
-from PyQt6 import QtCore, QtGui, QtWidgets
+from PyQt6 import QtCore, QtWidgets
 
 from models.component_selection_manager import ComponentSelectionManager
 
@@ -13,181 +13,169 @@ class Ui_GPUPage(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         MainWindow.setCentralWidget(self.centralwidget)
 
-        self.setup_header()
-        self.setup_tab_widget()
-        self.setup_footer(MainWindow)
+        # Header
+        self.header_label = QtWidgets.QLabel("Choose A GPU", self.centralwidget)
+        self.header_label.setGeometry(0, 0, 1300, 80)
+        self.header_label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.header_label.setStyleSheet("font: bold 30pt Arial; color: white; background-color: #555579;")
 
-        self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(0)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+        # Tabs
+        self.tab_widget = QtWidgets.QTabWidget(self.centralwidget)
+        self.tab_widget.setGeometry(30, 100, 1240, 540)
+        self.tab_widget.setStyleSheet("font: 16pt Arial;")
 
-    def setup_header(self):
-        self.label = QtWidgets.QLabel(self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(0, -10, 1301, 101))
-        self.label.setStyleSheet("font: 75 30pt 'Arial'; font-weight: bold; color: white; background-color: #555579;")
-        self.label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label.setObjectName("label")
+        self.gpu_tab = QtWidgets.QWidget()
+        self.tab_widget.addTab(self.gpu_tab, "GPU Details")
 
-    def setup_tab_widget(self):
-        self.tabWidget = QtWidgets.QTabWidget(self.centralwidget)
-        self.tabWidget.setGeometry(QtCore.QRect(30, 120, 1251, 541))
-        self.tabWidget.setStyleSheet("font: 16pt 'Arial';")
-        self.tabWidget.setObjectName("tabWidget")
+        # Search bar
+        self.keyword_input = QtWidgets.QLineEdit(self.gpu_tab)
+        self.keyword_input.setGeometry(570, 10, 300, 40)
+        self.keyword_input.setPlaceholderText("Search by keyword...")
 
-        # Tab 1 - GPU Details
-        self.tab = QtWidgets.QWidget()
-        self.tab.setObjectName("tab")
-
-        self.setup_gpu_details_tab()
-
-        self.tabWidget.addTab(self.tab, "GPU Details")
-
-        # Tab 2 - Edit Details (currently empty)
-        self.tab_2 = QtWidgets.QWidget()
-        self.tab_2.setObjectName("tab_2")
-        self.tabWidget.addTab(self.tab_2, "Edit Details")
-
-    def setup_gpu_details_tab(self):
-        # Table
-        self.table = QtWidgets.QTableWidget(self.tab)
-        self.table.setGeometry(QtCore.QRect(10, 110, 1231, 381))
-        self.table.setStyleSheet("font: 10pt 'Arial';")
-        self.table.setObjectName("table")
-        self.table.setColumnCount(7)
-        self.table.setRowCount(0)
-        headers = ["id", "Name", "Series", "VRAM", "TDP","Price", "Action"]
-        self.table.setHorizontalHeaderLabels(headers)
-
-        # Label
-        self.label_2 = QtWidgets.QLabel(self.tab)
-        self.label_2.setGeometry(QtCore.QRect(10, 10, 500, 41))
-        self.label_2.setStyleSheet("font: 20pt 'Arial';")
-        self.label_2.setObjectName("label_2")
-
-        # SpinBox for Memory Filtering
-        self.count_filter_txt = QtWidgets.QSpinBox(self.tab)
-        self.count_filter_txt.setGeometry(QtCore.QRect(520, 10, 111, 41))
-        self.count_filter_txt.setObjectName("count_filter_txt")
-
-        # Button for Memory-based Search
-        self.search_btn = QtWidgets.QPushButton(self.tab)
-        self.search_btn.setGeometry(QtCore.QRect(650, 10, 151, 41))
-        self.search_btn.setObjectName("search_btn")
-        self.search_btn.clicked.connect(self.load_gpu_data)
-
-        # Search Bar for Keyword Search
-        self.keyword_search_input = QtWidgets.QLineEdit(self.tab)
-        self.keyword_search_input.setGeometry(QtCore.QRect(820, 10, 261, 41))
-        self.keyword_search_input.setPlaceholderText("Search by keyword...")
-        self.keyword_search_input.setObjectName("keyword_search_input")
-
-        self.keyword_search_btn = QtWidgets.QPushButton(self.tab)
-        self.keyword_search_btn.setGeometry(QtCore.QRect(1100, 10, 141, 41))
-        self.keyword_search_btn.setText("Search")
-        self.keyword_search_btn.setObjectName("keyword_search_btn")
+        self.keyword_search_btn = QtWidgets.QPushButton("Search", self.gpu_tab)
+        self.keyword_search_btn.setGeometry(890, 10, 100, 40)
         self.keyword_search_btn.clicked.connect(self.search_by_keyword)
 
-    def setup_footer(self, MainWindow):
-        # Refresh Button
-        self.refresh_btn = QtWidgets.QPushButton(self.centralwidget)
-        self.refresh_btn.setGeometry(QtCore.QRect(1120, 670, 141, 31))
-        self.refresh_btn.setStyleSheet("font: 14pt 'Arial';")
-        self.refresh_btn.setObjectName("refresh_btn")
+        # GPU Table
+        self.table = QtWidgets.QTableWidget(self.gpu_tab)
+        self.table.setGeometry(10, 70, 1220, 430)
+        self.table.setColumnCount(8)
+        self.table.setHorizontalHeaderLabels(["ID", "Name", "Series", "VRAM", "TDP", "Price", "Add", "Edit"])
+        self.table.setEditTriggers(QtWidgets.QAbstractItemView.EditTrigger.NoEditTriggers)
+        self.table.horizontalHeader().setStretchLastSection(True)
+        self.table.setStyleSheet("font: 11pt Arial;")
+
+        # Footer Buttons
+        self.refresh_btn = QtWidgets.QPushButton("Refresh", self.centralwidget)
+        self.refresh_btn.setGeometry(1120, 670, 140, 40)
+        self.refresh_btn.setStyleSheet("font: 14pt Arial;")
         self.refresh_btn.clicked.connect(self.load_gpu_data)
+        
+        self.back_btn = QtWidgets.QPushButton("Back", self.centralwidget)
+        self.back_btn.setGeometry(30, 670, 140, 40)
+        self.back_btn.setStyleSheet("font: 14pt Arial;")
+        
+        
 
-        # Back Button
-        self.back_btn = QtWidgets.QPushButton(self.centralwidget)
-        self.back_btn.setGeometry(QtCore.QRect(30, 670, 141, 31))
-        self.back_btn.setStyleSheet("font: 14pt 'Arial';")
-        self.back_btn.setObjectName("back_btn")
-
-        # Menubar and Statusbar
-        self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1299, 26))
-        self.menubar.setObjectName("menubar")
-        MainWindow.setMenuBar(self.menubar)
-
-        self.statusbar = QtWidgets.QStatusBar(MainWindow)
-        self.statusbar.setObjectName("statusbar")
-        MainWindow.setStatusBar(self.statusbar)
-
-    def retranslateUi(self, MainWindow):
-        _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "GPU Options"))
-        self.label.setText(_translate("MainWindow", "Choose A GPU"))
-        self.label_2.setText(_translate("MainWindow", "Search by Memory ≥ : "))
-        self.search_btn.setText(_translate("MainWindow", "Search"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "GPU Details"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Edit Details"))
-        self.refresh_btn.setText(_translate("MainWindow", "Refresh"))
-        self.back_btn.setText(_translate("MainWindow", "Back"))
 
     def load_gpu_data(self):
-        count_value = self.count_filter_txt.value()
-
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
 
-        if count_value > 0:
-            cursor.execute("SELECT * FROM GPU WHERE Count <= ?", (count_value,))
-        else:
-            cursor.execute("SELECT * FROM GPU")
+        cursor.execute("SELECT id, Name, Series, VRAM, TDP, Price FROM GPU")
 
         rows = cursor.fetchall()
-        self.populate_table(rows)
         connection.close()
 
+        self.populate_table(rows)
+        
     def search_by_keyword(self):
-        keyword = self.keyword_search_input.text().strip()
-
-        if not keyword:
-            connection = sqlite3.connect("data/database/database.sqlite")
-            cursor = connection.cursor()
-
-            cursor.execute("SELECT * FROM GPU")
-            rows = cursor.fetchall()
-            self.populate_table(rows)
-            connection.close()
-            return
+        keyword = self.keyword_input.text().strip()
 
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
 
-        cursor.execute("SELECT * FROM GPU WHERE Name LIKE ? OR Series LIKE ? OR Price LIKE ? OR id LIKE ? OR VRAM LIKE ? OR TDP LIKE ?", ('%' + keyword + '%', '%' + keyword + '%', '%' + keyword + '%', '%' + keyword + '%', '%' + keyword + '%', '%' + keyword + '%'))
+        if keyword:
+            like_pattern = f"%{keyword}%"
+            cursor.execute( """
+            SELECT id, Name, Series, VRAM, TDP, Price FROM GPU
+            WHERE Name LIKE ? OR Series LIKE ? OR VRAM LIKE ? OR TDP LIKE ? OR Price LIKE ?
+            """, (like_pattern, like_pattern, like_pattern, like_pattern, like_pattern))
+        else:
+            cursor.execute("SELECT id, Name, Series, VRAM, TDP, Price FROM GPU")
+
         rows = cursor.fetchall()
-        self.populate_table(rows)
         connection.close()
+
+        self.populate_table(rows)
 
     def populate_table(self, rows):
         self.table.setRowCount(len(rows))
-        self.table.setColumnCount(7)
 
-        for row_num, row_data in enumerate(rows):
-            for col_num, data in enumerate(row_data):
-                self.table.setItem(row_num, col_num, QtWidgets.QTableWidgetItem(str(data)))
+        for row_idx, row in enumerate(rows):
+            for col_idx, value in enumerate(row):
+                item = QtWidgets.QTableWidgetItem(str(value))
+                self.table.setItem(row_idx, col_idx, item)
 
-            add_button = QtWidgets.QPushButton("Add")
-            add_button.setStyleSheet("font-family: Arial;")
-            add_button.clicked.connect(lambda _, r=row_num: self.handle_add_button(r))
-            self.table.setCellWidget(row_num, 6, add_button)
+            # Add Button
+            add_btn = QtWidgets.QPushButton("Add")
+            add_btn.clicked.connect(lambda _, r=row_idx: self.handle_add_btn(r))
+            self.table.setCellWidget(row_idx, 6, add_btn)
 
-    def handle_add_button(self, row):
+            # Edit Button
+            edit_btn = QtWidgets.QPushButton("Edit")
+            edit_btn.clicked.connect(lambda _, r=row_idx: self.handle_edit_btn(r))
+            self.table.setCellWidget(row_idx, 7, edit_btn)
+
+    def handle_add_btn(self, row):
         gpu_name = self.table.item(row, 1).text()
         self.manager.set_component_name("GPU", gpu_name)
-        print(f"'Add' button clicked for GPU Name: {gpu_name}")
+        print(f"Selected GPU: {gpu_name}")
+
+    def handle_edit_btn(self, row):
+        id_ = self.table.item(row, 0).text()
+        name = self.table.item(row, 1).text()
+        series = self.table.item(row, 2).text()
+        vram = self.table.item(row, 3).text()
+        tdp = self.table.item(row, 4).text()
+        price = self.table.item(row, 5).text()
+
+        dialog = QtWidgets.QDialog()
+        dialog.setWindowTitle("Edit GPU Details")
+        dialog.resize(400, 400)
+
+        layout = QtWidgets.QFormLayout(dialog)
+
+        name_edit = QtWidgets.QLineEdit(name)
+        series_edit = QtWidgets.QLineEdit(series)
+        vram_edit = QtWidgets.QLineEdit(vram)
+        tdp_edit = QtWidgets.QLineEdit(tdp)
+        price_edit = QtWidgets.QLineEdit(price)
+
+        layout.addRow("Name:", name_edit)
+        layout.addRow("Series:", series_edit)
+        layout.addRow("VRAM:", vram_edit)
+        layout.addRow("TDP:", tdp_edit)
+        layout.addRow("Price:", price_edit)
+
+        save_btn = QtWidgets.QPushButton("Save")
+        save_btn.clicked.connect(lambda: self.save_edit(dialog, id_, name_edit.text(), series_edit.text(), vram_edit.text(), tdp_edit.text(), price_edit.text()))
+        layout.addWidget(save_btn)
+
+        dialog.exec()
+
+    def save_edit(self, dialog, id_, name, series, vram, tdp, price):
+        connection = sqlite3.connect("data/database/database.sqlite")
+        cursor = connection.cursor()
+
+        cursor.execute("""
+            UPDATE GPU
+            SET Name = ?, Series = ?, VRAM = ?, TDP = ?, Price = ?
+            WHERE id = ?
+        """, (name, series, vram, tdp, price, id_))
+
+        connection.commit()
+        connection.close()
+
+        dialog.accept()
+        self.load_gpu_data()
 
 
 class GPUPage(QtWidgets.QMainWindow):
     def __init__(self, stacked_widget, manager: ComponentSelectionManager):
-        super(GPUPage, self).__init__()
+        super().__init__()
         self.ui = Ui_GPUPage()
         self.ui.manager = manager
         self.ui.setupUi(self)
+
         self.stacked_widget = stacked_widget
 
+        # Load GPU Data initially
         self.ui.load_gpu_data()
 
+        # Connect buttons
         self.ui.back_btn.clicked.connect(self.go_back)
 
+
     def go_back(self):
-        self.stacked_widget.setCurrentIndex(3)  # Assuming the index 3 refers to the previous page
+        self.stacked_widget.setCurrentIndex(3)
