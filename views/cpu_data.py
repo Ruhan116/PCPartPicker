@@ -9,107 +9,107 @@ class Ui_CPUPage(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1299, 768)
-        self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
-        self.centralwidget.setObjectName("centralwidget")
 
-        self.tabWidget = QtWidgets.QTabWidget(parent=self.centralwidget)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        MainWindow.setCentralWidget(self.centralwidget)
+
+        # Title Label
+        self.label = QtWidgets.QLabel("Choose A CPU", self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(0, -10, 1301, 101))
+        self.label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
+        self.label.setStyleSheet("font: 75 30pt 'Arial'; font-weight: bold; color: white; background-color: #555579;")
+
+        # Tab Widget
+        self.tabWidget = QtWidgets.QTabWidget(self.centralwidget)
         self.tabWidget.setGeometry(QtCore.QRect(30, 120, 1251, 541))
-        self.tabWidget.setStyleSheet("font: 16pt \"Arial\";")
-        self.tabWidget.setObjectName("tabWidget")
+        self.tabWidget.setStyleSheet("font: 16pt 'Arial';")
 
+        # CPU Details Tab
         self.tab = QtWidgets.QWidget()
-        self.tab.setObjectName("tab")
-
-        self.table = QtWidgets.QTableWidget(parent=self.tab)
-        self.table.setGeometry(QtCore.QRect(10, 60, 1231, 431))
-        self.table.setStyleSheet("font: 10pt \"Arial\";")
-        self.table.setObjectName("table")
-        self.table.setColumnCount(9)  # 8 columns for data + 1 for "Add" button
-        self.table.setRowCount(0)
-
-        # Set up table headers
-        headers = ["id", "Name", "Socket", "Clock_Speed", "Turbo_Speed", "Cores", "Threads", "Price", "Action"]
-        for i, header in enumerate(headers):
-            item = QtWidgets.QTableWidgetItem()
-            item.setText(header)
-            self.table.setHorizontalHeaderItem(i, item)
-
-        self.label_2 = QtWidgets.QLabel(parent=self.tab)
-        self.label_2.setGeometry(QtCore.QRect(60, 10, 661, 41))
-        self.label_2.setStyleSheet("font: 20pt \"Arial\";")
-        self.label_2.setObjectName("label_2")
-
-        self.count_filter_txt = QtWidgets.QSpinBox(parent=self.tab)
-        self.count_filter_txt.setGeometry(QtCore.QRect(700, 10, 111, 41))
-        self.count_filter_txt.setObjectName("count_filter_txt")
-
-        self.search_btn = QtWidgets.QPushButton(parent=self.tab)
-        self.search_btn.setGeometry(QtCore.QRect(830, 10, 231, 41))
-        self.search_btn.setObjectName("search_btn")
-        self.search_btn.setText("Search")
-        self.search_btn.clicked.connect(self.load_cpu_data)
-
         self.tabWidget.addTab(self.tab, "CPU Details")
 
+        # Table
+        self.table = QtWidgets.QTableWidget(self.tab)
+        self.table.setGeometry(QtCore.QRect(10, 60, 1231, 431))
+        self.table.setColumnCount(9)
+        self.table.setStyleSheet("font: 10pt 'Arial';")
+        self.table.setHorizontalHeaderLabels(["ID", "Name", "Socket", "Clock Speed", "Turbo Speed", "Cores", "Threads", "Price", "Action"])
+
+        # Count Filter
+        self.label_2 = QtWidgets.QLabel("Search CPUs with Count ≤", self.tab)
+        self.label_2.setGeometry(QtCore.QRect(60, 10, 450, 41))
+        self.label_2.setStyleSheet("font: 20pt 'Arial';")
+
+        self.count_filter_txt = QtWidgets.QSpinBox(self.tab)
+        self.count_filter_txt.setGeometry(QtCore.QRect(520, 10, 111, 41))
+        self.count_filter_txt.setMaximum(99999)
+
+        self.search_btn = QtWidgets.QPushButton("Search", self.tab)
+        self.search_btn.setGeometry(QtCore.QRect(650, 10, 151, 41))
+        self.search_btn.clicked.connect(self.load_cpu_data)
+
+        # Keyword Search
+        self.keyword_search_input = QtWidgets.QLineEdit(self.tab)
+        self.keyword_search_input.setGeometry(QtCore.QRect(820, 10, 261, 41))
+        self.keyword_search_input.setPlaceholderText("Search by keyword...")
+
+        self.keyword_search_btn = QtWidgets.QPushButton("Search", self.tab)
+        self.keyword_search_btn.setGeometry(QtCore.QRect(1100, 10, 141, 41))
+        self.keyword_search_btn.clicked.connect(self.search_by_keyword)
+
+        # Edit Details Tab (empty)
         self.tab_2 = QtWidgets.QWidget()
-        self.tab_2.setObjectName("tab_2")
         self.tabWidget.addTab(self.tab_2, "Edit Details")
 
-        self.label = QtWidgets.QLabel(parent=self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(0, -10, 1301, 101))
-        self.label.setStyleSheet("font: 75 30pt \"Arial\"; font-weight: bold; color: rgb(255, 255, 255); background-color: #555579;")
-        self.label.setAlignment(QtCore.Qt.AlignmentFlag.AlignCenter)
-        self.label.setObjectName("label")
-        self.label.setText("Choose A CPU")
-
-        self.refresh_btn = QtWidgets.QPushButton(parent=self.centralwidget)
+        # Refresh and Back Buttons
+        self.refresh_btn = QtWidgets.QPushButton("Refresh", self.centralwidget)
         self.refresh_btn.setGeometry(QtCore.QRect(1120, 670, 141, 31))
-        self.refresh_btn.setStyleSheet("font: 14pt \"Arial\";")
-        self.refresh_btn.setObjectName("refresh_btn")
-        self.refresh_btn.setText("Refresh")
+        self.refresh_btn.setStyleSheet("font: 14pt 'Arial';")
         self.refresh_btn.clicked.connect(self.load_cpu_data)
 
-        self.back_btn = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.back_btn = QtWidgets.QPushButton("Back", self.centralwidget)
         self.back_btn.setGeometry(QtCore.QRect(30, 670, 141, 31))
-        self.back_btn.setStyleSheet("font: 14pt \"Arial\";")
-        self.back_btn.setObjectName("back_btn")
-        self.back_btn.setText("Back")
-
-        MainWindow.setCentralWidget(self.centralwidget)
-        self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1299, 26))
-        self.menubar.setObjectName("menubar")
-        MainWindow.setMenuBar(self.menubar)
-
-        self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
-        self.statusbar.setObjectName("statusbar")
-        MainWindow.setStatusBar(self.statusbar)
-
-        self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(0)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
-
-    def retranslateUi(self, MainWindow):
-        _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "CPU Options"))
-        headers = ["id", "Name", "Socket", "Clock_Speed", "Turbo_Speed", "Cores", "Threads", "Price", "Action"]
-        for i, header in enumerate(headers):
-            item = self.table.horizontalHeaderItem(i)
-            item.setText(_translate("MainWindow", header))
-        self.label_2.setText(_translate("MainWindow", "Search of References with count lower or equal to : "))
-        self.search_btn.setText(_translate("MainWindow", "Search"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab), _translate("MainWindow", "CPU Details"))
-        self.tabWidget.setTabText(self.tabWidget.indexOf(self.tab_2), _translate("MainWindow", "Edit Details"))
-        self.label.setText(_translate("MainWindow", "Choose A CPU"))
-        self.refresh_btn.setText(_translate("MainWindow", "Refresh"))
-        self.back_btn.setText(_translate("MainWindow", "Back"))
+        self.back_btn.setStyleSheet("font: 14pt 'Arial';")
 
     def load_cpu_data(self):
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
-        cursor.execute("SELECT * FROM CPU")
-        rows = cursor.fetchall()
 
+        count_value = self.count_filter_txt.value()
+
+        if count_value > 0:
+            cursor.execute("SELECT id, Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price FROM CPU WHERE Count <= ?", (count_value,))
+        else:
+            cursor.execute("SELECT id, Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price FROM CPU")
+
+        rows = cursor.fetchall()
+        connection.close()
+
+        self.populate_table(rows)
+
+    def search_by_keyword(self):
+        keyword = self.keyword_search_input.text().strip()
+
+        connection = sqlite3.connect("data/database/database.sqlite")
+        cursor = connection.cursor()
+
+        if keyword:
+            like_pattern = f"%{keyword}%"
+            cursor.execute("""
+                SELECT id, Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price
+                FROM CPU
+                WHERE Name LIKE ? OR Socket LIKE ? OR Price LIKE ? OR id LIKE ? 
+                OR Clock_Speed LIKE ? OR Turbo_Speed LIKE ? OR Cores LIKE ? OR Threads LIKE ?
+            """, (like_pattern, like_pattern, like_pattern, like_pattern, like_pattern, like_pattern, like_pattern, like_pattern))
+        else:
+            cursor.execute("SELECT id, Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price FROM CPU")
+
+        rows = cursor.fetchall()
+        connection.close()
+
+        self.populate_table(rows)
+
+    def populate_table(self, rows):
         self.table.setRowCount(len(rows))
 
         for row_num, row_data in enumerate(rows):
@@ -119,9 +119,7 @@ class Ui_CPUPage(object):
             add_button = QtWidgets.QPushButton("Add")
             add_button.setStyleSheet("font-family: Arial;")
             add_button.clicked.connect(lambda _, r=row_num: self.handle_add_button(r))
-            self.table.setCellWidget(row_num, len(row_data), add_button)
-
-        connection.close()
+            self.table.setCellWidget(row_num, 8, add_button)
 
     def handle_add_button(self, row):
         cpu_name = self.table.item(row, 1).text()
@@ -131,15 +129,13 @@ class Ui_CPUPage(object):
 
 class CPUPage(QtWidgets.QMainWindow):
     def __init__(self, stacked_widget, manager: ComponentSelectionManager):
-        super(CPUPage, self).__init__()
+        super().__init__()
         self.ui = Ui_CPUPage()
-        self.ui.manager = manager  # Pass the manager to the UI
+        self.ui.manager = manager
         self.ui.setupUi(self)
         self.stacked_widget = stacked_widget
-        # Load data initially
-        self.ui.load_cpu_data()
 
-        # Back button functionality
+        self.ui.load_cpu_data()
         self.ui.back_btn.clicked.connect(self.go_back)
 
     def go_back(self):
