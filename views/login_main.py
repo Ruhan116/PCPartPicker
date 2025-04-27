@@ -134,7 +134,8 @@ class LogInWindow(QtWidgets.QMainWindow):
 
             # After switching to the landing page, update labels
             landing_page = self.stacked_widget.widget(2)  # Get the LandingPage widget (index 2)
-            landing_page.update_labels()  # Update the user info labels in LandingPage
+            landing_page.update_labels()
+            landing_page.refresh_page()  
         else:
             print("Failed to log in")
 
