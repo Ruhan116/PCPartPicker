@@ -39,22 +39,34 @@ class Ui_HDDPAge(object):
         
         # Label for Search
         self.label_2 = QtWidgets.QLabel(parent=self.tab)
-        self.label_2.setGeometry(QtCore.QRect(60, 10, 661, 41))
+        self.label_2.setGeometry(QtCore.QRect(60, 10, 450, 41))
         self.label_2.setStyleSheet("font: 20pt \"Arial\";")
         self.label_2.setObjectName("label_2")
         
         # Filter Text Box
-        self.size_filter_txt = QtWidgets.QSpinBox(parent=self.tab)
-        self.size_filter_txt.setGeometry(QtCore.QRect(700, 10, 111, 41))
-        self.size_filter_txt.setObjectName("size_filter_txt")
+        self.count_filter_txt = QtWidgets.QSpinBox(parent=self.tab)
+        self.count_filter_txt.setGeometry(QtCore.QRect(520, 10, 111, 41))
+        self.count_filter_txt.setObjectName("count_filter_txt")
         
         # Search Button
         self.search_btn = QtWidgets.QPushButton(parent=self.tab)
-        self.search_btn.setGeometry(QtCore.QRect(830, 10, 231, 41))
+        self.search_btn.setGeometry(QtCore.QRect(650, 10, 151, 41))
         self.search_btn.setObjectName("search_btn")
         self.search_btn.setText("Search")
         self.search_btn.clicked.connect(self.load_hdd_data)
         
+        # Search Bar for Keyword Search
+        self.keyword_search_input = QtWidgets.QLineEdit(self.tab)
+        self.keyword_search_input.setGeometry(QtCore.QRect(820, 10, 261, 41))
+        self.keyword_search_input.setPlaceholderText("Search by keyword...")
+        self.keyword_search_input.setObjectName("keyword_search_input")
+
+        self.keyword_search_btn = QtWidgets.QPushButton(self.tab)
+        self.keyword_search_btn.setGeometry(QtCore.QRect(1100, 10, 141, 41))
+        self.keyword_search_btn.setText("Search")
+        self.keyword_search_btn.setObjectName("keyword_search_btn")
+        self.keyword_search_btn.clicked.connect(self.search_by_keyword)
+
         # Adding tab
         self.tabWidget.addTab(self.tab, "HDD Details")
         
@@ -121,28 +133,56 @@ class Ui_HDDPAge(object):
         self.back_btn.setText(_translate("MainWindow", "Back"))
 
     def load_hdd_data(self):
+        count_value = self.count_filter_txt.value()
+
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
-        cursor.execute("SELECT * FROM HDD")
+
+        if count_value > 0:
+            cursor.execute("SELECT * FROM HDD WHERE Count <= ?", (count_value,))
+        else:
+            cursor.execute("SELECT * FROM HDD")
+
         rows = cursor.fetchall()
-        
-        self.table.setRowCount(len(rows))
-        
-        for row_num, row_data in enumerate(rows):
-            for col_num, data in enumerate(row_data):
-                self.table.setItem(row_num, col_num, QtWidgets.QTableWidgetItem(str(data)))
-            
-            add_button = QtWidgets.QPushButton("Add")
-            add_button.setStyleSheet("font-family: Arial;")
-            add_button.clicked.connect(lambda _, r=row_num: self.handle_add_button(r))
-            self.table.setCellWidget(row_num, len(row_data), add_button)
-        
+        self.populate_table(rows)
         connection.close()
-        
+    
+    def search_by_keyword(self):
+        keyword = self.keyword_search_input.text().strip()
+
+        if not keyword:
+            connection = sqlite3.connect("data/database/database.sqlite")
+            cursor = connection.cursor()
+
+            cursor.execute("SELECT * FROM HDD")
+            rows = cursor.fetchall()
+            self.populate_table(rows)
+            connection.close()
+            return
+
+        connection = sqlite3.connect("data/database/database.sqlite")
+        cursor = connection.cursor()
+
+        cursor.execute("SELECT * FROM HDD WHERE Name LIKE ? OR Size LIKE ? OR Price LIKE ? OR id LIKE ? OR RPM LIKE ?", ('%' + keyword + '%', '%' + keyword + '%', '%' + keyword + '%', '%' + keyword + '%', '%' + keyword + '%'))
+        rows = cursor.fetchall()
+        self.populate_table(rows)
+        connection.close()    
     def handle_add_button(self, row):
         hdd_name = self.table.item(row, 1).text()
         self.manager.set_component_name("HDD", hdd_name)
         print(f"GPU selected with Name: {hdd_name}")
+    
+    def populate_table(self, rows):
+        self.table.setRowCount(len(rows))
+
+        for row_num, row_data in enumerate(rows):
+            for col_num, data in enumerate(row_data):
+                self.table.setItem(row_num, col_num, QtWidgets.QTableWidgetItem(str(data)))
+
+            add_button = QtWidgets.QPushButton("Add")
+            add_button.setStyleSheet("font-family: Arial;")
+            add_button.clicked.connect(lambda _, r=row_num: self.handle_add_button(r))
+            self.table.setCellWidget(row_num, 5, add_button)
 
 class HDDPage(QtWidgets.QMainWindow):
     def __init__(self, stacked_widget, manager: ComponentSelectionManager):
