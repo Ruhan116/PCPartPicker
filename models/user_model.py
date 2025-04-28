@@ -18,6 +18,24 @@ class UserModel:
         )
         '''
         self.conn.execute(query)
+
+        # Create a trigger to prevent duplicate usernames or emails
+        trigger_query = '''
+        CREATE TRIGGER IF NOT EXISTS prevent_duplicate_users
+        BEFORE INSERT ON users
+        FOR EACH ROW
+        BEGIN
+            SELECT
+            CASE
+                WHEN EXISTS (
+                    SELECT 1 FROM users WHERE username = NEW.username OR email = NEW.email
+                )
+                THEN
+                    RAISE(ABORT, 'Duplicate username or email')
+            END;
+        END;
+        '''
+        self.conn.execute(trigger_query)
         self.conn.commit()
 
     def hash_password(self, password):
