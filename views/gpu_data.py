@@ -27,6 +27,22 @@ class Ui_GPUPage(object):
         self.gpu_tab = QtWidgets.QWidget()
         self.tab_widget.addTab(self.gpu_tab, "GPU Details")
 
+        # Sort by Price Label
+        self.sort_label = QtWidgets.QLabel("Sort by Price:", self.gpu_tab)
+        self.sort_label.setGeometry(QtCore.QRect(10, 10, 100, 41))
+        self.sort_label.setStyleSheet("font: 14pt Arial;")
+
+        # Radio Buttons for Sorting
+        self.sort_relevant = QtWidgets.QRadioButton("Relevant", self.gpu_tab)
+        self.sort_relevant.setGeometry(QtCore.QRect(120, 10, 120, 41))
+        self.sort_relevant.setChecked(True)  # Default selection
+
+        self.sort_ascending = QtWidgets.QRadioButton("Ascending", self.gpu_tab)
+        self.sort_ascending.setGeometry(QtCore.QRect(260, 10, 120, 41))
+
+        self.sort_descending = QtWidgets.QRadioButton("Descending", self.gpu_tab)
+        self.sort_descending.setGeometry(QtCore.QRect(400, 10, 120, 41))
+
         # Search bar
         self.keyword_input = QtWidgets.QLineEdit(self.gpu_tab)
         self.keyword_input.setGeometry(570, 10, 300, 40)
@@ -50,25 +66,41 @@ class Ui_GPUPage(object):
         self.refresh_btn.setGeometry(1120, 670, 140, 40)
         self.refresh_btn.setStyleSheet("font: 14pt Arial;")
         self.refresh_btn.clicked.connect(self.load_gpu_data)
-        
+
         self.back_btn = QtWidgets.QPushButton("Back", self.centralwidget)
         self.back_btn.setGeometry(30, 670, 140, 40)
         self.back_btn.setStyleSheet("font: 14pt Arial;")
-        
-        
-
 
     def load_gpu_data(self):
+        """Load GPU data based on the selected sorting option."""
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
 
-        cursor.execute("SELECT id, Name, Series, VRAM, TDP, Price FROM GPU")
+        # Determine the sorting option
+        if self.sort_ascending.isChecked():
+            query = """
+            SELECT id, Name, Series, VRAM, TDP, Price
+            FROM GPU
+            ORDER BY CAST(REPLACE(Price, '$', '') AS REAL) ASC
+            """
+        elif self.sort_descending.isChecked():
+            query = """
+            SELECT id, Name, Series, VRAM, TDP, Price
+            FROM GPU
+            ORDER BY CAST(REPLACE(Price, '$', '') AS REAL) DESC
+            """
+        else:  # Default to "Relevant"
+            query = """
+            SELECT id, Name, Series, VRAM, TDP, Price
+            FROM GPU
+            """
 
+        cursor.execute(query)
         rows = cursor.fetchall()
         connection.close()
 
         self.populate_table(rows)
-        
+
     def search_by_keyword(self):
         keyword = self.keyword_input.text().strip()
 
@@ -77,12 +109,12 @@ class Ui_GPUPage(object):
 
         if keyword:
             like_pattern = f"%{keyword}%"
-            cursor.execute( """
+            cursor.execute("""
             SELECT id, Name, Series, VRAM, TDP, Price FROM GPU
             WHERE Name LIKE ? OR Series LIKE ? OR VRAM LIKE ? OR TDP LIKE ? OR Price LIKE ?
             """, (like_pattern, like_pattern, like_pattern, like_pattern, like_pattern))
         else:
-            cursor.execute("SELECT id, Name, Series, VRAM, TDP, Price FROM GPU")
+            self.load_gpu_data()  # Use the current sorting option
 
         rows = cursor.fetchall()
         connection.close()

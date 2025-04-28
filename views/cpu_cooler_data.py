@@ -96,6 +96,22 @@ class Ui_CPUCoolerPage(object):
         self.back_button.setText("Back")
         self.back_button.setStyleSheet("font: 14pt 'Arial';")
 
+        # Sort by Price Label
+        self.sort_label = QtWidgets.QLabel("Sort by Price:", self.centralwidget)
+        self.sort_label.setGeometry(QtCore.QRect(600, 90, 120, 40))
+        self.sort_label.setStyleSheet("font: 14pt 'Arial';")
+
+        # Radio Buttons for Sorting
+        self.sort_relevant = QtWidgets.QRadioButton("Relevant", self.centralwidget)
+        self.sort_relevant.setGeometry(QtCore.QRect(730, 90, 100, 40))
+        self.sort_relevant.setChecked(True)  # Default selection
+
+        self.sort_ascending = QtWidgets.QRadioButton("Ascending", self.centralwidget)
+        self.sort_ascending.setGeometry(QtCore.QRect(840, 90, 100, 40))
+
+        self.sort_descending = QtWidgets.QRadioButton("Descending", self.centralwidget)
+        self.sort_descending.setGeometry(QtCore.QRect(950, 90, 100, 40))
+
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
@@ -108,8 +124,29 @@ class Ui_CPUCoolerPage(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "CPU Cooler Options"))
 
     def load_cpu_cooler_data(self):
+        """Load CPU cooler data based on the selected sorting option."""
         cursor = self.connection.cursor()
-        cursor.execute("SELECT * FROM CPU_Coolers")
+
+        # Determine the sorting option
+        if self.sort_ascending.isChecked():
+            query = """
+            SELECT id, Name, Socket, Price
+            FROM CPU_Coolers
+            ORDER BY CAST(REPLACE(Price, '$', '') AS REAL) ASC
+            """
+        elif self.sort_descending.isChecked():
+            query = """
+            SELECT id, Name, Socket, Price
+            FROM CPU_Coolers
+            ORDER BY CAST(REPLACE(Price, '$', '') AS REAL) DESC
+            """
+        else:  # Default to "Relevant"
+            query = """
+            SELECT id, Name, Socket, Price
+            FROM CPU_Coolers
+            """
+
+        cursor.execute(query)
         rows = cursor.fetchall()
         self.populate_table(rows)
 

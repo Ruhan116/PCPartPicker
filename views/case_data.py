@@ -103,6 +103,22 @@ class Ui_CasePage(object):
         self.label_2.setStyleSheet("font: 20pt 'Arial';")
         self.label_2.setObjectName("label_2")
 
+        # Sort by Price Label
+        self.sort_label = QtWidgets.QLabel("Sort by Price:", self.tab)
+        self.sort_label.setGeometry(QtCore.QRect(10, 60, 100, 41))
+        self.sort_label.setStyleSheet("font: 14pt 'Arial';")
+
+        # Radio Buttons for Sorting
+        self.sort_relevant = QtWidgets.QRadioButton("Relevant", self.tab)
+        self.sort_relevant.setGeometry(QtCore.QRect(120, 60, 120, 41))
+        self.sort_relevant.setChecked(True)  # Default selection
+
+        self.sort_ascending = QtWidgets.QRadioButton("Ascending", self.tab)
+        self.sort_ascending.setGeometry(QtCore.QRect(260, 60, 120, 41))
+
+        self.sort_descending = QtWidgets.QRadioButton("Descending", self.tab)
+        self.sort_descending.setGeometry(QtCore.QRect(400, 60, 120, 41))
+
         self.count_filter_txt = QtWidgets.QSpinBox(self.tab)
         self.count_filter_txt.setGeometry(QtCore.QRect(520, 10, 111, 41))
         self.count_filter_txt.setObjectName("count_filter_txt")
@@ -156,16 +172,30 @@ class Ui_CasePage(object):
         self.back_btn.setText(_translate("MainWindow", "Back"))
 
     def load_case_data(self):
-        count_value = self.count_filter_txt.value()
-
+        """Load case data based on the selected sorting option."""
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
 
-        if count_value > 0:
-            cursor.execute("SELECT * FROM Cases WHERE Count <= ?", (count_value,))
-        else:
-            cursor.execute("SELECT * FROM Cases")
+        # Determine the sorting option
+        if self.sort_ascending.isChecked():
+            query = """
+            SELECT id, Name, Size, Price
+            FROM Cases
+            ORDER BY CAST(REPLACE(Price, '$', '') AS REAL) ASC
+            """
+        elif self.sort_descending.isChecked():
+            query = """
+            SELECT id, Name, Size, Price
+            FROM Cases
+            ORDER BY CAST(REPLACE(Price, '$', '') AS REAL) DESC
+            """
+        else:  # Default to "Relevant"
+            query = """
+            SELECT id, Name, Size, Price
+            FROM Cases
+            """
 
+        cursor.execute(query)
         rows = cursor.fetchall()
         self.populate_table(rows)
         connection.close()

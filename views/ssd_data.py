@@ -1,7 +1,5 @@
 import sqlite3
-
-from PyQt6 import QtCore, QtGui, QtWidgets
-
+from PyQt6 import QtCore, QtWidgets
 from models.component_selection_manager import ComponentSelectionManager
 
 
@@ -36,23 +34,29 @@ class Ui_SSDPage(object):
             item.setText(header)
             self.table.setHorizontalHeaderItem(i, item)
 
-        # Label for Search
-        self.label_2 = QtWidgets.QLabel(self.tab)
-        self.label_2.setGeometry(QtCore.QRect(60, 10, 450, 41))
-        self.label_2.setStyleSheet("font: 20pt 'Arial';")
-        self.label_2.setObjectName("label_2")
-        self.label_2.setText("Search SSD by Size:")
+        # Sort by Price Label
+        self.sort_label = QtWidgets.QLabel("Sort by Price:", self.tab)
+        self.sort_label.setGeometry(QtCore.QRect(10, 10, 100, 41))
+        self.sort_label.setStyleSheet("font: 14pt 'Arial';")
 
-        # Search Input
+        # Radio Buttons for Sorting
+        self.sort_relevant = QtWidgets.QRadioButton("Relevant", self.tab)
+        self.sort_relevant.setGeometry(QtCore.QRect(120, 10, 120, 41))
+        self.sort_relevant.setChecked(True)  # Default selection
+
+        self.sort_ascending = QtWidgets.QRadioButton("Ascending", self.tab)
+        self.sort_ascending.setGeometry(QtCore.QRect(260, 10, 120, 41))
+
+        self.sort_descending = QtWidgets.QRadioButton("Descending", self.tab)
+        self.sort_descending.setGeometry(QtCore.QRect(400, 10, 120, 41))
+
+        # Keyword Search
         self.keyword_search_input = QtWidgets.QLineEdit(self.tab)
         self.keyword_search_input.setGeometry(QtCore.QRect(820, 10, 261, 41))
         self.keyword_search_input.setPlaceholderText("Search by keyword...")
-        self.keyword_search_input.setObjectName("keyword_search_input")
 
-        self.keyword_search_btn = QtWidgets.QPushButton(self.tab)
+        self.keyword_search_btn = QtWidgets.QPushButton("Search", self.tab)
         self.keyword_search_btn.setGeometry(QtCore.QRect(1100, 10, 141, 41))
-        self.keyword_search_btn.setText("Search")
-        self.keyword_search_btn.setObjectName("keyword_search_btn")
         self.keyword_search_btn.clicked.connect(self.search_by_keyword)
 
         self.tabWidget.addTab(self.tab, "SSD Details")
@@ -84,55 +88,57 @@ class Ui_SSDPage(object):
 
         MainWindow.setCentralWidget(self.centralwidget)
 
-        self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1299, 26))
-        self.menubar.setObjectName("menubar")
-        MainWindow.setMenuBar(self.menubar)
-
-        self.statusbar = QtWidgets.QStatusBar(MainWindow)
-        self.statusbar.setObjectName("statusbar")
-        MainWindow.setStatusBar(self.statusbar)
-
-        self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(0)
-        QtCore.QMetaObject.connectSlotsByName(MainWindow)
-
-    def retranslateUi(self, MainWindow):
-        _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "SSD Options"))
-
     def load_ssd_data(self):
+        """Load SSD data based on the selected sorting option."""
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
-        cursor.execute("SELECT id, Name, Size, Bus, Format, Price FROM SSD")
+
+        # Determine the sorting option
+        if self.sort_ascending.isChecked():
+            query = """
+            SELECT id, Name, Size, Bus, Format, Price
+            FROM SSD
+            ORDER BY CAST(REPLACE(Price, '$', '') AS REAL) ASC
+            """
+        elif self.sort_descending.isChecked():
+            query = """
+            SELECT id, Name, Size, Bus, Format, Price
+            FROM SSD
+            ORDER BY CAST(REPLACE(Price, '$', '') AS REAL) DESC
+            """
+        else:  # Default to "Relevant"
+            query = """
+            SELECT id, Name, Size, Bus, Format, Price
+            FROM SSD
+            """
+
+        cursor.execute(query)
         rows = cursor.fetchall()
         connection.close()
+
         self.populate_table(rows)
 
-    def handle_add_button(self, row):
-        ssd_name = self.table.item(row, 1).text()
-        self.manager.set_component_name("SSD", ssd_name)
-        print(f"SSD selected: {ssd_name}")
-
     def search_by_keyword(self):
+        """Search SSD data by keyword."""
         keyword = self.keyword_search_input.text().strip()
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
 
         if keyword:
             like_pattern = f"%{keyword}%"
-            cursor.execute(
-                """
-                SELECT id, Name, Size, Bus, Format, Price FROM SSD
-                WHERE Name LIKE ? OR Size LIKE ? OR Bus LIKE ? OR Format LIKE ? OR Price LIKE ?
-                """,
-                (like_pattern, like_pattern, like_pattern, like_pattern, like_pattern)
-            )
+            query = """
+            SELECT id, Name, Size, Bus, Format, Price
+            FROM SSD
+            WHERE Name LIKE ? OR Size LIKE ? OR Bus LIKE ? OR Format LIKE ? OR Price LIKE ?
+            """
+            cursor.execute(query, (like_pattern, like_pattern, like_pattern, like_pattern, like_pattern))
         else:
-            cursor.execute("SELECT id, Name, Size, Bus, Format, Price FROM SSD")
+            self.load_ssd_data()  # Reload data with the current sorting option
+            return
 
         rows = cursor.fetchall()
         connection.close()
+
         self.populate_table(rows)
 
     def populate_table(self, rows):
@@ -152,6 +158,11 @@ class Ui_SSDPage(object):
             edit_button.setStyleSheet("font-family: Arial;")
             edit_button.clicked.connect(lambda _, r=row_num: self.handle_edit_btn(r))
             self.table.setCellWidget(row_num, 7, edit_button)
+
+    def handle_add_button(self, row):
+        ssd_name = self.table.item(row, 1).text()
+        self.manager.set_component_name("SSD", ssd_name)
+        print(f"SSD selected: {ssd_name}")
 
     def handle_edit_btn(self, row):
         id_ = self.table.item(row, 0).text()
