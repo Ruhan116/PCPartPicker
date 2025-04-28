@@ -35,6 +35,22 @@ class Ui_CPUPage(object):
         self.table.setStyleSheet("font: 10pt 'Arial';")
         self.table.setHorizontalHeaderLabels(["ID", "Name", "Socket", "Clock Speed", "Turbo Speed", "Cores", "Threads", "Price", "Add", "Edit"])
 
+        # Sort by Price Label
+        self.sort_label = QtWidgets.QLabel("Sort by Price:", self.tab)
+        self.sort_label.setGeometry(QtCore.QRect(10, 10, 100, 41))
+        self.sort_label.setStyleSheet("font: 14pt 'Arial';")
+
+        # Radio Buttons for Sorting
+        self.sort_relevant = QtWidgets.QRadioButton("Relevant", self.tab)
+        self.sort_relevant.setGeometry(QtCore.QRect(120, 10, 120, 41))  # Increased spacing
+        self.sort_relevant.setChecked(True)  # Default selection
+
+        self.sort_ascending = QtWidgets.QRadioButton("Ascending", self.tab)
+        self.sort_ascending.setGeometry(QtCore.QRect(260, 10, 120, 41))  # Increased spacing
+
+        self.sort_descending = QtWidgets.QRadioButton("Descending", self.tab)
+        self.sort_descending.setGeometry(QtCore.QRect(400, 10, 120, 41))  # Increased spacing
+
         # Keyword Search
         self.keyword_search_input = QtWidgets.QLineEdit(self.tab)
         self.keyword_search_input.setGeometry(QtCore.QRect(820, 10, 261, 41))
@@ -43,7 +59,6 @@ class Ui_CPUPage(object):
         self.keyword_search_btn = QtWidgets.QPushButton("Search", self.tab)
         self.keyword_search_btn.setGeometry(QtCore.QRect(1100, 10, 141, 41))
         self.keyword_search_btn.clicked.connect(self.search_by_keyword)
-
 
         # Refresh and Back Buttons
         self.refresh_btn = QtWidgets.QPushButton("Refresh", self.centralwidget)
@@ -56,11 +71,30 @@ class Ui_CPUPage(object):
         self.back_btn.setStyleSheet("font: 14pt 'Arial';")
 
     def load_cpu_data(self):
+        """Load CPU data based on the selected sorting option."""
         connection = sqlite3.connect("data/database/database.sqlite")
         cursor = connection.cursor()
 
-        cursor.execute("SELECT id, Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price FROM CPU")
+        # Determine the sorting option
+        if self.sort_ascending.isChecked():
+            query = """
+            SELECT id, Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price
+            FROM CPU
+            ORDER BY CAST(REPLACE(Price, '$', '') AS REAL) ASC
+            """
+        elif self.sort_descending.isChecked():
+            query = """
+            SELECT id, Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price
+            FROM CPU
+            ORDER BY CAST(REPLACE(Price, '$', '') AS REAL) DESC
+            """
+        else:  # Default to "Relevant"
+            query = """
+            SELECT id, Name, Socket, Clock_Speed, Turbo_Speed, Cores, Threads, Price
+            FROM CPU
+            """
 
+        cursor.execute(query)
         rows = cursor.fetchall()
         connection.close()
 
